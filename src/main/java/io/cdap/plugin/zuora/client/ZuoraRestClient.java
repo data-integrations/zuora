@@ -16,6 +16,7 @@
 package io.cdap.plugin.zuora.client;
 
 import com.google.common.base.Strings;
+import com.google.common.collect.ImmutableMap;
 import com.google.common.collect.Lists;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
@@ -78,10 +79,11 @@ public class ZuoraRestClient {
   private static final String OAUTH_TOKEN_TYPE = "bearer";
   private static final String CLIENT_NAME = "cdap-zuora plugin/1.0";
   private static final String HTTP_AUTH_HEADER = "Authorization";
-  private static final String CONNECTION_CHECK_ENDPOINT = "settings/listing";
+  private static final String CONNECTION_CHECK_ENDPOINT = "v1/catalog/products";
   private static final String VAR_OPEN_CHAR = "{";
   private static final String VAR_CLOSE_CHAR = "}";
   private static final int HTTP_OK_STATUS = 200;
+  private static final int HTTP_ACCEPTED_STATUS = 201;
   private static final int HTTP_AUTH_REQUIRED = 401;
   private static final int HTTP_AUTH_FORBIDDEN = 403;
   private static final int HTTP_NOT_FOUND = 404;
@@ -191,20 +193,40 @@ public class ZuoraRestClient {
    * of exception would be generated {@link IOException}
    */
   public void checkConnection() throws IOException {
-    makeApiRequest(Method.GET, CONNECTION_CHECK_ENDPOINT, null, null);
+    ImmutableMap.Builder<String, String> args = new ImmutableMap.Builder<>();
+    args
+      .put("page", "0")
+      .put("pageSize", "1");
+
+    String response = makeApiRequest(Method.GET, CONNECTION_CHECK_ENDPOINT, args.build(), null);
+    BaseResult<BaseObject> result = fetchObject("BaseObject", BaseObject.class, response);
+    if (!result.isSuccess()) {
+      if (result.getHttpCode() == 401) {
+        throw new IOException(String.format("Please check authentication data: %s", result.getReason(true)));
+      }
+      throw new IllegalArgumentException(String.format("Connection check failed: http code %s, message: %s",
+        result.getHttpCode(), result.getReason(false)));
+    }
   }
 
   private CloseableHttpResponse requestWithRetry(HttpUriRequest request) throws IOException {
     while (true) {
-      try (CloseableHttpResponse response = client.execute(request)) {
+      try {
+        CloseableHttpResponse response = client.execute(request);
         int responseCode = response.getStatusLine().getStatusCode();
         if (responseCode == HTTP_RATE_LIMIT) {
           int retryAfter;
           Header header = response.getLastHeader("Retry-After");
           try {
-            retryAfter = Integer.parseInt(header.getValue()) + 5;
+            retryAfter = (header == null) ? HTTP_RATE_RETRY_TIME : Integer.parseInt(header.getValue());
           } catch (NumberFormatException e) {
-            retryAfter = HTTP_RATE_RETRY_TIME + 5;
+            retryAfter = HTTP_RATE_RETRY_TIME;
+          }
+          retryAfter += 5; // give more time to API for drop the limits
+          try {
+            response.close();
+          } catch (IOException e) {
+            //no-op
           }
           Thread.sleep(retryAfter * 1000);
         } else {
@@ -216,18 +238,33 @@ public class ZuoraRestClient {
     }
   }
 
+  private String formatExceptionJsonFromString(InputStream message, Integer responseCode) throws IOException {
+    String data = readFromStream(message);
+    return String.format(
+      "{\"success\": false, \"httpCode\": %s, \"reasons\": [{\"code\": \"%s\", \"message\": \"%s\"}]}",
+      responseCode,
+      responseCode,
+      (data == null) ? "" : data.replace("\"", "'"));
+  }
+
   private String requestWithTokenRefresh(HttpUriRequest request) throws IOException {
     getOAuth2Token(request, false);
 
     try (CloseableHttpResponse response = requestWithRetry(request)) {
       int responseCode = response.getStatusLine().getStatusCode();
       if (responseCode == HTTP_AUTH_REQUIRED || responseCode == HTTP_AUTH_FORBIDDEN) {
-        getOAuth2Token(request, true);
+        if (basicAuth) {
+          return formatExceptionJsonFromString(response.getEntity().getContent(), responseCode);
+        } else {
+          getOAuth2Token(request, true);
+        }
       } else if (responseCode == HTTP_NOT_FOUND) {
         throw new IllegalArgumentException(String.format("Requested resource '%s' not found",
           request.getURI().toString()));
-      } else {
+      } else if (responseCode == HTTP_OK_STATUS || responseCode == HTTP_ACCEPTED_STATUS) {
         return readFromStream(response.getEntity().getContent());
+      } else {
+        return formatExceptionJsonFromString(response.getEntity().getContent(), responseCode);
       }
     }
 
@@ -242,6 +279,19 @@ public class ZuoraRestClient {
     }
   }
 
+  /**
+   * Makes API request using {@code method} to the {@code endpoint} with {@code arguments}.
+   *
+   * If {@code} endpoint does contain {@link VAR_OPEN_CHAR}, argument would be added to the headers. Otherwise
+   * would be added to the request parameters
+   *
+   * @param method GET, POST, or PUT request
+   * @param endpoint relative endpoint to make the request
+   * @param arguments arguments to pass with the request
+   * @param data data to post
+
+   * @throws IOException
+   */
   private String makeApiRequest(Method method, String endpoint, @Nullable Map<String, String> arguments,
                                 @Nullable String data) throws IOException {
     RequestBuilder builder = RequestBuilder.create(method.name());
@@ -254,8 +304,12 @@ public class ZuoraRestClient {
       builder.setEntity(entity);
     }
     String uri = endpoint;
-    if (arguments != null && !arguments.isEmpty() && endpoint.contains(VAR_OPEN_CHAR)) {
-      uri = StrSubstitutor.replace(endpoint, arguments, VAR_OPEN_CHAR, VAR_CLOSE_CHAR);
+    if (arguments != null && !arguments.isEmpty()) {
+      if (endpoint.contains(VAR_OPEN_CHAR)) {
+        uri = StrSubstitutor.replace(endpoint, arguments, VAR_OPEN_CHAR, VAR_CLOSE_CHAR);
+      } else {
+        arguments.forEach(builder::addParameter);
+      }
     }
 
     builder.setUri(String.format("%s/%s", apiEnpoint, uri));
@@ -360,6 +414,17 @@ public class ZuoraRestClient {
     Class clazz = objectInfo.getObjectClass();
     json = adaptJson(objectInfo, json);
 
+    return fetchObject(objectInfo.getCdapObjectName(), clazz, json);
+  }
+
+  /**
+   * Convert prepared json to the result object
+   * @param cdapObjectName object name
+   * @param clazz Object Definition
+   * @param json prepared JSON
+   * @return
+   */
+  private BaseResult<BaseObject> fetchObject(String cdapObjectName, Class clazz, String json) {
     Type typeToken = new ParameterizedType() {
       @Override
       public Type[] getActualTypeArguments() {
@@ -378,7 +443,8 @@ public class ZuoraRestClient {
     };
 
     BaseResult<BaseObject> result = GSON.fromJson(json, typeToken);
-    result.setCdapObjectName(objectInfo.getCdapObjectName());
+    result.setCdapObjectName(cdapObjectName);
+    result.setRestApiEndpoint(apiEnpoint);
 
     return result;
   }

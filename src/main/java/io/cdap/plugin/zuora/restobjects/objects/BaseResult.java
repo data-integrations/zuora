@@ -19,7 +19,6 @@ package io.cdap.plugin.zuora.restobjects.objects;
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
 import com.google.gson.annotations.SerializedName;
-import io.cdap.plugin.zuora.client.ZuoraRestClient;
 import java.net.MalformedURLException;
 import java.net.URL;
 import java.util.Arrays;
@@ -41,6 +40,9 @@ public class BaseResult<T> {
   @SerializedName(value = "success")
   private Boolean success;
 
+  @SerializedName(value = "httpCode")
+  private Integer httpCode; // restClient setting this field in case is request were not successful
+
   @SerializedName("processId")
   private String processId;
 
@@ -49,6 +51,10 @@ public class BaseResult<T> {
 
   @SerializedName(value = "cdapObjectName")
   private String cdapObjectName;
+
+  @SerializedName(value = "restApiEndpoint")
+  private String restApiEndpoint;
+
 
   public List<T> getResult() {
     return result;
@@ -60,7 +66,7 @@ public class BaseResult<T> {
     }
     URL url;
     try {
-      url = new URL(ZuoraRestClient.REST_API_PROTOCOL + nextPage);
+      url = new URL(restApiEndpoint + nextPage);
     } catch (MalformedURLException e) {
       // Next page field default is null, consider wrong url in the same way
       return null;
@@ -79,7 +85,7 @@ public class BaseResult<T> {
 
     URL url;
     try {
-      url = new URL(ZuoraRestClient.REST_API_PROTOCOL + nextPage);
+      url = new URL(restApiEndpoint + nextPage);
     } catch (MalformedURLException e) {
       // Next page field default is null, consider wrong url in the same way
       return null;
@@ -103,19 +109,38 @@ public class BaseResult<T> {
     return processId;
   }
 
-  public String getReason() {
+  /**
+   * Return exception messsages from the API
+   * @param flatMessage only compile messages, without exception codes
+   */
+  public String getReason(boolean flatMessage) {
     if (reasons == null || reasons.isEmpty()) {
       return "Unknown exception";
     }
     StringBuilder builder = new StringBuilder();
-    reasons.forEach(x -> {
-      builder
-        .append("code:")
-        .append(x.getCode())
-        .append(", message:")
-        .append(x.getMessage())
-        .append("; ");
-    });
+      reasons.forEach(x -> {
+        if (!flatMessage) {
+          builder
+            .append("code:")
+            .append(x.getCode())
+            .append(", message:");
+        }
+        builder
+          .append(x.getMessage())
+          .append("; ");
+      });
     return builder.toString();
+  }
+
+  public Integer getHttpCode() {
+    return (httpCode == null) ? 200 : httpCode;
+  }
+
+  public String getRestApiHost() {
+    return restApiEndpoint;
+  }
+
+  public void setRestApiEndpoint(String restApiEndpoint) {
+    this.restApiEndpoint = restApiEndpoint;
   }
 }

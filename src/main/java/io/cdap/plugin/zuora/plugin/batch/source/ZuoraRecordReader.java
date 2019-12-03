@@ -59,7 +59,7 @@ public class ZuoraRecordReader extends RecordReader<ZuoraSplitArgument, BaseObje
 
     if (!resultPage.isSuccess()) {
       throw new RuntimeException(String.format("API exception of the query id %s: %s",
-        resultPage.getProcessId(), resultPage.getReason()));
+        resultPage.getProcessId(), resultPage.getReason(false)));
     }
     recordIterator = resultPage.getResult().iterator();
   }
