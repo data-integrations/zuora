@@ -21,13 +21,11 @@ import io.cdap.plugin.zuora.client.ZuoraRestClient;
 import io.cdap.plugin.zuora.restobjects.ObjectHelper;
 import io.cdap.plugin.zuora.restobjects.ObjectInfo;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
-import io.cdap.plugin.zuora.restobjects.objects.BaseResult;
 import org.apache.hadoop.conf.Configuration;
 import org.apache.hadoop.mapreduce.InputSplit;
 import org.apache.hadoop.mapreduce.RecordReader;
 import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import java.io.IOException;
-import java.util.Iterator;
 
 /**
  * RecordReader implementation, which reads {@link BaseObject} instances from Zuora API
@@ -38,9 +36,8 @@ public class ZuoraRecordReader extends RecordReader<ZuoraSplitArgument, BaseObje
   protected ZuoraSplitArgument arguments;
   protected ZuoraRestClient client;
 
-  protected BaseResult<BaseObject> resultPage;
-  protected Iterator<BaseObject> recordIterator;
   protected BaseObject currentRecord;
+  protected PageIterator pageIterator;
 
   public ZuoraRecordReader(ZuoraSplitArgument arguments) {
     this.arguments = arguments;
@@ -55,32 +52,17 @@ public class ZuoraRecordReader extends RecordReader<ZuoraSplitArgument, BaseObje
     );
     client = new ZuoraRestClient(conf);
     ObjectInfo objectInfo = ObjectHelper.getObjectInfo(arguments.getObjectName());
-    resultPage = client.getObject(objectInfo, conf.getArguments());
-
-    if (!resultPage.isSuccess()) {
-      throw new RuntimeException(String.format("API exception of the query id %s: %s",
-        resultPage.getProcessId(), resultPage.getReason(false)));
-    }
-    recordIterator = resultPage.getResult().iterator();
+    pageIterator = new PageIterator(client, objectInfo, conf.getArguments());
   }
 
   @Override
   public boolean nextKeyValue() throws IOException {
-    boolean recordHasNext = recordIterator.hasNext();
-
-    if (recordHasNext) {
-      currentRecord = recordIterator.next();
-    } else {
-      resultPage = client.nextPage(resultPage);
-      if (resultPage != null) {
-        recordIterator = resultPage.getResult().iterator();
-        recordHasNext = recordIterator.hasNext();
-        if (recordHasNext) {
-          currentRecord = recordIterator.next();
-        }
-      }
+    if (!pageIterator.hasNext()) {
+      return false;
     }
-    return recordHasNext;
+
+    currentRecord = pageIterator.next();
+    return true;
   }
 
   @Override

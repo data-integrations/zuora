@@ -29,7 +29,6 @@ import io.cdap.cdap.etl.api.FailureCollector;
 import io.cdap.cdap.etl.api.PipelineConfigurer;
 import io.cdap.cdap.etl.api.batch.BatchSource;
 import io.cdap.cdap.etl.api.batch.BatchSourceContext;
-import io.cdap.plugin.common.IdUtils;
 import io.cdap.plugin.common.LineageRecorder;
 import io.cdap.plugin.zuora.plugin.common.BaseConfig;
 import io.cdap.plugin.zuora.restobjects.ObjectHelper;
@@ -87,7 +86,6 @@ public class ZuoraSource extends BatchSource<ZuoraSplitArgument, BaseObject, Str
 
   @SuppressWarnings("ThrowableNotThrown")
   private void validateConfiguration(FailureCollector failureCollector) {
-    IdUtils.validateReferenceName(config.referenceName, failureCollector);
     config.validate(failureCollector);
     failureCollector.getOrThrowException();
   }

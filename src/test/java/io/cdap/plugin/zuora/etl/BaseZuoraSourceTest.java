@@ -18,41 +18,23 @@ package io.cdap.plugin.zuora.etl;
 
 import com.google.common.base.Strings;
 import com.google.common.collect.ImmutableMap;
-import io.cdap.cdap.api.artifact.ArtifactSummary;
 import io.cdap.cdap.api.data.format.StructuredRecord;
-import io.cdap.cdap.api.dataset.table.Table;
-import io.cdap.cdap.datapipeline.DataPipelineApp;
-import io.cdap.cdap.datapipeline.SmartWorkflow;
-import io.cdap.cdap.etl.api.batch.BatchSource;
-import io.cdap.cdap.etl.mock.batch.MockSink;
 import io.cdap.cdap.etl.mock.test.HydratorTestBase;
-import io.cdap.cdap.etl.proto.v2.ETLBatchConfig;
-import io.cdap.cdap.etl.proto.v2.ETLPlugin;
-import io.cdap.cdap.etl.proto.v2.ETLStage;
-import io.cdap.cdap.proto.ProgramRunStatus;
-import io.cdap.cdap.proto.artifact.AppRequest;
-import io.cdap.cdap.proto.id.ApplicationId;
-import io.cdap.cdap.proto.id.ArtifactId;
-import io.cdap.cdap.proto.id.NamespaceId;
-import io.cdap.cdap.test.ApplicationManager;
-import io.cdap.cdap.test.DataSetManager;
-import io.cdap.cdap.test.WorkflowManager;
 import io.cdap.plugin.zuora.client.ZuoraRestClient;
 import io.cdap.plugin.zuora.objects.ProductType;
-import io.cdap.plugin.zuora.plugin.batch.source.ZuoraSource;
 import io.cdap.plugin.zuora.plugin.batch.source.ZuoraSourceConfig;
-import io.cdap.plugin.zuora.plugin.common.BaseConfig;
 import io.cdap.plugin.zuora.restobjects.ObjectHelper;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import io.cdap.plugin.zuora.restobjects.objects.BaseResult;
 import org.junit.Assert;
 import org.junit.BeforeClass;
+import org.junit.Rule;
 import org.junit.Test;
+import org.junit.rules.TestName;
 import java.util.List;
-import java.util.concurrent.TimeUnit;
+import java.util.Map;
 
-public class ZuoraSourceTest extends HydratorTestBase {
-  private static final ArtifactSummary APP_ARTIFACT = new ArtifactSummary("data-pipeline", "3.2.0");
+public abstract class BaseZuoraSourceTest extends HydratorTestBase {
   private static final String BASIC_AUTH_TYPE = "basic";
 
   private static String authType;
@@ -61,8 +43,11 @@ public class ZuoraSourceTest extends HydratorTestBase {
   private static String restAPI;
   private static ZuoraRestClient client;
 
+  @Rule
+  public TestName testName = new TestName();
+
   @BeforeClass
-  public static void setupTestClass() throws Exception {
+  public static void setProperties() {
     authType = System.getProperty("zuora.auth.type");
     restAPI = System.getProperty("zuora.restapi");
 
@@ -81,19 +66,9 @@ public class ZuoraSourceTest extends HydratorTestBase {
     } else {
       throw new IllegalArgumentException("'zuora.auth.type' system property must not be empty");
     }
-
-
-    ArtifactId parentArtifact = NamespaceId.DEFAULT.artifact(APP_ARTIFACT.getName(), APP_ARTIFACT.getVersion());
-    setupBatchArtifacts(parentArtifact, DataPipelineApp.class);
-    addPluginArtifact(
-      NamespaceId.DEFAULT.artifact("example-plugins", "1.0.0"),
-      parentArtifact,
-      ZuoraSource.class
-    );
   }
 
-  @Test
-  public void testBatchSource() throws Exception {
+  public Map<String, String> getBaseProperties() {
     ImmutableMap.Builder<String, String> optionsBuilder = new ImmutableMap.Builder<>();
 
     if (authType.equals(BASIC_AUTH_TYPE)) {
@@ -110,28 +85,16 @@ public class ZuoraSourceTest extends HydratorTestBase {
 
     optionsBuilder
       .put("apiEndpoint", restAPI)
-      .put("referenceName", "ref")
-      .put(ZuoraSourceConfig.PROPERTY_BASE_OBJECTS_TO_PULL, "Products");
+      .put("referenceName", "ref");
 
-    ETLStage source = new ETLStage("name", new ETLPlugin(BaseConfig.PLUGIN_NAME, BatchSource.PLUGIN_TYPE,
-      optionsBuilder.build(), null));
-    ETLStage sink = new ETLStage("sink", MockSink.getPlugin("outputSink"));
+    return optionsBuilder.build();
+  }
 
-    ETLBatchConfig etlConfig = ETLBatchConfig.builder()
-      .addStage(source)
-      .addStage(sink)
-      .addConnection(source.getName(), sink.getName())
-      .build();
+  public abstract List<StructuredRecord> getPipelineResults(Map<String, String> properties,
+                                                   int expectedRecordsCount) throws Exception;
 
-    ApplicationId pipelineId = NamespaceId.DEFAULT.app("HttpBatch_");
-    ApplicationManager appManager = deployApplication(pipelineId, new AppRequest<>(APP_ARTIFACT, etlConfig));
-
-    WorkflowManager workflowManager = appManager.getWorkflowManager(SmartWorkflow.NAME);
-    workflowManager.startAndWaitForRun(ProgramRunStatus.COMPLETED, 5, TimeUnit.MINUTES);
-
-    DataSetManager<Table> outputManager = getDataset("outputSink");
-    List<StructuredRecord> outputRecords = MockSink.readOutput(outputManager);
-
+  @Test
+  public void testSource() throws Exception {
     BaseResult<BaseObject> result = client.getObject(ObjectHelper.getObjectInfo(ProductType.class), null);
     Assert.assertTrue(result.isSuccess());
     int resultCount = result.getResult().size();
@@ -141,6 +104,13 @@ public class ZuoraSourceTest extends HydratorTestBase {
         resultCount += result.getResult().size();
       }
     }
+
+    Map<String, String> properties = new ImmutableMap.Builder<String, String>()
+      .putAll(getBaseProperties())
+      .put(ZuoraSourceConfig.PROPERTY_BASE_OBJECTS_TO_PULL, "Products")
+      .build();
+
+    List<StructuredRecord> outputRecords = getPipelineResults(properties, resultCount);
     Assert.assertEquals(resultCount, outputRecords.size());
   }
 }

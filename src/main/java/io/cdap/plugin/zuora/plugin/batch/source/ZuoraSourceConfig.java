@@ -54,7 +54,7 @@ public class ZuoraSourceConfig extends BaseConfig {
   }
 
   @Override
-  protected void validate(FailureCollector failureCollector) {
+  public void validate(FailureCollector failureCollector) {
     new ZuoraSourceConfigValidator(failureCollector, this).validate();
   }
 

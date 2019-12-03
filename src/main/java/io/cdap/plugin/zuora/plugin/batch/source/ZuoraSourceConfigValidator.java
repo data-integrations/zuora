@@ -17,7 +17,7 @@
 package io.cdap.plugin.zuora.plugin.batch.source;
 
 import io.cdap.cdap.etl.api.FailureCollector;
-import io.cdap.plugin.zuora.plugin.common.BaseConfig;
+import io.cdap.plugin.common.IdUtils;
 import io.cdap.plugin.zuora.plugin.common.BaseConfigValidator;
 
 /**
@@ -41,6 +41,8 @@ public class ZuoraSourceConfigValidator extends BaseConfigValidator {
 
   @Override
   public void doValidation() {
+    IdUtils.validateReferenceName(config.referenceName, failureCollector);
+
     if (!config.containsMacro(ZuoraSourceConfig.PROPERTY_BASE_OBJECTS_TO_PULL) &&
     !config.containsMacro(ZuoraSourceConfig.PROPERTY_ADV_OBJECTS_TO_PULL)) {
       checkObjects();
