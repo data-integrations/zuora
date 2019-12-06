@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: PostOrderResponseType (PostOrderResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "PostOrderResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "PostOrder",
+  RequiredPostArguments = {
+    "body"
+  },
+  APIUrl = "orders",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class PostOrderResponseType extends BaseObject {
   /**

@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTBillingDocumentFilesDeletionJobResponse (POSTBillingDocumentFilesDeletionJobResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "POSTBillingDocumentFilesDeletionJobResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "BillingDocumentFilesDeletionJobResponse",
+  RequiredPostArguments = {
+    "body"
+  },
+  APIUrl = "accounts/billing-documents/files/deletion-jobs",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTBillingDocumentFilesDeletionJobResponse extends BaseObject {
   /**

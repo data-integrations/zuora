@@ -20,8 +20,6 @@ import io.cdap.cdap.api.data.schema.Schema;
 import io.cdap.plugin.zuora.restobjects.annotations.ObjectDefinition;
 import io.cdap.plugin.zuora.restobjects.annotations.ObjectFieldDefinition;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
-
-
 import javax.annotation.Nullable;
 
 /**
@@ -31,7 +29,9 @@ import javax.annotation.Nullable;
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "PaymentRun",
-  responseRootElement = "paymentRuns",
+  RequiredPostArguments = {
+    "body"
+  },
   APIUrl = "payment-runs",
   ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )

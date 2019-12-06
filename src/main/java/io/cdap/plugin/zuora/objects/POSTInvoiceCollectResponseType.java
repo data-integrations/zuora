@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTInvoiceCollectResponseType (POSTInvoiceCollectResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTInvoiceCollectResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "operations/invoice-collect",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTInvoiceCollectResponseType extends BaseObject {
   /**

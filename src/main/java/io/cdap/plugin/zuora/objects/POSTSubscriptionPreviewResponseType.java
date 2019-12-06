@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTSubscriptionPreviewResponseType (POSTSubscriptionPreviewResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTSubscriptionPreviewResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "subscriptions/preview",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTSubscriptionPreviewResponseType extends BaseObject {
   /**

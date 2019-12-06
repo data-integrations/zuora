@@ -68,6 +68,7 @@ public class ObjectHelper {
         objectDefinition.APIUrl(),
         object,
         Arrays.asList(objectDefinition.RequiredArguments()),
+        Arrays.asList(objectDefinition.RequiredPostArguments()),
         objectDefinition.responseRootElement(),
         objectDefinition.ObjectType()
     );

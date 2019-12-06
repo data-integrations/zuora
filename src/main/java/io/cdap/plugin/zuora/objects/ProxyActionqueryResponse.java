@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: ProxyActionqueryResponse (ProxyActionqueryResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "ProxyActionqueryResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "queryRequest"
+  },
+  APIUrl = "action/query",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class ProxyActionqueryResponse extends BaseObject {
   /**

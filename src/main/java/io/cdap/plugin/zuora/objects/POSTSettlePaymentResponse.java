@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTSettlePaymentResponse (POSTSettlePaymentResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTSettlePaymentResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "payment-id", "Request"
+  },
+  APIUrl = "gateway-settlement/payments/{payment-id}/settle",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTSettlePaymentResponse extends BaseObject {
   /**

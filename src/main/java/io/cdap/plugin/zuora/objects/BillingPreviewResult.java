@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: BillingPreviewResult (BillingPreviewResult)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "BillingPreviewResult",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "operations/billing-preview",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class BillingPreviewResult extends BaseObject {
   /**

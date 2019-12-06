@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: ModifiedStoredCredentialProfileResponse (ModifiedStoredCredentialProfileResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "ModifiedStoredCredentialProfileResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "payment-method-id", "profile-number"
+  },
+  APIUrl = "payment-methods/{payment-method-id}/profiles/{profile-number}/expire",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class ModifiedStoredCredentialProfileResponse extends BaseObject {
   /**

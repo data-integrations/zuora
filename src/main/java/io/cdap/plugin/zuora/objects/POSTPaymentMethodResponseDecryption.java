@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTPaymentMethodResponseDecryption (POSTPaymentMethodResponseDecryption)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTPaymentMethodResponseDecryption",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "payment-methods/decryption",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTPaymentMethodResponseDecryption extends BaseObject {
   /**

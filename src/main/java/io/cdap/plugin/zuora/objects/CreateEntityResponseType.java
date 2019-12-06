@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: CreateEntityResponseType (CreateEntityResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "CreateEntityResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "entities",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class CreateEntityResponseType extends BaseObject {
   /**

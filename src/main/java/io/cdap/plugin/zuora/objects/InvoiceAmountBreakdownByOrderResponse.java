@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: InvoiceAmountBreakdownByOrderResponse (InvoiceAmountBreakdownByOrderResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "InvoiceAmountBreakdownByOrderResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "InvoiceAmountBreakdownByOrder",
+  RequiredPostArguments = {
+    "body"
+  },
+  APIUrl = "invoices/items/amountBreakdownByOrder",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class InvoiceAmountBreakdownByOrderResponse extends BaseObject {
   /**

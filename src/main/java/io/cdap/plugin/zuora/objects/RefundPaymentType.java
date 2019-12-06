@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: RefundPaymentType (RefundPaymentType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "RefundPaymentType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "RefundPayment",
+  RequiredPostArguments = {
+    "body", "paymentId"
+  },
+  APIUrl = "payments/{paymentId}/refunds",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class RefundPaymentType extends BaseObject {
   /**

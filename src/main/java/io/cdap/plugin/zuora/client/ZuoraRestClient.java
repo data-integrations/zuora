@@ -29,6 +29,7 @@ import io.cdap.plugin.zuora.plugin.common.AuthType;
 import io.cdap.plugin.zuora.plugin.common.BaseConfig;
 import io.cdap.plugin.zuora.restobjects.ObjectHelper;
 import io.cdap.plugin.zuora.restobjects.ObjectInfo;
+import io.cdap.plugin.zuora.restobjects.SendObject;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import io.cdap.plugin.zuora.restobjects.objects.BaseResult;
 import org.apache.commons.lang.text.StrSubstitutor;
@@ -55,6 +56,7 @@ import java.lang.reflect.ParameterizedType;
 import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Base64;
+import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.stream.Collectors;
@@ -447,6 +449,22 @@ public class ZuoraRestClient {
     result.setRestApiEndpoint(apiEnpoint);
 
     return result;
+  }
+
+  /**
+   * Post object to the API
+   * @param sendObject object to send
+   */
+  public void sendObject(SendObject sendObject) throws IOException {
+    Map<String, String> arguments = new HashMap<>(sendObject.getArguments());
+    arguments.remove("body");
+
+    makeApiRequest(
+      Method.POST,
+      REST_API_VERSION + "/" + sendObject.getApiUrl(),
+      arguments,
+      sendObject.getBody()
+    );
   }
 
   /**

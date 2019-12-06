@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: ProxyPostImport (ProxyPostImport)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "ProxyPostImport",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "ImportType", "Name", "File"
+  },
+  APIUrl = "object/import",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class ProxyPostImport extends BaseObject {
   /**

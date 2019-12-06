@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: ProxyActionamendResponse (ProxyActionamendResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "ProxyActionamendResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "amendRequest"
+  },
+  APIUrl = "action/amend",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class ProxyActionamendResponse extends BaseObject {
   /**

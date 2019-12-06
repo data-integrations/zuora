@@ -62,6 +62,11 @@ public @interface ObjectDefinition {
   String[] RequiredArguments() default "";
 
   /**
+   * List of argument names, required to made post request
+   */
+  String[] RequiredPostArguments() default "";
+
+  /**
    * Root element of the response
    */
   String responseRootElement() default "";

@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: RefundCreditMemoType (RefundCreditMemoType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "RefundCreditMemoType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "RefundCreditMemo",
+  RequiredPostArguments = {
+    "body", "creditmemoId"
+  },
+  APIUrl = "creditmemos/{creditmemoId}/refunds",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class RefundCreditMemoType extends BaseObject {
   /**

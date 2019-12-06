@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: TaxationItemTypewithSuccess (TaxationItemTypewithSuccess)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "TaxationItemTypewithSuccess",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "Taxation",
+  RequiredPostArguments = {
+    "debitMemoId", "body"
+  },
+  APIUrl = "debitmemos/{debitMemoId}/taxationitems",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class TaxationItemTypewithSuccess extends BaseObject {
   /**

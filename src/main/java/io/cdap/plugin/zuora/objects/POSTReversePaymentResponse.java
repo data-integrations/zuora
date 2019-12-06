@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTReversePaymentResponse (POSTReversePaymentResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTReversePaymentResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "payment-id", "Request"
+  },
+  APIUrl = "gateway-settlement/payments/{payment-id}/chargeback",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTReversePaymentResponse extends BaseObject {
   /**

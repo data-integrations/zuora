@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTHMACSignatureResponseType (POSTHMACSignatureResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTHMACSignatureResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "hmac-signatures",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTHMACSignatureResponseType extends BaseObject {
   /**

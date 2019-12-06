@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTRSASignatureResponseType (POSTRSASignatureResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTRSASignatureResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "rsa-signatures",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTRSASignatureResponseType extends BaseObject {
   /**

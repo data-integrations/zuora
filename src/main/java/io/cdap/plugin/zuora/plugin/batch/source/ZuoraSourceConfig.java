@@ -34,7 +34,6 @@ import javax.annotation.Nullable;
  */
 public class ZuoraSourceConfig extends BaseConfig {
   public static final String PROPERTY_BASE_OBJECTS_TO_PULL = "baseObjects";
-  public static final String PROPERTY_ADV_OBJECTS_TO_PULL = "advObjects";
 
 
   @Macro
@@ -43,11 +42,6 @@ public class ZuoraSourceConfig extends BaseConfig {
   @Nullable
   private String baseObjectsToPull;
 
-  @Macro
-  @Name(PROPERTY_ADV_OBJECTS_TO_PULL)
-  @Description("Nested Zuora objects")
-  @Nullable
-  private String advObjectsToPull;
 
   public ZuoraSourceConfig(String referenceName) {
     super(referenceName);
@@ -88,10 +82,6 @@ public class ZuoraSourceConfig extends BaseConfig {
     ImmutableList.Builder<String> objectsBuilder = new ImmutableList.Builder<>();
     if (baseObjectsToPull != null && !baseObjectsToPull.isEmpty()) {
       objectsBuilder.add(baseObjectsToPull.split(","));
-    }
-
-    if (advObjectsToPull != null && !advObjectsToPull.isEmpty()) {
-      objectsBuilder.add(advObjectsToPull.split(","));
     }
     return objectsBuilder.build();
   }

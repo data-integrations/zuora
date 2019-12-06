@@ -72,49 +72,58 @@
           }
         },
         {
-          "name": "baseObjects",
-          "label": "Object(s) to pull",
-          "widget-type": "multi-select",
+          "name": "objectName",
+          "label": "Object to write to",
+          "widget-type": "select",
           "widget-attributes": {
+            "values": [
+              "BillingDocumentFilesDeletionJobResponse",
+              "CreditMemo",
+              "CreditMemoAmountBreakdownByOrder",
+              "DebitMemo",
+              "GenerateBillingDocument",
+              "InvoiceAmountBreakdownByOrder",
+              "Payments",
+              "PaymentRun",
+              "PostOrder",
+              "PostOrderPreview",
+              "RefundCreditMemo",
+              "RefundPayment",
+              "Taxation"
+            ]
+          }
+        },
+        {
+          "name": "bodyColumnName",
+          "label": "Body column name",
+          "widget-type": "textbox"
+        },
+        {
+          "name": "requestArgumentsSource",
+          "label": "Request arguments source",
+          "widget-type": "radio-group",
+          "widget-attributes": {
+            "layout": "inline",
+            "default": "input",
             "options": [
               {
-                "id": "Products",
-                "label": "Products"
+                "id": "input",
+                "label": "Input Record"
               },
               {
-                "id": "Refunds",
-                "label": "Refunds"
-              },
-              {
-                "id": "PaymentRun",
-                "label": "PaymentRun"
-              },
-              {
-                "id": "Payments",
-                "label": "Payments"
-              },
-              {
-                "id": "Orders",
-                "label": "Orders"
-              },
-              {
-                "id": "Entities",
-                "label": "Entities"
-              },
-              {
-                "id": "DebitMemos",
-                "label": "DebitMemos"
-              },
-              {
-                "id": "CreditMemos",
-                "label": "CreditMemos"
-              },
-              {
-                "id": "BillingDocuments",
-                "label": "BillingDocuments"
+                "id": "config",
+                "label": "Configuration"
               }
-            ],
-            "delimiter": ","
+            ]
+          }
+        },
+        {
+          "name": "requestArguments",
+          "label": "Request arguments",
+          "widget-type": "keyvalue",
+          "widget-attributes": {
+            "delimiter": ",",
+            "kv-delimiter": ":"
           }
         }
       ]
@@ -147,7 +156,7 @@
     {
       "name": "AuthTypeAdvFilter",
       "condition": {
-        "expression": "authType == 'oauth2'"
+        "expression": "authType != 'basic'"
       },
       "show": [
         {
@@ -161,4 +170,4 @@
       ]
     }
   ]
-}
+},

@@ -14,36 +14,40 @@
  *  the License.
  */
 
-package io.cdap.plugin.zuora.plugin.batch.source;
+package io.cdap.plugin.zuora.plugin.batch.sink;
 
+import com.google.common.base.Strings;
 import io.cdap.cdap.etl.api.FailureCollector;
 import io.cdap.plugin.common.IdUtils;
 import io.cdap.plugin.zuora.plugin.common.BaseConfigValidator;
 
 /**
- * Source config validator
+ * Sink Config Validator
  */
-public class ZuoraSourceConfigValidator extends BaseConfigValidator {
-  private ZuoraSourceConfig config;
+public class ZuoraSinkConfigValidator extends BaseConfigValidator {
+  private ZuoraSinkConfig config;
 
-  public ZuoraSourceConfigValidator(FailureCollector failureCollector, ZuoraSourceConfig config) {
+  public ZuoraSinkConfigValidator(FailureCollector failureCollector, ZuoraSinkConfig config) {
     super(failureCollector, config);
     this.config = config;
-  }
-
-  private void checkObjects() {
-    if (config.getObjects().isEmpty()) {
-      failureCollector.addFailure("No objects selected for the query", null)
-        .withConfigProperty(ZuoraSourceConfig.PROPERTY_BASE_OBJECTS_TO_PULL);
-    }
   }
 
   @Override
   public void doValidation() {
     IdUtils.validateReferenceName(config.referenceName, failureCollector);
 
-    if (!config.containsMacro(ZuoraSourceConfig.PROPERTY_BASE_OBJECTS_TO_PULL)) {
-      checkObjects();
+    if (!config.containsMacro(ZuoraSinkConfig.PROPERTY_OBJECT_NAME)) {
+      if (Strings.isNullOrEmpty(config.getObjectName())) {
+        failureCollector.addFailure("Object name should be set", "")
+          .withConfigProperty(ZuoraSinkConfig.PROPERTY_OBJECT_NAME);
+      }
+    }
+
+    if (!config.containsMacro(ZuoraSinkConfig.PROPERTY_BODY_COLUMN)) {
+      if (Strings.isNullOrEmpty(config.getBodyColumnName())) {
+        failureCollector.addFailure("Body column name should be set", "")
+          .withConfigProperty(ZuoraSinkConfig.PROPERTY_BODY_COLUMN);
+      }
     }
   }
 }

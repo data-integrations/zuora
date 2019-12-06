@@ -40,6 +40,7 @@ import javax.annotation.Nullable;
  * Data transformer from swagger
  */
 public class SwaggerTransformer {
+  private static boolean topLevelObjects = false;  // process only top-level objects and ignore nested
   private static Gson gson = new GsonBuilder().create();
 
   private JsonObject rawObjects;
@@ -84,7 +85,13 @@ public class SwaggerTransformer {
     return jsonFields;
   }
 
-  private void addObject(String name, JsonElement fields) {
+  /**
+   * Add resolved object to the list of objects
+   * @param name name of the object
+   * @param fields fields of the object
+   * @param onlyIfWithPath  add only object with the rest api path notation
+   */
+  private void addObject(String name, JsonElement fields, boolean onlyIfWithPath) {
     JsonObject el = new JsonObject();
     String objectName = getObjectName(name);
 
@@ -128,6 +135,8 @@ public class SwaggerTransformer {
         .map(x -> String.format("\"%s\"", x))
         .collect(Collectors.joining(","))
       );
+    } else if (onlyIfWithPath) {
+      return;
     }
 
     el.addProperty("name", objectName);
@@ -159,7 +168,7 @@ public class SwaggerTransformer {
         fieldType = objectMapping.get(fieldType);
       }
       subType = fieldType;
-      addObject(fieldType, field);
+      addObject(fieldType, field, topLevelObjects);
     }
 
     if (fieldType.equals("array")) {
@@ -169,7 +178,7 @@ public class SwaggerTransformer {
           subType = objectMapping.get(subType);
         }
         fieldType = "array|" + subType;
-        addObject(subType, field.getAsJsonObject().get("items"));
+        addObject(subType, field.getAsJsonObject().get("items"), topLevelObjects);
       } else {
         String [] refPath = field.getAsJsonObject().get("items").getAsJsonObject().get("$ref").getAsString().split("/");
         subType = getObjectName(refPath[refPath.length - 1]);
@@ -213,16 +222,13 @@ public class SwaggerTransformer {
     paths = new HashMap<>();
     rawPaths.entrySet().forEach(x -> {
       String path = x.getKey();
-//      if (path.contains("{") || !path.contains("/v1")) {
-//        return;
-//      }
-      if (!path.contains("{")) {
+      if (!path.contains("/v1")) {
         return;
       }
       String[] pathChunks = path.split("/v1/");
       path = pathChunks[pathChunks.length - 1];
       JsonObject pathObject = x.getValue().getAsJsonObject();
-      JsonElement reqType = pathObject.get("get");
+      JsonElement reqType = pathObject.get("post");
       if (reqType == null) {
         return;
       }
@@ -262,7 +268,11 @@ public class SwaggerTransformer {
     });
   }
 
-  public ZuoraDefinitions getDefinitions() {
+  /**
+   * Retrieves definition of the objects
+   * @param onlyWithPath only objects with rest api endpoint and all their children
+   */
+  public ZuoraDefinitions getDefinitions(boolean onlyWithPath) {
     if (newDocument != null) {
       return gson.fromJson(newDocument.toString(), ZuoraDefinitions.class);
     }
@@ -272,7 +282,7 @@ public class SwaggerTransformer {
     newDocument = new JsonObject();
     objectMapping.clear();
     rawObjects.entrySet().forEach(e -> {
-      addObject(e.getKey(), e.getValue());
+      addObject(e.getKey(), e.getValue(), onlyWithPath || topLevelObjects);
     });
 
     newDocument.addProperty("isSwagger", true);

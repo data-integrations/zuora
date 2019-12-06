@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: DebitMemoType (DebitMemoType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "DebitMemoType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "DebitMemo",
+  RequiredPostArguments = {
+    "invoiceId", "body"
+  },
+  APIUrl = "invoices/{invoiceId}/debitmemos",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class DebitMemoType extends BaseObject {
   /**

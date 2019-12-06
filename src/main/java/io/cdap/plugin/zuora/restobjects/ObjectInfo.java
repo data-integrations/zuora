@@ -29,17 +29,19 @@ public class ObjectInfo {
   private Class objectClass;
   private List<ObjectFieldInfo> fieldDefinitions;
   private List<String> requiredArguments;
+  private List<String> requiredPostArguments;
   private ObjectDefinition.ObjectDefinitionType objectType;
   private String responseRootElement;
 
   public ObjectInfo(String cdapObjectName, List<ObjectFieldInfo> fieldDefinitions, String restAPIUrl,
-                    Class objectClass, List<String> requiredArguments, String responseRootElement,
-                    ObjectDefinition.ObjectDefinitionType objectType) {
+                    Class objectClass, List<String> requiredPostArguments, List<String> requiredArguments,
+                    String responseRootElement, ObjectDefinition.ObjectDefinitionType objectType) {
     this.cdapObjectName = cdapObjectName;
     this.fieldDefinitions = fieldDefinitions;
     this.restAPIUrl = restAPIUrl;
     this.objectClass = objectClass;
     this.requiredArguments = requiredArguments;
+    this.requiredPostArguments = requiredPostArguments;
     this.objectType = objectType;
     this.responseRootElement = responseRootElement;
   }
@@ -68,6 +70,10 @@ public class ObjectInfo {
 
   public List<String> getRequiredArguments() {
     return requiredArguments.stream().filter(x -> !x.equals("")).collect(Collectors.toList());
+  }
+
+  public List<String> getRequiredPostArguments() {
+    return requiredPostArguments.stream().filter(x -> !x.equals("")).collect(Collectors.toList());
   }
 
   public ObjectDefinition.ObjectDefinitionType getObjectType() {

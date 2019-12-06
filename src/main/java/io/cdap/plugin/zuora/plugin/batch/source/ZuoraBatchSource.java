@@ -42,11 +42,11 @@ import java.util.stream.Collectors;
 @Plugin(type = BatchSource.PLUGIN_TYPE)
 @Name(BaseConfig.PLUGIN_NAME)
 @Description("Reads objects from Zuora API")
-public class ZuoraSource extends BatchSource<ZuoraSplitArgument, BaseObject, StructuredRecord> {
+public class ZuoraBatchSource extends BatchSource<ZuoraSplitArgument, BaseObject, StructuredRecord> {
 
   ZuoraSourceConfig config;
 
-  public ZuoraSource(ZuoraSourceConfig config) {
+  public ZuoraBatchSource(ZuoraSourceConfig config) {
     this.config = config;
   }
 

@@ -35,7 +35,7 @@ import io.cdap.cdap.test.ApplicationManager;
 import io.cdap.cdap.test.DataSetManager;
 import io.cdap.cdap.test.TestConfiguration;
 import io.cdap.cdap.test.WorkflowManager;
-import io.cdap.plugin.zuora.plugin.batch.source.ZuoraSource;
+import io.cdap.plugin.zuora.plugin.batch.source.ZuoraBatchSource;
 import io.cdap.plugin.zuora.plugin.common.BaseConfig;
 import org.junit.BeforeClass;
 import org.junit.ClassRule;
@@ -48,8 +48,6 @@ public class ZuoraBatchSourceTest extends BaseZuoraSourceTest {
   @ClassRule
   public static final TestConfiguration CONFIG = new TestConfiguration("explore.enabled", false);
 
-  private static final String BASIC_AUTH_TYPE = "basic";
-
   @BeforeClass
   public static void setupTestClass() throws Exception {
     ArtifactId parentArtifact = NamespaceId.DEFAULT.artifact(APP_ARTIFACT.getName(), APP_ARTIFACT.getVersion());
@@ -57,7 +55,7 @@ public class ZuoraBatchSourceTest extends BaseZuoraSourceTest {
     addPluginArtifact(
       NamespaceId.DEFAULT.artifact("example-plugins", "1.0.0"),
       parentArtifact,
-      ZuoraSource.class
+      ZuoraBatchSource.class
     );
   }
 

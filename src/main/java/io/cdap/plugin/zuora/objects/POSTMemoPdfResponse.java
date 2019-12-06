@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTMemoPdfResponse (POSTMemoPdfResponse)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTMemoPdfResponse",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "debitMemoId"
+  },
+  APIUrl = "debitmemos/{debitMemoId}/pdfs",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTMemoPdfResponse extends BaseObject {
   /**

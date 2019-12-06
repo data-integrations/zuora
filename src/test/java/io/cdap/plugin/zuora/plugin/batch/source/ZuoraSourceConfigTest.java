@@ -72,13 +72,5 @@ public class ZuoraSourceConfigTest extends BaseTest {
   @Test
   public void getArguments() {
     Assert.assertNull(config.getArguments());
-//    Assert.assertEquals(
-//      new ImmutableMap.Builder<String, String>()
-//        .put("arg1", "val1")
-//        .put("arg2", "val2")
-//        .put("arg2", "val2")
-//        .build(),
-//      config.getArguments()
-//    );
   }
 }

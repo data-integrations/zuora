@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTUsageResponseType (POSTUsageResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTUsageResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "file"
+  },
+  APIUrl = "usage",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTUsageResponseType extends BaseObject {
   /**

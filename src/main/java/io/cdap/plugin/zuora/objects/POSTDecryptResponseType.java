@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: POSTDecryptResponseType (POSTDecryptResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "POSTDecryptResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "rsa-signatures/decrypt",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class POSTDecryptResponseType extends BaseObject {
   /**

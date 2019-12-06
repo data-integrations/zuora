@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: CommonResponseType (CommonResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "CommonResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request","invoiceId"
+  },
+  APIUrl = "invoices/{invoiceId}/emails",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class CommonResponseType extends BaseObject {
   /**

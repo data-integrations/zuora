@@ -27,12 +27,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: GenerateBillingDocumentResponseType (GenerateBillingDocumentResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
-  Name = "GenerateBillingDocumentResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  Name = "GenerateBillingDocument",
+  RequiredPostArguments = {
+    "body", "id"
+  },
+  APIUrl = "accounts/{id}/billing-documents/generate",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class GenerateBillingDocumentResponseType extends BaseObject {
   /**

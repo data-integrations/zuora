@@ -26,12 +26,16 @@ import javax.annotation.Nullable;
 
 /**
 * Object name: DocumentPropertiesResponseType (DocumentPropertiesResponseType)
-* Related objects: 
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
   Name = "DocumentPropertiesResponseType",
-  ObjectType = ObjectDefinition.ObjectDefinitionType.NESTED
+  RequiredArguments = {
+    "Request"
+  },
+  APIUrl = "document-properties",
+  ObjectType = ObjectDefinition.ObjectDefinitionType.BASE
 )
 public class DocumentPropertiesResponseType extends BaseObject {
   /**
