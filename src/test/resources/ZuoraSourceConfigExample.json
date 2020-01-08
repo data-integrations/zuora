@@ -1,0 +1,3 @@
+{
+ "baseObjectsToPull": "Products,Refunds,PaymentRun,Orders,Entities,DebitMemos,CreditMemos,BillingDocuments"
+}

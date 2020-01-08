@@ -1,0 +1,8 @@
+{
+  "authType": "oauth2",
+  "authUsername": "",
+  "authPassword": "",
+  "authClientId": "clientid",
+  "authClientSecret": "clientsecret",
+  "apiEndpoint": "https://endpoint"
+}

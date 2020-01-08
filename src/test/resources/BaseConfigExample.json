@@ -1,0 +1,8 @@
+{
+  "authType": "basic",
+  "authUsername": "username",
+  "authPassword": "password",
+  "authClientId": "",
+  "authClientSecret": "",
+  "apiEndpoint": "https://endpoint"
+}

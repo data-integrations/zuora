@@ -1,0 +1,6 @@
+{
+  "objectName": "test",
+  "bodyColumnName": "body",
+  "requestArgumentsSource": "input",
+  "requestArguments": "arg1:val1,arg2:val2"
+}
