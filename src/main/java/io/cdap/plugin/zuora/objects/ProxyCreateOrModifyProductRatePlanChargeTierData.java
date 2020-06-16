@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateOrModifyProductRatePlanChargeTierData (ProxyCreateOrModifyProductRatePlanChargeTierData)
-* Related objects: 
+* Object name: ProxyCreateOrModifyProductRatePlanChargeTierData (ProxyCreateOrModifyProductRatePlanChargeTierData).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateOrModifyProductRatePlanChargeTierData extends BaseObject {
   /**
-  * Name: ProductRatePlanChargeTier (ProductRatePlanChargeTier), Type: array|ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem
+  * Name: ProductRatePlanChargeTier (ProductRatePlanChargeTier), Type: array|ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

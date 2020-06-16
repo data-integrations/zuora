@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TokenResponse (TokenResponse)
-* Related objects: 
+* Object name: TokenResponse (TokenResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class TokenResponse extends BaseObject {
   /**
-  * Name: access_token (access_token), Type: string
+  * Name: access_token (access_token), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class TokenResponse extends BaseObject {
   private String access_token;
 
   /**
-  * Name: expires_in (expires_in), Type: number
+  * Name: expires_in (expires_in), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class TokenResponse extends BaseObject {
   private String expires_in;
 
   /**
-  * Name: jti (jti), Type: string
+  * Name: jti (jti), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class TokenResponse extends BaseObject {
   private String jti;
 
   /**
-  * Name: scope (scope), Type: string
+  * Name: scope (scope), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class TokenResponse extends BaseObject {
   private String scope;
 
   /**
-  * Name: token_type (token_type), Type: string
+  * Name: token_type (token_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

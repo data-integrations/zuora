@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordWithOnlyCustomFields (CustomObjectRecordWithOnlyCustomFields)
-* Related objects: 
+* Object name: CustomObjectRecordWithOnlyCustomFields (CustomObjectRecordWithOnlyCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

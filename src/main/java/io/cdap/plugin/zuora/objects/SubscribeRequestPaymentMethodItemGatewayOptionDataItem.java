@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequestPaymentMethodItemGatewayOptionDataItem (SubscribeRequestPaymentMethodItemGatewayOptionDataItem)
-* Related objects: 
+* Object name: SubscribeRequestPaymentMethodItemGatewayOptionDataItem (SubscribeRequestPaymentMethodItemGatewayOptionDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequestPaymentMethodItemGatewayOptionDataItem extends BaseObject {
   /**
-  * Name: GatewayOption (GatewayOption), Type: array|GatewayOption
+  * Name: GatewayOption (GatewayOption), Type: array|GatewayOption.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

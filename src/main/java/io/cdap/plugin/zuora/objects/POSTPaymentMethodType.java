@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPaymentMethodType (POSTPaymentMethodType)
-* Related objects: 
+* Object name: POSTPaymentMethodType (POSTPaymentMethodType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPaymentMethodType extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: creditCardNumber (creditCardNumber), Type: string
+  * Name: creditCardNumber (creditCardNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String creditCardNumber;
 
   /**
-  * Name: creditCardType (creditCardType), Type: string
+  * Name: creditCardType (creditCardType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String creditCardType;
 
   /**
-  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean
+  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private Boolean defaultPaymentMethod;
 
   /**
-  * Name: expirationMonth (expirationMonth), Type: string
+  * Name: expirationMonth (expirationMonth), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String expirationMonth;
 
   /**
-  * Name: expirationYear (expirationYear), Type: string
+  * Name: expirationYear (expirationYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String expirationYear;
 
   /**
-  * Name: mitConsentAgreementRef (mitConsentAgreementRef), Type: string
+  * Name: mitConsentAgreementRef (mitConsentAgreementRef), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitConsentAgreementRef;
 
   /**
-  * Name: mitConsentAgreementSrc (mitConsentAgreementSrc), Type: string
+  * Name: mitConsentAgreementSrc (mitConsentAgreementSrc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitConsentAgreementSrc;
 
   /**
-  * Name: mitNetworkTransactionId (mitNetworkTransactionId), Type: string
+  * Name: mitNetworkTransactionId (mitNetworkTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitNetworkTransactionId;
 
   /**
-  * Name: mitProfileAction (mitProfileAction), Type: string
+  * Name: mitProfileAction (mitProfileAction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitProfileAction;
 
   /**
-  * Name: mitProfileAgreedOn (mitProfileAgreedOn), Type: string
+  * Name: mitProfileAgreedOn (mitProfileAgreedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitProfileAgreedOn;
 
   /**
-  * Name: mitProfileType (mitProfileType), Type: string
+  * Name: mitProfileType (mitProfileType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private String mitProfileType;
 
   /**
-  * Name: numConsecutiveFailures (numConsecutiveFailures), Type: integer
+  * Name: numConsecutiveFailures (numConsecutiveFailures), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class POSTPaymentMethodType extends BaseObject {
   private Integer numConsecutiveFailures;
 
   /**
-  * Name: securityCode (securityCode), Type: string
+  * Name: securityCode (securityCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

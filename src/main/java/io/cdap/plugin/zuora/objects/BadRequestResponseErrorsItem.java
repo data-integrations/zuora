@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BadRequestResponseErrorsItem (BadRequestResponseErrorsItem)
-* Related objects: 
+* Object name: BadRequestResponseErrorsItem (BadRequestResponseErrorsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class BadRequestResponseErrorsItem extends BaseObject {
   /**
-  * Name: code (code), Type: string
+  * Name: code (code), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class BadRequestResponseErrorsItem extends BaseObject {
   private String code;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class BadRequestResponseErrorsItem extends BaseObject {
   private String status;
 
   /**
-  * Name: title (title), Type: string
+  * Name: title (title), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

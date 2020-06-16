@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyBadRequestResponseErrorsItem (ProxyBadRequestResponseErrorsItem)
-* Related objects: 
+* Object name: ProxyBadRequestResponseErrorsItem (ProxyBadRequestResponseErrorsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyBadRequestResponseErrorsItem extends BaseObject {
   /**
-  * Name: Code (Code), Type: string
+  * Name: Code (Code), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyBadRequestResponseErrorsItem extends BaseObject {
   private String code;
 
   /**
-  * Name: Message (Message), Type: string
+  * Name: Message (Message), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

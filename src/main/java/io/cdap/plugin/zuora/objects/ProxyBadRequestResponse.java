@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyBadRequestResponse (ProxyBadRequestResponse)
-* Related objects: 
+* Object name: ProxyBadRequestResponse (ProxyBadRequestResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyBadRequestResponse extends BaseObject {
   /**
-  * Name: Errors (Errors), Type: array|ProxyBadRequestResponseErrorsItem
+  * Name: Errors (Errors), Type: array|ProxyBadRequestResponseErrorsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyBadRequestResponse extends BaseObject {
   private List<ProxyBadRequestResponseErrorsItem> errors;
 
   /**
-  * Name: Success (Success), Type: boolean
+  * Name: Success (Success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

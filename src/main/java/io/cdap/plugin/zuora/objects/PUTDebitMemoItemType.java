@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTDebitMemoItemType (PUTDebitMemoItemType)
-* Related objects: 
+* Object name: PUTDebitMemoItemType (PUTDebitMemoItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTDebitMemoItemType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: PUTDebitMemoItemTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: PUTDebitMemoItemTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String id;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: skuName (skuName), Type: string
+  * Name: skuName (skuName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private String skuName;
 
   /**
-  * Name: taxItems (taxItems), Type: array|PutDebitMemoTaxItemType
+  * Name: taxItems (taxItems), Type: array|PutDebitMemoTaxItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PUTDebitMemoItemType extends BaseObject {
   private List<PutDebitMemoTaxItemType> taxItems;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

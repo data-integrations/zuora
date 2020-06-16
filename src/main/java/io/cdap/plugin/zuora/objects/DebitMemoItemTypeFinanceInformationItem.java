@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoItemTypeFinanceInformationItem (DebitMemoItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: DebitMemoItemTypeFinanceInformationItem (DebitMemoItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string
+  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   private String deferredRevenueAccountingCode;
 
   /**
-  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string
+  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   private String deferredRevenueAccountingCodeType;
 
   /**
-  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string
+  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   private String recognizedRevenueAccountingCode;
 
   /**
-  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string
+  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   private String recognizedRevenueAccountingCodeType;
 
   /**
-  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string
+  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class DebitMemoItemTypeFinanceInformationItem extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: revenueScheduleNumber (revenueScheduleNumber), Type: string
+  * Name: revenueScheduleNumber (revenueScheduleNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

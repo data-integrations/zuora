@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingValueRequest (SettingValueRequest)
-* Related objects: 
+* Object name: SettingValueRequest (SettingValueRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingValueRequest extends BaseObject {
   /**
-  * Name: children (children), Type: array|ChildrenSettingValueRequest
+  * Name: children (children), Type: array|ChildrenSettingValueRequest.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SettingValueRequest extends BaseObject {
   private List<ChildrenSettingValueRequest> children;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SettingValueRequest extends BaseObject {
   private String id;
 
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SettingValueRequest extends BaseObject {
   private String method;
 
   /**
-  * Name: url (url), Type: string
+  * Name: url (url), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

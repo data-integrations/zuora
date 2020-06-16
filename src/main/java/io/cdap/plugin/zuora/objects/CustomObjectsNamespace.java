@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectsNamespace (CustomObjectsNamespace)
-* Related objects: 
+* Object name: CustomObjectsNamespace (CustomObjectsNamespace).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectsNamespace extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String id;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String updatedDate;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CustomObjectsNamespace extends BaseObject {
   private String name;
 
   /**
-  * Name: origin (origin), Type: string
+  * Name: origin (origin), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

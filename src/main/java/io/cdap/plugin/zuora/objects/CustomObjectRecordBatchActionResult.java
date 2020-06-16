@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordBatchActionResult (CustomObjectRecordBatchActionResult)
-* Related objects: 
+* Object name: CustomObjectRecordBatchActionResult (CustomObjectRecordBatchActionResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectRecordBatchActionResult extends BaseObject {
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CustomObjectRecordBatchActionResult extends BaseObject {
   private String type;
 
   /**
-  * Name: unprocessedIds (unprocessedIds), Type: array|CustomObjectRecordBatchActionResultUnprocessedIdsItem
+  * Name: unprocessedIds (unprocessedIds), Type: array|CustomObjectRecordBatchActionResultUnprocessedIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

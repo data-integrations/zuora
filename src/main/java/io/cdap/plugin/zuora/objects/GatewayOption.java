@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: GatewayOption (GatewayOption)
-* Related objects: 
+* Object name: GatewayOption (GatewayOption).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class GatewayOption extends BaseObject {
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class GatewayOption extends BaseObject {
   private String name;
 
   /**
-  * Name: value (value), Type: string
+  * Name: value (value), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

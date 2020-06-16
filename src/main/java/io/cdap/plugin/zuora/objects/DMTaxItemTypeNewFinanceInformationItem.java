@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DMTaxItemTypeNewFinanceInformationItem (DMTaxItemTypeNewFinanceInformationItem)
-* Related objects: 
+* Object name: DMTaxItemTypeNewFinanceInformationItem (DMTaxItemTypeNewFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DMTaxItemTypeNewFinanceInformationItem extends BaseObject {
   /**
-  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string
+  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DMTaxItemTypeNewFinanceInformationItem extends BaseObject {
   private String salesTaxPayableAccountingCode;
 
   /**
-  * Name: salesTaxPayableAccountingCodeType (salesTaxPayableAccountingCodeType), Type: string
+  * Name: salesTaxPayableAccountingCodeType (salesTaxPayableAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

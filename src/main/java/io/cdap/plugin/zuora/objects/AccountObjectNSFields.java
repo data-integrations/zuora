@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountObjectNSFields (AccountObjectNSFields)
+* Object name: AccountObjectNSFields (AccountObjectNSFields).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountObjectNSFields extends BaseObject {
   /**
-  * Name: Class__NS (Class__NS), Type: string
+  * Name: Class__NS (Class__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String classNS;
 
   /**
-  * Name: CustomerType__NS (CustomerType__NS), Type: string
+  * Name: CustomerType__NS (CustomerType__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String customerTypeNS;
 
   /**
-  * Name: Department__NS (Department__NS), Type: string
+  * Name: Department__NS (Department__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String departmentNS;
 
   /**
-  * Name: IntegrationId__NS (IntegrationId__NS), Type: string
+  * Name: IntegrationId__NS (IntegrationId__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String integrationIdNS;
 
   /**
-  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string
+  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String integrationStatusNS;
 
   /**
-  * Name: Location__NS (Location__NS), Type: string
+  * Name: Location__NS (Location__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String locationNS;
 
   /**
-  * Name: Subsidiary__NS (Subsidiary__NS), Type: string
+  * Name: Subsidiary__NS (Subsidiary__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String subsidiaryNS;
 
   /**
-  * Name: SyncDate__NS (SyncDate__NS), Type: string
+  * Name: SyncDate__NS (SyncDate__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AccountObjectNSFields extends BaseObject {
   private String syncDateNS;
 
   /**
-  * Name: SynctoNetSuite__NS (SynctoNetSuite__NS), Type: string
+  * Name: SynctoNetSuite__NS (SynctoNetSuite__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

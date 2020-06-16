@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTRefundType (PUTRefundType)
-* Related objects: 
+* Object name: PUTRefundType (PUTRefundType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTRefundType extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTRefundType extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: PUTRefundTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: PUTRefundTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTRefundType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTRefundType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

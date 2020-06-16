@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionTypeWithSuccess (SubscriptionTypeWithSuccess)
-* Related objects: 
+* Object name: SubscriptionTypeWithSuccess (SubscriptionTypeWithSuccess).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionTypeWithSuccess extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountName (accountName), Type: string
+  * Name: accountName (accountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String accountName;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: contractedMrr (contractedMrr), Type: number
+  * Name: contractedMrr (contractedMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String contractedMrr;
 
   /**
-  * Name: currentTerm (currentTerm), Type: integer
+  * Name: currentTerm (currentTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private Integer currentTerm;
 
   /**
-  * Name: currentTermPeriodType (currentTermPeriodType), Type: string
+  * Name: currentTermPeriodType (currentTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String currentTermPeriodType;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String id;
 
   /**
-  * Name: initialTerm (initialTerm), Type: integer
+  * Name: initialTerm (initialTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private Integer initialTerm;
 
   /**
-  * Name: initialTermPeriodType (initialTermPeriodType), Type: string
+  * Name: initialTermPeriodType (initialTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String initialTermPeriodType;
 
   /**
-  * Name: invoiceOwnerAccountId (invoiceOwnerAccountId), Type: string
+  * Name: invoiceOwnerAccountId (invoiceOwnerAccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String invoiceOwnerAccountId;
 
   /**
-  * Name: invoiceOwnerAccountName (invoiceOwnerAccountName), Type: string
+  * Name: invoiceOwnerAccountName (invoiceOwnerAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String invoiceOwnerAccountName;
 
   /**
-  * Name: invoiceOwnerAccountNumber (invoiceOwnerAccountNumber), Type: string
+  * Name: invoiceOwnerAccountNumber (invoiceOwnerAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String invoiceOwnerAccountNumber;
 
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: string
+  * Name: invoiceSeparately (invoiceSeparately), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String invoiceSeparately;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String notes;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: ratePlans (ratePlans), Type: array|SubscriptionRatePlanType
+  * Name: ratePlans (ratePlans), Type: array|SubscriptionRatePlanType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private List<SubscriptionRatePlanType> ratePlans;
 
   /**
-  * Name: renewalSetting (renewalSetting), Type: string
+  * Name: renewalSetting (renewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: integer
+  * Name: renewalTerm (renewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string
+  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -261,7 +261,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: subscriptionStartDate (subscriptionStartDate), Type: string
+  * Name: subscriptionStartDate (subscriptionStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -270,7 +270,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String subscriptionStartDate;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -279,7 +279,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: termEndDate (termEndDate), Type: string
+  * Name: termEndDate (termEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -288,7 +288,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String termEndDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -297,7 +297,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -306,7 +306,7 @@ public class SubscriptionTypeWithSuccess extends BaseObject {
   private String termType;
 
   /**
-  * Name: totalContractedValue (totalContractedValue), Type: number
+  * Name: totalContractedValue (totalContractedValue), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

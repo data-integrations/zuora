@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectsAllNamespacesResponse (CustomObjectsAllNamespacesResponse)
-* Related objects: 
+* Object name: CustomObjectsAllNamespacesResponse (CustomObjectsAllNamespacesResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectsAllNamespacesResponse extends BaseObject {
   /**
-  * Name: count (count), Type: integer
+  * Name: count (count), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CustomObjectsAllNamespacesResponse extends BaseObject {
   private Integer count;
 
   /**
-  * Name: namespaces (namespaces), Type: array|CustomObjectsNamespace
+  * Name: namespaces (namespaces), Type: array|CustomObjectsNamespace.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

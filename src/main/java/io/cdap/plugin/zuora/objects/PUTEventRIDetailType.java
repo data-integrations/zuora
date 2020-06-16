@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTEventRIDetailType (PUTEventRIDetailType)
-* Related objects: 
+* Object name: PUTEventRIDetailType (PUTEventRIDetailType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTEventRIDetailType extends BaseObject {
   /**
-  * Name: revenueItems (revenueItems), Type: array|EventRevenueItemType
+  * Name: revenueItems (revenueItems), Type: array|EventRevenueItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -27,7 +27,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import java.util.Map;
 
 /**
- * {@link StructuredRecord} to {@link BaseObject}
+ * {@link StructuredRecord} to {@link BaseObject}.
  */
 public class ZuoraSinkTransformer {
 
@@ -54,6 +54,12 @@ public class ZuoraSinkTransformer {
     return objRecipients;
   }
 
+  /**
+   * Returns the SendObject.
+   * @param config the ZuoraSinkConfig
+   * @param record the StructuredRecord
+   * @return SendObject
+   */
   public static SendObject transform(ZuoraSinkConfig config, StructuredRecord record) {
     ObjectInfo objectInfo = ObjectHelper.getObjectInfo(config.getObjectName());
 

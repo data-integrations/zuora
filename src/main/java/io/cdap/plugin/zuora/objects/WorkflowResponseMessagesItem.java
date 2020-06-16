@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowResponseMessagesItem (WorkflowResponseMessagesItem)
-* Related objects: 
+* Object name: WorkflowResponseMessagesItem (WorkflowResponseMessagesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

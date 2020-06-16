@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BadRequestResponse (BadRequestResponse)
-* Related objects: 
+* Object name: BadRequestResponse (BadRequestResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class BadRequestResponse extends BaseObject {
   /**
-  * Name: Errors (Errors), Type: array|BadRequestResponseErrorsItem
+  * Name: Errors (Errors), Type: array|BadRequestResponseErrorsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ContactObjectCustomFields (ContactObjectCustomFields)
-* Related objects: 
+* Object name: ContactObjectCustomFields (ContactObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

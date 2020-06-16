@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OneTimeTieredPricingOverride (OneTimeTieredPricingOverride)
-* Related objects: 
+* Object name: OneTimeTieredPricingOverride (OneTimeTieredPricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OneTimeTieredPricingOverride extends BaseObject {
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OneTimeTieredPricingOverride extends BaseObject {
   private String quantity;
 
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

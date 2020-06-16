@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DiscountPricingOverride (DiscountPricingOverride)
-* Related objects: 
+* Object name: DiscountPricingOverride (DiscountPricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DiscountPricingOverride extends BaseObject {
   /**
-  * Name: applyDiscountTo (applyDiscountTo), Type: string
+  * Name: applyDiscountTo (applyDiscountTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DiscountPricingOverride extends BaseObject {
   private String applyDiscountTo;
 
   /**
-  * Name: discountAmount (discountAmount), Type: number
+  * Name: discountAmount (discountAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DiscountPricingOverride extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: discountLevel (discountLevel), Type: string
+  * Name: discountLevel (discountLevel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DiscountPricingOverride extends BaseObject {
   private String discountLevel;
 
   /**
-  * Name: discountPercentage (discountPercentage), Type: number
+  * Name: discountPercentage (discountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class DiscountPricingOverride extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

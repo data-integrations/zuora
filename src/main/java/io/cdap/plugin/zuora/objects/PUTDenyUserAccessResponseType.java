@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTDenyUserAccessResponseType (PUTDenyUserAccessResponseType)
-* Related objects: 
+* Object name: PUTDenyUserAccessResponseType (PUTDenyUserAccessResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTDenyUserAccessResponseType extends BaseObject {
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

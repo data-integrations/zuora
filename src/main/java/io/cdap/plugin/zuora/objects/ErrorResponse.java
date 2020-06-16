@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ErrorResponse (ErrorResponse)
-* Related objects: 
+* Object name: ErrorResponse (ErrorResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ErrorResponse extends BaseObject {
   /**
-  * Name: reasons (reasons), Type: array|ErrorResponseReasonsItem
+  * Name: reasons (reasons), Type: array|ErrorResponseReasonsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

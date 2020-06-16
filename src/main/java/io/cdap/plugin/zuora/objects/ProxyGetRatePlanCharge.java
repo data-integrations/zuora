@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetRatePlanCharge (ProxyGetRatePlanCharge)
-* Related objects: 
+* Object name: ProxyGetRatePlanCharge (ProxyGetRatePlanCharge).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetRatePlanCharge extends BaseObject {
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: ApplyDiscountTo (ApplyDiscountTo), Type: string
+  * Name: ApplyDiscountTo (ApplyDiscountTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String applyDiscountTo;
 
   /**
-  * Name: BillCycleDay (BillCycleDay), Type: integer
+  * Name: BillCycleDay (BillCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: BillCycleType (BillCycleType), Type: string
+  * Name: BillCycleType (BillCycleType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String billCycleType;
 
   /**
-  * Name: BillingPeriod (BillingPeriod), Type: string
+  * Name: BillingPeriod (BillingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: BillingPeriodAlignment (BillingPeriodAlignment), Type: string
+  * Name: BillingPeriodAlignment (BillingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: BillingTiming (BillingTiming), Type: string
+  * Name: BillingTiming (BillingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: ChargeModel (ChargeModel), Type: string
+  * Name: ChargeModel (ChargeModel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String chargeModel;
 
   /**
-  * Name: ChargeNumber (ChargeNumber), Type: string
+  * Name: ChargeNumber (ChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: ChargeType (ChargeType), Type: string
+  * Name: ChargeType (ChargeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String chargeType;
 
   /**
-  * Name: ChargedThroughDate (ChargedThroughDate), Type: string
+  * Name: ChargedThroughDate (ChargedThroughDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String chargedThroughDate;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: DMRC (DMRC), Type: number
+  * Name: DMRC (DMRC), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String dMRC;
 
   /**
-  * Name: DTCV (DTCV), Type: number
+  * Name: DTCV (DTCV), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String dTCV;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String description;
 
   /**
-  * Name: DiscountLevel (DiscountLevel), Type: string
+  * Name: DiscountLevel (DiscountLevel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String discountLevel;
 
   /**
-  * Name: EffectiveEndDate (EffectiveEndDate), Type: string
+  * Name: EffectiveEndDate (EffectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: EffectiveStartDate (EffectiveStartDate), Type: string
+  * Name: EffectiveStartDate (EffectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: EndDateCondition (EndDateCondition), Type: string
+  * Name: EndDateCondition (EndDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String id;
 
   /**
-  * Name: IsLastSegment (IsLastSegment), Type: boolean
+  * Name: IsLastSegment (IsLastSegment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Boolean isLastSegment;
 
   /**
-  * Name: ListPriceBase (ListPriceBase), Type: string
+  * Name: ListPriceBase (ListPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: MRR (MRR), Type: number
+  * Name: MRR (MRR), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String mRR;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String name;
 
   /**
-  * Name: NumberOfPeriods (NumberOfPeriods), Type: integer
+  * Name: NumberOfPeriods (NumberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: OriginalId (OriginalId), Type: string
+  * Name: OriginalId (OriginalId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String originalId;
 
   /**
-  * Name: OverageCalculationOption (OverageCalculationOption), Type: string
+  * Name: OverageCalculationOption (OverageCalculationOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String overageCalculationOption;
 
   /**
-  * Name: OverageUnusedUnitsCreditOption (OverageUnusedUnitsCreditOption), Type: string
+  * Name: OverageUnusedUnitsCreditOption (OverageUnusedUnitsCreditOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String overageUnusedUnitsCreditOption;
 
   /**
-  * Name: PriceChangeOption (PriceChangeOption), Type: string
+  * Name: PriceChangeOption (PriceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: number
+  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: ProcessedThroughDate (ProcessedThroughDate), Type: string
+  * Name: ProcessedThroughDate (ProcessedThroughDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -323,7 +323,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String processedThroughDate;
 
   /**
-  * Name: Quantity (Quantity), Type: number
+  * Name: Quantity (Quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -332,7 +332,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String quantity;
 
   /**
-  * Name: RatePlanId (RatePlanId), Type: string
+  * Name: RatePlanId (RatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -341,7 +341,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String ratePlanId;
 
   /**
-  * Name: RevRecCode (RevRecCode), Type: string
+  * Name: RevRecCode (RevRecCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -350,7 +350,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String revRecCode;
 
   /**
-  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string
+  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -359,7 +359,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String revRecTriggerCondition;
 
   /**
-  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string
+  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -368,7 +368,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: Segment (Segment), Type: integer
+  * Name: Segment (Segment), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -377,7 +377,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer segment;
 
   /**
-  * Name: SpecificBillingPeriod (SpecificBillingPeriod), Type: integer
+  * Name: SpecificBillingPeriod (SpecificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -386,7 +386,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: SpecificEndDate (SpecificEndDate), Type: string
+  * Name: SpecificEndDate (SpecificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -395,7 +395,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: TCV (TCV), Type: number
+  * Name: TCV (TCV), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -404,7 +404,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String tCV;
 
   /**
-  * Name: TriggerDate (TriggerDate), Type: string
+  * Name: TriggerDate (TriggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -413,7 +413,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: TriggerEvent (TriggerEvent), Type: string
+  * Name: TriggerEvent (TriggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -422,7 +422,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: UOM (UOM), Type: string
+  * Name: UOM (UOM), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -431,7 +431,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String uOM;
 
   /**
-  * Name: UpToPeriods (UpToPeriods), Type: integer
+  * Name: UpToPeriods (UpToPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -440,7 +440,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer upToPeriods;
 
   /**
-  * Name: UpToPeriodsType (UpToPeriodsType), Type: string
+  * Name: UpToPeriodsType (UpToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -449,7 +449,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -458,7 +458,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -467,7 +467,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private String updatedDate;
 
   /**
-  * Name: Version (Version), Type: integer
+  * Name: Version (Version), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -476,7 +476,7 @@ public class ProxyGetRatePlanCharge extends BaseObject {
   private Integer version;
 
   /**
-  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string
+  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceItemPreviewResult (InvoiceItemPreviewResult)
-* Related objects: 
+* Object name: InvoiceItemPreviewResult (InvoiceItemPreviewResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceItemPreviewResult extends BaseObject {
   /**
-  * Name: additionalInfo (additionalInfo), Type: InvoiceItemPreviewResultAdditionalInfoItem
+  * Name: additionalInfo (additionalInfo), Type: InvoiceItemPreviewResultAdditionalInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String additionalInfo;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: appliedToChargeNumber (appliedToChargeNumber), Type: string
+  * Name: appliedToChargeNumber (appliedToChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String appliedToChargeNumber;
 
   /**
-  * Name: chargeDescription (chargeDescription), Type: string
+  * Name: chargeDescription (chargeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String chargeDescription;
 
   /**
-  * Name: chargeName (chargeName), Type: string
+  * Name: chargeName (chargeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String chargeName;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: processingType (processingType), Type: string
+  * Name: processingType (processingType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String processingType;
 
   /**
-  * Name: productName (productName), Type: string
+  * Name: productName (productName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String productName;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class InvoiceItemPreviewResult extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

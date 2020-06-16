@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -19,13 +19,19 @@ import io.cdap.cdap.api.data.schema.Schema;
 import io.cdap.plugin.zuora.restobjects.annotations.ObjectFieldDefinition;
 
 /**
- *  Entity meta-info holder for the {@link ObjectFieldDefinition} annotation
+ *  Entity meta-info holder for the {@link ObjectFieldDefinition} annotation.
  */
 public class ObjectFieldInfo {
   private String name;
   private Schema.Type type;
   private String nestedClass;
 
+  /**
+   * Constructor for ObjectFieldInfo object.
+   * @param name the name
+   * @param type the type
+   * @param nestedClass the nested class
+   */
   public ObjectFieldInfo(String name, Schema.Type type, String nestedClass) {
     this.name = name;
     this.type = type;

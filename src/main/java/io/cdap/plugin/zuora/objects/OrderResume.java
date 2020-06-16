@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderResume (OrderResume)
-* Related objects: 
+* Object name: OrderResume (OrderResume).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class OrderResume extends BaseObject {
   /**
-  * Name: extendsTerm (extendsTerm), Type: boolean
+  * Name: extendsTerm (extendsTerm), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class OrderResume extends BaseObject {
   private Boolean extendsTerm;
 
   /**
-  * Name: resumeDate (resumeDate), Type: string
+  * Name: resumeDate (resumeDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class OrderResume extends BaseObject {
   private String resumeDate;
 
   /**
-  * Name: resumePeriods (resumePeriods), Type: integer
+  * Name: resumePeriods (resumePeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class OrderResume extends BaseObject {
   private Integer resumePeriods;
 
   /**
-  * Name: resumePeriodsType (resumePeriodsType), Type: string
+  * Name: resumePeriodsType (resumePeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class OrderResume extends BaseObject {
   private String resumePeriodsType;
 
   /**
-  * Name: resumePolicy (resumePolicy), Type: string
+  * Name: resumePolicy (resumePolicy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class OrderResume extends BaseObject {
   private String resumePolicy;
 
   /**
-  * Name: resumeSpecificDate (resumeSpecificDate), Type: string
+  * Name: resumeSpecificDate (resumeSpecificDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

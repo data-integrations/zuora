@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountTypeBillingAndPaymentItem (AccountTypeBillingAndPaymentItem)
-* Related objects: 
+* Object name: AccountTypeBillingAndPaymentItem (AccountTypeBillingAndPaymentItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AccountTypeBillingAndPaymentItem extends BaseObject {
   /**
-  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|AccountTypeBillingAndPaymentItemAdditionalEmailAddressesItem
+  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|AccountTypeBillingAndPaymentItemAdditionalEmailAddressesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private List<AccountTypeBillingAndPaymentItemAdditionalEmailAddressesItem> additionalEmailAddresses;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: string
+  * Name: billCycleDay (billCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private String currency;
 
   /**
-  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean
+  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean
+  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class AccountTypeBillingAndPaymentItem extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: paymentTerm (paymentTerm), Type: string
+  * Name: paymentTerm (paymentTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

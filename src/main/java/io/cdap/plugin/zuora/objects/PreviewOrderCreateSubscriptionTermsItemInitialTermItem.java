@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOrderCreateSubscriptionTermsItemInitialTermItem (PreviewOrderCreateSubscriptionTermsItemInitialTermItem)
-* Related objects: 
+* Object name: PreviewOrderCreateSubscriptionTermsItemInitialTermItem (PreviewOrderCreateSubscriptionTermsItemInitialTermItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOrderCreateSubscriptionTermsItemInitialTermItem extends BaseObject {
   /**
-  * Name: period (period), Type: integer
+  * Name: period (period), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PreviewOrderCreateSubscriptionTermsItemInitialTermItem extends Base
   private Integer period;
 
   /**
-  * Name: periodType (periodType), Type: string
+  * Name: periodType (periodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PreviewOrderCreateSubscriptionTermsItemInitialTermItem extends Base
   private String periodType;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PreviewOrderCreateSubscriptionTermsItemInitialTermItem extends Base
   private String startDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

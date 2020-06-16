@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateInvoiceAdjustment (ProxyCreateInvoiceAdjustment)
-* Related objects: 
+* Object name: ProxyCreateInvoiceAdjustment (ProxyCreateInvoiceAdjustment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateInvoiceAdjustment extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: AdjustmentDate (AdjustmentDate), Type: string
+  * Name: AdjustmentDate (AdjustmentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String adjustmentDate;
 
   /**
-  * Name: AdjustmentNumber (AdjustmentNumber), Type: string
+  * Name: AdjustmentNumber (AdjustmentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String adjustmentNumber;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String amount;
 
   /**
-  * Name: Comments (Comments), Type: string
+  * Name: Comments (Comments), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String comments;
 
   /**
-  * Name: CustomerName (CustomerName), Type: string
+  * Name: CustomerName (CustomerName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String customerName;
 
   /**
-  * Name: CustomerNumber (CustomerNumber), Type: string
+  * Name: CustomerNumber (CustomerNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String customerNumber;
 
   /**
-  * Name: ImpactAmount (ImpactAmount), Type: number
+  * Name: ImpactAmount (ImpactAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String impactAmount;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: InvoiceNumber (InvoiceNumber), Type: string
+  * Name: InvoiceNumber (InvoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: ReasonCode (ReasonCode), Type: string
+  * Name: ReasonCode (ReasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: ReferenceId (ReferenceId), Type: string
+  * Name: ReferenceId (ReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyCreateInvoiceAdjustment extends BaseObject {
   private String status;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

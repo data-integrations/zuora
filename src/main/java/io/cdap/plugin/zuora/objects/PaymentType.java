@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentType (PaymentType)
-* Related objects: 
+* Object name: PaymentType (PaymentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentType extends BaseObject {
   /**
-  * Name: accountID (accountID), Type: string
+  * Name: accountID (accountID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PaymentType extends BaseObject {
   private String accountID;
 
   /**
-  * Name: accountName (accountName), Type: string
+  * Name: accountName (accountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PaymentType extends BaseObject {
   private String accountName;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PaymentType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PaymentType extends BaseObject {
   private String amount;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PaymentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: gatewayTransactionNumber (gatewayTransactionNumber), Type: string
+  * Name: gatewayTransactionNumber (gatewayTransactionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PaymentType extends BaseObject {
   private String gatewayTransactionNumber;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PaymentType extends BaseObject {
   private String id;
 
   /**
-  * Name: paidInvoices (paidInvoices), Type: array|PaidInvoicesType
+  * Name: paidInvoices (paidInvoices), Type: array|PaidInvoicesType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PaymentType extends BaseObject {
   private List<PaidInvoicesType> paidInvoices;
 
   /**
-  * Name: paymentMethodID (paymentMethodID), Type: string
+  * Name: paymentMethodID (paymentMethodID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PaymentType extends BaseObject {
   private String paymentMethodID;
 
   /**
-  * Name: paymentNumber (paymentNumber), Type: string
+  * Name: paymentNumber (paymentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PaymentType extends BaseObject {
   private String paymentNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PaymentType extends BaseObject {
   private String status;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

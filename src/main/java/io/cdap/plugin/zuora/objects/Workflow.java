@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Workflow (Workflow)
-* Related objects: 
+* Object name: Workflow (Workflow).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class Workflow extends BaseObject {
   /**
-  * Name: calloutTrigger (calloutTrigger), Type: boolean
+  * Name: calloutTrigger (calloutTrigger), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class Workflow extends BaseObject {
   private Boolean calloutTrigger;
 
   /**
-  * Name: createdAt (createdAt), Type: string
+  * Name: createdAt (createdAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class Workflow extends BaseObject {
   private String createdAt;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class Workflow extends BaseObject {
   private String description;
 
   /**
-  * Name: id (id), Type: integer
+  * Name: id (id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class Workflow extends BaseObject {
   private Integer id;
 
   /**
-  * Name: interval (interval), Type: string
+  * Name: interval (interval), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class Workflow extends BaseObject {
   private String interval;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class Workflow extends BaseObject {
   private String name;
 
   /**
-  * Name: ondemandTrigger (ondemandTrigger), Type: boolean
+  * Name: ondemandTrigger (ondemandTrigger), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class Workflow extends BaseObject {
   private Boolean ondemandTrigger;
 
   /**
-  * Name: scheduledTrigger (scheduledTrigger), Type: boolean
+  * Name: scheduledTrigger (scheduledTrigger), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class Workflow extends BaseObject {
   private Boolean scheduledTrigger;
 
   /**
-  * Name: timezone (timezone), Type: string
+  * Name: timezone (timezone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class Workflow extends BaseObject {
   private String timezone;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class Workflow extends BaseObject {
   private String type;
 
   /**
-  * Name: updatedAt (updatedAt), Type: string
+  * Name: updatedAt (updatedAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

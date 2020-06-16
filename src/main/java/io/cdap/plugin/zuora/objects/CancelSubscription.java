@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CancelSubscription (CancelSubscription)
-* Related objects: 
+* Object name: CancelSubscription (CancelSubscription).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CancelSubscription extends BaseObject {
   /**
-  * Name: cancellationEffectiveDate (cancellationEffectiveDate), Type: string
+  * Name: cancellationEffectiveDate (cancellationEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CancelSubscription extends BaseObject {
   private String cancellationEffectiveDate;
 
   /**
-  * Name: cancellationPolicy (cancellationPolicy), Type: string
+  * Name: cancellationPolicy (cancellationPolicy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

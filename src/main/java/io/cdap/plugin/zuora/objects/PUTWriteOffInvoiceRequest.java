@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTWriteOffInvoiceRequest (PUTWriteOffInvoiceRequest)
-* Related objects: 
+* Object name: PUTWriteOffInvoiceRequest (PUTWriteOffInvoiceRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTWriteOffInvoiceRequest extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTWriteOffInvoiceRequest extends BaseObject {
   private String comment;
 
   /**
-  * Name: items (items), Type: array|CreditMemoItemFromWriteOffInvoice
+  * Name: items (items), Type: array|CreditMemoItemFromWriteOffInvoice.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTWriteOffInvoiceRequest extends BaseObject {
   private List<CreditMemoItemFromWriteOffInvoice> items;
 
   /**
-  * Name: memoDate (memoDate), Type: string
+  * Name: memoDate (memoDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTWriteOffInvoiceRequest extends BaseObject {
   private String memoDate;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

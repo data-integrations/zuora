@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTDecryptionType (POSTDecryptionType)
-* Related objects: 
+* Object name: POSTDecryptionType (POSTDecryptionType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTDecryptionType extends BaseObject {
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTDecryptionType extends BaseObject {
   private String method;
 
   /**
-  * Name: publicKey (publicKey), Type: string
+  * Name: publicKey (publicKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTDecryptionType extends BaseObject {
   private String publicKey;
 
   /**
-  * Name: signature (signature), Type: string
+  * Name: signature (signature), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

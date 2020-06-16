@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ZObject_update (ZObject_update)
-* Related objects: 
+* Object name: ZObject_update (ZObject_update).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ZObject_update extends BaseObject {
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ZObject_update extends BaseObject {
   private String id;
 
   /**
-  * Name: fieldsToNull (fieldsToNull), Type: array|ZObject_updateFieldsToNullItem
+  * Name: fieldsToNull (fieldsToNull), Type: array|ZObject_updateFieldsToNullItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

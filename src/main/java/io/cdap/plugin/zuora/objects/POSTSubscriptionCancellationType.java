@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionCancellationType (POSTSubscriptionCancellationType)
-* Related objects: 
+* Object name: POSTSubscriptionCancellationType (POSTSubscriptionCancellationType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionCancellationType extends BaseObject {
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: cancellationEffectiveDate (cancellationEffectiveDate), Type: string
+  * Name: cancellationEffectiveDate (cancellationEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private String cancellationEffectiveDate;
 
   /**
-  * Name: cancellationPolicy (cancellationPolicy), Type: string
+  * Name: cancellationPolicy (cancellationPolicy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private String cancellationPolicy;
 
   /**
-  * Name: collect (collect), Type: boolean
+  * Name: collect (collect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private Boolean collect;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: invoice (invoice), Type: boolean
+  * Name: invoice (invoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private Boolean invoice;
 
   /**
-  * Name: invoiceCollect (invoiceCollect), Type: boolean
+  * Name: invoiceCollect (invoiceCollect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private Boolean invoiceCollect;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: runBilling (runBilling), Type: boolean
+  * Name: runBilling (runBilling), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTSubscriptionCancellationType extends BaseObject {
   private Boolean runBilling;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

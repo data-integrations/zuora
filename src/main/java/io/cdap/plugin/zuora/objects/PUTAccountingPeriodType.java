@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTAccountingPeriodType (PUTAccountingPeriodType)
-* Related objects: 
+* Object name: PUTAccountingPeriodType (PUTAccountingPeriodType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTAccountingPeriodType extends BaseObject {
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTAccountingPeriodType extends BaseObject {
   private String endDate;
 
   /**
-  * Name: fiscalYear (fiscalYear), Type: string
+  * Name: fiscalYear (fiscalYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTAccountingPeriodType extends BaseObject {
   private String fiscalYear;
 
   /**
-  * Name: fiscal_quarter (fiscal_quarter), Type: integer
+  * Name: fiscal_quarter (fiscal_quarter), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTAccountingPeriodType extends BaseObject {
   private Integer fiscal_quarter;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTAccountingPeriodType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTAccountingPeriodType extends BaseObject {
   private String notes;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoItemPartTypewithSuccess (CreditMemoItemPartTypewithSuccess)
-* Related objects: 
+* Object name: CreditMemoItemPartTypewithSuccess (CreditMemoItemPartTypewithSuccess).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String amount;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: creditMemoItemId (creditMemoItemId), Type: string
+  * Name: creditMemoItemId (creditMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String creditMemoItemId;
 
   /**
-  * Name: creditTaxItemId (creditTaxItemId), Type: string
+  * Name: creditTaxItemId (creditTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String creditTaxItemId;
 
   /**
-  * Name: debitMemoItemId (debitMemoItemId), Type: string
+  * Name: debitMemoItemId (debitMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String debitMemoItemId;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceItemId (invoiceItemId), Type: string
+  * Name: invoiceItemId (invoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String invoiceItemId;
 
   /**
-  * Name: taxItemId (taxItemId), Type: string
+  * Name: taxItemId (taxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String taxItemId;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class CreditMemoItemPartTypewithSuccess extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

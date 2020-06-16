@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectDefinitionSchemaItemPropertiesItem (CustomObjectDefinitionSchemaItemPropertiesItem)
-* Related objects: 
+* Object name: CustomObjectDefinitionSchemaItemPropertiesItem (CustomObjectDefinitionSchemaItemPropertiesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

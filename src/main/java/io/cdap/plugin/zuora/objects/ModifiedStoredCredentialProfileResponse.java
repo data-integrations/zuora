@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ModifiedStoredCredentialProfileResponse (ModifiedStoredCredentialProfileResponse)
+* Object name: ModifiedStoredCredentialProfileResponse (ModifiedStoredCredentialProfileResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class ModifiedStoredCredentialProfileResponse extends BaseObject {
   /**
-  * Name: number (number), Type: integer
+  * Name: number (number), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class ModifiedStoredCredentialProfileResponse extends BaseObject {
   private Integer number;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class ModifiedStoredCredentialProfileResponse extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

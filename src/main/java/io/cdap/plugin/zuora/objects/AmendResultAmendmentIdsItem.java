@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendResultAmendmentIdsItem (AmendResultAmendmentIdsItem)
-* Related objects: 
+* Object name: AmendResultAmendmentIdsItem (AmendResultAmendmentIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

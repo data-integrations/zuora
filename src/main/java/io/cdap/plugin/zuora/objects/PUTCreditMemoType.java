@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTCreditMemoType (PUTCreditMemoType)
-* Related objects: 
+* Object name: PUTCreditMemoType (PUTCreditMemoType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTCreditMemoType extends BaseObject {
   /**
-  * Name: autoApplyUponPosting (autoApplyUponPosting), Type: boolean
+  * Name: autoApplyUponPosting (autoApplyUponPosting), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTCreditMemoType extends BaseObject {
   private Boolean autoApplyUponPosting;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTCreditMemoType extends BaseObject {
   private String comment;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTCreditMemoType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean
+  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTCreditMemoType extends BaseObject {
   private Boolean excludeFromAutoApplyRules;
 
   /**
-  * Name: items (items), Type: array|PUTCreditMemoItemType
+  * Name: items (items), Type: array|PUTCreditMemoItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTCreditMemoType extends BaseObject {
   private List<PUTCreditMemoItemType> items;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTCreditMemoType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

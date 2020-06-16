@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSequenceSetsRequest (POSTSequenceSetsRequest)
-* Related objects: 
+* Object name: POSTSequenceSetsRequest (POSTSequenceSetsRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSequenceSetsRequest extends BaseObject {
   /**
-  * Name: sequenceSets (sequenceSets), Type: array|POSTSequenceSetRequest
+  * Name: sequenceSets (sequenceSets), Type: array|POSTSequenceSetRequest.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewAccountInfo (PreviewAccountInfo)
-* Related objects: 
+* Object name: PreviewAccountInfo (PreviewAccountInfo).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewAccountInfo extends BaseObject {
   /**
-  * Name: billCycleDay (billCycleDay), Type: integer
+  * Name: billCycleDay (billCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PreviewAccountInfo extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

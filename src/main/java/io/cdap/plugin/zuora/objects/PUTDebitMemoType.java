@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTDebitMemoType (PUTDebitMemoType)
-* Related objects: 
+* Object name: PUTDebitMemoType (PUTDebitMemoType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTDebitMemoType extends BaseObject {
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTDebitMemoType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTDebitMemoType extends BaseObject {
   private String comment;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTDebitMemoType extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTDebitMemoType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: items (items), Type: array|PUTDebitMemoItemType
+  * Name: items (items), Type: array|PUTDebitMemoItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTDebitMemoType extends BaseObject {
   private List<PUTDebitMemoItemType> items;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTDebitMemoType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

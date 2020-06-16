@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAccountTypeSubscription (POSTAccountTypeSubscription)
-* Related objects: 
+* Object name: POSTAccountTypeSubscription (POSTAccountTypeSubscription).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAccountTypeSubscription extends BaseObject {
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: initialTerm (initialTerm), Type: integer
+  * Name: initialTerm (initialTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private Integer initialTerm;
 
   /**
-  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string
+  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String invoiceOwnerAccountKey;
 
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: boolean
+  * Name: invoiceSeparately (invoiceSeparately), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private Boolean invoiceSeparately;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String notes;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: integer
+  * Name: renewalTerm (renewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType
+  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private List<POSTSrpCreateType> subscribeToRatePlans;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class POSTAccountTypeSubscription extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

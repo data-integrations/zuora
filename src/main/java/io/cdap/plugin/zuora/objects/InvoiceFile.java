@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceFile (InvoiceFile)
-* Related objects: 
+* Object name: InvoiceFile (InvoiceFile).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceFile extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceFile extends BaseObject {
   private String id;
 
   /**
-  * Name: pdfFileUrl (pdfFileUrl), Type: string
+  * Name: pdfFileUrl (pdfFileUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class InvoiceFile extends BaseObject {
   private String pdfFileUrl;
 
   /**
-  * Name: versionNumber (versionNumber), Type: integer
+  * Name: versionNumber (versionNumber), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

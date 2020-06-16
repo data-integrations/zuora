@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: GenerateBillingDocumentResponseType (GenerateBillingDocumentResponseType)
+* Object name: GenerateBillingDocumentResponseType (GenerateBillingDocumentResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class GenerateBillingDocumentResponseType extends BaseObject {
   /**
-  * Name: creditMemos (creditMemos), Type: array|CreditMemoResponseType
+  * Name: creditMemos (creditMemos), Type: array|CreditMemoResponseType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class GenerateBillingDocumentResponseType extends BaseObject {
   private List<CreditMemoResponseType> creditMemos;
 
   /**
-  * Name: invoices (invoices), Type: array|InvoiceResponseType
+  * Name: invoices (invoices), Type: array|InvoiceResponseType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class GenerateBillingDocumentResponseType extends BaseObject {
   private List<InvoiceResponseType> invoices;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

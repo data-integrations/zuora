@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageImportStatusResponseType (UsageImportStatusResponseType)
-* Related objects: 
+* Object name: UsageImportStatusResponseType (UsageImportStatusResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UsageImportStatusResponseType extends BaseObject {
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

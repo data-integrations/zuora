@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostOrderPreviewResponseType (PostOrderPreviewResponseType)
+* Object name: PostOrderPreviewResponseType (PostOrderPreviewResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")

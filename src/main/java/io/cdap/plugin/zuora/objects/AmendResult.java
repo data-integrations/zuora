@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendResult (AmendResult)
-* Related objects: 
+* Object name: AmendResult (AmendResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AmendResult extends BaseObject {
   /**
-  * Name: AmendmentIds (AmendmentIds), Type: array|AmendResultAmendmentIdsItem
+  * Name: AmendmentIds (AmendmentIds), Type: array|AmendResultAmendmentIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AmendResult extends BaseObject {
   private List<AmendResultAmendmentIdsItem> amendmentIds;
 
   /**
-  * Name: Errors (Errors), Type: array|ActionsErrorResponse
+  * Name: Errors (Errors), Type: array|ActionsErrorResponse.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AmendResult extends BaseObject {
   private List<ActionsErrorResponse> errors;
 
   /**
-  * Name: GatewayResponse (GatewayResponse), Type: string
+  * Name: GatewayResponse (GatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AmendResult extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: GatewayResponseCode (GatewayResponseCode), Type: string
+  * Name: GatewayResponseCode (GatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AmendResult extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: InvoiceDatas (InvoiceDatas), Type: array|InvoiceData
+  * Name: InvoiceDatas (InvoiceDatas), Type: array|InvoiceData.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AmendResult extends BaseObject {
   private List<InvoiceData> invoiceDatas;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class AmendResult extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: PaymentId (PaymentId), Type: string
+  * Name: PaymentId (PaymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class AmendResult extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: PaymentTransactionNumber (PaymentTransactionNumber), Type: string
+  * Name: PaymentTransactionNumber (PaymentTransactionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class AmendResult extends BaseObject {
   private String paymentTransactionNumber;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class AmendResult extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: Success (Success), Type: boolean
+  * Name: Success (Success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class AmendResult extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: TotalDeltaMrr (TotalDeltaMrr), Type: number
+  * Name: TotalDeltaMrr (TotalDeltaMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class AmendResult extends BaseObject {
   private String totalDeltaMrr;
 
   /**
-  * Name: TotalDeltaTcv (TotalDeltaTcv), Type: number
+  * Name: TotalDeltaTcv (TotalDeltaTcv), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

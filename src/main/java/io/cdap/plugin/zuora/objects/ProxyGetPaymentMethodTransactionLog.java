@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetPaymentMethodTransactionLog (ProxyGetPaymentMethodTransactionLog)
-* Related objects: 
+* Object name: ProxyGetPaymentMethodTransactionLog (ProxyGetPaymentMethodTransactionLog).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   /**
-  * Name: Gateway (Gateway), Type: string
+  * Name: Gateway (Gateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String gateway;
 
   /**
-  * Name: GatewayReasonCode (GatewayReasonCode), Type: string
+  * Name: GatewayReasonCode (GatewayReasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String gatewayReasonCode;
 
   /**
-  * Name: GatewayReasonCodeDescription (GatewayReasonCodeDescription), Type: string
+  * Name: GatewayReasonCodeDescription (GatewayReasonCodeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String gatewayReasonCodeDescription;
 
   /**
-  * Name: GatewayTransactionType (GatewayTransactionType), Type: string
+  * Name: GatewayTransactionType (GatewayTransactionType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String gatewayTransactionType;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String id;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: PaymentMethodType (PaymentMethodType), Type: string
+  * Name: PaymentMethodType (PaymentMethodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String paymentMethodType;
 
   /**
-  * Name: RequestString (RequestString), Type: string
+  * Name: RequestString (RequestString), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String requestString;
 
   /**
-  * Name: ResponseString (ResponseString), Type: string
+  * Name: ResponseString (ResponseString), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String responseString;
 
   /**
-  * Name: TransactionDate (TransactionDate), Type: string
+  * Name: TransactionDate (TransactionDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetPaymentMethodTransactionLog extends BaseObject {
   private String transactionDate;
 
   /**
-  * Name: TransactionId (TransactionId), Type: string
+  * Name: TransactionId (TransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

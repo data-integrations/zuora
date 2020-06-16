@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetProductFeature (ProxyGetProductFeature)
-* Related objects: 
+* Object name: ProxyGetProductFeature (ProxyGetProductFeature).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetProductFeature extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: FeatureId (FeatureId), Type: string
+  * Name: FeatureId (FeatureId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String featureId;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String id;
 
   /**
-  * Name: ProductId (ProductId), Type: string
+  * Name: ProductId (ProductId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String productId;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetProductFeature extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

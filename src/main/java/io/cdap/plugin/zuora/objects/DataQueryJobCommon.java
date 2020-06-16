@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DataQueryJobCommon (DataQueryJobCommon)
-* Related objects: 
+* Object name: DataQueryJobCommon (DataQueryJobCommon).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DataQueryJobCommon extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DataQueryJobCommon extends BaseObject {
   private String id;
 
   /**
-  * Name: query (query), Type: string
+  * Name: query (query), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DataQueryJobCommon extends BaseObject {
   private String query;
 
   /**
-  * Name: remainingRetries (remainingRetries), Type: integer
+  * Name: remainingRetries (remainingRetries), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DataQueryJobCommon extends BaseObject {
   private Integer remainingRetries;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

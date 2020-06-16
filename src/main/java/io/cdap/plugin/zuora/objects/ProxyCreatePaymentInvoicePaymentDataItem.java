@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreatePaymentInvoicePaymentDataItem (ProxyCreatePaymentInvoicePaymentDataItem)
-* Related objects: 
+* Object name: ProxyCreatePaymentInvoicePaymentDataItem (ProxyCreatePaymentInvoicePaymentDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreatePaymentInvoicePaymentDataItem extends BaseObject {
   /**
-  * Name: InvoicePayment (InvoicePayment), Type: array|InvoicePayment
+  * Name: InvoicePayment (InvoicePayment), Type: array|InvoicePayment.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTVerifyPaymentMethodTypeGatewayOptionsItem (PUTVerifyPaymentMethodTypeGatewayOptionsItem)
-* Related objects: 
+* Object name: PUTVerifyPaymentMethodTypeGatewayOptionsItem (PUTVerifyPaymentMethodTypeGatewayOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTVerifyPaymentMethodTypeGatewayOptionsItem extends BaseObject {
   /**
-  * Name: key (key), Type: string
+  * Name: key (key), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTVerifyPaymentMethodTypeGatewayOptionsItem extends BaseObject {
   private String key;
 
   /**
-  * Name: value (value), Type: string
+  * Name: value (value), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

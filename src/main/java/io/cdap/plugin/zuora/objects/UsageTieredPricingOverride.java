@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageTieredPricingOverride (UsageTieredPricingOverride)
-* Related objects: 
+* Object name: UsageTieredPricingOverride (UsageTieredPricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UsageTieredPricingOverride extends BaseObject {
   /**
-  * Name: ratingGroup (ratingGroup), Type: string
+  * Name: ratingGroup (ratingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class UsageTieredPricingOverride extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

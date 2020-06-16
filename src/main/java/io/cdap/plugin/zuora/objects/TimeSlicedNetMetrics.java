@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TimeSlicedNetMetrics (TimeSlicedNetMetrics)
-* Related objects: 
+* Object name: TimeSlicedNetMetrics (TimeSlicedNetMetrics).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class TimeSlicedNetMetrics extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String amount;
 
   /**
-  * Name: discountChargeNumber (discountChargeNumber), Type: string
+  * Name: discountChargeNumber (discountChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String discountChargeNumber;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String endDate;
 
   /**
-  * Name: generatedReason (generatedReason), Type: string
+  * Name: generatedReason (generatedReason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String generatedReason;
 
   /**
-  * Name: invoiceOwner (invoiceOwner), Type: string
+  * Name: invoiceOwner (invoiceOwner), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String invoiceOwner;
 
   /**
-  * Name: orderItemId (orderItemId), Type: string
+  * Name: orderItemId (orderItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String orderItemId;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String startDate;
 
   /**
-  * Name: subscriptionOwner (subscriptionOwner), Type: string
+  * Name: subscriptionOwner (subscriptionOwner), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String subscriptionOwner;
 
   /**
-  * Name: termNumber (termNumber), Type: number
+  * Name: termNumber (termNumber), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class TimeSlicedNetMetrics extends BaseObject {
   private String termNumber;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

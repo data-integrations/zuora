@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageFlatFeePricingOverride (UsageFlatFeePricingOverride)
-* Related objects: 
+* Object name: UsageFlatFeePricingOverride (UsageFlatFeePricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UsageFlatFeePricingOverride extends BaseObject {
   /**
-  * Name: listPrice (listPrice), Type: number
+  * Name: listPrice (listPrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

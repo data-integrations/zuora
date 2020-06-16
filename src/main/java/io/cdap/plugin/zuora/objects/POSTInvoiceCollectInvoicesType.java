@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTInvoiceCollectInvoicesType (POSTInvoiceCollectInvoicesType)
-* Related objects: 
+* Object name: POSTInvoiceCollectInvoicesType (POSTInvoiceCollectInvoicesType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTInvoiceCollectInvoicesType extends BaseObject {
   /**
-  * Name: invoiceAmount (invoiceAmount), Type: string
+  * Name: invoiceAmount (invoiceAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTInvoiceCollectInvoicesType extends BaseObject {
   private String invoiceAmount;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTInvoiceCollectInvoicesType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: invoiceNumber (invoiceNumber), Type: string
+  * Name: invoiceNumber (invoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

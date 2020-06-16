@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyInvoicePayment (ProxyModifyInvoicePayment)
-* Related objects: 
+* Object name: ProxyModifyInvoicePayment (ProxyModifyInvoicePayment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyInvoicePayment extends BaseObject {
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

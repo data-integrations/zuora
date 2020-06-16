@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentDebitMemoApplicationUnapplyRequestType (PaymentDebitMemoApplicationUnapplyRequestType)
-* Related objects: 
+* Object name: PaymentDebitMemoApplicationUnapplyRequestType (PaymentDebitMemoApplicationUnapplyRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentDebitMemoApplicationUnapplyRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PaymentDebitMemoApplicationUnapplyRequestType extends BaseObject {
   private String amount;
 
   /**
-  * Name: debitMemoId (debitMemoId), Type: string
+  * Name: debitMemoId (debitMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PaymentDebitMemoApplicationUnapplyRequestType extends BaseObject {
   private String debitMemoId;
 
   /**
-  * Name: items (items), Type: array|PaymentDebitMemoApplicationItemUnapplyRequestType
+  * Name: items (items), Type: array|PaymentDebitMemoApplicationItemUnapplyRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

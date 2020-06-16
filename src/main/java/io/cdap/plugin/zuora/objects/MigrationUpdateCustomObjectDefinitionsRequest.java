@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: MigrationUpdateCustomObjectDefinitionsRequest (MigrationUpdateCustomObjectDefinitionsRequest)
-* Related objects: 
+* Object name: MigrationUpdateCustomObjectDefinitionsRequest (MigrationUpdateCustomObjectDefinitionsRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class MigrationUpdateCustomObjectDefinitionsRequest extends BaseObject {
   /**
-  * Name: actions (actions), Type: array|CustomObjectDefinitionUpdateActionRequest
+  * Name: actions (actions), Type: array|CustomObjectDefinitionUpdateActionRequest.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

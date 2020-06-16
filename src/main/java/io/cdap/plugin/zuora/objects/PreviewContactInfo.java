@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewContactInfo (PreviewContactInfo)
-* Related objects: 
+* Object name: PreviewContactInfo (PreviewContactInfo).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewContactInfo extends BaseObject {
   /**
-  * Name: city (city), Type: string
+  * Name: city (city), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PreviewContactInfo extends BaseObject {
   private String city;
 
   /**
-  * Name: country (country), Type: string
+  * Name: country (country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PreviewContactInfo extends BaseObject {
   private String country;
 
   /**
-  * Name: county (county), Type: string
+  * Name: county (county), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PreviewContactInfo extends BaseObject {
   private String county;
 
   /**
-  * Name: postalCode (postalCode), Type: string
+  * Name: postalCode (postalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PreviewContactInfo extends BaseObject {
   private String postalCode;
 
   /**
-  * Name: state (state), Type: string
+  * Name: state (state), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PreviewContactInfo extends BaseObject {
   private String state;
 
   /**
-  * Name: taxRegion (taxRegion), Type: string
+  * Name: taxRegion (taxRegion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

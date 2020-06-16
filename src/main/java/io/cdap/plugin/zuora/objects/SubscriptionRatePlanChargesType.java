@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionRatePlanChargesType (SubscriptionRatePlanChargesType)
-* Related objects: 
+* Object name: SubscriptionRatePlanChargesType (SubscriptionRatePlanChargesType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionRatePlanChargesType extends BaseObject {
   /**
-  * Name: applyDiscountTo (applyDiscountTo), Type: string
+  * Name: applyDiscountTo (applyDiscountTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String applyDiscountTo;
 
   /**
-  * Name: billingDay (billingDay), Type: string
+  * Name: billingDay (billingDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String billingDay;
 
   /**
-  * Name: billingPeriod (billingPeriod), Type: string
+  * Name: billingPeriod (billingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string
+  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: billingTiming (billingTiming), Type: string
+  * Name: billingTiming (billingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: chargedThroughDate (chargedThroughDate), Type: string
+  * Name: chargedThroughDate (chargedThroughDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String chargedThroughDate;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String currency;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String description;
 
   /**
-  * Name: discountAmount (discountAmount), Type: number
+  * Name: discountAmount (discountAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: discountApplyDetails (discountApplyDetails), Type: array|DiscountApplyDetailsType
+  * Name: discountApplyDetails (discountApplyDetails), Type: array|DiscountApplyDetailsType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private List<DiscountApplyDetailsType> discountApplyDetails;
 
   /**
-  * Name: discountClass (discountClass), Type: string
+  * Name: discountClass (discountClass), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String discountClass;
 
   /**
-  * Name: discountLevel (discountLevel), Type: string
+  * Name: discountLevel (discountLevel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String discountLevel;
 
   /**
-  * Name: discountPercentage (discountPercentage), Type: number
+  * Name: discountPercentage (discountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: dmrc (dmrc), Type: string
+  * Name: dmrc (dmrc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String dmrc;
 
   /**
-  * Name: done (done), Type: boolean
+  * Name: done (done), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private Boolean done;
 
   /**
-  * Name: dtcv (dtcv), Type: string
+  * Name: dtcv (dtcv), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String dtcv;
 
   /**
-  * Name: effectiveEndDate (effectiveEndDate), Type: string
+  * Name: effectiveEndDate (effectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: effectiveStartDate (effectiveStartDate), Type: string
+  * Name: effectiveStartDate (effectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: endDateCondition (endDateCondition), Type: string
+  * Name: endDateCondition (endDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String id;
 
   /**
-  * Name: includedUnits (includedUnits), Type: number
+  * Name: includedUnits (includedUnits), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: listPriceBase (listPriceBase), Type: string
+  * Name: listPriceBase (listPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: model (model), Type: string
+  * Name: model (model), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String model;
 
   /**
-  * Name: mrr (mrr), Type: string
+  * Name: mrr (mrr), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String mrr;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -261,7 +261,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String name;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -270,7 +270,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String number;
 
   /**
-  * Name: numberOfPeriods (numberOfPeriods), Type: integer
+  * Name: numberOfPeriods (numberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -279,7 +279,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: originalChargeId (originalChargeId), Type: string
+  * Name: originalChargeId (originalChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -288,7 +288,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String originalChargeId;
 
   /**
-  * Name: overageCalculationOption (overageCalculationOption), Type: string
+  * Name: overageCalculationOption (overageCalculationOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -297,7 +297,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String overageCalculationOption;
 
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -306,7 +306,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string
+  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -315,7 +315,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String overageUnusedUnitsCreditOption;
 
   /**
-  * Name: price (price), Type: number
+  * Name: price (price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -324,7 +324,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String price;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -333,7 +333,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number
+  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -342,7 +342,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: pricingSummary (pricingSummary), Type: string
+  * Name: pricingSummary (pricingSummary), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -351,7 +351,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String pricingSummary;
 
   /**
-  * Name: processedThroughDate (processedThroughDate), Type: string
+  * Name: processedThroughDate (processedThroughDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -360,7 +360,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String processedThroughDate;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -369,7 +369,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -378,7 +378,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: ratingGroup (ratingGroup), Type: string
+  * Name: ratingGroup (ratingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -387,7 +387,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: segment (segment), Type: integer
+  * Name: segment (segment), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -396,7 +396,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private Integer segment;
 
   /**
-  * Name: smoothingModel (smoothingModel), Type: string
+  * Name: smoothingModel (smoothingModel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -405,7 +405,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String smoothingModel;
 
   /**
-  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer
+  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -414,7 +414,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: specificEndDate (specificEndDate), Type: string
+  * Name: specificEndDate (specificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -423,7 +423,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: tcv (tcv), Type: string
+  * Name: tcv (tcv), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -432,7 +432,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String tcv;
 
   /**
-  * Name: tiers (tiers), Type: array|TierType
+  * Name: tiers (tiers), Type: array|TierType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -441,7 +441,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private List<TierType> tiers;
 
   /**
-  * Name: triggerDate (triggerDate), Type: string
+  * Name: triggerDate (triggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -450,7 +450,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: triggerEvent (triggerEvent), Type: string
+  * Name: triggerEvent (triggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -459,7 +459,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -468,7 +468,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String type;
 
   /**
-  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number
+  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -477,7 +477,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String unusedUnitsCreditRates;
 
   /**
-  * Name: uom (uom), Type: string
+  * Name: uom (uom), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -486,7 +486,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String uom;
 
   /**
-  * Name: upToPeriods (upToPeriods), Type: string
+  * Name: upToPeriods (upToPeriods), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -495,7 +495,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String upToPeriods;
 
   /**
-  * Name: upToPeriodsType (upToPeriodsType), Type: string
+  * Name: upToPeriodsType (upToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -504,7 +504,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: usageRecordRatingOption (usageRecordRatingOption), Type: string
+  * Name: usageRecordRatingOption (usageRecordRatingOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -513,7 +513,7 @@ public class SubscriptionRatePlanChargesType extends BaseObject {
   private String usageRecordRatingOption;
 
   /**
-  * Name: version (version), Type: integer
+  * Name: version (version), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

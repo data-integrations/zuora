@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderForEvergreen (OrderForEvergreen)
-* Related objects: 
+* Object name: OrderForEvergreen (OrderForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderForEvergreen extends BaseObject {
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderForEvergreen extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderForEvergreen extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderForEvergreen extends BaseObject {
   private String currency;
 
   /**
-  * Name: existingAccountNumber (existingAccountNumber), Type: string
+  * Name: existingAccountNumber (existingAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class OrderForEvergreen extends BaseObject {
   private String existingAccountNumber;
 
   /**
-  * Name: orderDate (orderDate), Type: string
+  * Name: orderDate (orderDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class OrderForEvergreen extends BaseObject {
   private String orderDate;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class OrderForEvergreen extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class OrderForEvergreen extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|OrderForEvergreenSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|OrderForEvergreenSubscriptionsItem..
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class OrderForEvergreen extends BaseObject {
   private List<OrderForEvergreenSubscriptionsItem> subscriptions;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class OrderForEvergreen extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

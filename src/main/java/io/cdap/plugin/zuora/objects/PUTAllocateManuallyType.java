@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTAllocateManuallyType (PUTAllocateManuallyType)
-* Related objects: 
+* Object name: PUTAllocateManuallyType (PUTAllocateManuallyType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTAllocateManuallyType extends BaseObject {
   /**
-  * Name: eventType (eventType), Type: string
+  * Name: eventType (eventType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTAllocateManuallyType extends BaseObject {
   private String eventType;
 
   /**
-  * Name: eventTypeSystemId (eventTypeSystemId), Type: string
+  * Name: eventTypeSystemId (eventTypeSystemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTAllocateManuallyType extends BaseObject {
   private String eventTypeSystemId;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTAllocateManuallyType extends BaseObject {
   private String notes;
 
   /**
-  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType
+  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

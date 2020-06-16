@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: APaymentGatwayResponse (APaymentGatwayResponse)
-* Related objects: 
+* Object name: APaymentGatwayResponse (APaymentGatwayResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class APaymentGatwayResponse extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class APaymentGatwayResponse extends BaseObject {
   private String id;
 
   /**
-  * Name: isActive (isActive), Type: boolean
+  * Name: isActive (isActive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class APaymentGatwayResponse extends BaseObject {
   private Boolean isActive;
 
   /**
-  * Name: isDefault (isDefault), Type: boolean
+  * Name: isDefault (isDefault), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class APaymentGatwayResponse extends BaseObject {
   private Boolean isDefault;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class APaymentGatwayResponse extends BaseObject {
   private String name;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

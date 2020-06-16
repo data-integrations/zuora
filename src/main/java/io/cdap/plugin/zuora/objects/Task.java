@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Task (Task)
-* Related objects: 
+* Object name: Task (Task).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class Task extends BaseObject {
   /**
-  * Name: action_type (action_type), Type: string
+  * Name: action_type (action_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class Task extends BaseObject {
   private String action_type;
 
   /**
-  * Name: call_type (call_type), Type: string
+  * Name: call_type (call_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class Task extends BaseObject {
   private String call_type;
 
   /**
-  * Name: concurrent_limit (concurrent_limit), Type: integer
+  * Name: concurrent_limit (concurrent_limit), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class Task extends BaseObject {
   private Integer concurrent_limit;
 
   /**
-  * Name: data (data), Type: TaskDataItem
+  * Name: data (data), Type: TaskDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class Task extends BaseObject {
   private String data;
 
   /**
-  * Name: end_time (end_time), Type: string
+  * Name: end_time (end_time), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class Task extends BaseObject {
   private String end_time;
 
   /**
-  * Name: error (error), Type: string
+  * Name: error (error), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class Task extends BaseObject {
   private String error;
 
   /**
-  * Name: error_class (error_class), Type: string
+  * Name: error_class (error_class), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class Task extends BaseObject {
   private String error_class;
 
   /**
-  * Name: error_details (error_details), Type: string
+  * Name: error_details (error_details), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class Task extends BaseObject {
   private String error_details;
 
   /**
-  * Name: id (id), Type: integer
+  * Name: id (id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class Task extends BaseObject {
   private Integer id;
 
   /**
-  * Name: instance (instance), Type: boolean
+  * Name: instance (instance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class Task extends BaseObject {
   private Boolean instance;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class Task extends BaseObject {
   private String name;
 
   /**
-  * Name: object (object), Type: string
+  * Name: object (object), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class Task extends BaseObject {
   private String object;
 
   /**
-  * Name: object_id (object_id), Type: string
+  * Name: object_id (object_id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class Task extends BaseObject {
   private String object_id;
 
   /**
-  * Name: original_task_id (original_task_id), Type: integer
+  * Name: original_task_id (original_task_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class Task extends BaseObject {
   private Integer original_task_id;
 
   /**
-  * Name: original_workflow_id (original_workflow_id), Type: integer
+  * Name: original_workflow_id (original_workflow_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class Task extends BaseObject {
   private Integer original_workflow_id;
 
   /**
-  * Name: parameters (parameters), Type: TaskParametersItem
+  * Name: parameters (parameters), Type: TaskParametersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class Task extends BaseObject {
   private String parameters;
 
   /**
-  * Name: start_time (start_time), Type: string
+  * Name: start_time (start_time), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class Task extends BaseObject {
   private String start_time;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class Task extends BaseObject {
   private String status;
 
   /**
-  * Name: tags (tags), Type: array|TaskTagsItem
+  * Name: tags (tags), Type: array|TaskTagsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class Task extends BaseObject {
   private List<TaskTagsItem> tags;
 
   /**
-  * Name: task_id (task_id), Type: integer
+  * Name: task_id (task_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class Task extends BaseObject {
   private Integer task_id;
 
   /**
-  * Name: workflow_id (workflow_id), Type: integer
+  * Name: workflow_id (workflow_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

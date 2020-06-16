@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendmentRatePlanChargeDataRatePlanCharge (AmendmentRatePlanChargeDataRatePlanCharge)
-* Related objects: 
+* Object name: AmendmentRatePlanChargeDataRatePlanCharge (AmendmentRatePlanChargeDataRatePlanCharge).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   /**
-  * Name: BillCycleType (BillCycleType), Type: string
+  * Name: BillCycleType (BillCycleType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String billCycleType;
 
   /**
-  * Name: BillingPeriod (BillingPeriod), Type: string
+  * Name: BillingPeriod (BillingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: BillingTiming (BillingTiming), Type: string
+  * Name: BillingTiming (BillingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: ChargeNumber (ChargeNumber), Type: string
+  * Name: ChargeNumber (ChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: DiscountAmount (DiscountAmount), Type: string
+  * Name: DiscountAmount (DiscountAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: DiscountPercentage (DiscountPercentage), Type: string
+  * Name: DiscountPercentage (DiscountPercentage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: EndDateCondition (EndDateCondition), Type: string
+  * Name: EndDateCondition (EndDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: ListPriceBase (ListPriceBase), Type: string
+  * Name: ListPriceBase (ListPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: Price (Price), Type: string
+  * Name: Price (Price), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String price;
 
   /**
-  * Name: PriceChangeOption (PriceChangeOption), Type: string
+  * Name: PriceChangeOption (PriceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: string
+  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: ProductRatePlanChargeId (ProductRatePlanChargeId), Type: string
+  * Name: ProductRatePlanChargeId (ProductRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: Quantity (Quantity), Type: number
+  * Name: Quantity (Quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String quantity;
 
   /**
-  * Name: RatingGroup (RatingGroup), Type: string
+  * Name: RatingGroup (RatingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: RevRecCode (RevRecCode), Type: string
+  * Name: RevRecCode (RevRecCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String revRecCode;
 
   /**
-  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string
+  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String revRecTriggerCondition;
 
   /**
-  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string
+  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: SpecificBillingPeriod (SpecificBillingPeriod), Type: integer
+  * Name: SpecificBillingPeriod (SpecificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: SpecificEndDate (SpecificEndDate), Type: string
+  * Name: SpecificEndDate (SpecificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: TriggerDate (TriggerDate), Type: string
+  * Name: TriggerDate (TriggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: TriggerEvent (TriggerEvent), Type: string
+  * Name: TriggerEvent (TriggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: UpToPeriods (UpToPeriods), Type: integer
+  * Name: UpToPeriods (UpToPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private Integer upToPeriods;
 
   /**
-  * Name: UpToPeriodsType (UpToPeriodsType), Type: string
+  * Name: UpToPeriodsType (UpToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class AmendmentRatePlanChargeDataRatePlanCharge extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string
+  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

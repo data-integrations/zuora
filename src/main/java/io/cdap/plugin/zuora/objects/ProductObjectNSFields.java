@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductObjectNSFields (ProductObjectNSFields)
-* Related objects: 
+* Object name: ProductObjectNSFields (ProductObjectNSFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProductObjectNSFields extends BaseObject {
   /**
-  * Name: IntegrationId__NS (IntegrationId__NS), Type: string
+  * Name: IntegrationId__NS (IntegrationId__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProductObjectNSFields extends BaseObject {
   private String integrationId__NS;
 
   /**
-  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string
+  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProductObjectNSFields extends BaseObject {
   private String integrationStatus__NS;
 
   /**
-  * Name: ItemType__NS (ItemType__NS), Type: string
+  * Name: ItemType__NS (ItemType__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProductObjectNSFields extends BaseObject {
   private String itemType__NS;
 
   /**
-  * Name: SyncDate__NS (SyncDate__NS), Type: string
+  * Name: SyncDate__NS (SyncDate__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

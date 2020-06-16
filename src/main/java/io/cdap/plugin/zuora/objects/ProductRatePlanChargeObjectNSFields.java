@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargeObjectNSFields (ProductRatePlanChargeObjectNSFields)
-* Related objects: 
+* Object name: ProductRatePlanChargeObjectNSFields (ProductRatePlanChargeObjectNSFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   /**
-  * Name: Class__NS (Class__NS), Type: string
+  * Name: Class__NS (Class__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String class__NS;
 
   /**
-  * Name: DeferredRevAccount__NS (DeferredRevAccount__NS), Type: string
+  * Name: DeferredRevAccount__NS (DeferredRevAccount__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String deferredRevAccount__NS;
 
   /**
-  * Name: Department__NS (Department__NS), Type: string
+  * Name: Department__NS (Department__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String department__NS;
 
   /**
-  * Name: IncludeChildren__NS (IncludeChildren__NS), Type: string
+  * Name: IncludeChildren__NS (IncludeChildren__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String includeChildren__NS;
 
   /**
-  * Name: IntegrationId__NS (IntegrationId__NS), Type: string
+  * Name: IntegrationId__NS (IntegrationId__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String integrationId__NS;
 
   /**
-  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string
+  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String integrationStatus__NS;
 
   /**
-  * Name: ItemType__NS (ItemType__NS), Type: string
+  * Name: ItemType__NS (ItemType__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String itemType__NS;
 
   /**
-  * Name: Location__NS (Location__NS), Type: string
+  * Name: Location__NS (Location__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String location__NS;
 
   /**
-  * Name: RecognizedRevAccount__NS (RecognizedRevAccount__NS), Type: string
+  * Name: RecognizedRevAccount__NS (RecognizedRevAccount__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String recognizedRevAccount__NS;
 
   /**
-  * Name: RevRecEnd__NS (RevRecEnd__NS), Type: string
+  * Name: RevRecEnd__NS (RevRecEnd__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String revRecEnd__NS;
 
   /**
-  * Name: RevRecStart__NS (RevRecStart__NS), Type: string
+  * Name: RevRecStart__NS (RevRecStart__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String revRecStart__NS;
 
   /**
-  * Name: RevRecTemplateType__NS (RevRecTemplateType__NS), Type: string
+  * Name: RevRecTemplateType__NS (RevRecTemplateType__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String revRecTemplateType__NS;
 
   /**
-  * Name: Subsidiary__NS (Subsidiary__NS), Type: string
+  * Name: Subsidiary__NS (Subsidiary__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProductRatePlanChargeObjectNSFields extends BaseObject {
   private String subsidiary__NS;
 
   /**
-  * Name: SyncDate__NS (SyncDate__NS), Type: string
+  * Name: SyncDate__NS (SyncDate__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

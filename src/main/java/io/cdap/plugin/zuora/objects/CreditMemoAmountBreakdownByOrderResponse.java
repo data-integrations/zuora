@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoAmountBreakdownByOrderResponse (CreditMemoAmountBreakdownByOrderResponse)
+* Object name: CreditMemoAmountBreakdownByOrderResponse (CreditMemoAmountBreakdownByOrderResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoAmountBreakdownByOrderResponse extends BaseObject {
   /**
-  * Name: breakdowns (breakdowns), Type: array|CreditMemoItemBreakdown
+  * Name: breakdowns (breakdowns), Type: array|CreditMemoItemBreakdown.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class CreditMemoAmountBreakdownByOrderResponse extends BaseObject {
   private List<CreditMemoItemBreakdown> breakdowns;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

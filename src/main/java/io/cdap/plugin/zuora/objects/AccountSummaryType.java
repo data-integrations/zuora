@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryType (AccountSummaryType)
-* Related objects: 
+* Object name: AccountSummaryType (AccountSummaryType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryType extends BaseObject {
   /**
-  * Name: invoices (invoices), Type: array|AccountSummaryInvoiceType
+  * Name: invoices (invoices), Type: array|AccountSummaryInvoiceType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AccountSummaryType extends BaseObject {
   private List<AccountSummaryInvoiceType> invoices;
 
   /**
-  * Name: payments (payments), Type: array|AccountSummaryPaymentType
+  * Name: payments (payments), Type: array|AccountSummaryPaymentType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AccountSummaryType extends BaseObject {
   private List<AccountSummaryPaymentType> payments;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|AccountSummarySubscriptionType
+  * Name: subscriptions (subscriptions), Type: array|AccountSummarySubscriptionType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AccountSummaryType extends BaseObject {
   private List<AccountSummarySubscriptionType> subscriptions;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AccountSummaryType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: taxInfo (taxInfo), Type: AccountSummaryTypeTaxInfoItem
+  * Name: taxInfo (taxInfo), Type: AccountSummaryTypeTaxInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AccountSummaryType extends BaseObject {
   private String taxInfo;
 
   /**
-  * Name: usage (usage), Type: array|AccountSummaryUsageType
+  * Name: usage (usage), Type: array|AccountSummaryUsageType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

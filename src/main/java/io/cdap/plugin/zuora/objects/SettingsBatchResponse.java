@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingsBatchResponse (SettingsBatchResponse)
-* Related objects: 
+* Object name: SettingsBatchResponse (SettingsBatchResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingsBatchResponse extends BaseObject {
   /**
-  * Name: responses (responses), Type: array|SettingValueResponseWrapper
+  * Name: responses (responses), Type: array|SettingValueResponseWrapper.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

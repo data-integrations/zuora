@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -13,6 +13,7 @@
  *  License for the specific language governing permissions and limitations under
  *  the License.
  */
+
 package io.cdap.plugin.zuora.objects;
 
 import com.google.gson.annotations.SerializedName;
@@ -26,7 +27,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Order (Order)
+* Object name: Order (Order).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -38,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class Order extends BaseObject {
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -47,7 +48,7 @@ public class Order extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -56,7 +57,7 @@ public class Order extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -65,7 +66,7 @@ public class Order extends BaseObject {
   private String currency;
 
   /**
-  * Name: existingAccountNumber (existingAccountNumber), Type: string
+  * Name: existingAccountNumber (existingAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -74,7 +75,7 @@ public class Order extends BaseObject {
   private String existingAccountNumber;
 
   /**
-  * Name: orderDate (orderDate), Type: string
+  * Name: orderDate (orderDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -83,7 +84,7 @@ public class Order extends BaseObject {
   private String orderDate;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -92,7 +93,7 @@ public class Order extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -101,7 +102,7 @@ public class Order extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|OrderSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|OrderSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -110,7 +111,7 @@ public class Order extends BaseObject {
   private List<OrderSubscriptionsItem> subscriptions;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -119,14 +120,13 @@ public class Order extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
   @SerializedName("updatedDate")
   @ObjectFieldDefinition(FieldType = Schema.Type.STRING)
   private String updatedDate;
-
 
   @Override
   public void addFields() {

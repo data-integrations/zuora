@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutInvoiceResponseType (PutInvoiceResponseType)
-* Related objects: 
+* Object name: PutInvoiceResponseType (PutInvoiceResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutInvoiceResponseType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String amount;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: balance (balance), Type: number
+  * Name: balance (balance), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String balance;
 
   /**
-  * Name: cancelledById (cancelledById), Type: string
+  * Name: cancelledById (cancelledById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String cancelledById;
 
   /**
-  * Name: cancelledOn (cancelledOn), Type: string
+  * Name: cancelledOn (cancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String comment;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: creditBalanceAdjustmentAmount (creditBalanceAdjustmentAmount), Type: number
+  * Name: creditBalanceAdjustmentAmount (creditBalanceAdjustmentAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String creditBalanceAdjustmentAmount;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String currency;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceDate (invoiceDate), Type: string
+  * Name: invoiceDate (invoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String number;
 
   /**
-  * Name: postedById (postedById), Type: string
+  * Name: postedById (postedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String postedById;
 
   /**
-  * Name: postedOn (postedOn), Type: string
+  * Name: postedOn (postedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String postedOn;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number
+  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String totalTaxExemptAmount;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class PutInvoiceResponseType extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

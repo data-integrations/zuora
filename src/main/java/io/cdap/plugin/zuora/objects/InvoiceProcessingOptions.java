@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceProcessingOptions (InvoiceProcessingOptions)
-* Related objects: 
+* Object name: InvoiceProcessingOptions (InvoiceProcessingOptions).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceProcessingOptions extends BaseObject {
   /**
-  * Name: InvoiceDate (InvoiceDate), Type: string
+  * Name: InvoiceDate (InvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceProcessingOptions extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: InvoiceTargetDate (InvoiceTargetDate), Type: string
+  * Name: InvoiceTargetDate (InvoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

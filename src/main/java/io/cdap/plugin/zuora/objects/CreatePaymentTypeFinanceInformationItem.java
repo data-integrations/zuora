@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreatePaymentTypeFinanceInformationItem (CreatePaymentTypeFinanceInformationItem)
-* Related objects: 
+* Object name: CreatePaymentTypeFinanceInformationItem (CreatePaymentTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreatePaymentTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: bankAccountAccountingCode (bankAccountAccountingCode), Type: string
+  * Name: bankAccountAccountingCode (bankAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreatePaymentTypeFinanceInformationItem extends BaseObject {
   private String bankAccountAccountingCode;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreatePaymentTypeFinanceInformationItem extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: unappliedPaymentAccountingCode (unappliedPaymentAccountingCode), Type: string
+  * Name: unappliedPaymentAccountingCode (unappliedPaymentAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

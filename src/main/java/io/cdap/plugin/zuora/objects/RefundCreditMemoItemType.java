@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RefundCreditMemoItemType (RefundCreditMemoItemType)
-* Related objects: 
+* Object name: RefundCreditMemoItemType (RefundCreditMemoItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RefundCreditMemoItemType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RefundCreditMemoItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: creditMemoItemId (creditMemoItemId), Type: string
+  * Name: creditMemoItemId (creditMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RefundCreditMemoItemType extends BaseObject {
   private String creditMemoItemId;
 
   /**
-  * Name: creditTaxItemId (creditTaxItemId), Type: string
+  * Name: creditTaxItemId (creditTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

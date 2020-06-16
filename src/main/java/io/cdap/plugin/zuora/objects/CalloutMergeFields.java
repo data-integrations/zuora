@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CalloutMergeFields (CalloutMergeFields)
-* Related objects: 
+* Object name: CalloutMergeFields (CalloutMergeFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

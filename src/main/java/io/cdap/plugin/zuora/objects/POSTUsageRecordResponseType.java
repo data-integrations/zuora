@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTUsageRecordResponseType (POSTUsageRecordResponseType)
-* Related objects: 
+* Object name: POSTUsageRecordResponseType (POSTUsageRecordResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTUsageRecordResponseType extends BaseObject {
   /**
-  * Name: data (data), Type: array|POSTUsageRecordResponseTypeDataItem
+  * Name: data (data), Type: array|POSTUsageRecordResponseTypeDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

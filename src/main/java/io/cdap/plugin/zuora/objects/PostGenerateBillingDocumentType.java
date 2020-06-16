@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostGenerateBillingDocumentType (PostGenerateBillingDocumentType)
-* Related objects: 
+* Object name: PostGenerateBillingDocumentType (PostGenerateBillingDocumentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PostGenerateBillingDocumentType extends BaseObject {
   /**
-  * Name: autoPost (autoPost), Type: boolean
+  * Name: autoPost (autoPost), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PostGenerateBillingDocumentType extends BaseObject {
   private Boolean autoPost;
 
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PostGenerateBillingDocumentType extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: array|PostGenerateBillingDocumentTypeChargeTypeToExcludeItem
+  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: array|PostGenerateBillingDocumentTypeChargeTypeToExcludeItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PostGenerateBillingDocumentType extends BaseObject {
   private List<PostGenerateBillingDocumentTypeChargeTypeToExcludeItem> chargeTypeToExclude;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PostGenerateBillingDocumentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: subscriptionIds (subscriptionIds), Type: array|PostGenerateBillingDocumentTypeSubscriptionIdsItem
+  * Name: subscriptionIds (subscriptionIds), Type: array|PostGenerateBillingDocumentTypeSubscriptionIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PostGenerateBillingDocumentType extends BaseObject {
   private List<PostGenerateBillingDocumentTypeSubscriptionIdsItem> subscriptionIds;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

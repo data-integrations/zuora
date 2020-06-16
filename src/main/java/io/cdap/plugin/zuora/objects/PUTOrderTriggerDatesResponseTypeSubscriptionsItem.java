@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderTriggerDatesResponseTypeSubscriptionsItem (PUTOrderTriggerDatesResponseTypeSubscriptionsItem)
-* Related objects: 
+* Object name: PUTOrderTriggerDatesResponseTypeSubscriptionsItem (PUTOrderTriggerDatesResponseTypeSubscriptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderTriggerDatesResponseTypeSubscriptionsItem extends BaseObject {
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTOrderTriggerDatesResponseTypeSubscriptionsItem extends BaseObjec
   private String status;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

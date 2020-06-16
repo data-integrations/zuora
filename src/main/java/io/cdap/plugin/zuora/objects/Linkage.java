@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Linkage (Linkage)
-* Related objects: 
+* Object name: Linkage (Linkage).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class Linkage extends BaseObject {
   /**
-  * Name: linkage_type (linkage_type), Type: string
+  * Name: linkage_type (linkage_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class Linkage extends BaseObject {
   private String linkage_type;
 
   /**
-  * Name: source_task_id (source_task_id), Type: integer
+  * Name: source_task_id (source_task_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class Linkage extends BaseObject {
   private Integer source_task_id;
 
   /**
-  * Name: source_workflow_id (source_workflow_id), Type: integer
+  * Name: source_workflow_id (source_workflow_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class Linkage extends BaseObject {
   private Integer source_workflow_id;
 
   /**
-  * Name: target_task_id (target_task_id), Type: integer
+  * Name: target_task_id (target_task_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewResultInvoicesItem (PreviewResultInvoicesItem)
-* Related objects: 
+* Object name: PreviewResultInvoicesItem (PreviewResultInvoicesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewResultInvoicesItem extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewResultInvoicesItem extends BaseObject {
   private String amount;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PreviewResultInvoicesItem extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: invoiceItems (invoiceItems), Type: array|InvoiceItemPreviewResult
+  * Name: invoiceItems (invoiceItems), Type: array|InvoiceItemPreviewResult.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PreviewResultInvoicesItem extends BaseObject {
   private List<InvoiceItemPreviewResult> invoiceItems;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PreviewResultInvoicesItem extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

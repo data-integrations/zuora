@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectAllFieldsDefinition (CustomObjectAllFieldsDefinition)
-* Related objects: 
+* Object name: CustomObjectAllFieldsDefinition (CustomObjectAllFieldsDefinition).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectAllFieldsDefinition extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: CustomObjectAllFieldsDefinitionCreatedByIdItem
+  * Name: CreatedById (CreatedById), Type: CustomObjectAllFieldsDefinitionCreatedByIdItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomObjectAllFieldsDefinition extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: CustomObjectAllFieldsDefinitionCreatedDateItem
+  * Name: CreatedDate (CreatedDate), Type: CustomObjectAllFieldsDefinitionCreatedDateItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomObjectAllFieldsDefinition extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Id (Id), Type: CustomObjectAllFieldsDefinitionIdItem
+  * Name: Id (Id), Type: CustomObjectAllFieldsDefinitionIdItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CustomObjectAllFieldsDefinition extends BaseObject {
   private String id;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: CustomObjectAllFieldsDefinitionUpdatedByIdItem
+  * Name: UpdatedById (UpdatedById), Type: CustomObjectAllFieldsDefinitionUpdatedByIdItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CustomObjectAllFieldsDefinition extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: CustomObjectAllFieldsDefinitionUpdatedDateItem
+  * Name: UpdatedDate (UpdatedDate), Type: CustomObjectAllFieldsDefinitionUpdatedDateItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

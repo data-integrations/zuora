@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummarySubscriptionRatePlanType (AccountSummarySubscriptionRatePlanType)
-* Related objects: 
+* Object name: AccountSummarySubscriptionRatePlanType (AccountSummarySubscriptionRatePlanType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummarySubscriptionRatePlanType extends BaseObject {
   /**
-  * Name: productId (productId), Type: string
+  * Name: productId (productId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountSummarySubscriptionRatePlanType extends BaseObject {
   private String productId;
 
   /**
-  * Name: productName (productName), Type: string
+  * Name: productName (productName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountSummarySubscriptionRatePlanType extends BaseObject {
   private String productName;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountSummarySubscriptionRatePlanType extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: productSku (productSku), Type: string
+  * Name: productSku (productSku), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountSummarySubscriptionRatePlanType extends BaseObject {
   private String productSku;
 
   /**
-  * Name: ratePlanName (ratePlanName), Type: string
+  * Name: ratePlanName (ratePlanName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingValueResponse (SettingValueResponse)
-* Related objects: 
+* Object name: SettingValueResponse (SettingValueResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingValueResponse extends BaseObject {
   /**
-  * Name: errorMessages (errorMessages), Type: array|SettingValueResponseErrorMessagesItem
+  * Name: errorMessages (errorMessages), Type: array|SettingValueResponseErrorMessagesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SettingValueResponse extends BaseObject {
   private List<SettingValueResponseErrorMessagesItem> errorMessages;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewResultOrderMetricsItemOrderActionsItem (PreviewResultOrderMetricsItemOrderActionsItem)
-* Related objects: 
+* Object name: PreviewResultOrderMetricsItemOrderActionsItem (PreviewResultOrderMetricsItemOrderActionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewResultOrderMetricsItemOrderActionsItem extends BaseObject {
   /**
-  * Name: orderItems (orderItems), Type: array|OrderItem
+  * Name: orderItems (orderItems), Type: array|OrderItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewResultOrderMetricsItemOrderActionsItem extends BaseObject {
   private List<OrderItem> orderItems;
 
   /**
-  * Name: orderMetrics (orderMetrics), Type: array|OrderMetric
+  * Name: orderMetrics (orderMetrics), Type: array|OrderMetric.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PreviewResultOrderMetricsItemOrderActionsItem extends BaseObject {
   private List<OrderMetric> orderMetrics;
 
   /**
-  * Name: sequence (sequence), Type: string
+  * Name: sequence (sequence), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PreviewResultOrderMetricsItemOrderActionsItem extends BaseObject {
   private String sequence;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

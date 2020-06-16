@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreatePayment (ProxyCreatePayment)
-* Related objects: 
+* Object name: ProxyCreatePayment (ProxyCreatePayment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreatePayment extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String amount;
 
   /**
-  * Name: AppliedCreditBalanceAmount (AppliedCreditBalanceAmount), Type: number
+  * Name: AppliedCreditBalanceAmount (AppliedCreditBalanceAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String appliedCreditBalanceAmount;
 
   /**
-  * Name: AppliedInvoiceAmount (AppliedInvoiceAmount), Type: number
+  * Name: AppliedInvoiceAmount (AppliedInvoiceAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String appliedInvoiceAmount;
 
   /**
-  * Name: AuthTransactionId (AuthTransactionId), Type: string
+  * Name: AuthTransactionId (AuthTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String authTransactionId;
 
   /**
-  * Name: Comment (Comment), Type: string
+  * Name: Comment (Comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String comment;
 
   /**
-  * Name: EffectiveDate (EffectiveDate), Type: string
+  * Name: EffectiveDate (EffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: Gateway (Gateway), Type: string
+  * Name: Gateway (Gateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gateway;
 
   /**
-  * Name: GatewayOptionData (GatewayOptionData), Type: ProxyCreatePaymentGatewayOptionDataItem
+  * Name: GatewayOptionData (GatewayOptionData), Type: ProxyCreatePaymentGatewayOptionDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gatewayOptionData;
 
   /**
-  * Name: GatewayOrderId (GatewayOrderId), Type: string
+  * Name: GatewayOrderId (GatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gatewayOrderId;
 
   /**
-  * Name: GatewayResponse (GatewayResponse), Type: string
+  * Name: GatewayResponse (GatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: GatewayResponseCode (GatewayResponseCode), Type: string
+  * Name: GatewayResponseCode (GatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: GatewayState (GatewayState), Type: string
+  * Name: GatewayState (GatewayState), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String gatewayState;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: InvoiceNumber (InvoiceNumber), Type: string
+  * Name: InvoiceNumber (InvoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: InvoicePaymentData (InvoicePaymentData), Type: ProxyCreatePaymentInvoicePaymentDataItem
+  * Name: InvoicePaymentData (InvoicePaymentData), Type: ProxyCreatePaymentInvoicePaymentDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String invoicePaymentData;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: PaymentNumber (PaymentNumber), Type: string
+  * Name: PaymentNumber (PaymentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String paymentNumber;
 
   /**
-  * Name: ReferenceId (ReferenceId), Type: string
+  * Name: ReferenceId (ReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: SoftDescriptor (SoftDescriptor), Type: string
+  * Name: SoftDescriptor (SoftDescriptor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String softDescriptor;
 
   /**
-  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string
+  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String softDescriptorPhone;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyCreatePayment extends BaseObject {
   private String status;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

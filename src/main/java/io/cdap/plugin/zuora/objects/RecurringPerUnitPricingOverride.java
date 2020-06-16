@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RecurringPerUnitPricingOverride (RecurringPerUnitPricingOverride)
-* Related objects: 
+* Object name: RecurringPerUnitPricingOverride (RecurringPerUnitPricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RecurringPerUnitPricingOverride extends BaseObject {
   /**
-  * Name: listPrice (listPrice), Type: number
+  * Name: listPrice (listPrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RecurringPerUnitPricingOverride extends BaseObject {
   private String listPrice;
 
   /**
-  * Name: listPriceBase (listPriceBase), Type: string
+  * Name: listPriceBase (listPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RecurringPerUnitPricingOverride extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

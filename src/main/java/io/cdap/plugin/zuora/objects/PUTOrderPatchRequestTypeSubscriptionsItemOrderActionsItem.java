@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem (PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem)
-* Related objects: 
+* Object name: PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem (PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem extends BaseObject {
   /**
-  * Name: sequence (sequence), Type: integer
+  * Name: sequence (sequence), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

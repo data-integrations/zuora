@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendmentRatePlanChargeTier (AmendmentRatePlanChargeTier)
-* Related objects: 
+* Object name: AmendmentRatePlanChargeTier (AmendmentRatePlanChargeTier).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AmendmentRatePlanChargeTier extends BaseObject {
   /**
-  * Name: PriceFormat (PriceFormat), Type: string
+  * Name: PriceFormat (PriceFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AmendmentRatePlanChargeTier extends BaseObject {
   private String priceFormat;
 
   /**
-  * Name: RatePlanChargeId (RatePlanChargeId), Type: string
+  * Name: RatePlanChargeId (RatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

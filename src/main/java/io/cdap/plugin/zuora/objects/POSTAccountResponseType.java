@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAccountResponseType (POSTAccountResponseType)
+* Object name: POSTAccountResponseType (POSTAccountResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAccountResponseType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: billToContactId (billToContactId), Type: string
+  * Name: billToContactId (billToContactId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String billToContactId;
 
   /**
-  * Name: contractedMrr (contractedMrr), Type: string
+  * Name: contractedMrr (contractedMrr), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String contractedMrr;
 
   /**
-  * Name: creditMemoId (creditMemoId), Type: string
+  * Name: creditMemoId (creditMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -84,7 +84,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String creditMemoId;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -93,7 +93,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: paidAmount (paidAmount), Type: string
+  * Name: paidAmount (paidAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -102,7 +102,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -111,7 +111,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -120,7 +120,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: soldToContactId (soldToContactId), Type: string
+  * Name: soldToContactId (soldToContactId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -129,7 +129,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String soldToContactId;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -138,7 +138,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -147,7 +147,7 @@ public class POSTAccountResponseType extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -156,7 +156,7 @@ public class POSTAccountResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: totalContractedValue (totalContractedValue), Type: string
+  * Name: totalContractedValue (totalContractedValue), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

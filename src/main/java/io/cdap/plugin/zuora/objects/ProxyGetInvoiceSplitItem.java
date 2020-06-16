@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetInvoiceSplitItem (ProxyGetInvoiceSplitItem)
-* Related objects: 
+* Object name: ProxyGetInvoiceSplitItem (ProxyGetInvoiceSplitItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetInvoiceSplitItem extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String id;
 
   /**
-  * Name: InvoiceDate (InvoiceDate), Type: string
+  * Name: InvoiceDate (InvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: InvoiceSplitId (InvoiceSplitId), Type: string
+  * Name: InvoiceSplitId (InvoiceSplitId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String invoiceSplitId;
 
   /**
-  * Name: PaymentTerm (PaymentTerm), Type: string
+  * Name: PaymentTerm (PaymentTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String paymentTerm;
 
   /**
-  * Name: SplitPercentage (SplitPercentage), Type: number
+  * Name: SplitPercentage (SplitPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String splitPercentage;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetInvoiceSplitItem extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

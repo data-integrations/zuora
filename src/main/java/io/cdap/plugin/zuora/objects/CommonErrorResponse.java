@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonErrorResponse (CommonErrorResponse)
-* Related objects: 
+* Object name: CommonErrorResponse (CommonErrorResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CommonErrorResponse extends BaseObject {
   /**
-  * Name: code (code), Type: integer
+  * Name: code (code), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CommonErrorResponse extends BaseObject {
   private Integer code;
 
   /**
-  * Name: message (message), Type: string
+  * Name: message (message), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

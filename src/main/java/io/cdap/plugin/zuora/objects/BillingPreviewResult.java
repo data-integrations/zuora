@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BillingPreviewResult (BillingPreviewResult)
+* Object name: BillingPreviewResult (BillingPreviewResult).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class BillingPreviewResult extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class BillingPreviewResult extends BaseObject {
   private String accountId;
 
   /**
-  * Name: creditMemoItems (creditMemoItems), Type: array|POSTBillingPreviewCreditMemoItem
+  * Name: creditMemoItems (creditMemoItems), Type: array|POSTBillingPreviewCreditMemoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class BillingPreviewResult extends BaseObject {
   private List<POSTBillingPreviewCreditMemoItem> creditMemoItems;
 
   /**
-  * Name: invoiceItems (invoiceItems), Type: array|POSTBillingPreviewInvoiceItem
+  * Name: invoiceItems (invoiceItems), Type: array|POSTBillingPreviewInvoiceItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class BillingPreviewResult extends BaseObject {
   private List<POSTBillingPreviewInvoiceItem> invoiceItems;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

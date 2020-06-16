@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectDefinitionSchemaItem (CustomObjectDefinitionSchemaItem)
-* Related objects: 
+* Object name: CustomObjectDefinitionSchemaItem (CustomObjectDefinitionSchemaItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectDefinitionSchemaItem extends BaseObject {
   /**
-  * Name: label (label), Type: string
+  * Name: label (label), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CustomObjectDefinitionSchemaItem extends BaseObject {
   private String label;
 
   /**
-  * Name: object (object), Type: string
+  * Name: object (object), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CustomObjectDefinitionSchemaItem extends BaseObject {
   private String object;
 
   /**
-  * Name: properties (properties), Type: CustomObjectDefinitionSchemaItemPropertiesItem
+  * Name: properties (properties), Type: CustomObjectDefinitionSchemaItemPropertiesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CustomObjectDefinitionSchemaItem extends BaseObject {
   private String properties;
 
   /**
-  * Name: relationships (relationships), Type: array|CustomObjectDefinitionSchemaItemRelationshipsItem
+  * Name: relationships (relationships), Type: array|CustomObjectDefinitionSchemaItemRelationshipsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class CustomObjectDefinitionSchemaItem extends BaseObject {
   private List<CustomObjectDefinitionSchemaItemRelationshipsItem> relationships;
 
   /**
-  * Name: required (required), Type: array|CustomObjectDefinitionSchemaItemRequiredItem
+  * Name: required (required), Type: array|CustomObjectDefinitionSchemaItemRequiredItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class CustomObjectDefinitionSchemaItem extends BaseObject {
   private List<CustomObjectDefinitionSchemaItemRequiredItem> required;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

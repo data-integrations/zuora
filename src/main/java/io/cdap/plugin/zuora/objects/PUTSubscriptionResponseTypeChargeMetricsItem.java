@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionResponseTypeChargeMetricsItem (PUTSubscriptionResponseTypeChargeMetricsItem)
-* Related objects: 
+* Object name: PUTSubscriptionResponseTypeChargeMetricsItem (PUTSubscriptionResponseTypeChargeMetricsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   /**
-  * Name: dmrr (dmrr), Type: string
+  * Name: dmrr (dmrr), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String dmrr;
 
   /**
-  * Name: dtcv (dtcv), Type: string
+  * Name: dtcv (dtcv), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String dtcv;
 
   /**
-  * Name: mrr (mrr), Type: string
+  * Name: mrr (mrr), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String mrr;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String number;
 
   /**
-  * Name: originRatePlanId (originRatePlanId), Type: string
+  * Name: originRatePlanId (originRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String originRatePlanId;
 
   /**
-  * Name: originalId (originalId), Type: string
+  * Name: originalId (originalId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String originalId;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PUTSubscriptionResponseTypeChargeMetricsItem extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: tcv (tcv), Type: string
+  * Name: tcv (tcv), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

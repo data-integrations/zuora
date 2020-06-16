@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionResponseType (PUTSubscriptionResponseType)
-* Related objects: 
+* Object name: PUTSubscriptionResponseType (PUTSubscriptionResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSubscriptionResponseType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String amount;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: chargeMetrics (chargeMetrics), Type: PUTSubscriptionResponseTypeChargeMetricsItem
+  * Name: chargeMetrics (chargeMetrics), Type: PUTSubscriptionResponseTypeChargeMetricsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String chargeMetrics;
 
   /**
-  * Name: creditMemo (creditMemo), Type: PUTSubscriptionResponseTypeCreditMemoItem
+  * Name: creditMemo (creditMemo), Type: PUTSubscriptionResponseTypeCreditMemoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String creditMemo;
 
   /**
-  * Name: creditMemoId (creditMemoId), Type: string
+  * Name: creditMemoId (creditMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String creditMemoId;
 
   /**
-  * Name: invoice (invoice), Type: PUTSubscriptionResponseTypeInvoiceItem
+  * Name: invoice (invoice), Type: PUTSubscriptionResponseTypeInvoiceItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String invoice;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: invoiceItems (invoiceItems), Type: array|PUTSubscriptionPreviewInvoiceItemsType
+  * Name: invoiceItems (invoiceItems), Type: array|PUTSubscriptionPreviewInvoiceItemsType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private List<PUTSubscriptionPreviewInvoiceItemsType> invoiceItems;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: paidAmount (paidAmount), Type: number
+  * Name: paidAmount (paidAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: previewChargeMetricsResponse (previewChargeMetricsResponse), Type: string
+  * Name: previewChargeMetricsResponse (previewChargeMetricsResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String previewChargeMetricsResponse;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: totalDeltaMrr (totalDeltaMrr), Type: number
+  * Name: totalDeltaMrr (totalDeltaMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class PUTSubscriptionResponseType extends BaseObject {
   private String totalDeltaMrr;
 
   /**
-  * Name: totalDeltaTcv (totalDeltaTcv), Type: number
+  * Name: totalDeltaTcv (totalDeltaTcv), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

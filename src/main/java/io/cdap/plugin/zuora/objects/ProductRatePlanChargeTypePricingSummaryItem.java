@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargeTypePricingSummaryItem (ProductRatePlanChargeTypePricingSummaryItem)
-* Related objects: 
+* Object name: ProductRatePlanChargeTypePricingSummaryItem (ProductRatePlanChargeTypePricingSummaryItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -20,7 +20,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 /**
- * Entity meta-info holder for {@link ObjectDefinition}
+ * Entity meta-info holder for {@link ObjectDefinition}.
  */
 public class ObjectInfo {
   private String cdapObjectName;
@@ -33,8 +33,19 @@ public class ObjectInfo {
   private ObjectDefinition.ObjectDefinitionType objectType;
   private String responseRootElement;
 
+  /**
+   * Constructor for ObjectInfo object.
+   * @param cdapObjectName the cdap object name
+   * @param fieldDefinitions the field definitions
+   * @param restAPIUrl the result api url
+   * @param objectClass the object class
+   * @param requiredArguments required arguments
+   * @param requiredPostArguments required post arguments
+   * @param responseRootElement response root element
+   * @param objectType object type
+   */
   public ObjectInfo(String cdapObjectName, List<ObjectFieldInfo> fieldDefinitions, String restAPIUrl,
-                    Class objectClass, List<String> requiredPostArguments, List<String> requiredArguments,
+                    Class objectClass, List<String> requiredArguments, List<String> requiredPostArguments,
                     String responseRootElement, ObjectDefinition.ObjectDefinitionType objectType) {
     this.cdapObjectName = cdapObjectName;
     this.fieldDefinitions = fieldDefinitions;
@@ -58,6 +69,11 @@ public class ObjectInfo {
     return fieldDefinitions;
   }
 
+  /**
+   * Returns the list of ObjectFieldInfo.
+   * @param fields
+   * @return list of ObjectFieldInfo
+   */
   public List<ObjectFieldInfo> getFieldsDefinitions(List<String> fields) {
     return fieldDefinitions.stream()
       .filter(x -> fields.stream().anyMatch(y -> x.getName().equals(y)))

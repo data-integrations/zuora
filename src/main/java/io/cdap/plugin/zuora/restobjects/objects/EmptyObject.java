@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -19,7 +19,7 @@ import java.util.Collections;
 import java.util.Map;
 
 /**
- * Provides empty stub object
+ * Provides empty stub object.
  */
 public class EmptyObject extends BaseObject {
 

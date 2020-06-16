@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DataQueryJobResponse (DataQueryJobResponse)
-* Related objects: 
+* Object name: DataQueryJobResponse (DataQueryJobResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

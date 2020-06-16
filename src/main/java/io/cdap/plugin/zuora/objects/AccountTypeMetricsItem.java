@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountTypeMetricsItem (AccountTypeMetricsItem)
-* Related objects: 
+* Object name: AccountTypeMetricsItem (AccountTypeMetricsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountTypeMetricsItem extends BaseObject {
   /**
-  * Name: balance (balance), Type: string
+  * Name: balance (balance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String balance;
 
   /**
-  * Name: contractedMrr (contractedMrr), Type: string
+  * Name: contractedMrr (contractedMrr), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String contractedMrr;
 
   /**
-  * Name: creditBalance (creditBalance), Type: string
+  * Name: creditBalance (creditBalance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String creditBalance;
 
   /**
-  * Name: totalDebitMemoBalance (totalDebitMemoBalance), Type: string
+  * Name: totalDebitMemoBalance (totalDebitMemoBalance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String totalDebitMemoBalance;
 
   /**
-  * Name: totalInvoiceBalance (totalInvoiceBalance), Type: string
+  * Name: totalInvoiceBalance (totalInvoiceBalance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String totalInvoiceBalance;
 
   /**
-  * Name: unappliedCreditMemoAmount (unappliedCreditMemoAmount), Type: string
+  * Name: unappliedCreditMemoAmount (unappliedCreditMemoAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountTypeMetricsItem extends BaseObject {
   private String unappliedCreditMemoAmount;
 
   /**
-  * Name: unappliedPaymentAmount (unappliedPaymentAmount), Type: string
+  * Name: unappliedPaymentAmount (unappliedPaymentAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

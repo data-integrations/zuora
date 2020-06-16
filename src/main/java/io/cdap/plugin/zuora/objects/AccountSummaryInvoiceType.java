@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryInvoiceType (AccountSummaryInvoiceType)
-* Related objects: 
+* Object name: AccountSummaryInvoiceType (AccountSummaryInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryInvoiceType extends BaseObject {
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String amount;
 
   /**
-  * Name: balance (balance), Type: string
+  * Name: balance (balance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String balance;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceDate (invoiceDate), Type: string
+  * Name: invoiceDate (invoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: invoiceNumber (invoiceNumber), Type: string
+  * Name: invoiceNumber (invoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountSummaryInvoiceType extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

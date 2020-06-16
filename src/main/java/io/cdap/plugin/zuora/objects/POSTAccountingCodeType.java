@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAccountingCodeType (POSTAccountingCodeType)
-* Related objects: 
+* Object name: POSTAccountingCodeType (POSTAccountingCodeType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAccountingCodeType extends BaseObject {
   /**
-  * Name: glAccountName (glAccountName), Type: string
+  * Name: glAccountName (glAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTAccountingCodeType extends BaseObject {
   private String glAccountName;
 
   /**
-  * Name: glAccountNumber (glAccountNumber), Type: string
+  * Name: glAccountNumber (glAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTAccountingCodeType extends BaseObject {
   private String glAccountNumber;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTAccountingCodeType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTAccountingCodeType extends BaseObject {
   private String notes;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

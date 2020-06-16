@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentMethodType (PaymentMethodType)
-* Related objects: 
+* Object name: PaymentMethodType (PaymentMethodType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentMethodType extends BaseObject {
   /**
-  * Name: cardHolderInfo (cardHolderInfo), Type: PaymentMethodTypeCardHolderInfoItem
+  * Name: cardHolderInfo (cardHolderInfo), Type: PaymentMethodTypeCardHolderInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PaymentMethodType extends BaseObject {
   private String cardHolderInfo;
 
   /**
-  * Name: cardNumber (cardNumber), Type: string
+  * Name: cardNumber (cardNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PaymentMethodType extends BaseObject {
   private String cardNumber;
 
   /**
-  * Name: cardType (cardType), Type: string
+  * Name: cardType (cardType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PaymentMethodType extends BaseObject {
   private String cardType;
 
   /**
-  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean
+  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PaymentMethodType extends BaseObject {
   private Boolean defaultPaymentMethod;
 
   /**
-  * Name: expirationMonth (expirationMonth), Type: string
+  * Name: expirationMonth (expirationMonth), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PaymentMethodType extends BaseObject {
   private String expirationMonth;
 
   /**
-  * Name: expirationYear (expirationYear), Type: string
+  * Name: expirationYear (expirationYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PaymentMethodType extends BaseObject {
   private String expirationYear;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

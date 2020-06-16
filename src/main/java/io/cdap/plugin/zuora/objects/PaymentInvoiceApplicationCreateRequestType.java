@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentInvoiceApplicationCreateRequestType (PaymentInvoiceApplicationCreateRequestType)
-* Related objects: 
+* Object name: PaymentInvoiceApplicationCreateRequestType (PaymentInvoiceApplicationCreateRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentInvoiceApplicationCreateRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PaymentInvoiceApplicationCreateRequestType extends BaseObject {
   private String amount;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PaymentInvoiceApplicationCreateRequestType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: items (items), Type: array|PaymentInvoiceApplicationItemCreateRequestType
+  * Name: items (items), Type: array|PaymentInvoiceApplicationItemCreateRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

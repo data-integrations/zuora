@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -38,6 +38,13 @@ public class PageIterator {
   private Iterator<BaseObject> recordIterator;
   private int iteratorPosition;
 
+  /**
+   * Constructor for iteratorPosition object.
+   * @param client the client
+   * @param objectInfo the object info
+   * @param arguments the arguments
+   * @throws IOException in case if resource not found
+   */
   public PageIterator(ZuoraRestClient client, ObjectInfo objectInfo, Map<String, String> arguments) throws IOException {
     this.client = client;
     this.objectInfo = objectInfo;
@@ -45,6 +52,11 @@ public class PageIterator {
     gotoNextPage(null);
   }
 
+  /**
+   * Returns the boolean.
+   * @return  boolean
+   * @throws IOException in case if resource not found
+   */
   public boolean hasNext() throws IOException {
     if (!recordIterator.hasNext()) {
       BaseResult<BaseObject> page = client.nextPage(currentPage);
@@ -59,6 +71,11 @@ public class PageIterator {
     return (currentPage != null && recordIterator.hasNext());
   }
 
+  /**
+   * Returns the BaseObject.
+   * @return BaseObject
+   * @throws IOException in case if resource not found
+   */
   public BaseObject next() throws IOException {
     if (hasNext()) {
       iteratorPosition++;
@@ -68,6 +85,10 @@ public class PageIterator {
     }
   }
 
+  /**
+   * Just reload the current page.
+   * @throws IOException
+   */
   public void reloadCurrentPage() throws IOException {
     int iteratorPosition = this.iteratorPosition;
     gotoNextPage(prevPage);

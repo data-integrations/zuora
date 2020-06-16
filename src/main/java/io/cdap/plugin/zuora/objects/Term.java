@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Term (Term)
-* Related objects: 
+* Object name: Term (Term).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class Term extends BaseObject {
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class Term extends BaseObject {
   private String endDate;
 
   /**
-  * Name: isEvergreen (isEvergreen), Type: boolean
+  * Name: isEvergreen (isEvergreen), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class Term extends BaseObject {
   private Boolean isEvergreen;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class Term extends BaseObject {
   private String startDate;
 
   /**
-  * Name: termNumber (termNumber), Type: number
+  * Name: termNumber (termNumber), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

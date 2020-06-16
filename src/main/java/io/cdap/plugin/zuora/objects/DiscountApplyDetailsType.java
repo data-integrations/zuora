@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DiscountApplyDetailsType (DiscountApplyDetailsType)
-* Related objects: 
+* Object name: DiscountApplyDetailsType (DiscountApplyDetailsType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DiscountApplyDetailsType extends BaseObject {
   /**
-  * Name: appliedProductRatePlanChargeId (appliedProductRatePlanChargeId), Type: string
+  * Name: appliedProductRatePlanChargeId (appliedProductRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DiscountApplyDetailsType extends BaseObject {
   private String appliedProductRatePlanChargeId;
 
   /**
-  * Name: appliedProductRatePlanId (appliedProductRatePlanId), Type: string
+  * Name: appliedProductRatePlanId (appliedProductRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

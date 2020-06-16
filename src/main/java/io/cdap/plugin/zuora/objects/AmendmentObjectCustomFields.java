@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendmentObjectCustomFields (AmendmentObjectCustomFields)
-* Related objects: 
+* Object name: AmendmentObjectCustomFields (AmendmentObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

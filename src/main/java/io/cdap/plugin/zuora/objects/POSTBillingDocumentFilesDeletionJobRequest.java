@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTBillingDocumentFilesDeletionJobRequest (POSTBillingDocumentFilesDeletionJobRequest)
-* Related objects: 
+* Object name: POSTBillingDocumentFilesDeletionJobRequest (POSTBillingDocumentFilesDeletionJobRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTBillingDocumentFilesDeletionJobRequest extends BaseObject {
   /**
-  * Name: accountIds (accountIds), Type: array|POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem
+  * Name: accountIds (accountIds), Type: array|POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

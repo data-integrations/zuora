@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RefundPaymentTypeFinanceInformationItem (RefundPaymentTypeFinanceInformationItem)
-* Related objects: 
+* Object name: RefundPaymentTypeFinanceInformationItem (RefundPaymentTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RefundPaymentTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: bankAccountAccountingCode (bankAccountAccountingCode), Type: string
+  * Name: bankAccountAccountingCode (bankAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RefundPaymentTypeFinanceInformationItem extends BaseObject {
   private String bankAccountAccountingCode;
 
   /**
-  * Name: bankAccountAccountingCodeType (bankAccountAccountingCodeType), Type: string
+  * Name: bankAccountAccountingCodeType (bankAccountAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RefundPaymentTypeFinanceInformationItem extends BaseObject {
   private String bankAccountAccountingCodeType;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class RefundPaymentTypeFinanceInformationItem extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: unappliedPaymentAccountingCode (unappliedPaymentAccountingCode), Type: string
+  * Name: unappliedPaymentAccountingCode (unappliedPaymentAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class RefundPaymentTypeFinanceInformationItem extends BaseObject {
   private String unappliedPaymentAccountingCode;
 
   /**
-  * Name: unappliedPaymentAccountingCodeType (unappliedPaymentAccountingCodeType), Type: string
+  * Name: unappliedPaymentAccountingCodeType (unappliedPaymentAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

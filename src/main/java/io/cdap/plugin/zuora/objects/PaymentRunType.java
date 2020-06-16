@@ -23,7 +23,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentRunType (PaymentRunType)
+* Object name: PaymentRunType (PaymentRunType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -37,7 +37,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentRunType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -46,7 +46,7 @@ public class PaymentRunType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -55,7 +55,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: autoApplyCreditMemo (autoApplyCreditMemo), Type: boolean
+  * Name: autoApplyCreditMemo (autoApplyCreditMemo), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -64,7 +64,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean autoApplyCreditMemo;
 
   /**
-  * Name: autoApplyUnappliedPayment (autoApplyUnappliedPayment), Type: boolean
+  * Name: autoApplyUnappliedPayment (autoApplyUnappliedPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -73,7 +73,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean autoApplyUnappliedPayment;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -82,7 +82,7 @@ public class PaymentRunType extends BaseObject {
   private String batch;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: string
+  * Name: billCycleDay (billCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -91,7 +91,7 @@ public class PaymentRunType extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: billingRunId (billingRunId), Type: string
+  * Name: billingRunId (billingRunId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -100,7 +100,7 @@ public class PaymentRunType extends BaseObject {
   private String billingRunId;
 
   /**
-  * Name: collectPayment (collectPayment), Type: boolean
+  * Name: collectPayment (collectPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -109,7 +109,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean collectPayment;
 
   /**
-  * Name: completedOn (completedOn), Type: string
+  * Name: completedOn (completedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -118,7 +118,7 @@ public class PaymentRunType extends BaseObject {
   private String completedOn;
 
   /**
-  * Name: consolidatedPayment (consolidatedPayment), Type: boolean
+  * Name: consolidatedPayment (consolidatedPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -127,7 +127,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean consolidatedPayment;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -136,7 +136,7 @@ public class PaymentRunType extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -145,7 +145,7 @@ public class PaymentRunType extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -154,7 +154,7 @@ public class PaymentRunType extends BaseObject {
   private String currency;
 
   /**
-  * Name: executedOn (executedOn), Type: string
+  * Name: executedOn (executedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -163,7 +163,7 @@ public class PaymentRunType extends BaseObject {
   private String executedOn;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -172,7 +172,7 @@ public class PaymentRunType extends BaseObject {
   private String id;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -181,7 +181,7 @@ public class PaymentRunType extends BaseObject {
   private String number;
 
   /**
-  * Name: paymentGatewayId (paymentGatewayId), Type: string
+  * Name: paymentGatewayId (paymentGatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -190,7 +190,7 @@ public class PaymentRunType extends BaseObject {
   private String paymentGatewayId;
 
   /**
-  * Name: processPaymentWithClosedPM (processPaymentWithClosedPM), Type: boolean
+  * Name: processPaymentWithClosedPM (processPaymentWithClosedPM), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -199,7 +199,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean processPaymentWithClosedPM;
 
   /**
-  * Name: runDate (runDate), Type: string
+  * Name: runDate (runDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -208,7 +208,7 @@ public class PaymentRunType extends BaseObject {
   private String runDate;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -217,7 +217,7 @@ public class PaymentRunType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -226,7 +226,7 @@ public class PaymentRunType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -235,7 +235,7 @@ public class PaymentRunType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -244,7 +244,7 @@ public class PaymentRunType extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

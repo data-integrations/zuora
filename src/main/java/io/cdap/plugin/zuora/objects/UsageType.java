@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageType (UsageType)
-* Related objects: 
+* Object name: UsageType (UsageType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UsageType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class UsageType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountName (accountName), Type: string
+  * Name: accountName (accountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class UsageType extends BaseObject {
   private String accountName;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class UsageType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class UsageType extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class UsageType extends BaseObject {
   private String id;
 
   /**
-  * Name: quantity (quantity), Type: string
+  * Name: quantity (quantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class UsageType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: sourceName (sourceName), Type: string
+  * Name: sourceName (sourceName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class UsageType extends BaseObject {
   private String sourceName;
 
   /**
-  * Name: startDateTime (startDateTime), Type: string
+  * Name: startDateTime (startDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class UsageType extends BaseObject {
   private String startDateTime;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class UsageType extends BaseObject {
   private String status;
 
   /**
-  * Name: submissionDateTime (submissionDateTime), Type: string
+  * Name: submissionDateTime (submissionDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class UsageType extends BaseObject {
   private String submissionDateTime;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class UsageType extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

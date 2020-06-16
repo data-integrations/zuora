@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: FilterRuleParameterDefinitionOptionsItem (FilterRuleParameterDefinitionOptionsItem)
-* Related objects: 
+* Object name: FilterRuleParameterDefinitionOptionsItem (FilterRuleParameterDefinitionOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

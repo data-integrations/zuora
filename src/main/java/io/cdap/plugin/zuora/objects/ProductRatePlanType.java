@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanType (ProductRatePlanType)
-* Related objects: 
+* Object name: ProductRatePlanType (ProductRatePlanType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanType extends BaseObject {
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProductRatePlanType extends BaseObject {
   private String description;
 
   /**
-  * Name: effectiveEndDate (effectiveEndDate), Type: string
+  * Name: effectiveEndDate (effectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ProductRatePlanType extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: effectiveStartDate (effectiveStartDate), Type: string
+  * Name: effectiveStartDate (effectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class ProductRatePlanType extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class ProductRatePlanType extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class ProductRatePlanType extends BaseObject {
   private String name;
 
   /**
-  * Name: productRatePlanCharges (productRatePlanCharges), Type: array|ProductRatePlanChargeType
+  * Name: productRatePlanCharges (productRatePlanCharges), Type: array|ProductRatePlanChargeType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class ProductRatePlanType extends BaseObject {
   private List<ProductRatePlanChargeType> productRatePlanCharges;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

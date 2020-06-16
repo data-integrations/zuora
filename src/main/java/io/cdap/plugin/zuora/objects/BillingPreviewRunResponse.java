@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BillingPreviewRunResponse (BillingPreviewRunResponse)
-* Related objects: 
+* Object name: BillingPreviewRunResponse (BillingPreviewRunResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class BillingPreviewRunResponse extends BaseObject {
   /**
-  * Name: assumeRenewal (assumeRenewal), Type: string
+  * Name: assumeRenewal (assumeRenewal), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String assumeRenewal;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String batch;
 
   /**
-  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: string
+  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String chargeTypeToExclude;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String endDate;
 
   /**
-  * Name: errorMessage (errorMessage), Type: string
+  * Name: errorMessage (errorMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String errorMessage;
 
   /**
-  * Name: includingEvergreenSubscription (includingEvergreenSubscription), Type: boolean
+  * Name: includingEvergreenSubscription (includingEvergreenSubscription), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private Boolean includingEvergreenSubscription;
 
   /**
-  * Name: resultFileUrl (resultFileUrl), Type: string
+  * Name: resultFileUrl (resultFileUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String resultFileUrl;
 
   /**
-  * Name: runNumber (runNumber), Type: string
+  * Name: runNumber (runNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String runNumber;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String startDate;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String status;
 
   /**
-  * Name: succeededAccounts (succeededAccounts), Type: integer
+  * Name: succeededAccounts (succeededAccounts), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private Integer succeededAccounts;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: totalAccounts (totalAccounts), Type: integer
+  * Name: totalAccounts (totalAccounts), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private Integer totalAccounts;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class BillingPreviewRunResponse extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

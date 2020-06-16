@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionPreviewType (POSTSubscriptionPreviewType)
-* Related objects: 
+* Object name: POSTSubscriptionPreviewType (POSTSubscriptionPreviewType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionPreviewType extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: includeExistingDraftDocItems (includeExistingDraftDocItems), Type: boolean
+  * Name: includeExistingDraftDocItems (includeExistingDraftDocItems), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private Boolean includeExistingDraftDocItems;
 
   /**
-  * Name: includeExistingDraftInvoiceItems (includeExistingDraftInvoiceItems), Type: boolean
+  * Name: includeExistingDraftInvoiceItems (includeExistingDraftInvoiceItems), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private Boolean includeExistingDraftInvoiceItems;
 
   /**
-  * Name: initialTerm (initialTerm), Type: integer
+  * Name: initialTerm (initialTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private Integer initialTerm;
 
   /**
-  * Name: initialTermPeriodType (initialTermPeriodType), Type: string
+  * Name: initialTermPeriodType (initialTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String initialTermPeriodType;
 
   /**
-  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string
+  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String invoiceOwnerAccountKey;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String notes;
 
   /**
-  * Name: previewType (previewType), Type: string
+  * Name: previewType (previewType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String previewType;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType
+  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private List<POSTSrpCreateType> subscribeToRatePlans;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class POSTSubscriptionPreviewType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

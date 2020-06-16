@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRevenueScheduleByChargeType (POSTRevenueScheduleByChargeType)
-* Related objects: 
+* Object name: POSTRevenueScheduleByChargeType (POSTRevenueScheduleByChargeType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRevenueScheduleByChargeType extends BaseObject {
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String amount;
 
   /**
-  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string
+  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String deferredRevenueAccountingCode;
 
   /**
-  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string
+  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String deferredRevenueAccountingCodeType;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String notes;
 
   /**
-  * Name: overrideChargeAccountingCodes (overrideChargeAccountingCodes), Type: boolean
+  * Name: overrideChargeAccountingCodes (overrideChargeAccountingCodes), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private Boolean overrideChargeAccountingCodes;
 
   /**
-  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string
+  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String recognizedRevenueAccountingCode;
 
   /**
-  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string
+  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String recognizedRevenueAccountingCodeType;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType
+  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTRevenueScheduleByChargeType extends BaseObject {
   private List<POSTDistributionItemType> revenueDistributions;
 
   /**
-  * Name: revenueScheduleDate (revenueScheduleDate), Type: string
+  * Name: revenueScheduleDate (revenueScheduleDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

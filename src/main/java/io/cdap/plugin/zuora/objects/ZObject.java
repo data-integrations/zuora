@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ZObject (ZObject)
-* Related objects: 
+* Object name: ZObject (ZObject).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

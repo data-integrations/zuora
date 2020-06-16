@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyProductRatePlanChargeTier (ProxyModifyProductRatePlanChargeTier)
-* Related objects: 
+* Object name: ProxyModifyProductRatePlanChargeTier (ProxyModifyProductRatePlanChargeTier).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyProductRatePlanChargeTier extends BaseObject {
   /**
-  * Name: Price (Price), Type: number
+  * Name: Price (Price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

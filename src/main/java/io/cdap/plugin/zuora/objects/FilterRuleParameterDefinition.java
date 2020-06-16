@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: FilterRuleParameterDefinition (FilterRuleParameterDefinition)
-* Related objects: 
+* Object name: FilterRuleParameterDefinition (FilterRuleParameterDefinition).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class FilterRuleParameterDefinition extends BaseObject {
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class FilterRuleParameterDefinition extends BaseObject {
   private String description;
 
   /**
-  * Name: displayName (displayName), Type: string
+  * Name: displayName (displayName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class FilterRuleParameterDefinition extends BaseObject {
   private String displayName;
 
   /**
-  * Name: options (options), Type: array|FilterRuleParameterDefinitionOptionsItem
+  * Name: options (options), Type: array|FilterRuleParameterDefinitionOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class FilterRuleParameterDefinition extends BaseObject {
   private List<FilterRuleParameterDefinitionOptionsItem> options;
 
   /**
-  * Name: valueType (valueType), Type: string
+  * Name: valueType (valueType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

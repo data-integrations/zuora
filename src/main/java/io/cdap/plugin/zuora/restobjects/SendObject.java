@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -20,13 +20,19 @@ import io.cdap.plugin.zuora.plugin.batch.sink.ZuoraSinkConfig;
 import java.util.Map;
 
 /**
- * Represents the object which could be posted to the API
+ * Represents the object which could be posted to the API.
  */
 public class SendObject {
   private String apiUrl;
   private String body;
   private Map<String, String> arguments;
 
+  /**
+   * Constructor for SendObject object.
+   * @param objectInfo the objectInfo
+   * @param body the body
+   * @param arguments the arguments
+   */
   public SendObject(ObjectInfo objectInfo, String body, Map<String, String> arguments) {
     this.apiUrl = objectInfo.getRestAPIUrl();
     this.body = body;

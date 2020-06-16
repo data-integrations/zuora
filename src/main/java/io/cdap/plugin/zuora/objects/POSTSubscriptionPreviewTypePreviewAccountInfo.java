@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionPreviewTypePreviewAccountInfo (POSTSubscriptionPreviewTypePreviewAccountInfo)
-* Related objects: 
+* Object name: POSTSubscriptionPreviewTypePreviewAccountInfo (POSTSubscriptionPreviewTypePreviewAccountInfo).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionPreviewTypePreviewAccountInfo extends BaseObject {
   /**
-  * Name: billCycleDay (billCycleDay), Type: integer
+  * Name: billCycleDay (billCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTSubscriptionPreviewTypePreviewAccountInfo extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: billToContact (billToContact), Type: POSTSubscriptionPreviewTypePreviewAccountInfoBillToContactItem
+  * Name: billToContact (billToContact), Type: POSTSubscriptionPreviewTypePreviewAccountInfoBillToContactItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTSubscriptionPreviewTypePreviewAccountInfo extends BaseObject {
   private String billToContact;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

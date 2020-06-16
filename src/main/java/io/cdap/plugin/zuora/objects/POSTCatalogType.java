@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTCatalogType (POSTCatalogType)
-* Related objects: 
+* Object name: POSTCatalogType (POSTCatalogType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTCatalogType extends BaseObject {
   /**
-  * Name: toEntityIds (toEntityIds), Type: array|POSTCatalogTypeToEntityIdsItem
+  * Name: toEntityIds (toEntityIds), Type: array|POSTCatalogTypeToEntityIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

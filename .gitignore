@@ -24,8 +24,7 @@ hs_err_pid*
 
 /src/main/resources/*
 
-
 # project files
 *.iml
 .idea
-
+target/

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetProductRatePlan (ProxyGetProductRatePlan)
-* Related objects: 
+* Object name: ProxyGetProductRatePlan (ProxyGetProductRatePlan).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetProductRatePlan extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String description;
 
   /**
-  * Name: EffectiveEndDate (EffectiveEndDate), Type: string
+  * Name: EffectiveEndDate (EffectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: EffectiveStartDate (EffectiveStartDate), Type: string
+  * Name: EffectiveStartDate (EffectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String id;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String name;
 
   /**
-  * Name: ProductId (ProductId), Type: string
+  * Name: ProductId (ProductId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String productId;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetProductRatePlan extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

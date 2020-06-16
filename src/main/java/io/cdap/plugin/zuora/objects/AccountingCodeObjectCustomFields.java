@@ -20,7 +20,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 
 
 /**
-* Object name: AccountingCodeObjectCustomFields (AccountingCodeObjectCustomFields)
+* Object name: AccountingCodeObjectCustomFields (AccountingCodeObjectCustomFields).
 * Related objects:
 **/
 @SuppressWarnings("unused")

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingItemHttpOperation (SettingItemHttpOperation)
-* Related objects: 
+* Object name: SettingItemHttpOperation (SettingItemHttpOperation).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingItemHttpOperation extends BaseObject {
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SettingItemHttpOperation extends BaseObject {
   private String method;
 
   /**
-  * Name: parameters (parameters), Type: array|SettingItemHttpRequestParameter
+  * Name: parameters (parameters), Type: array|SettingItemHttpRequestParameter.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SettingItemHttpOperation extends BaseObject {
   private List<SettingItemHttpRequestParameter> parameters;
 
   /**
-  * Name: requestType (requestType), Type: SettingItemHttpOperationRequestTypeItem
+  * Name: requestType (requestType), Type: SettingItemHttpOperationRequestTypeItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SettingItemHttpOperation extends BaseObject {
   private String requestType;
 
   /**
-  * Name: responseType (responseType), Type: SettingItemHttpOperationResponseTypeItem
+  * Name: responseType (responseType), Type: SettingItemHttpOperationResponseTypeItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SettingItemHttpOperation extends BaseObject {
   private String responseType;
 
   /**
-  * Name: url (url), Type: string
+  * Name: url (url), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

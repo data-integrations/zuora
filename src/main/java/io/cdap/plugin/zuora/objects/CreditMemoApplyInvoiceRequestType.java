@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoApplyInvoiceRequestType (CreditMemoApplyInvoiceRequestType)
-* Related objects: 
+* Object name: CreditMemoApplyInvoiceRequestType (CreditMemoApplyInvoiceRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoApplyInvoiceRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreditMemoApplyInvoiceRequestType extends BaseObject {
   private String amount;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreditMemoApplyInvoiceRequestType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: items (items), Type: array|CreditMemoApplyInvoiceItemRequestType
+  * Name: items (items), Type: array|CreditMemoApplyInvoiceItemRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

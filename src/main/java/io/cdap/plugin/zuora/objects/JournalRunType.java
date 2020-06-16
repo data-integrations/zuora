@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: JournalRunType (JournalRunType)
-* Related objects: 
+* Object name: JournalRunType (JournalRunType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class JournalRunType extends BaseObject {
   /**
-  * Name: aggregateCurrency (aggregateCurrency), Type: boolean
+  * Name: aggregateCurrency (aggregateCurrency), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class JournalRunType extends BaseObject {
   private Boolean aggregateCurrency;
 
   /**
-  * Name: executedOn (executedOn), Type: string
+  * Name: executedOn (executedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class JournalRunType extends BaseObject {
   private String executedOn;
 
   /**
-  * Name: journalEntryDate (journalEntryDate), Type: string
+  * Name: journalEntryDate (journalEntryDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class JournalRunType extends BaseObject {
   private String journalEntryDate;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class JournalRunType extends BaseObject {
   private String number;
 
   /**
-  * Name: segmentationRuleName (segmentationRuleName), Type: string
+  * Name: segmentationRuleName (segmentationRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class JournalRunType extends BaseObject {
   private String segmentationRuleName;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class JournalRunType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class JournalRunType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetEndDate (targetEndDate), Type: string
+  * Name: targetEndDate (targetEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class JournalRunType extends BaseObject {
   private String targetEndDate;
 
   /**
-  * Name: targetStartDate (targetStartDate), Type: string
+  * Name: targetStartDate (targetStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class JournalRunType extends BaseObject {
   private String targetStartDate;
 
   /**
-  * Name: totalJournalEntryCount (totalJournalEntryCount), Type: integer
+  * Name: totalJournalEntryCount (totalJournalEntryCount), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class JournalRunType extends BaseObject {
   private Integer totalJournalEntryCount;
 
   /**
-  * Name: transactionTypes (transactionTypes), Type: array|JournalRunTransactionType
+  * Name: transactionTypes (transactionTypes), Type: array|JournalRunTransactionType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

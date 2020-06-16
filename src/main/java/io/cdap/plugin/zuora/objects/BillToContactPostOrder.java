@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BillToContactPostOrder (BillToContactPostOrder)
-* Related objects: 
+* Object name: BillToContactPostOrder (BillToContactPostOrder).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class BillToContactPostOrder extends BaseObject {
   /**
-  * Name: address1 (address1), Type: string
+  * Name: address1 (address1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String address1;
 
   /**
-  * Name: address2 (address2), Type: string
+  * Name: address2 (address2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String address2;
 
   /**
-  * Name: city (city), Type: string
+  * Name: city (city), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String city;
 
   /**
-  * Name: contactDescription (contactDescription), Type: string
+  * Name: contactDescription (contactDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String contactDescription;
 
   /**
-  * Name: country (country), Type: string
+  * Name: country (country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String country;
 
   /**
-  * Name: county (county), Type: string
+  * Name: county (county), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String county;
 
   /**
-  * Name: fax (fax), Type: string
+  * Name: fax (fax), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String fax;
 
   /**
-  * Name: firstName (firstName), Type: string
+  * Name: firstName (firstName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String firstName;
 
   /**
-  * Name: homePhone (homePhone), Type: string
+  * Name: homePhone (homePhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String homePhone;
 
   /**
-  * Name: lastName (lastName), Type: string
+  * Name: lastName (lastName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String lastName;
 
   /**
-  * Name: mobilePhone (mobilePhone), Type: string
+  * Name: mobilePhone (mobilePhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String mobilePhone;
 
   /**
-  * Name: nickname (nickname), Type: string
+  * Name: nickname (nickname), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String nickname;
 
   /**
-  * Name: otherPhone (otherPhone), Type: string
+  * Name: otherPhone (otherPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String otherPhone;
 
   /**
-  * Name: otherPhoneType (otherPhoneType), Type: string
+  * Name: otherPhoneType (otherPhoneType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String otherPhoneType;
 
   /**
-  * Name: personalEmail (personalEmail), Type: string
+  * Name: personalEmail (personalEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String personalEmail;
 
   /**
-  * Name: postalCode (postalCode), Type: string
+  * Name: postalCode (postalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String postalCode;
 
   /**
-  * Name: state (state), Type: string
+  * Name: state (state), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String state;
 
   /**
-  * Name: taxRegion (taxRegion), Type: string
+  * Name: taxRegion (taxRegion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String taxRegion;
 
   /**
-  * Name: workEmail (workEmail), Type: string
+  * Name: workEmail (workEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class BillToContactPostOrder extends BaseObject {
   private String workEmail;
 
   /**
-  * Name: workPhone (workPhone), Type: string
+  * Name: workPhone (workPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargePricingTierType (ProductRatePlanChargePricingTierType)
-* Related objects: 
+* Object name: ProductRatePlanChargePricingTierType (ProductRatePlanChargePricingTierType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanChargePricingTierType extends BaseObject {
   /**
-  * Name: endingUnit (endingUnit), Type: string
+  * Name: endingUnit (endingUnit), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProductRatePlanChargePricingTierType extends BaseObject {
   private String endingUnit;
 
   /**
-  * Name: price (price), Type: string
+  * Name: price (price), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProductRatePlanChargePricingTierType extends BaseObject {
   private String price;
 
   /**
-  * Name: priceFormat (priceFormat), Type: string
+  * Name: priceFormat (priceFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProductRatePlanChargePricingTierType extends BaseObject {
   private String priceFormat;
 
   /**
-  * Name: startingUnit (startingUnit), Type: string
+  * Name: startingUnit (startingUnit), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProductRatePlanChargePricingTierType extends BaseObject {
   private String startingUnit;
 
   /**
-  * Name: tier (tier), Type: integer
+  * Name: tier (tier), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

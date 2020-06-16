@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyUnitOfMeasure (ProxyModifyUnitOfMeasure)
-* Related objects: 
+* Object name: ProxyModifyUnitOfMeasure (ProxyModifyUnitOfMeasure).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyUnitOfMeasure extends BaseObject {
   /**
-  * Name: Active (Active), Type: boolean
+  * Name: Active (Active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyUnitOfMeasure extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: DecimalPlaces (DecimalPlaces), Type: integer
+  * Name: DecimalPlaces (DecimalPlaces), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyUnitOfMeasure extends BaseObject {
   private Integer decimalPlaces;
 
   /**
-  * Name: DisplayedAs (DisplayedAs), Type: string
+  * Name: DisplayedAs (DisplayedAs), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyUnitOfMeasure extends BaseObject {
   private String displayedAs;
 
   /**
-  * Name: RoundingMode (RoundingMode), Type: string
+  * Name: RoundingMode (RoundingMode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyUnitOfMeasure extends BaseObject {
   private String roundingMode;
 
   /**
-  * Name: UomName (UomName), Type: string
+  * Name: UomName (UomName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostRefundType (PostRefundType)
-* Related objects: 
+* Object name: PostRefundType (PostRefundType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PostRefundType extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PostRefundType extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: PostRefundTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: PostRefundTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PostRefundType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: methodType (methodType), Type: string
+  * Name: methodType (methodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PostRefundType extends BaseObject {
   private String methodType;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PostRefundType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PostRefundType extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: refundDate (refundDate), Type: string
+  * Name: refundDate (refundDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PostRefundType extends BaseObject {
   private String refundDate;
 
   /**
-  * Name: secondRefundReferenceId (secondRefundReferenceId), Type: string
+  * Name: secondRefundReferenceId (secondRefundReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PostRefundType extends BaseObject {
   private String secondRefundReferenceId;
 
   /**
-  * Name: totalAmount (totalAmount), Type: number
+  * Name: totalAmount (totalAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PostRefundType extends BaseObject {
   private String totalAmount;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

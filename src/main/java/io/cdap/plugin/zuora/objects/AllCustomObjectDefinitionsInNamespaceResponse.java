@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AllCustomObjectDefinitionsInNamespaceResponse (AllCustomObjectDefinitionsInNamespaceResponse)
-* Related objects: 
+* Object name: AllCustomObjectDefinitionsInNamespaceResponse (AllCustomObjectDefinitionsInNamespaceResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AllCustomObjectDefinitionsInNamespaceResponse extends BaseObject {
   /**
-  * Name: count (count), Type: integer
+  * Name: count (count), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

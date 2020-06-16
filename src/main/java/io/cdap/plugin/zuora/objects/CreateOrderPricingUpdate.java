@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderPricingUpdate (CreateOrderPricingUpdate)
-* Related objects: 
+* Object name: CreateOrderPricingUpdate (CreateOrderPricingUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

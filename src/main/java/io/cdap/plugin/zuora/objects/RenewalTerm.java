@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RenewalTerm (RenewalTerm)
-* Related objects: 
+* Object name: RenewalTerm (RenewalTerm).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RenewalTerm extends BaseObject {
   /**
-  * Name: period (period), Type: integer
+  * Name: period (period), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RenewalTerm extends BaseObject {
   private Integer period;
 
   /**
-  * Name: periodType (periodType), Type: string
+  * Name: periodType (periodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

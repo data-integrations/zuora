@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyPostImport (ProxyPostImport)
+* Object name: ProxyPostImport (ProxyPostImport).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyPostImport extends BaseObject {
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class ProxyPostImport extends BaseObject {
   private String id;
 
   /**
-  * Name: Success (Success), Type: boolean
+  * Name: Success (Success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

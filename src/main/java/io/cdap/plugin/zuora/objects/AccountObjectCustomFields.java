@@ -19,7 +19,7 @@ import io.cdap.plugin.zuora.restobjects.annotations.ObjectDefinition;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 
 /**
-* Object name: AccountObjectCustomFields (AccountObjectCustomFields)
+* Object name: AccountObjectCustomFields (AccountObjectCustomFields).
 * Related objects:
 **/
 @SuppressWarnings("unused")

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutTasksRequest (PutTasksRequest)
-* Related objects: 
+* Object name: PutTasksRequest (PutTasksRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PutTasksRequest extends BaseObject {
   /**
-  * Name: data (data), Type: array|UpdateTask
+  * Name: data (data), Type: array|UpdateTask.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

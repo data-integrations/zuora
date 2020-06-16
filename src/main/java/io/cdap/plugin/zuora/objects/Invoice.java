@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: Invoice (Invoice)
-* Related objects: 
+* Object name: Invoice (Invoice).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class Invoice extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class Invoice extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AdjustmentAmount (AdjustmentAmount), Type: number
+  * Name: AdjustmentAmount (AdjustmentAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class Invoice extends BaseObject {
   private String adjustmentAmount;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class Invoice extends BaseObject {
   private String amount;
 
   /**
-  * Name: AmountWithoutTax (AmountWithoutTax), Type: number
+  * Name: AmountWithoutTax (AmountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class Invoice extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: Balance (Balance), Type: number
+  * Name: Balance (Balance), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class Invoice extends BaseObject {
   private String balance;
 
   /**
-  * Name: BillRunId (BillRunId), Type: string
+  * Name: BillRunId (BillRunId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class Invoice extends BaseObject {
   private String billRunId;
 
   /**
-  * Name: Body (Body), Type: string
+  * Name: Body (Body), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class Invoice extends BaseObject {
   private String body;
 
   /**
-  * Name: Comments (Comments), Type: string
+  * Name: Comments (Comments), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class Invoice extends BaseObject {
   private String comments;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class Invoice extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class Invoice extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: CreditBalanceAdjustmentAmount (CreditBalanceAdjustmentAmount), Type: number
+  * Name: CreditBalanceAdjustmentAmount (CreditBalanceAdjustmentAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class Invoice extends BaseObject {
   private String creditBalanceAdjustmentAmount;
 
   /**
-  * Name: DueDate (DueDate), Type: string
+  * Name: DueDate (DueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class Invoice extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: IncludesOneTime (IncludesOneTime), Type: boolean
+  * Name: IncludesOneTime (IncludesOneTime), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class Invoice extends BaseObject {
   private Boolean includesOneTime;
 
   /**
-  * Name: IncludesRecurring (IncludesRecurring), Type: boolean
+  * Name: IncludesRecurring (IncludesRecurring), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class Invoice extends BaseObject {
   private Boolean includesRecurring;
 
   /**
-  * Name: IncludesUsage (IncludesUsage), Type: boolean
+  * Name: IncludesUsage (IncludesUsage), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class Invoice extends BaseObject {
   private Boolean includesUsage;
 
   /**
-  * Name: InvoiceDate (InvoiceDate), Type: string
+  * Name: InvoiceDate (InvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class Invoice extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: InvoiceNumber (InvoiceNumber), Type: string
+  * Name: InvoiceNumber (InvoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class Invoice extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: LastEmailSentDate (LastEmailSentDate), Type: string
+  * Name: LastEmailSentDate (LastEmailSentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class Invoice extends BaseObject {
   private String lastEmailSentDate;
 
   /**
-  * Name: PaymentAmount (PaymentAmount), Type: number
+  * Name: PaymentAmount (PaymentAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class Invoice extends BaseObject {
   private String paymentAmount;
 
   /**
-  * Name: PostedBy (PostedBy), Type: string
+  * Name: PostedBy (PostedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class Invoice extends BaseObject {
   private String postedBy;
 
   /**
-  * Name: PostedDate (PostedDate), Type: string
+  * Name: PostedDate (PostedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class Invoice extends BaseObject {
   private String postedDate;
 
   /**
-  * Name: RefundAmount (RefundAmount), Type: number
+  * Name: RefundAmount (RefundAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class Invoice extends BaseObject {
   private String refundAmount;
 
   /**
-  * Name: RegenerateInvoicePDF (RegenerateInvoicePDF), Type: boolean
+  * Name: RegenerateInvoicePDF (RegenerateInvoicePDF), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class Invoice extends BaseObject {
   private Boolean regenerateInvoicePDF;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class Invoice extends BaseObject {
   private String status;
 
   /**
-  * Name: TargetDate (TargetDate), Type: string
+  * Name: TargetDate (TargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class Invoice extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: TaxAmount (TaxAmount), Type: number
+  * Name: TaxAmount (TaxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class Invoice extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: TaxExemptAmount (TaxExemptAmount), Type: number
+  * Name: TaxExemptAmount (TaxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class Invoice extends BaseObject {
   private String taxExemptAmount;
 
   /**
-  * Name: TransferredToAccounting (TransferredToAccounting), Type: string
+  * Name: TransferredToAccounting (TransferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class Invoice extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class Invoice extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActiondeleteRequest (ProxyActiondeleteRequest)
-* Related objects: 
+* Object name: ProxyActiondeleteRequest (ProxyActiondeleteRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActiondeleteRequest extends BaseObject {
   /**
-  * Name: ids (ids), Type: array|ProxyActiondeleteRequestIdsItem
+  * Name: ids (ids), Type: array|ProxyActiondeleteRequestIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyActiondeleteRequest extends BaseObject {
   private List<ProxyActiondeleteRequestIdsItem> ids;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

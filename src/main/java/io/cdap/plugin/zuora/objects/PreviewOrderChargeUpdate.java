@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOrderChargeUpdate (PreviewOrderChargeUpdate)
-* Related objects: 
+* Object name: PreviewOrderChargeUpdate (PreviewOrderChargeUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOrderChargeUpdate extends BaseObject {
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PreviewOrderChargeUpdate extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PreviewOrderChargeUpdate extends BaseObject {
   private String description;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

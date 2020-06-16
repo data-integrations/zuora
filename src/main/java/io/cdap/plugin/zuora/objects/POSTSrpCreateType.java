@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSrpCreateType (POSTSrpCreateType)
-* Related objects: 
+* Object name: POSTSrpCreateType (POSTSrpCreateType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSrpCreateType extends BaseObject {
   /**
-  * Name: chargeOverrides (chargeOverrides), Type: array|POSTScCreateType
+  * Name: chargeOverrides (chargeOverrides), Type: array|POSTScCreateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTSrpCreateType extends BaseObject {
   private List<POSTScCreateType> chargeOverrides;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

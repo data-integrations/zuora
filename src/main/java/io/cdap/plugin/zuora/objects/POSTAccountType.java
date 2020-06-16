@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAccountType (POSTAccountType)
-* Related objects: 
+* Object name: POSTAccountType (POSTAccountType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAccountType extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTAccountType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|POSTAccountTypeAdditionalEmailAddressesItem
+  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|POSTAccountTypeAdditionalEmailAddressesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTAccountType extends BaseObject {
   private List<POSTAccountTypeAdditionalEmailAddressesItem> additionalEmailAddresses;
 
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTAccountType extends BaseObject {
   private String batch;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: integer
+  * Name: billCycleDay (billCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTAccountType extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: collect (collect), Type: boolean
+  * Name: collect (collect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean collect;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTAccountType extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string
+  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTAccountType extends BaseObject {
   private String creditMemoTemplateId;
 
   /**
-  * Name: crmId (crmId), Type: string
+  * Name: crmId (crmId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class POSTAccountType extends BaseObject {
   private String crmId;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class POSTAccountType extends BaseObject {
   private String currency;
 
   /**
-  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string
+  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class POSTAccountType extends BaseObject {
   private String debitMemoTemplateId;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class POSTAccountType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: hpmCreditCardPaymentMethodId (hpmCreditCardPaymentMethodId), Type: string
+  * Name: hpmCreditCardPaymentMethodId (hpmCreditCardPaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class POSTAccountType extends BaseObject {
   private String hpmCreditCardPaymentMethodId;
 
   /**
-  * Name: invoice (invoice), Type: boolean
+  * Name: invoice (invoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean invoice;
 
   /**
-  * Name: invoiceCollect (invoiceCollect), Type: boolean
+  * Name: invoiceCollect (invoiceCollect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean invoiceCollect;
 
   /**
-  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean
+  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean
+  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class POSTAccountType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: invoiceTemplateId (invoiceTemplateId), Type: string
+  * Name: invoiceTemplateId (invoiceTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class POSTAccountType extends BaseObject {
   private String invoiceTemplateId;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class POSTAccountType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class POSTAccountType extends BaseObject {
   private String notes;
 
   /**
-  * Name: parentId (parentId), Type: string
+  * Name: parentId (parentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class POSTAccountType extends BaseObject {
   private String parentId;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class POSTAccountType extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: paymentTerm (paymentTerm), Type: string
+  * Name: paymentTerm (paymentTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -261,7 +261,7 @@ public class POSTAccountType extends BaseObject {
   private String paymentTerm;
 
   /**
-  * Name: runBilling (runBilling), Type: boolean
+  * Name: runBilling (runBilling), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -270,7 +270,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean runBilling;
 
   /**
-  * Name: salesRep (salesRep), Type: string
+  * Name: salesRep (salesRep), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -279,7 +279,7 @@ public class POSTAccountType extends BaseObject {
   private String salesRep;
 
   /**
-  * Name: sequenceSetId (sequenceSetId), Type: string
+  * Name: sequenceSetId (sequenceSetId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -288,7 +288,7 @@ public class POSTAccountType extends BaseObject {
   private String sequenceSetId;
 
   /**
-  * Name: soldToSameAsBillTo (soldToSameAsBillTo), Type: boolean
+  * Name: soldToSameAsBillTo (soldToSameAsBillTo), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -297,7 +297,7 @@ public class POSTAccountType extends BaseObject {
   private Boolean soldToSameAsBillTo;
 
   /**
-  * Name: tagging (tagging), Type: string
+  * Name: tagging (tagging), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -306,7 +306,7 @@ public class POSTAccountType extends BaseObject {
   private String tagging;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -315,7 +315,7 @@ public class POSTAccountType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxInfo (taxInfo), Type: POSTAccountTypeTaxInfoItem
+  * Name: taxInfo (taxInfo), Type: POSTAccountTypeTaxInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TaxationItemObjectCustomFields (TaxationItemObjectCustomFields)
-* Related objects: 
+* Object name: TaxationItemObjectCustomFields (TaxationItemObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ARatedResultType (ARatedResultType)
-* Related objects: 
+* Object name: ARatedResultType (ARatedResultType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ARatedResultType extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ARatedResultType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: additionalInfo (additionalInfo), Type: ARatedResultTypeAdditionalInfoItem
+  * Name: additionalInfo (additionalInfo), Type: ARatedResultTypeAdditionalInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ARatedResultType extends BaseObject {
   private String additionalInfo;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ARatedResultType extends BaseObject {
   private String amount;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ARatedResultType extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ARatedResultType extends BaseObject {
   private String currency;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ARatedResultType extends BaseObject {
   private String endDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ARatedResultType extends BaseObject {
   private String id;
 
   /**
-  * Name: ratedTime (ratedTime), Type: string
+  * Name: ratedTime (ratedTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ARatedResultType extends BaseObject {
   private String ratedTime;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ARatedResultType extends BaseObject {
   private String startDate;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

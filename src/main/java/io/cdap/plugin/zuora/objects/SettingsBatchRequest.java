@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingsBatchRequest (SettingsBatchRequest)
-* Related objects: 
+* Object name: SettingsBatchRequest (SettingsBatchRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingsBatchRequest extends BaseObject {
   /**
-  * Name: requests (requests), Type: array|SettingValueRequest
+  * Name: requests (requests), Type: array|SettingValueRequest.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

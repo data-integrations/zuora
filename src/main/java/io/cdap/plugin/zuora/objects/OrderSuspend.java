@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderSuspend (OrderSuspend)
-* Related objects: 
+* Object name: OrderSuspend (OrderSuspend).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class OrderSuspend extends BaseObject {
   /**
-  * Name: suspendDate (suspendDate), Type: string
+  * Name: suspendDate (suspendDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class OrderSuspend extends BaseObject {
   private String suspendDate;
 
   /**
-  * Name: suspendPeriods (suspendPeriods), Type: integer
+  * Name: suspendPeriods (suspendPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class OrderSuspend extends BaseObject {
   private Integer suspendPeriods;
 
   /**
-  * Name: suspendPeriodsType (suspendPeriodsType), Type: string
+  * Name: suspendPeriodsType (suspendPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class OrderSuspend extends BaseObject {
   private String suspendPeriodsType;
 
   /**
-  * Name: suspendPolicy (suspendPolicy), Type: string
+  * Name: suspendPolicy (suspendPolicy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class OrderSuspend extends BaseObject {
   private String suspendPolicy;
 
   /**
-  * Name: suspendSpecificDate (suspendSpecificDate), Type: string
+  * Name: suspendSpecificDate (suspendSpecificDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

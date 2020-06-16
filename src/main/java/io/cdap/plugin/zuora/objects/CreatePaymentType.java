@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreatePaymentType (CreatePaymentType)
-* Related objects: 
+* Object name: CreatePaymentType (CreatePaymentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreatePaymentType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreatePaymentType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreatePaymentType extends BaseObject {
   private String amount;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CreatePaymentType extends BaseObject {
   private String comment;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class CreatePaymentType extends BaseObject {
   private String currency;
 
   /**
-  * Name: debitMemos (debitMemos), Type: array|PaymentDebitMemoApplicationCreateRequestType
+  * Name: debitMemos (debitMemos), Type: array|PaymentDebitMemoApplicationCreateRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class CreatePaymentType extends BaseObject {
   private List<PaymentDebitMemoApplicationCreateRequestType> debitMemos;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class CreatePaymentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: financeInformation (financeInformation), Type: CreatePaymentTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: CreatePaymentTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class CreatePaymentType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: gatewayId (gatewayId), Type: string
+  * Name: gatewayId (gatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class CreatePaymentType extends BaseObject {
   private String gatewayId;
 
   /**
-  * Name: invoices (invoices), Type: array|PaymentInvoiceApplicationCreateRequestType
+  * Name: invoices (invoices), Type: array|PaymentInvoiceApplicationCreateRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class CreatePaymentType extends BaseObject {
   private List<PaymentInvoiceApplicationCreateRequestType> invoices;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class CreatePaymentType extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class CreatePaymentType extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

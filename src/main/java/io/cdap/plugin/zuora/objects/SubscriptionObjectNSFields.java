@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionObjectNSFields (SubscriptionObjectNSFields)
-* Related objects: 
+* Object name: SubscriptionObjectNSFields (SubscriptionObjectNSFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionObjectNSFields extends BaseObject {
   /**
-  * Name: IntegrationId__NS (IntegrationId__NS), Type: string
+  * Name: IntegrationId__NS (IntegrationId__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscriptionObjectNSFields extends BaseObject {
   private String integrationId__NS;
 
   /**
-  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string
+  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscriptionObjectNSFields extends BaseObject {
   private String integrationStatus__NS;
 
   /**
-  * Name: Project__NS (Project__NS), Type: string
+  * Name: Project__NS (Project__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubscriptionObjectNSFields extends BaseObject {
   private String project__NS;
 
   /**
-  * Name: SalesOrder__NS (SalesOrder__NS), Type: string
+  * Name: SalesOrder__NS (SalesOrder__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class SubscriptionObjectNSFields extends BaseObject {
   private String salesOrder__NS;
 
   /**
-  * Name: SyncDate__NS (SyncDate__NS), Type: string
+  * Name: SyncDate__NS (SyncDate__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

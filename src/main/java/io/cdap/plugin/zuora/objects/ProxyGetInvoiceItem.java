@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetInvoiceItem (ProxyGetInvoiceItem)
-* Related objects: 
+* Object name: ProxyGetInvoiceItem (ProxyGetInvoiceItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetInvoiceItem extends BaseObject {
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: AppliedToInvoiceItemId (AppliedToInvoiceItemId), Type: string
+  * Name: AppliedToInvoiceItemId (AppliedToInvoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String appliedToInvoiceItemId;
 
   /**
-  * Name: ChargeAmount (ChargeAmount), Type: number
+  * Name: ChargeAmount (ChargeAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String chargeAmount;
 
   /**
-  * Name: ChargeDate (ChargeDate), Type: string
+  * Name: ChargeDate (ChargeDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String chargeDate;
 
   /**
-  * Name: ChargeName (ChargeName), Type: string
+  * Name: ChargeName (ChargeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String chargeName;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String id;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: ProcessingType (ProcessingType), Type: number
+  * Name: ProcessingType (ProcessingType), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String processingType;
 
   /**
-  * Name: ProductDescription (ProductDescription), Type: string
+  * Name: ProductDescription (ProductDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String productDescription;
 
   /**
-  * Name: ProductName (ProductName), Type: string
+  * Name: ProductName (ProductName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String productName;
 
   /**
-  * Name: Quantity (Quantity), Type: number
+  * Name: Quantity (Quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: RatePlanChargeId (RatePlanChargeId), Type: string
+  * Name: RatePlanChargeId (RatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String ratePlanChargeId;
 
   /**
-  * Name: RevRecStartDate (RevRecStartDate), Type: string
+  * Name: RevRecStartDate (RevRecStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String revRecStartDate;
 
   /**
-  * Name: SKU (SKU), Type: string
+  * Name: SKU (SKU), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String sKU;
 
   /**
-  * Name: ServiceEndDate (ServiceEndDate), Type: string
+  * Name: ServiceEndDate (ServiceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: ServiceStartDate (ServiceStartDate), Type: string
+  * Name: ServiceStartDate (ServiceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: TaxAmount (TaxAmount), Type: number
+  * Name: TaxAmount (TaxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: TaxCode (TaxCode), Type: string
+  * Name: TaxCode (TaxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: TaxExemptAmount (TaxExemptAmount), Type: number
+  * Name: TaxExemptAmount (TaxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String taxExemptAmount;
 
   /**
-  * Name: TaxMode (TaxMode), Type: string
+  * Name: TaxMode (TaxMode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String taxMode;
 
   /**
-  * Name: UOM (UOM), Type: string
+  * Name: UOM (UOM), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String uOM;
 
   /**
-  * Name: UnitPrice (UnitPrice), Type: number
+  * Name: UnitPrice (UnitPrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String unitPrice;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyGetInvoiceItem extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

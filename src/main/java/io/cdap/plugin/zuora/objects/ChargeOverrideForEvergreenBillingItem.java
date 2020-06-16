@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargeOverrideForEvergreenBillingItem (ChargeOverrideForEvergreenBillingItem)
-* Related objects: 
+* Object name: ChargeOverrideForEvergreenBillingItem (ChargeOverrideForEvergreenBillingItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   /**
-  * Name: billCycleDay (billCycleDay), Type: integer
+  * Name: billCycleDay (billCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: billCycleType (billCycleType), Type: string
+  * Name: billCycleType (billCycleType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private String billCycleType;
 
   /**
-  * Name: billingPeriod (billingPeriod), Type: string
+  * Name: billingPeriod (billingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string
+  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: billingTiming (billingTiming), Type: string
+  * Name: billingTiming (billingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer
+  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ChargeOverrideForEvergreenBillingItem extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: weeklyBillCycleDay (weeklyBillCycleDay), Type: string
+  * Name: weeklyBillCycleDay (weeklyBillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

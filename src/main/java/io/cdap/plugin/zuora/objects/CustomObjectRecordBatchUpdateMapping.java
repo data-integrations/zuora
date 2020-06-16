@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordBatchUpdateMapping (CustomObjectRecordBatchUpdateMapping)
-* Related objects: 
+* Object name: CustomObjectRecordBatchUpdateMapping (CustomObjectRecordBatchUpdateMapping).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

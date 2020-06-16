@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutEventTriggerRequestEventTypeItem (PutEventTriggerRequestEventTypeItem)
-* Related objects: 
+* Object name: PutEventTriggerRequestEventTypeItem (PutEventTriggerRequestEventTypeItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutEventTriggerRequestEventTypeItem extends BaseObject {
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PutEventTriggerRequestEventTypeItem extends BaseObject {
   private String description;
 
   /**
-  * Name: displayName (displayName), Type: string
+  * Name: displayName (displayName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

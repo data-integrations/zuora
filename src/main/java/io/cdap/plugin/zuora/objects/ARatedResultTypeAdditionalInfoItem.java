@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ARatedResultTypeAdditionalInfoItem (ARatedResultTypeAdditionalInfoItem)
-* Related objects: 
+* Object name: ARatedResultTypeAdditionalInfoItem (ARatedResultTypeAdditionalInfoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ARatedResultTypeAdditionalInfoItem extends BaseObject {
   /**
-  * Name: isCredit (isCredit), Type: boolean
+  * Name: isCredit (isCredit), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ARatedResultTypeAdditionalInfoItem extends BaseObject {
   private Boolean isCredit;
 
   /**
-  * Name: isOverage (isOverage), Type: boolean
+  * Name: isOverage (isOverage), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ARatedResultTypeAdditionalInfoItem extends BaseObject {
   private Boolean isOverage;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ARatedResultTypeAdditionalInfoItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: uom (uom), Type: string
+  * Name: uom (uom), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

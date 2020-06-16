@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatePlanUpdateForEvergreen (RatePlanUpdateForEvergreen)
-* Related objects: 
+* Object name: RatePlanUpdateForEvergreen (RatePlanUpdateForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RatePlanUpdateForEvergreen extends BaseObject {
   /**
-  * Name: chargeUpdates (chargeUpdates), Type: array|ChargeUpdateForEvergreen
+  * Name: chargeUpdates (chargeUpdates), Type: array|ChargeUpdateForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RatePlanUpdateForEvergreen extends BaseObject {
   private List<ChargeUpdateForEvergreen> chargeUpdates;
 
   /**
-  * Name: newRatePlanId (newRatePlanId), Type: string
+  * Name: newRatePlanId (newRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RatePlanUpdateForEvergreen extends BaseObject {
   private String newRatePlanId;
 
   /**
-  * Name: ratePlanId (ratePlanId), Type: string
+  * Name: ratePlanId (ratePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RatePlanUpdateForEvergreen extends BaseObject {
   private String ratePlanId;
 
   /**
-  * Name: specificUpdateDate (specificUpdateDate), Type: string
+  * Name: specificUpdateDate (specificUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class RatePlanUpdateForEvergreen extends BaseObject {
   private String specificUpdateDate;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: EndConditions (EndConditions)
-* Related objects: 
+* Object name: EndConditions (EndConditions).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class EndConditions extends BaseObject {
   /**
-  * Name: endDateCondition (endDateCondition), Type: string
+  * Name: endDateCondition (endDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class EndConditions extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: specificEndDate (specificEndDate), Type: string
+  * Name: specificEndDate (specificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class EndConditions extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: upToPeriods (upToPeriods), Type: integer
+  * Name: upToPeriods (upToPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class EndConditions extends BaseObject {
   private Integer upToPeriods;
 
   /**
-  * Name: upToPeriodsType (upToPeriodsType), Type: string
+  * Name: upToPeriodsType (upToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

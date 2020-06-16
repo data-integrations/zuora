@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderRatedResult (OrderRatedResult)
-* Related objects: 
+* Object name: OrderRatedResult (OrderRatedResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderRatedResult extends BaseObject {
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderRatedResult extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: subscriptionRatedResults (subscriptionRatedResults), Type: array|SubscriptionRatedResult
+  * Name: subscriptionRatedResults (subscriptionRatedResults), Type: array|SubscriptionRatedResult.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

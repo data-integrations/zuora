@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderPatchRequestType (PUTOrderPatchRequestType)
-* Related objects: 
+* Object name: PUTOrderPatchRequestType (PUTOrderPatchRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderPatchRequestType extends BaseObject {
   /**
-  * Name: subscriptions (subscriptions), Type: array|PUTOrderPatchRequestTypeSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|PUTOrderPatchRequestTypeSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

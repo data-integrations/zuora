@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DiscountPricingUpdate (DiscountPricingUpdate)
-* Related objects: 
+* Object name: DiscountPricingUpdate (DiscountPricingUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DiscountPricingUpdate extends BaseObject {
   /**
-  * Name: discountPercentage (discountPercentage), Type: number
+  * Name: discountPercentage (discountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DiscountPricingUpdate extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

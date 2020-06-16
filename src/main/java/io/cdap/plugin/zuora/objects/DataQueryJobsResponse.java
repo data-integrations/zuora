@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DataQueryJobsResponse (DataQueryJobsResponse)
-* Related objects: 
+* Object name: DataQueryJobsResponse (DataQueryJobsResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class DataQueryJobsResponse extends BaseObject {
   /**
-  * Name: data (data), Type: array|DataQueryJob
+  * Name: data (data), Type: array|DataQueryJob.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

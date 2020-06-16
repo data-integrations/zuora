@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyRatePlanCharge (ProxyModifyRatePlanCharge)
-* Related objects: 
+* Object name: ProxyModifyRatePlanCharge (ProxyModifyRatePlanCharge).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyRatePlanCharge extends BaseObject {
   /**
-  * Name: BillingTiming (BillingTiming), Type: string
+  * Name: BillingTiming (BillingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: DiscountAmount (DiscountAmount), Type: number
+  * Name: DiscountAmount (DiscountAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: DiscountPercentage (DiscountPercentage), Type: number
+  * Name: DiscountPercentage (DiscountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: EndDateCondition (EndDateCondition), Type: string
+  * Name: EndDateCondition (EndDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: ListPriceBase (ListPriceBase), Type: string
+  * Name: ListPriceBase (ListPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: PriceChangeOption (PriceChangeOption), Type: string
+  * Name: PriceChangeOption (PriceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: number
+  * Name: PriceIncreasePercentage (PriceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: RatingGroup (RatingGroup), Type: string
+  * Name: RatingGroup (RatingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: RevRecCode (RevRecCode), Type: string
+  * Name: RevRecCode (RevRecCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String revRecCode;
 
   /**
-  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string
+  * Name: RevRecTriggerCondition (RevRecTriggerCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String revRecTriggerCondition;
 
   /**
-  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string
+  * Name: RevenueRecognitionRuleName (RevenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: SpecificEndDate (SpecificEndDate), Type: string
+  * Name: SpecificEndDate (SpecificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: TriggerDate (TriggerDate), Type: string
+  * Name: TriggerDate (TriggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: TriggerEvent (TriggerEvent), Type: string
+  * Name: TriggerEvent (TriggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: UpToPeriodsType (UpToPeriodsType), Type: string
+  * Name: UpToPeriodsType (UpToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyModifyRatePlanCharge extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string
+  * Name: WeeklyBillCycleDay (WeeklyBillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

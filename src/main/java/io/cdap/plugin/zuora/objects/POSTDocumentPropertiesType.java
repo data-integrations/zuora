@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTDocumentPropertiesType (POSTDocumentPropertiesType)
-* Related objects: 
+* Object name: POSTDocumentPropertiesType (POSTDocumentPropertiesType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTDocumentPropertiesType extends BaseObject {
   /**
-  * Name: customFileName (customFileName), Type: string
+  * Name: customFileName (customFileName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTDocumentPropertiesType extends BaseObject {
   private String customFileName;
 
   /**
-  * Name: documentId (documentId), Type: string
+  * Name: documentId (documentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTDocumentPropertiesType extends BaseObject {
   private String documentId;
 
   /**
-  * Name: documentType (documentType), Type: string
+  * Name: documentType (documentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

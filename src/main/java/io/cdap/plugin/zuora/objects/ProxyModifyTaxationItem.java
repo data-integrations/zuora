@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyTaxationItem (ProxyModifyTaxationItem)
-* Related objects: 
+* Object name: ProxyModifyTaxationItem (ProxyModifyTaxationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyTaxationItem extends BaseObject {
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: ExemptAmount (ExemptAmount), Type: number
+  * Name: ExemptAmount (ExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String exemptAmount;
 
   /**
-  * Name: Jurisdiction (Jurisdiction), Type: string
+  * Name: Jurisdiction (Jurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String jurisdiction;
 
   /**
-  * Name: LocationCode (LocationCode), Type: string
+  * Name: LocationCode (LocationCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String locationCode;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String name;
 
   /**
-  * Name: TaxAmount (TaxAmount), Type: number
+  * Name: TaxAmount (TaxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: TaxCode (TaxCode), Type: string
+  * Name: TaxCode (TaxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: TaxCodeDescription (TaxCodeDescription), Type: string
+  * Name: TaxCodeDescription (TaxCodeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxCodeDescription;
 
   /**
-  * Name: TaxDate (TaxDate), Type: string
+  * Name: TaxDate (TaxDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxDate;
 
   /**
-  * Name: TaxRate (TaxRate), Type: number
+  * Name: TaxRate (TaxRate), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxRate;
 
   /**
-  * Name: TaxRateDescription (TaxRateDescription), Type: string
+  * Name: TaxRateDescription (TaxRateDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyModifyTaxationItem extends BaseObject {
   private String taxRateDescription;
 
   /**
-  * Name: TaxRateType (TaxRateType), Type: string
+  * Name: TaxRateType (TaxRateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

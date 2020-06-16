@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutInvoiceType (PutInvoiceType)
-* Related objects: 
+* Object name: PutInvoiceType (PutInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutInvoiceType extends BaseObject {
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PutInvoiceType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PutInvoiceType extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

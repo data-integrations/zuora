@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoFromInvoiceType (DebitMemoFromInvoiceType)
-* Related objects: 
+* Object name: DebitMemoFromInvoiceType (DebitMemoFromInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoFromInvoiceType extends BaseObject {
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private String comment;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: items (items), Type: array|DebitMemoItemFromInvoiceItemType
+  * Name: items (items), Type: array|DebitMemoItemFromInvoiceItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private List<DebitMemoItemFromInvoiceItemType> items;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class DebitMemoFromInvoiceType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: taxAutoCalculation (taxAutoCalculation), Type: boolean
+  * Name: taxAutoCalculation (taxAutoCalculation), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewResult (PreviewResult)
-* Related objects: 
+* Object name: PreviewResult (PreviewResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewResult extends BaseObject {
   /**
-  * Name: chargeMetrics (chargeMetrics), Type: array|PreviewResultChargeMetricsItem
+  * Name: chargeMetrics (chargeMetrics), Type: array|PreviewResultChargeMetricsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewResult extends BaseObject {
   private List<PreviewResultChargeMetricsItem> chargeMetrics;
 
   /**
-  * Name: creditMemos (creditMemos), Type: array|PreviewResultCreditMemosItem
+  * Name: creditMemos (creditMemos), Type: array|PreviewResultCreditMemosItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PreviewResult extends BaseObject {
   private List<PreviewResultCreditMemosItem> creditMemos;
 
   /**
-  * Name: invoices (invoices), Type: array|PreviewResultInvoicesItem
+  * Name: invoices (invoices), Type: array|PreviewResultInvoicesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PreviewResult extends BaseObject {
   private List<PreviewResultInvoicesItem> invoices;
 
   /**
-  * Name: orderMetrics (orderMetrics), Type: array|PreviewResultOrderMetricsItem
+  * Name: orderMetrics (orderMetrics), Type: array|PreviewResultOrderMetricsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

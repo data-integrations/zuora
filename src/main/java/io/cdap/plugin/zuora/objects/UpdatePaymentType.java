@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UpdatePaymentType (UpdatePaymentType)
-* Related objects: 
+* Object name: UpdatePaymentType (UpdatePaymentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UpdatePaymentType extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class UpdatePaymentType extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: UpdatePaymentTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: UpdatePaymentTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class UpdatePaymentType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

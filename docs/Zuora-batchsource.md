@@ -4,7 +4,7 @@ Description
 -----------
 Plugin fetches data from Zuora. Zuora is a subscription management platform designed to meet your
 modern order-to-cash needs.
- 
+
 Properties
 ----------
 ### General
@@ -19,20 +19,16 @@ Properties
 - ***Password:*** Password for the Zuora account
 
 **OAuth2:**
-- ***Client ID:*** The OAuth2 client id 
-- ***Client SecretD:*** The OAuth2 client secret 
+- ***Client ID:*** The OAuth2 client id
+- ***Client SecretD:*** The OAuth2 client secret
 
 **Base Objects:** List of available objects to fetch
 
 Available:
 - Products
-- Refunds
-- PaymentRun
 - Orders
-- Entities
 - DebitMemos
 - CreditMemos
-- BillingDocuments
 
 
 

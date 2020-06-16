@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -37,13 +37,13 @@ import javax.annotation.Nullable;
  */
 public abstract class BaseObject {
   /**
-   * Custom object fields
+   * Custom object fields.
    */
   private transient ImmutableMap.Builder<String, Object> objectFieldsBuilder = new ImmutableMap.Builder<>();
   private transient Map<String, Object> objectFields;
 
   /**
-   * Add custom field to the object
+   * Add custom field to the object .
    * @param name name of the field
    * @param value value of the field
    */
@@ -61,7 +61,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Add custom field to the object
+   * Add custom field to the object.
    * @param name name of the field
    * @param value value of the field
    * @param type type of the field
@@ -78,7 +78,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Add custom field to the object
+   * Add custom field to the object.
    * @param name name of the field
    * @param object value of the field
    */
@@ -91,7 +91,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Add custom field to the object if the value is not null
+   * Add custom field to the object if the value is not null.
    * @param name name of the field
    * @param object value of the field
    * @param skipAddIfNull add field if it's value is not {@code null}
@@ -104,7 +104,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Add custom field to the object
+   * Add custom field to the object.
    * @param name name of the field
    * @param value value of the field
    * @param type type of the field
@@ -118,7 +118,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Each field of the object should be added
+   * Each field of the object should be added.
    */
   public abstract void addFields();
 
@@ -136,7 +136,7 @@ public abstract class BaseObject {
   }
 
   /**
-   * Provide access to object fields mentioned in {@link Schema}
+   * Provide access to object fields mentioned in {@link Schema}.
    *
    * @param schema generated or customized schema for the object
    */

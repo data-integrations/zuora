@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAuthorizeResponse (POSTAuthorizeResponse)
+* Object name: POSTAuthorizeResponse (POSTAuthorizeResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAuthorizeResponse extends BaseObject {
   /**
-  * Name: gatewayOrderId (gatewayOrderId), Type: string
+  * Name: gatewayOrderId (gatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTAuthorizeResponse extends BaseObject {
   private String gatewayOrderId;
 
   /**
-  * Name: resultCode (resultCode), Type: string
+  * Name: resultCode (resultCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTAuthorizeResponse extends BaseObject {
   private String resultCode;
 
   /**
-  * Name: resultMessage (resultMessage), Type: string
+  * Name: resultMessage (resultMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class POSTAuthorizeResponse extends BaseObject {
   private String resultMessage;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class POSTAuthorizeResponse extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: transactionId (transactionId), Type: string
+  * Name: transactionId (transactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

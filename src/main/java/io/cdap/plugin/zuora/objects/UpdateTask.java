@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UpdateTask (UpdateTask)
-* Related objects: 
+* Object name: UpdateTask (UpdateTask).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UpdateTask extends BaseObject {
   /**
-  * Name: action_type (action_type), Type: string
+  * Name: action_type (action_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class UpdateTask extends BaseObject {
   private String action_type;
 
   /**
-  * Name: call_type (call_type), Type: string
+  * Name: call_type (call_type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class UpdateTask extends BaseObject {
   private String call_type;
 
   /**
-  * Name: concurrent_limit (concurrent_limit), Type: integer
+  * Name: concurrent_limit (concurrent_limit), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class UpdateTask extends BaseObject {
   private Integer concurrent_limit;
 
   /**
-  * Name: id (id), Type: integer
+  * Name: id (id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class UpdateTask extends BaseObject {
   private Integer id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class UpdateTask extends BaseObject {
   private String name;
 
   /**
-  * Name: object (object), Type: string
+  * Name: object (object), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class UpdateTask extends BaseObject {
   private String object;
 
   /**
-  * Name: object_id (object_id), Type: string
+  * Name: object_id (object_id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class UpdateTask extends BaseObject {
   private String object_id;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class UpdateTask extends BaseObject {
   private String status;
 
   /**
-  * Name: tags (tags), Type: array|UpdateTaskTagsItem
+  * Name: tags (tags), Type: array|UpdateTaskTagsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class UpdateTask extends BaseObject {
   private List<UpdateTaskTagsItem> tags;
 
   /**
-  * Name: workflow_id (workflow_id), Type: integer
+  * Name: workflow_id (workflow_id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

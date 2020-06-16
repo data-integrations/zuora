@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOptions (PreviewOptions)
-* Related objects: 
+* Object name: PreviewOptions (PreviewOptions).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOptions extends BaseObject {
   /**
-  * Name: previewThruType (previewThruType), Type: string
+  * Name: previewThruType (previewThruType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewOptions extends BaseObject {
   private String previewThruType;
 
   /**
-  * Name: previewTypes (previewTypes), Type: array|PreviewOptionsPreviewTypesItem
+  * Name: previewTypes (previewTypes), Type: array|PreviewOptionsPreviewTypesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PreviewOptions extends BaseObject {
   private List<PreviewOptionsPreviewTypesItem> previewTypes;
 
   /**
-  * Name: specificPreviewThruDate (specificPreviewThruDate), Type: string
+  * Name: specificPreviewThruDate (specificPreviewThruDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

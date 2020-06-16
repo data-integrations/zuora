@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonUsageErrorResponseErrorItemErrorsItem (CommonUsageErrorResponseErrorItemErrorsItem)
-* Related objects: 
+* Object name: CommonUsageErrorResponseErrorItemErrorsItem (CommonUsageErrorResponseErrorItemErrorsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CommonUsageErrorResponseErrorItemErrorsItem extends BaseObject {
   /**
-  * Name: field (field), Type: string
+  * Name: field (field), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CommonUsageErrorResponseErrorItemErrorsItem extends BaseObject {
   private String field;
 
   /**
-  * Name: message (message), Type: string
+  * Name: message (message), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CommonUsageErrorResponseErrorItemErrorsItem extends BaseObject {
   private String message;
 
   /**
-  * Name: objectName (objectName), Type: string
+  * Name: objectName (objectName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CommonUsageErrorResponseErrorItemErrorsItem extends BaseObject {
   private String objectName;
 
   /**
-  * Name: reason (reason), Type: string
+  * Name: reason (reason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

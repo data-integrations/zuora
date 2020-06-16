@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActiondeleteRequestIdsItem (ProxyActiondeleteRequestIdsItem)
-* Related objects: 
+* Object name: ProxyActiondeleteRequestIdsItem (ProxyActiondeleteRequestIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

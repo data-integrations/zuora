@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryPaymentType (AccountSummaryPaymentType)
-* Related objects: 
+* Object name: AccountSummaryPaymentType (AccountSummaryPaymentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryPaymentType extends BaseObject {
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AccountSummaryPaymentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AccountSummaryPaymentType extends BaseObject {
   private String id;
 
   /**
-  * Name: paidInvoices (paidInvoices), Type: array|AccountSummaryPaymentInvoiceType
+  * Name: paidInvoices (paidInvoices), Type: array|AccountSummaryPaymentInvoiceType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AccountSummaryPaymentType extends BaseObject {
   private List<AccountSummaryPaymentInvoiceType> paidInvoices;
 
   /**
-  * Name: paymentNumber (paymentNumber), Type: string
+  * Name: paymentNumber (paymentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AccountSummaryPaymentType extends BaseObject {
   private String paymentNumber;
 
   /**
-  * Name: paymentType (paymentType), Type: string
+  * Name: paymentType (paymentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AccountSummaryPaymentType extends BaseObject {
   private String paymentType;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

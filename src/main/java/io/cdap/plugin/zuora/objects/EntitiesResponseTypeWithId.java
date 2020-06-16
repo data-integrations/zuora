@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: EntitiesResponseTypeWithId (EntitiesResponseTypeWithId)
-* Related objects: 
+* Object name: EntitiesResponseTypeWithId (EntitiesResponseTypeWithId).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class EntitiesResponseTypeWithId extends BaseObject {
   /**
-  * Name: displayName (displayName), Type: string
+  * Name: displayName (displayName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String displayName;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String id;
 
   /**
-  * Name: locale (locale), Type: string
+  * Name: locale (locale), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String locale;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String name;
 
   /**
-  * Name: parentId (parentId), Type: string
+  * Name: parentId (parentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String parentId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: tenantId (tenantId), Type: string
+  * Name: tenantId (tenantId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class EntitiesResponseTypeWithId extends BaseObject {
   private String tenantId;
 
   /**
-  * Name: timezone (timezone), Type: string
+  * Name: timezone (timezone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

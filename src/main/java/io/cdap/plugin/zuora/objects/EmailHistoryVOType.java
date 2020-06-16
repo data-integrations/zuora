@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: EmailHistoryVOType (EmailHistoryVOType)
-* Related objects: 
+* Object name: EmailHistoryVOType (EmailHistoryVOType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class EmailHistoryVOType extends BaseObject {
   /**
-  * Name: bcc (bcc), Type: string
+  * Name: bcc (bcc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String bcc;
 
   /**
-  * Name: cc (cc), Type: string
+  * Name: cc (cc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String cc;
 
   /**
-  * Name: errorMessage (errorMessage), Type: string
+  * Name: errorMessage (errorMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String errorMessage;
 
   /**
-  * Name: eventCategory (eventCategory), Type: string
+  * Name: eventCategory (eventCategory), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String eventCategory;
 
   /**
-  * Name: fromEmail (fromEmail), Type: string
+  * Name: fromEmail (fromEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String fromEmail;
 
   /**
-  * Name: notification (notification), Type: string
+  * Name: notification (notification), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String notification;
 
   /**
-  * Name: replyTo (replyTo), Type: string
+  * Name: replyTo (replyTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String replyTo;
 
   /**
-  * Name: result (result), Type: string
+  * Name: result (result), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String result;
 
   /**
-  * Name: sendTime (sendTime), Type: string
+  * Name: sendTime (sendTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String sendTime;
 
   /**
-  * Name: subject (subject), Type: string
+  * Name: subject (subject), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class EmailHistoryVOType extends BaseObject {
   private String subject;
 
   /**
-  * Name: toEmail (toEmail), Type: string
+  * Name: toEmail (toEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

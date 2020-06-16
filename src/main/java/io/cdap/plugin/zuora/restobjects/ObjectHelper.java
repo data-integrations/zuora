@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -47,6 +47,11 @@ public class ObjectHelper {
     buildSchemaDefinition();
   }
 
+  /**
+   * Returns the ObjectInfo.
+   * @param object the object
+   * @return ObjectInfo
+   */
   public static ObjectInfo getObjectInfoFromClass(Class object) {
     ObjectDefinition objectDefinition = (ObjectDefinition) object.getAnnotation(ObjectDefinition.class);
 
@@ -75,7 +80,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Create schema definition for annotated objects
+   * Create schema definition for annotated objects.
    */
   private static void buildSchemaDefinition() {
     if (objectsDefinitions != null) {
@@ -93,6 +98,10 @@ public class ObjectHelper {
     objectsDefinitions = builder.build();
   }
 
+  /**
+   * Returns the list of string.
+   * @return list of string
+   */
   public static List<String> getObjectNames() {
     return objectsDefinitions.values().stream()
         .filter(x -> x.getObjectType() == ObjectDefinition.ObjectDefinitionType.BASE)
@@ -101,7 +110,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Provides entity schema definition
+   * Provides entity schema definition.
    *
    * @param objectClass entity class, which derived from {@link BaseObject}
    */
@@ -110,7 +119,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Provides entity schema definition
+   * Provides entity schema definition.
    *
    * @param internalObjectName the name, provided via {@link ObjectDefinition#Name()}
    */
@@ -123,7 +132,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Provides schema definition for desired entities with only desired fields included
+   * Provides schema definition for desired entities with only desired fields included.
    *
    * @param internalObjectName the name, provided via {@link ObjectDefinition#Name()}
    * @param requestedFields    the names, provided via {@link SerializedName#value()}
@@ -134,7 +143,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Provides schema definition for desired entities with only desired fields included
+   * Provides schema definition for desired entities with only desired fields included.
    * <p>
    * For single requested object:
    * Schema generator creates plain schema, where each field represents as column
@@ -169,7 +178,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Provides schema definition for entity with only desired fields included
+   * Provides schema definition for entity with only desired fields included.
    *
    * @param internalObjectName the name, provided via {@link ObjectDefinition#Name()}
    * @param requestedFields    the names, provided via {@link SerializedName#value()}
@@ -228,7 +237,7 @@ public class ObjectHelper {
   }
 
   /**
-   * Alter existing schema with new fields
+   * Alter existing schema with new fields.
    *
    * @param internalObjectName cdap object name
    * @param oldSchema schema to alter

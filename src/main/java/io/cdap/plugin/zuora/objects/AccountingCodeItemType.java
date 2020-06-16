@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountingCodeItemType (AccountingCodeItemType)
-* Related objects: 
+* Object name: AccountingCodeItemType (AccountingCodeItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountingCodeItemType extends BaseObject {
   /**
-  * Name: category (category), Type: string
+  * Name: category (category), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String category;
 
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: glAccountName (glAccountName), Type: string
+  * Name: glAccountName (glAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String glAccountName;
 
   /**
-  * Name: glAccountNumber (glAccountNumber), Type: string
+  * Name: glAccountNumber (glAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String glAccountNumber;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String notes;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AccountingCodeItemType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String type;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AccountingCodeItemType extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoObjectCustomFields (CreditMemoObjectCustomFields)
-* Related objects: 
+* Object name: CreditMemoObjectCustomFields (CreditMemoObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

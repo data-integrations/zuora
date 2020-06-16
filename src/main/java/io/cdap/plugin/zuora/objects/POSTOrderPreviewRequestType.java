@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTOrderPreviewRequestType (POSTOrderPreviewRequestType)
-* Related objects: 
+* Object name: POSTOrderPreviewRequestType (POSTOrderPreviewRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTOrderPreviewRequestType extends BaseObject {
   /**
-  * Name: existingAccountNumber (existingAccountNumber), Type: string
+  * Name: existingAccountNumber (existingAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTOrderPreviewRequestType extends BaseObject {
   private String existingAccountNumber;
 
   /**
-  * Name: orderDate (orderDate), Type: string
+  * Name: orderDate (orderDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTOrderPreviewRequestType extends BaseObject {
   private String orderDate;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTOrderPreviewRequestType extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|POSTOrderPreviewRequestTypeSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|POSTOrderPreviewRequestTypeSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSrpAddType (PUTSrpAddType)
-* Related objects: 
+* Object name: PUTSrpAddType (PUTSrpAddType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSrpAddType extends BaseObject {
   /**
-  * Name: chargeOverrides (chargeOverrides), Type: array|PUTScAddType
+  * Name: chargeOverrides (chargeOverrides), Type: array|PUTScAddType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTSrpAddType extends BaseObject {
   private List<PUTScAddType> chargeOverrides;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTSrpAddType extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTSrpAddType extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTSrpAddType extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

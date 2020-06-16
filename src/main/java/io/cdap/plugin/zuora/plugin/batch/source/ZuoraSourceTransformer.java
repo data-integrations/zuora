@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -26,7 +26,7 @@ import java.util.Objects;
 import java.util.stream.Collectors;
 
 /**
- * {@link BaseObject} to {@link StructuredRecord} transformer
+ * {@link BaseObject} to {@link StructuredRecord} transformer.
  */
 public class ZuoraSourceTransformer {
 
@@ -54,6 +54,12 @@ public class ZuoraSourceTransformer {
     }
   }
 
+  /**
+   * Returns the StructuredRecord.
+   * @param object the object of map
+   * @param schema the schema
+   * @return StructuredRecord
+   */
   public static StructuredRecord transform(Map<String, Object> object, Schema schema) {
     StructuredRecord.Builder builder = StructuredRecord.builder(schema);
 
@@ -64,6 +70,12 @@ public class ZuoraSourceTransformer {
     return builder.build();
   }
 
+  /**
+   * Returns the StructuredRecord.
+   * @param object the baseobject
+   * @param schema the schema
+   * @return StructuredRecord
+   */
   public static StructuredRecord transform(BaseObject object, Schema schema) {
     StructuredRecord.Builder builder = StructuredRecord.builder(schema);
 

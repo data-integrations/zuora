@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRSASignatureType (POSTRSASignatureType)
-* Related objects: 
+* Object name: POSTRSASignatureType (POSTRSASignatureType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRSASignatureType extends BaseObject {
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTRSASignatureType extends BaseObject {
   private String method;
 
   /**
-  * Name: pageId (pageId), Type: string
+  * Name: pageId (pageId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTRSASignatureType extends BaseObject {
   private String pageId;
 
   /**
-  * Name: uri (uri), Type: string
+  * Name: uri (uri), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

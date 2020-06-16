@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageTieredWithOveragePricingUpdate (UsageTieredWithOveragePricingUpdate)
-* Related objects: 
+* Object name: UsageTieredWithOveragePricingUpdate (UsageTieredWithOveragePricingUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UsageTieredWithOveragePricingUpdate extends BaseObject {
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class UsageTieredWithOveragePricingUpdate extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

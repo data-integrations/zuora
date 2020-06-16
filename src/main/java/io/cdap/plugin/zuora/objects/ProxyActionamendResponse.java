@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionamendResponse (ProxyActionamendResponse)
+* Object name: ProxyActionamendResponse (ProxyActionamendResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionamendResponse extends BaseObject {
   /**
-  * Name: results (results), Type: array|AmendResult
+  * Name: results (results), Type: array|AmendResult.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

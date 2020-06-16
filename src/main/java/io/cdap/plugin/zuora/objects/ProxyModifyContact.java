@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyContact (ProxyModifyContact)
-* Related objects: 
+* Object name: ProxyModifyContact (ProxyModifyContact).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyContact extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyContact extends BaseObject {
   private String accountId;
 
   /**
-  * Name: Address1 (Address1), Type: string
+  * Name: Address1 (Address1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyContact extends BaseObject {
   private String address1;
 
   /**
-  * Name: Address2 (Address2), Type: string
+  * Name: Address2 (Address2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyContact extends BaseObject {
   private String address2;
 
   /**
-  * Name: City (City), Type: string
+  * Name: City (City), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyContact extends BaseObject {
   private String city;
 
   /**
-  * Name: Country (Country), Type: string
+  * Name: Country (Country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyContact extends BaseObject {
   private String country;
 
   /**
-  * Name: County (County), Type: string
+  * Name: County (County), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyModifyContact extends BaseObject {
   private String county;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyModifyContact extends BaseObject {
   private String description;
 
   /**
-  * Name: Fax (Fax), Type: string
+  * Name: Fax (Fax), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyModifyContact extends BaseObject {
   private String fax;
 
   /**
-  * Name: FirstName (FirstName), Type: string
+  * Name: FirstName (FirstName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyModifyContact extends BaseObject {
   private String firstName;
 
   /**
-  * Name: HomePhone (HomePhone), Type: string
+  * Name: HomePhone (HomePhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyModifyContact extends BaseObject {
   private String homePhone;
 
   /**
-  * Name: LastName (LastName), Type: string
+  * Name: LastName (LastName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyModifyContact extends BaseObject {
   private String lastName;
 
   /**
-  * Name: MobilePhone (MobilePhone), Type: string
+  * Name: MobilePhone (MobilePhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyModifyContact extends BaseObject {
   private String mobilePhone;
 
   /**
-  * Name: NickName (NickName), Type: string
+  * Name: NickName (NickName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyModifyContact extends BaseObject {
   private String nickName;
 
   /**
-  * Name: OtherPhone (OtherPhone), Type: string
+  * Name: OtherPhone (OtherPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyModifyContact extends BaseObject {
   private String otherPhone;
 
   /**
-  * Name: OtherPhoneType (OtherPhoneType), Type: string
+  * Name: OtherPhoneType (OtherPhoneType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyModifyContact extends BaseObject {
   private String otherPhoneType;
 
   /**
-  * Name: PersonalEmail (PersonalEmail), Type: string
+  * Name: PersonalEmail (PersonalEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyModifyContact extends BaseObject {
   private String personalEmail;
 
   /**
-  * Name: PostalCode (PostalCode), Type: string
+  * Name: PostalCode (PostalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyModifyContact extends BaseObject {
   private String postalCode;
 
   /**
-  * Name: State (State), Type: string
+  * Name: State (State), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyModifyContact extends BaseObject {
   private String state;
 
   /**
-  * Name: TaxRegion (TaxRegion), Type: string
+  * Name: TaxRegion (TaxRegion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyModifyContact extends BaseObject {
   private String taxRegion;
 
   /**
-  * Name: WorkEmail (WorkEmail), Type: string
+  * Name: WorkEmail (WorkEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyModifyContact extends BaseObject {
   private String workEmail;
 
   /**
-  * Name: WorkPhone (WorkPhone), Type: string
+  * Name: WorkPhone (WorkPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

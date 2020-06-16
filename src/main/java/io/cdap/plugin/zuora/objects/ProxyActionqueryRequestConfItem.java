@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionqueryRequestConfItem (ProxyActionqueryRequestConfItem)
-* Related objects: 
+* Object name: ProxyActionqueryRequestConfItem (ProxyActionqueryRequestConfItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionqueryRequestConfItem extends BaseObject {
   /**
-  * Name: batchSize (batchSize), Type: integer
+  * Name: batchSize (batchSize), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeResultInvoiceResultItemInvoiceItem (SubscribeResultInvoiceResultItemInvoiceItem)
-* Related objects: 
+* Object name: SubscribeResultInvoiceResultItemInvoiceItem (SubscribeResultInvoiceResultItemInvoiceItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeResultInvoiceResultItemInvoiceItem extends BaseObject {
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscribeResultInvoiceResultItemInvoiceItem extends BaseObject {
   private String id;
 
   /**
-  * Name: InvoiceNumber (InvoiceNumber), Type: string
+  * Name: InvoiceNumber (InvoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionexecuteRequest (ProxyActionexecuteRequest)
-* Related objects: 
+* Object name: ProxyActionexecuteRequest (ProxyActionexecuteRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionexecuteRequest extends BaseObject {
   /**
-  * Name: ids (ids), Type: array|ProxyActionexecuteRequestIdsItem
+  * Name: ids (ids), Type: array|ProxyActionexecuteRequestIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyActionexecuteRequest extends BaseObject {
   private List<ProxyActionexecuteRequestIdsItem> ids;
 
   /**
-  * Name: synchronous (synchronous), Type: boolean
+  * Name: synchronous (synchronous), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ProxyActionexecuteRequest extends BaseObject {
   private Boolean synchronous;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

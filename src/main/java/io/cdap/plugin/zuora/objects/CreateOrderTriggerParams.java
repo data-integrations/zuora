@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderTriggerParams (CreateOrderTriggerParams)
-* Related objects: 
+* Object name: CreateOrderTriggerParams (CreateOrderTriggerParams).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreateOrderTriggerParams extends BaseObject {
   /**
-  * Name: specificTriggerDate (specificTriggerDate), Type: string
+  * Name: specificTriggerDate (specificTriggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreateOrderTriggerParams extends BaseObject {
   private String specificTriggerDate;
 
   /**
-  * Name: triggerEvent (triggerEvent), Type: string
+  * Name: triggerEvent (triggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

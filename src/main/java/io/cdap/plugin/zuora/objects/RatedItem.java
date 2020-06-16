@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatedItem (RatedItem)
-* Related objects: 
+* Object name: RatedItem (RatedItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RatedItem extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RatedItem extends BaseObject {
   private String amount;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RatedItem extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

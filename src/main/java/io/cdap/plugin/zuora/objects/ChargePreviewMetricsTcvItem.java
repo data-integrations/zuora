@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargePreviewMetricsTcvItem (ChargePreviewMetricsTcvItem)
-* Related objects: 
+* Object name: ChargePreviewMetricsTcvItem (ChargePreviewMetricsTcvItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ChargePreviewMetricsTcvItem extends BaseObject {
   /**
-  * Name: discount (discount), Type: number
+  * Name: discount (discount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ChargePreviewMetricsTcvItem extends BaseObject {
   private String discount;
 
   /**
-  * Name: discountDelta (discountDelta), Type: number
+  * Name: discountDelta (discountDelta), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ChargePreviewMetricsTcvItem extends BaseObject {
   private String discountDelta;
 
   /**
-  * Name: regular (regular), Type: number
+  * Name: regular (regular), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ChargePreviewMetricsTcvItem extends BaseObject {
   private String regular;
 
   /**
-  * Name: regularDelta (regularDelta), Type: number
+  * Name: regularDelta (regularDelta), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

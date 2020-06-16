@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CMTaxItemType (CMTaxItemType)
-* Related objects: 
+* Object name: CMTaxItemType (CMTaxItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CMTaxItemType extends BaseObject {
   /**
-  * Name: appliedAmount (appliedAmount), Type: number
+  * Name: appliedAmount (appliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CMTaxItemType extends BaseObject {
   private String appliedAmount;
 
   /**
-  * Name: exemptAmount (exemptAmount), Type: number
+  * Name: exemptAmount (exemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CMTaxItemType extends BaseObject {
   private String exemptAmount;
 
   /**
-  * Name: financeInformation (financeInformation), Type: CMTaxItemTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: CMTaxItemTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CMTaxItemType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CMTaxItemType extends BaseObject {
   private String id;
 
   /**
-  * Name: jurisdiction (jurisdiction), Type: string
+  * Name: jurisdiction (jurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CMTaxItemType extends BaseObject {
   private String jurisdiction;
 
   /**
-  * Name: locationCode (locationCode), Type: string
+  * Name: locationCode (locationCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CMTaxItemType extends BaseObject {
   private String locationCode;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class CMTaxItemType extends BaseObject {
   private String name;
 
   /**
-  * Name: refundAmount (refundAmount), Type: number
+  * Name: refundAmount (refundAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class CMTaxItemType extends BaseObject {
   private String refundAmount;
 
   /**
-  * Name: sourceTaxItemId (sourceTaxItemId), Type: string
+  * Name: sourceTaxItemId (sourceTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class CMTaxItemType extends BaseObject {
   private String sourceTaxItemId;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: taxCode (taxCode), Type: string
+  * Name: taxCode (taxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: taxCodeDescription (taxCodeDescription), Type: string
+  * Name: taxCodeDescription (taxCodeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxCodeDescription;
 
   /**
-  * Name: taxDate (taxDate), Type: string
+  * Name: taxDate (taxDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxDate;
 
   /**
-  * Name: taxRate (taxRate), Type: number
+  * Name: taxRate (taxRate), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxRate;
 
   /**
-  * Name: taxRateDescription (taxRateDescription), Type: string
+  * Name: taxRateDescription (taxRateDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxRateDescription;
 
   /**
-  * Name: taxRateType (taxRateType), Type: string
+  * Name: taxRateType (taxRateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class CMTaxItemType extends BaseObject {
   private String taxRateType;
 
   /**
-  * Name: unappliedAmount (unappliedAmount), Type: number
+  * Name: unappliedAmount (unappliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRevenueScheduleByTransactionType (POSTRevenueScheduleByTransactionType)
-* Related objects: 
+* Object name: POSTRevenueScheduleByTransactionType (POSTRevenueScheduleByTransactionType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRevenueScheduleByTransactionType extends BaseObject {
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTRevenueScheduleByTransactionType extends BaseObject {
   private String notes;
 
   /**
-  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType
+  * Name: revenueDistributions (revenueDistributions), Type: array|POSTDistributionItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

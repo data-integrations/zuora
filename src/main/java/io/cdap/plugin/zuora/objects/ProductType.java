@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -13,6 +13,7 @@
  *  License for the specific language governing permissions and limitations under
  *  the License.
  */
+
 package io.cdap.plugin.zuora.objects;
 
 import com.google.gson.annotations.SerializedName;
@@ -24,7 +25,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductType (ProductType)
+* Object name: ProductType (ProductType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -36,7 +37,7 @@ import javax.annotation.Nullable;
 )
 public class ProductType extends BaseObject {
   /**
-  * Name: category (category), Type: string
+  * Name: category (category), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +46,7 @@ public class ProductType extends BaseObject {
   private String category;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +55,7 @@ public class ProductType extends BaseObject {
   private String description;
 
   /**
-  * Name: effectiveEndDate (effectiveEndDate), Type: string
+  * Name: effectiveEndDate (effectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +64,7 @@ public class ProductType extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: effectiveStartDate (effectiveStartDate), Type: string
+  * Name: effectiveStartDate (effectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +73,7 @@ public class ProductType extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +82,7 @@ public class ProductType extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +91,7 @@ public class ProductType extends BaseObject {
   private String name;
 
   /**
-  * Name: productFeatures (productFeatures), Type: array|ProductFeatureType
+  * Name: productFeatures (productFeatures), Type: array|ProductFeatureType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +100,7 @@ public class ProductType extends BaseObject {
   private List<ProductFeatureType> productFeatures;
 
   /**
-  * Name: productRatePlans (productRatePlans), Type: string
+  * Name: productRatePlans (productRatePlans), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +109,7 @@ public class ProductType extends BaseObject {
   private String productRatePlans;
 
   /**
-  * Name: sku (sku), Type: string
+  * Name: sku (sku), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,14 +118,13 @@ public class ProductType extends BaseObject {
   private String sku;
 
   /**
-  * Name: tags (tags), Type: string
+  * Name: tags (tags), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
   @SerializedName("tags")
   @ObjectFieldDefinition(FieldType = Schema.Type.STRING)
   private String tags;
-
 
   @Override
   public void addFields() {

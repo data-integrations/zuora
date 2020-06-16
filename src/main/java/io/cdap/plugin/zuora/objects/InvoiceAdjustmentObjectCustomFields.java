@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceAdjustmentObjectCustomFields (InvoiceAdjustmentObjectCustomFields)
-* Related objects: 
+* Object name: InvoiceAdjustmentObjectCustomFields (InvoiceAdjustmentObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

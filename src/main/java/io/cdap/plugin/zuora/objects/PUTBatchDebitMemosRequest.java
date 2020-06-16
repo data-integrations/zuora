@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTBatchDebitMemosRequest (PUTBatchDebitMemosRequest)
-* Related objects: 
+* Object name: PUTBatchDebitMemosRequest (PUTBatchDebitMemosRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTBatchDebitMemosRequest extends BaseObject {
   /**
-  * Name: debitMemos (debitMemos), Type: array|BatchDebitMemoType
+  * Name: debitMemos (debitMemos), Type: array|BatchDebitMemoType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

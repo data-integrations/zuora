@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTScUpdateType (PUTScUpdateType)
-* Related objects: 
+* Object name: PUTScUpdateType (PUTScUpdateType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTScUpdateType extends BaseObject {
   /**
-  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string
+  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTScUpdateType extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTScUpdateType extends BaseObject {
   private String description;
 
   /**
-  * Name: includedUnits (includedUnits), Type: number
+  * Name: includedUnits (includedUnits), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTScUpdateType extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTScUpdateType extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: price (price), Type: number
+  * Name: price (price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTScUpdateType extends BaseObject {
   private String price;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTScUpdateType extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number
+  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PUTScUpdateType extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PUTScUpdateType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: ratePlanChargeId (ratePlanChargeId), Type: string
+  * Name: ratePlanChargeId (ratePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PUTScUpdateType extends BaseObject {
   private String ratePlanChargeId;
 
   /**
-  * Name: tiers (tiers), Type: array|POSTTierType
+  * Name: tiers (tiers), Type: array|POSTTierType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PUTScUpdateType extends BaseObject {
   private List<POSTTierType> tiers;
 
   /**
-  * Name: triggerDate (triggerDate), Type: string
+  * Name: triggerDate (triggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PUTScUpdateType extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: triggerEvent (triggerEvent), Type: string
+  * Name: triggerEvent (triggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

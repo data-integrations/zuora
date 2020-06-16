@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RevenueEventDetailType (RevenueEventDetailType)
-* Related objects: 
+* Object name: RevenueEventDetailType (RevenueEventDetailType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RevenueEventDetailType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String currency;
 
   /**
-  * Name: eventType (eventType), Type: string
+  * Name: eventType (eventType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String eventType;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String notes;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String number;
 
   /**
-  * Name: recognitionEnd (recognitionEnd), Type: string
+  * Name: recognitionEnd (recognitionEnd), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String recognitionEnd;
 
   /**
-  * Name: recognitionStart (recognitionStart), Type: string
+  * Name: recognitionStart (recognitionStart), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String recognitionStart;
 
   /**
-  * Name: revenueItems (revenueItems), Type: array|RevenueItemType
+  * Name: revenueItems (revenueItems), Type: array|RevenueItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class RevenueEventDetailType extends BaseObject {
   private List<RevenueItemType> revenueItems;
 
   /**
-  * Name: subscriptionChargeId (subscriptionChargeId), Type: string
+  * Name: subscriptionChargeId (subscriptionChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String subscriptionChargeId;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class RevenueEventDetailType extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

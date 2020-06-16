@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UpdateCustomFieldsDefinitionRequestNoNamespace (UpdateCustomFieldsDefinitionRequestNoNamespace)
-* Related objects: 
+* Object name: UpdateCustomFieldsDefinitionRequestNoNamespace (UpdateCustomFieldsDefinitionRequestNoNamespace).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

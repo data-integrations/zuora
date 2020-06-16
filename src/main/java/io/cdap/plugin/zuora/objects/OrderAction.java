@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderAction (OrderAction)
-* Related objects: 
+* Object name: OrderAction (OrderAction).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderAction extends BaseObject {
   /**
-  * Name: orderItems (orderItems), Type: array|OrderItem
+  * Name: orderItems (orderItems), Type: array|OrderItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderAction extends BaseObject {
   private List<OrderItem> orderItems;
 
   /**
-  * Name: orderMetrics (orderMetrics), Type: array|OrderMetric
+  * Name: orderMetrics (orderMetrics), Type: array|OrderMetric.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderAction extends BaseObject {
   private List<OrderMetric> orderMetrics;
 
   /**
-  * Name: sequence (sequence), Type: integer
+  * Name: sequence (sequence), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderAction extends BaseObject {
   private Integer sequence;
 
   /**
-  * Name: triggerDates (triggerDates), Type: array|TriggerDate
+  * Name: triggerDates (triggerDates), Type: array|TriggerDate.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class OrderAction extends BaseObject {
   private List<TriggerDate> triggerDates;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

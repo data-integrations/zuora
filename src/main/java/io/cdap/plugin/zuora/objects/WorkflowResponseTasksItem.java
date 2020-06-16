@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowResponseTasksItem (WorkflowResponseTasksItem)
-* Related objects: 
+* Object name: WorkflowResponseTasksItem (WorkflowResponseTasksItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class WorkflowResponseTasksItem extends BaseObject {
   /**
-  * Name: error (error), Type: integer
+  * Name: error (error), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer error;
 
   /**
-  * Name: pending (pending), Type: integer
+  * Name: pending (pending), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer pending;
 
   /**
-  * Name: processing (processing), Type: integer
+  * Name: processing (processing), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer processing;
 
   /**
-  * Name: queued (queued), Type: integer
+  * Name: queued (queued), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer queued;
 
   /**
-  * Name: stopped (stopped), Type: integer
+  * Name: stopped (stopped), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer stopped;
 
   /**
-  * Name: success (success), Type: integer
+  * Name: success (success), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class WorkflowResponseTasksItem extends BaseObject {
   private Integer success;
 
   /**
-  * Name: total (total), Type: integer
+  * Name: total (total), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

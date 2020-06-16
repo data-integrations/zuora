@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoItemTypeFinanceInformationItem (CreditMemoItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: CreditMemoItemTypeFinanceInformationItem (CreditMemoItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string
+  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String deferredRevenueAccountingCode;
 
   /**
-  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string
+  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String deferredRevenueAccountingCodeType;
 
   /**
-  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string
+  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCode;
 
   /**
-  * Name: onAccountAccountingCodeType (onAccountAccountingCodeType), Type: string
+  * Name: onAccountAccountingCodeType (onAccountAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCodeType;
 
   /**
-  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string
+  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String recognizedRevenueAccountingCode;
 
   /**
-  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string
+  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String recognizedRevenueAccountingCodeType;
 
   /**
-  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string
+  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class CreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: revenueScheduleNumber (revenueScheduleNumber), Type: string
+  * Name: revenueScheduleNumber (revenueScheduleNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOrderCreateSubscription (PreviewOrderCreateSubscription)
-* Related objects: 
+* Object name: PreviewOrderCreateSubscription (PreviewOrderCreateSubscription).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOrderCreateSubscription extends BaseObject {
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: boolean
+  * Name: invoiceSeparately (invoiceSeparately), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private Boolean invoiceSeparately;
 
   /**
-  * Name: newSubscriptionOwnerAccount (newSubscriptionOwnerAccount), Type: PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem
+  * Name: newSubscriptionOwnerAccount (newSubscriptionOwnerAccount), Type: PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private String newSubscriptionOwnerAccount;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private String notes;
 
   /**
-  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|PreviewOrderRatePlanOverride
+  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|PreviewOrderRatePlanOverride.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private List<PreviewOrderRatePlanOverride> subscribeToRatePlans;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: subscriptionOwnerAccountNumber (subscriptionOwnerAccountNumber), Type: string
+  * Name: subscriptionOwnerAccountNumber (subscriptionOwnerAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PreviewOrderCreateSubscription extends BaseObject {
   private String subscriptionOwnerAccountNumber;
 
   /**
-  * Name: terms (terms), Type: PreviewOrderCreateSubscriptionTermsItem
+  * Name: terms (terms), Type: PreviewOrderCreateSubscriptionTermsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

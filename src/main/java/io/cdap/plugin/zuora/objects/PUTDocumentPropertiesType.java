@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTDocumentPropertiesType (PUTDocumentPropertiesType)
-* Related objects: 
+* Object name: PUTDocumentPropertiesType (PUTDocumentPropertiesType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTDocumentPropertiesType extends BaseObject {
   /**
-  * Name: customFileName (customFileName), Type: string
+  * Name: customFileName (customFileName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

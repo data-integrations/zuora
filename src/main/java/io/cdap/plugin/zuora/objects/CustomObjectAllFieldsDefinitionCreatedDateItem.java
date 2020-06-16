@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectAllFieldsDefinitionCreatedDateItem (CustomObjectAllFieldsDefinitionCreatedDateItem)
-* Related objects: 
+* Object name: CustomObjectAllFieldsDefinitionCreatedDateItem (CustomObjectAllFieldsDefinitionCreatedDateItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectAllFieldsDefinitionCreatedDateItem extends BaseObject {
   /**
-  * Name: format (format), Type: string
+  * Name: format (format), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomObjectAllFieldsDefinitionCreatedDateItem extends BaseObject {
   private String format;
 
   /**
-  * Name: origin (origin), Type: string
+  * Name: origin (origin), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomObjectAllFieldsDefinitionCreatedDateItem extends BaseObject {
   private String origin;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

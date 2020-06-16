@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentDebitMemoApplicationItemUnapplyRequestType (PaymentDebitMemoApplicationItemUnapplyRequestType)
-* Related objects: 
+* Object name: PaymentDebitMemoApplicationItemUnapplyRequestType (PaymentDebitMemoApplicationItemUnapplyRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentDebitMemoApplicationItemUnapplyRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PaymentDebitMemoApplicationItemUnapplyRequestType extends BaseObjec
   private String amount;
 
   /**
-  * Name: debitMemoItemId (debitMemoItemId), Type: string
+  * Name: debitMemoItemId (debitMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PaymentDebitMemoApplicationItemUnapplyRequestType extends BaseObjec
   private String debitMemoItemId;
 
   /**
-  * Name: taxItemId (taxItemId), Type: string
+  * Name: taxItemId (taxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

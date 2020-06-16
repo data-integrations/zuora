@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionResponseTypeInvoiceItem (PUTSubscriptionResponseTypeInvoiceItem)
-* Related objects: 
+* Object name: PUTSubscriptionResponseTypeInvoiceItem (PUTSubscriptionResponseTypeInvoiceItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

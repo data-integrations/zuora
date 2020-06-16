@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPaymentMethodDecryption (POSTPaymentMethodDecryption)
-* Related objects: 
+* Object name: POSTPaymentMethodDecryption (POSTPaymentMethodDecryption).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPaymentMethodDecryption extends BaseObject {
   /**
-  * Name: accountID (accountID), Type: string
+  * Name: accountID (accountID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String accountID;
 
   /**
-  * Name: cardHolderInfo (cardHolderInfo), Type: POSTPaymentMethodDecryptionCardHolderInfoItem
+  * Name: cardHolderInfo (cardHolderInfo), Type: POSTPaymentMethodDecryptionCardHolderInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String cardHolderInfo;
 
   /**
-  * Name: integrationType (integrationType), Type: string
+  * Name: integrationType (integrationType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String integrationType;
 
   /**
-  * Name: invoiceID (invoiceID), Type: string
+  * Name: invoiceID (invoiceID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String invoiceID;
 
   /**
-  * Name: merchantID (merchantID), Type: string
+  * Name: merchantID (merchantID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String merchantID;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: paymentToken (paymentToken), Type: POSTPaymentMethodDecryptionPaymentTokenItem
+  * Name: paymentToken (paymentToken), Type: POSTPaymentMethodDecryptionPaymentTokenItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTPaymentMethodDecryption extends BaseObject {
   private String paymentToken;
 
   /**
-  * Name: processPayment (processPayment), Type: boolean
+  * Name: processPayment (processPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

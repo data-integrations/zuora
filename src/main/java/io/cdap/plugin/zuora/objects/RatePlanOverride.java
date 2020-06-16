@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatePlanOverride (RatePlanOverride)
-* Related objects: 
+* Object name: RatePlanOverride (RatePlanOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RatePlanOverride extends BaseObject {
   /**
-  * Name: chargeOverrides (chargeOverrides), Type: array|ChargeOverride
+  * Name: chargeOverrides (chargeOverrides), Type: array|ChargeOverride.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RatePlanOverride extends BaseObject {
   private List<ChargeOverride> chargeOverrides;
 
   /**
-  * Name: newRatePlanId (newRatePlanId), Type: string
+  * Name: newRatePlanId (newRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RatePlanOverride extends BaseObject {
   private String newRatePlanId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RatePlanOverride extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

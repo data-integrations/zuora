@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTCatalogTypeToEntityIdsItem (POSTCatalogTypeToEntityIdsItem)
-* Related objects: 
+* Object name: POSTCatalogTypeToEntityIdsItem (POSTCatalogTypeToEntityIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

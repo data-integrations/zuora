@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoItemFromWriteOffInvoice (CreditMemoItemFromWriteOffInvoice)
-* Related objects: 
+* Object name: CreditMemoItemFromWriteOffInvoice (CreditMemoItemFromWriteOffInvoice).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: CreditMemoItemFromWriteOffInvoiceFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: CreditMemoItemFromWriteOffInvoiceFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: invoiceItemId (invoiceItemId), Type: string
+  * Name: invoiceItemId (invoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String invoiceItemId;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: skuName (skuName), Type: string
+  * Name: skuName (skuName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CreditMemoItemFromWriteOffInvoice extends BaseObject {
   private String skuName;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

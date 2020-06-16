@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountingPeriodTypeFileIdsItem (AccountingPeriodTypeFileIdsItem)
-* Related objects: 
+* Object name: AccountingPeriodTypeFileIdsItem (AccountingPeriodTypeFileIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   /**
-  * Name: accountsReceivableAccountAgingDetailExportFileId (accountsReceivableAccountAgingDetailExportFileId), Type: string
+  * Name: accountsReceivableAccountAgingDetailExportFileId (accountsReceivableAccountAgingDetailExportFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String accountsReceivableAccountAgingDetailExportFileId;
 
   /**
-  * Name: accountsReceivableInvoiceAgingDetailExportFileId (accountsReceivableInvoiceAgingDetailExportFileId), Type: string
+  * Name: accountsReceivableInvoiceAgingDetailExportFileId (accountsReceivableInvoiceAgingDetailExportFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String accountsReceivableInvoiceAgingDetailExportFileId;
 
   /**
-  * Name: arRollForwardDetailExportFileId (arRollForwardDetailExportFileId), Type: string
+  * Name: arRollForwardDetailExportFileId (arRollForwardDetailExportFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String arRollForwardDetailExportFileId;
 
   /**
-  * Name: fxRealizedGainAndLossDetailExportFileId (fxRealizedGainAndLossDetailExportFileId), Type: string
+  * Name: fxRealizedGainAndLossDetailExportFileId (fxRealizedGainAndLossDetailExportFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String fxRealizedGainAndLossDetailExportFileId;
 
   /**
-  * Name: fxUnrealizedGainAndLossDetailExportFileId (fxUnrealizedGainAndLossDetailExportFileId), Type: string
+  * Name: fxUnrealizedGainAndLossDetailExportFileId (fxUnrealizedGainAndLossDetailExportFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String fxUnrealizedGainAndLossDetailExportFileId;
 
   /**
-  * Name: revenueDetailCsvFileId (revenueDetailCsvFileId), Type: string
+  * Name: revenueDetailCsvFileId (revenueDetailCsvFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String revenueDetailCsvFileId;
 
   /**
-  * Name: revenueDetailExcelFileId (revenueDetailExcelFileId), Type: string
+  * Name: revenueDetailExcelFileId (revenueDetailExcelFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountingPeriodTypeFileIdsItem extends BaseObject {
   private String revenueDetailExcelFileId;
 
   /**
-  * Name: unprocessedChargesFileId (unprocessedChargesFileId), Type: string
+  * Name: unprocessedChargesFileId (unprocessedChargesFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

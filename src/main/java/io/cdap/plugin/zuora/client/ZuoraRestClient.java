@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -32,7 +32,7 @@ import io.cdap.plugin.zuora.restobjects.ObjectInfo;
 import io.cdap.plugin.zuora.restobjects.SendObject;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import io.cdap.plugin.zuora.restobjects.objects.BaseResult;
-import org.apache.commons.lang.text.StrSubstitutor;
+import org.apache.commons.lang3.text.StrSubstitutor;
 import org.apache.http.Header;
 import org.apache.http.HttpEntity;
 import org.apache.http.NameValuePair;
@@ -66,8 +66,8 @@ import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
 
 /**
- * Zuora Rest Client based on {@link HttpClients} with added support for OAuth2 authorization and
- * possibility go through pagination logic of the API
+ * Zuora Rest Client based on {@link HttpClients} with added support authorization and pagination logic of the API.
+ *
  */
 public class ZuoraRestClient {
   public static final String DESCRIBE_API = "describe";
@@ -102,6 +102,13 @@ public class ZuoraRestClient {
   private Unmarshaller jaxbUnmarshaller;
   private CloseableHttpClient client;
 
+  /**
+   * Constructor for ZuoraRestClient object.
+   * @param apiEndpoint the api end point
+   * @param clientId the client id
+   * @param clientSecret the client secret
+   * @param basicAuth the basic auth
+   */
   public ZuoraRestClient(String apiEndpoint, String clientId, String clientSecret, boolean basicAuth) {
     this.apiEnpoint = (apiEndpoint == null) ? REST_API : apiEndpoint;
     this.clientId = clientId;
@@ -126,7 +133,6 @@ public class ZuoraRestClient {
     this(config.getApiEndpoint(), config.getAuthUsername(), config.getAuthPassword(),
       config.getAuthType() == AuthType.BASIC);
   }
-
 
   private String readFromStream(InputStream stream) throws IOException {
     try (InputStreamReader reader = new InputStreamReader(stream)) {
@@ -191,8 +197,7 @@ public class ZuoraRestClient {
   }
 
   /**
-   * Checks connection to the service by testing API endpoint, in case
-   * of exception would be generated {@link IOException}
+   * Checks connection to the service by testing API, in case of exception would be generated {@link IOException}.
    */
   public void checkConnection() throws IOException {
     ImmutableMap.Builder<String, String> args = new ImmutableMap.Builder<>();
@@ -317,8 +322,9 @@ public class ZuoraRestClient {
     builder.setUri(String.format("%s/%s", apiEnpoint, uri));
     return requestWithTokenRefresh(builder.build());
   }
+
   /**
-   * Verify all incoming arguments for the query object
+   * Verify all incoming arguments for the query object.
    *
    * @param objectInfo objects definition
    * @param arguments query arguments
@@ -360,6 +366,11 @@ public class ZuoraRestClient {
     }
   }
 
+  /**
+   * Returns the ZuoraDefinitions.
+   * @return ZuoraDefinitions
+   * @throws IOException in case if resource not found
+   */
   public ZuoraDefinitions getObjectList() throws IOException {
     String data = makeApiRequest(Method.GET, REST_API_VERSION + "/" + DESCRIBE_API, null, null);
     try (StringReader reader = new StringReader(data)) {
@@ -369,6 +380,13 @@ public class ZuoraRestClient {
     }
   }
 
+  /**
+   * Returns the ZuoraObjectSchema.
+   * @param name the name
+   * @return ZuoraObjectSchema
+   * @throws IOException in case if resource not found
+   * @throws JAXBException in case if unmarshal failed
+   */
   public ZuoraObjectSchema getObjectSchema(String name) throws IOException, JAXBException {
     String data = makeApiRequest(Method.GET, String.format("%s/%s/%s", REST_API_VERSION, DESCRIBE_API, name),
       null, null);
@@ -379,7 +397,6 @@ public class ZuoraRestClient {
 
   /**
    * Converts per-object response structure to generic
-   *
    *
    * Example:
    *   {
@@ -408,7 +425,7 @@ public class ZuoraRestClient {
   }
 
   /**
-   * Convert prepared json to the result object
+   * Convert prepared json to the result object.
    * @param objectInfo Object Definition
    * @param json prepared JSON
    */
@@ -420,7 +437,7 @@ public class ZuoraRestClient {
   }
 
   /**
-   * Convert prepared json to the result object
+   * Convert prepared json to the result object.
    * @param cdapObjectName object name
    * @param clazz Object Definition
    * @param json prepared JSON
@@ -452,23 +469,28 @@ public class ZuoraRestClient {
   }
 
   /**
-   * Post object to the API
+   * Post object to the API.
    * @param sendObject object to send
    */
   public void sendObject(SendObject sendObject) throws IOException {
     Map<String, String> arguments = new HashMap<>(sendObject.getArguments());
     arguments.remove("body");
 
-    makeApiRequest(
+    String response = makeApiRequest(
       Method.POST,
       REST_API_VERSION + "/" + sendObject.getApiUrl(),
       arguments,
       sendObject.getBody()
     );
+
+    BaseResult<BaseObject> result = fetchObject("BaseObject", BaseObject.class, response);
+    if (!result.isSuccess()) {
+      throw new IOException(result.getReason(true));
+    }
   }
 
   /**
-   * Query API using plugin meta objects
+   * Query API using plugin meta objects.
    *
    * @param objectInfo objects definition
    * @param arguments query arguments
@@ -485,7 +507,7 @@ public class ZuoraRestClient {
   }
 
   /**
-   * Query nextPage of the previous request
+   * Query nextPage of the previous request.
    *
    * @param previousResult the result of the previous query
    * @return object representation of the query

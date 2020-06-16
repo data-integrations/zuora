@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTVoidAuthorize (POSTVoidAuthorize)
-* Related objects: 
+* Object name: POSTVoidAuthorize (POSTVoidAuthorize).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTVoidAuthorize extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTVoidAuthorize extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTVoidAuthorize extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: gatewayOrderId (gatewayOrderId), Type: string
+  * Name: gatewayOrderId (gatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTVoidAuthorize extends BaseObject {
   private String gatewayOrderId;
 
   /**
-  * Name: paymentGatewayId (paymentGatewayId), Type: string
+  * Name: paymentGatewayId (paymentGatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTVoidAuthorize extends BaseObject {
   private String paymentGatewayId;
 
   /**
-  * Name: transactionId (transactionId), Type: string
+  * Name: transactionId (transactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

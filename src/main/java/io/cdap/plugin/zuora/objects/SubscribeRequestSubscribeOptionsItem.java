@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequestSubscribeOptionsItem (SubscribeRequestSubscribeOptionsItem)
-* Related objects: 
+* Object name: SubscribeRequestSubscribeOptionsItem (SubscribeRequestSubscribeOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   /**
-  * Name: ApplyCreditBalance (ApplyCreditBalance), Type: boolean
+  * Name: ApplyCreditBalance (ApplyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: ElectronicPaymentOptions (ElectronicPaymentOptions), Type: SubscribeRequestSubscribeOptionsItemElectronicPaymentOptionsItem
+  * Name: ElectronicPaymentOptions (ElectronicPaymentOptions), Type: SubscribeRequestSubscribeOptionsItemElectronicPaymentOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   private String electronicPaymentOptions;
 
   /**
-  * Name: ExternalPaymentOptions (ExternalPaymentOptions), Type: SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem
+  * Name: ExternalPaymentOptions (ExternalPaymentOptions), Type: SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   private String externalPaymentOptions;
 
   /**
-  * Name: GenerateInvoice (GenerateInvoice), Type: boolean
+  * Name: GenerateInvoice (GenerateInvoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   private Boolean generateInvoice;
 
   /**
-  * Name: ProcessPayments (ProcessPayments), Type: boolean
+  * Name: ProcessPayments (ProcessPayments), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class SubscribeRequestSubscribeOptionsItem extends BaseObject {
   private Boolean processPayments;
 
   /**
-  * Name: SubscribeInvoiceProcessingOptions (SubscribeInvoiceProcessingOptions), Type: SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem
+  * Name: SubscribeInvoiceProcessingOptions (SubscribeInvoiceProcessingOptions), Type: SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

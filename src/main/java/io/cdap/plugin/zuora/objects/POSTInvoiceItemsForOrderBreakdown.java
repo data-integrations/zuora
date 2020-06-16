@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTInvoiceItemsForOrderBreakdown (POSTInvoiceItemsForOrderBreakdown)
-* Related objects: 
+* Object name: POSTInvoiceItemsForOrderBreakdown (POSTInvoiceItemsForOrderBreakdown).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTInvoiceItemsForOrderBreakdown extends BaseObject {
   /**
-  * Name: invoiceItemIds (invoiceItemIds), Type: array|POSTInvoiceItemsForOrderBreakdownInvoiceItemIdsItem
+  * Name: invoiceItemIds (invoiceItemIds), Type: array|POSTInvoiceItemsForOrderBreakdownInvoiceItemIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTInvoiceItemsForOrderBreakdown extends BaseObject {
   private List<POSTInvoiceItemsForOrderBreakdownInvoiceItemIdsItem> invoiceItemIds;
 
   /**
-  * Name: invoiceNumber (invoiceNumber), Type: string
+  * Name: invoiceNumber (invoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

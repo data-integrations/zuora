@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTJournalEntryType (POSTJournalEntryType)
-* Related objects: 
+* Object name: POSTJournalEntryType (POSTJournalEntryType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTJournalEntryType extends BaseObject {
   /**
-  * Name: accountingPeriodName (accountingPeriodName), Type: string
+  * Name: accountingPeriodName (accountingPeriodName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTJournalEntryType extends BaseObject {
   private String accountingPeriodName;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTJournalEntryType extends BaseObject {
   private String currency;
 
   /**
-  * Name: journalEntryDate (journalEntryDate), Type: string
+  * Name: journalEntryDate (journalEntryDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTJournalEntryType extends BaseObject {
   private String journalEntryDate;
 
   /**
-  * Name: journalEntryItems (journalEntryItems), Type: array|POSTJournalEntryItemType
+  * Name: journalEntryItems (journalEntryItems), Type: array|POSTJournalEntryItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTJournalEntryType extends BaseObject {
   private List<POSTJournalEntryItemType> journalEntryItems;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTJournalEntryType extends BaseObject {
   private String notes;
 
   /**
-  * Name: segments (segments), Type: array|POSTJournalEntrySegmentType
+  * Name: segments (segments), Type: array|POSTJournalEntrySegmentType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTJournalEntryType extends BaseObject {
   private List<POSTJournalEntrySegmentType> segments;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

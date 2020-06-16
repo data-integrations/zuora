@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RevenueScheduleItemType (RevenueScheduleItemType)
-* Related objects: 
+* Object name: RevenueScheduleItemType (RevenueScheduleItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RevenueScheduleItemType extends BaseObject {
   /**
-  * Name: accountingPeriodName (accountingPeriodName), Type: string
+  * Name: accountingPeriodName (accountingPeriodName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

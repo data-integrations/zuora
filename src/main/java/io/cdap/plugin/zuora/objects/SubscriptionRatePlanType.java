@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionRatePlanType (SubscriptionRatePlanType)
-* Related objects: 
+* Object name: SubscriptionRatePlanType (SubscriptionRatePlanType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionRatePlanType extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String id;
 
   /**
-  * Name: lastChangeType (lastChangeType), Type: string
+  * Name: lastChangeType (lastChangeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String lastChangeType;
 
   /**
-  * Name: productId (productId), Type: string
+  * Name: productId (productId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String productId;
 
   /**
-  * Name: productName (productName), Type: string
+  * Name: productName (productName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String productName;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: productSku (productSku), Type: string
+  * Name: productSku (productSku), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String productSku;
 
   /**
-  * Name: ratePlanCharges (ratePlanCharges), Type: array|SubscriptionRatePlanChargesType
+  * Name: ratePlanCharges (ratePlanCharges), Type: array|SubscriptionRatePlanChargesType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private List<SubscriptionRatePlanChargesType> ratePlanCharges;
 
   /**
-  * Name: ratePlanName (ratePlanName), Type: string
+  * Name: ratePlanName (ratePlanName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class SubscriptionRatePlanType extends BaseObject {
   private String ratePlanName;
 
   /**
-  * Name: subscriptionProductFeatures (subscriptionProductFeatures), Type: array|SubscriptionProductFeatureType
+  * Name: subscriptionProductFeatures (subscriptionProductFeatures), Type: array|SubscriptionProductFeatureType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

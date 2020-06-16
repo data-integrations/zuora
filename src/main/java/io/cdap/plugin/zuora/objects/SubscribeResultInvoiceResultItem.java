@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeResultInvoiceResultItem (SubscribeResultInvoiceResultItem)
-* Related objects: 
+* Object name: SubscribeResultInvoiceResultItem (SubscribeResultInvoiceResultItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeResultInvoiceResultItem extends BaseObject {
   /**
-  * Name: Invoice (Invoice), Type: array|SubscribeResultInvoiceResultItemInvoiceItem
+  * Name: Invoice (Invoice), Type: array|SubscribeResultInvoiceResultItemInvoiceItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

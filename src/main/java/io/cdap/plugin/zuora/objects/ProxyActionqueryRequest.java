@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionqueryRequest (ProxyActionqueryRequest)
-* Related objects: 
+* Object name: ProxyActionqueryRequest (ProxyActionqueryRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionqueryRequest extends BaseObject {
   /**
-  * Name: conf (conf), Type: ProxyActionqueryRequestConfItem
+  * Name: conf (conf), Type: ProxyActionqueryRequestConfItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyActionqueryRequest extends BaseObject {
   private String conf;
 
   /**
-  * Name: queryString (queryString), Type: string
+  * Name: queryString (queryString), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

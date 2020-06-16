@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: MassUpdateType (MassUpdateType)
-* Related objects: 
+* Object name: MassUpdateType (MassUpdateType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class MassUpdateType extends BaseObject {
   /**
-  * Name: actionType (actionType), Type: string
+  * Name: actionType (actionType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class MassUpdateType extends BaseObject {
   private String actionType;
 
   /**
-  * Name: endedOn (endedOn), Type: string
+  * Name: endedOn (endedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class MassUpdateType extends BaseObject {
   private String endedOn;
 
   /**
-  * Name: errorCount (errorCount), Type: string
+  * Name: errorCount (errorCount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class MassUpdateType extends BaseObject {
   private String errorCount;
 
   /**
-  * Name: inputSize (inputSize), Type: integer
+  * Name: inputSize (inputSize), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class MassUpdateType extends BaseObject {
   private Integer inputSize;
 
   /**
-  * Name: outputSize (outputSize), Type: integer
+  * Name: outputSize (outputSize), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class MassUpdateType extends BaseObject {
   private Integer outputSize;
 
   /**
-  * Name: outputType (outputType), Type: string
+  * Name: outputType (outputType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class MassUpdateType extends BaseObject {
   private String outputType;
 
   /**
-  * Name: outputURL (outputURL), Type: string
+  * Name: outputURL (outputURL), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class MassUpdateType extends BaseObject {
   private String outputURL;
 
   /**
-  * Name: processedCount (processedCount), Type: string
+  * Name: processedCount (processedCount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class MassUpdateType extends BaseObject {
   private String processedCount;
 
   /**
-  * Name: startedOn (startedOn), Type: string
+  * Name: startedOn (startedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class MassUpdateType extends BaseObject {
   private String startedOn;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class MassUpdateType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class MassUpdateType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: successCount (successCount), Type: string
+  * Name: successCount (successCount), Type: string..
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class MassUpdateType extends BaseObject {
   private String successCount;
 
   /**
-  * Name: totalCount (totalCount), Type: string
+  * Name: totalCount (totalCount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class MassUpdateType extends BaseObject {
   private String totalCount;
 
   /**
-  * Name: uploadedBy (uploadedBy), Type: string
+  * Name: uploadedBy (uploadedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class MassUpdateType extends BaseObject {
   private String uploadedBy;
 
   /**
-  * Name: uploadedOn (uploadedOn), Type: string
+  * Name: uploadedOn (uploadedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

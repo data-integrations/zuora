@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem (SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem)
-* Related objects: 
+* Object name: SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem (SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptionsItem extends BaseObject {
   /**
-  * Name: InvoiceDate (InvoiceDate), Type: string
+  * Name: InvoiceDate (InvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptio
   private String invoiceDate;
 
   /**
-  * Name: InvoiceProcessingScope (InvoiceProcessingScope), Type: string
+  * Name: InvoiceProcessingScope (InvoiceProcessingScope), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscribeRequestSubscribeOptionsItemSubscribeInvoiceProcessingOptio
   private String invoiceProcessingScope;
 
   /**
-  * Name: InvoiceTargetDate (InvoiceTargetDate), Type: string
+  * Name: InvoiceTargetDate (InvoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

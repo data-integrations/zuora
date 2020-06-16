@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTInvoiceCollectType (POSTInvoiceCollectType)
-* Related objects: 
+* Object name: POSTInvoiceCollectType (POSTInvoiceCollectType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTInvoiceCollectType extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: invoiceDate (invoiceDate), Type: string
+  * Name: invoiceDate (invoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTInvoiceCollectType extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

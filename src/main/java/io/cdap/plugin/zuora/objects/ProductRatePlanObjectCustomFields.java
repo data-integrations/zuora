@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanObjectCustomFields (ProductRatePlanObjectCustomFields)
-* Related objects: 
+* Object name: ProductRatePlanObjectCustomFields (ProductRatePlanObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

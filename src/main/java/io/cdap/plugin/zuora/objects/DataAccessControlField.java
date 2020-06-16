@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DataAccessControlField (DataAccessControlField)
-* Related objects: 
+* Object name: DataAccessControlField (DataAccessControlField).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

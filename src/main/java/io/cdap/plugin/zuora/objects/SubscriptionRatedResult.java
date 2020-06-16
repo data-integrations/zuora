@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionRatedResult (SubscriptionRatedResult)
-* Related objects: 
+* Object name: SubscriptionRatedResult (SubscriptionRatedResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionRatedResult extends BaseObject {
   /**
-  * Name: chargeRatedResults (chargeRatedResults), Type: array|ChargeRatedResult
+  * Name: chargeRatedResults (chargeRatedResults), Type: array|ChargeRatedResult.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SubscriptionRatedResult extends BaseObject {
   private List<ChargeRatedResult> chargeRatedResults;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

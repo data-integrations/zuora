@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateProduct (ProxyCreateProduct)
-* Related objects: 
+* Object name: ProxyCreateProduct (ProxyCreateProduct).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateProduct extends BaseObject {
   /**
-  * Name: AllowFeatureChanges (AllowFeatureChanges), Type: boolean
+  * Name: AllowFeatureChanges (AllowFeatureChanges), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateProduct extends BaseObject {
   private Boolean allowFeatureChanges;
 
   /**
-  * Name: Category (Category), Type: string
+  * Name: Category (Category), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateProduct extends BaseObject {
   private String category;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateProduct extends BaseObject {
   private String description;
 
   /**
-  * Name: EffectiveEndDate (EffectiveEndDate), Type: string
+  * Name: EffectiveEndDate (EffectiveEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateProduct extends BaseObject {
   private String effectiveEndDate;
 
   /**
-  * Name: EffectiveStartDate (EffectiveStartDate), Type: string
+  * Name: EffectiveStartDate (EffectiveStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateProduct extends BaseObject {
   private String effectiveStartDate;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateProduct extends BaseObject {
   private String name;
 
   /**
-  * Name: SKU (SKU), Type: string
+  * Name: SKU (SKU), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

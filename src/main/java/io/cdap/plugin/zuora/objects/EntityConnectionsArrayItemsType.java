@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: EntityConnectionsArrayItemsType (EntityConnectionsArrayItemsType)
-* Related objects: 
+* Object name: EntityConnectionsArrayItemsType (EntityConnectionsArrayItemsType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class EntityConnectionsArrayItemsType extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class EntityConnectionsArrayItemsType extends BaseObject {
   private String id;
 
   /**
-  * Name: sourceEntityId (sourceEntityId), Type: string
+  * Name: sourceEntityId (sourceEntityId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class EntityConnectionsArrayItemsType extends BaseObject {
   private String sourceEntityId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class EntityConnectionsArrayItemsType extends BaseObject {
   private String status;
 
   /**
-  * Name: targetEntityId (targetEntityId), Type: string
+  * Name: targetEntityId (targetEntityId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

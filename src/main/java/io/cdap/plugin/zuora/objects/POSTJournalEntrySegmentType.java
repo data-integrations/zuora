@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTJournalEntrySegmentType (POSTJournalEntrySegmentType)
-* Related objects: 
+* Object name: POSTJournalEntrySegmentType (POSTJournalEntrySegmentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTJournalEntrySegmentType extends BaseObject {
   /**
-  * Name: segmentName (segmentName), Type: string
+  * Name: segmentName (segmentName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTJournalEntrySegmentType extends BaseObject {
   private String segmentName;
 
   /**
-  * Name: segmentValue (segmentValue), Type: string
+  * Name: segmentValue (segmentValue), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

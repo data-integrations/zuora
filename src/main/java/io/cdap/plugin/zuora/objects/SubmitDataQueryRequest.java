@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubmitDataQueryRequest (SubmitDataQueryRequest)
-* Related objects: 
+* Object name: SubmitDataQueryRequest (SubmitDataQueryRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubmitDataQueryRequest extends BaseObject {
   /**
-  * Name: columnSeparator (columnSeparator), Type: string
+  * Name: columnSeparator (columnSeparator), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String columnSeparator;
 
   /**
-  * Name: compression (compression), Type: string
+  * Name: compression (compression), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String compression;
 
   /**
-  * Name: encryptionKey (encryptionKey), Type: string
+  * Name: encryptionKey (encryptionKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String encryptionKey;
 
   /**
-  * Name: output (output), Type: SubmitDataQueryRequestOutputItem
+  * Name: output (output), Type: SubmitDataQueryRequestOutputItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String output;
 
   /**
-  * Name: outputFormat (outputFormat), Type: string
+  * Name: outputFormat (outputFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String outputFormat;
 
   /**
-  * Name: query (query), Type: string
+  * Name: query (query), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class SubmitDataQueryRequest extends BaseObject {
   private String query;
 
   /**
-  * Name: useIndexJoin (useIndexJoin), Type: boolean
+  * Name: useIndexJoin (useIndexJoin), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

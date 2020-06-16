@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowInstance (WorkflowInstance)
-* Related objects: 
+* Object name: WorkflowInstance (WorkflowInstance).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class WorkflowInstance extends BaseObject {
   /**
-  * Name: createdAt (createdAt), Type: string
+  * Name: createdAt (createdAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class WorkflowInstance extends BaseObject {
   private String createdAt;
 
   /**
-  * Name: id (id), Type: integer
+  * Name: id (id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class WorkflowInstance extends BaseObject {
   private Integer id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class WorkflowInstance extends BaseObject {
   private String name;
 
   /**
-  * Name: originalWorkflowId (originalWorkflowId), Type: integer
+  * Name: originalWorkflowId (originalWorkflowId), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class WorkflowInstance extends BaseObject {
   private Integer originalWorkflowId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class WorkflowInstance extends BaseObject {
   private String status;
 
   /**
-  * Name: updatedAt (updatedAt), Type: string
+  * Name: updatedAt (updatedAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

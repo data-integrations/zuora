@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionsubscribeRequest (ProxyActionsubscribeRequest)
-* Related objects: 
+* Object name: ProxyActionsubscribeRequest (ProxyActionsubscribeRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionsubscribeRequest extends BaseObject {
   /**
-  * Name: subscribes (subscribes), Type: array|SubscribeRequest
+  * Name: subscribes (subscribes), Type: array|SubscribeRequest.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

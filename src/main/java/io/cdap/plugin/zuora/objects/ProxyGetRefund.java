@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetRefund (ProxyGetRefund)
-* Related objects: 
+* Object name: ProxyGetRefund (ProxyGetRefund).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetRefund extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetRefund extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetRefund extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetRefund extends BaseObject {
   private String amount;
 
   /**
-  * Name: CancelledOn (CancelledOn), Type: string
+  * Name: CancelledOn (CancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetRefund extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: Comment (Comment), Type: string
+  * Name: Comment (Comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetRefund extends BaseObject {
   private String comment;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetRefund extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetRefund extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Gateway (Gateway), Type: string
+  * Name: Gateway (Gateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetRefund extends BaseObject {
   private String gateway;
 
   /**
-  * Name: GatewayResponse (GatewayResponse), Type: string
+  * Name: GatewayResponse (GatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetRefund extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: GatewayResponseCode (GatewayResponseCode), Type: string
+  * Name: GatewayResponseCode (GatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetRefund extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: GatewayState (GatewayState), Type: string
+  * Name: GatewayState (GatewayState), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetRefund extends BaseObject {
   private String gatewayState;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetRefund extends BaseObject {
   private String id;
 
   /**
-  * Name: MarkedForSubmissionOn (MarkedForSubmissionOn), Type: string
+  * Name: MarkedForSubmissionOn (MarkedForSubmissionOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetRefund extends BaseObject {
   private String markedForSubmissionOn;
 
   /**
-  * Name: MethodType (MethodType), Type: string
+  * Name: MethodType (MethodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetRefund extends BaseObject {
   private String methodType;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetRefund extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: PaymentMethodSnapshotId (PaymentMethodSnapshotId), Type: string
+  * Name: PaymentMethodSnapshotId (PaymentMethodSnapshotId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetRefund extends BaseObject {
   private String paymentMethodSnapshotId;
 
   /**
-  * Name: ReasonCode (ReasonCode), Type: string
+  * Name: ReasonCode (ReasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetRefund extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: ReferenceID (ReferenceID), Type: string
+  * Name: ReferenceID (ReferenceID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetRefund extends BaseObject {
   private String referenceID;
 
   /**
-  * Name: RefundDate (RefundDate), Type: string
+  * Name: RefundDate (RefundDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetRefund extends BaseObject {
   private String refundDate;
 
   /**
-  * Name: RefundNumber (RefundNumber), Type: string
+  * Name: RefundNumber (RefundNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetRefund extends BaseObject {
   private String refundNumber;
 
   /**
-  * Name: RefundTransactionTime (RefundTransactionTime), Type: string
+  * Name: RefundTransactionTime (RefundTransactionTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyGetRefund extends BaseObject {
   private String refundTransactionTime;
 
   /**
-  * Name: SecondRefundReferenceId (SecondRefundReferenceId), Type: string
+  * Name: SecondRefundReferenceId (SecondRefundReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyGetRefund extends BaseObject {
   private String secondRefundReferenceId;
 
   /**
-  * Name: SettledOn (SettledOn), Type: string
+  * Name: SettledOn (SettledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyGetRefund extends BaseObject {
   private String settledOn;
 
   /**
-  * Name: SoftDescriptor (SoftDescriptor), Type: string
+  * Name: SoftDescriptor (SoftDescriptor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyGetRefund extends BaseObject {
   private String softDescriptor;
 
   /**
-  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string
+  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyGetRefund extends BaseObject {
   private String softDescriptorPhone;
 
   /**
-  * Name: SourceType (SourceType), Type: string
+  * Name: SourceType (SourceType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyGetRefund extends BaseObject {
   private String sourceType;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ProxyGetRefund extends BaseObject {
   private String status;
 
   /**
-  * Name: SubmittedOn (SubmittedOn), Type: string
+  * Name: SubmittedOn (SubmittedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ProxyGetRefund extends BaseObject {
   private String submittedOn;
 
   /**
-  * Name: TransferredToAccounting (TransferredToAccounting), Type: string
+  * Name: TransferredToAccounting (TransferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ProxyGetRefund extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ProxyGetRefund extends BaseObject {
   private String type;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ProxyGetRefund extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

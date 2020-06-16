@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendRequestPreviewOptionsItem (AmendRequestPreviewOptionsItem)
-* Related objects: 
+* Object name: AmendRequestPreviewOptionsItem (AmendRequestPreviewOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AmendRequestPreviewOptionsItem extends BaseObject {
   /**
-  * Name: EnablePreviewMode (EnablePreviewMode), Type: boolean
+  * Name: EnablePreviewMode (EnablePreviewMode), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AmendRequestPreviewOptionsItem extends BaseObject {
   private Boolean enablePreviewMode;
 
   /**
-  * Name: IncludeExistingDraftInvoiceItems (IncludeExistingDraftInvoiceItems), Type: boolean
+  * Name: IncludeExistingDraftInvoiceItems (IncludeExistingDraftInvoiceItems), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AmendRequestPreviewOptionsItem extends BaseObject {
   private Boolean includeExistingDraftInvoiceItems;
 
   /**
-  * Name: NumberOfPeriods (NumberOfPeriods), Type: integer
+  * Name: NumberOfPeriods (NumberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AmendRequestPreviewOptionsItem extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: PreviewThroughTermEnd (PreviewThroughTermEnd), Type: boolean
+  * Name: PreviewThroughTermEnd (PreviewThroughTermEnd), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AmendRequestPreviewOptionsItem extends BaseObject {
   private Boolean previewThroughTermEnd;
 
   /**
-  * Name: PreviewType (PreviewType), Type: string
+  * Name: PreviewType (PreviewType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

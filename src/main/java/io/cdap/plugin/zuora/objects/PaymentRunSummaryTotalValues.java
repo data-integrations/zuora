@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentRunSummaryTotalValues (PaymentRunSummaryTotalValues)
-* Related objects: 
+* Object name: PaymentRunSummaryTotalValues (PaymentRunSummaryTotalValues).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentRunSummaryTotalValues extends BaseObject {
   /**
-  * Name: totalValueOfCreditBalance (totalValueOfCreditBalance), Type: string
+  * Name: totalValueOfCreditBalance (totalValueOfCreditBalance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfCreditBalance;
 
   /**
-  * Name: totalValueOfCreditMemos (totalValueOfCreditMemos), Type: string
+  * Name: totalValueOfCreditMemos (totalValueOfCreditMemos), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfCreditMemos;
 
   /**
-  * Name: totalValueOfDebitMemos (totalValueOfDebitMemos), Type: string
+  * Name: totalValueOfDebitMemos (totalValueOfDebitMemos), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfDebitMemos;
 
   /**
-  * Name: totalValueOfErrors (totalValueOfErrors), Type: string
+  * Name: totalValueOfErrors (totalValueOfErrors), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfErrors;
 
   /**
-  * Name: totalValueOfInvoices (totalValueOfInvoices), Type: string
+  * Name: totalValueOfInvoices (totalValueOfInvoices), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfInvoices;
 
   /**
-  * Name: totalValueOfPayments (totalValueOfPayments), Type: string
+  * Name: totalValueOfPayments (totalValueOfPayments), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfPayments;
 
   /**
-  * Name: totalValueOfReceivables (totalValueOfReceivables), Type: string
+  * Name: totalValueOfReceivables (totalValueOfReceivables), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfReceivables;
 
   /**
-  * Name: totalValueOfUnappliedPayments (totalValueOfUnappliedPayments), Type: integer
+  * Name: totalValueOfUnappliedPayments (totalValueOfUnappliedPayments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private Integer totalValueOfUnappliedPayments;
 
   /**
-  * Name: totalValueOfUnprocessedDebitMemos (totalValueOfUnprocessedDebitMemos), Type: string
+  * Name: totalValueOfUnprocessedDebitMemos (totalValueOfUnprocessedDebitMemos), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfUnprocessedDebitMemos;
 
   /**
-  * Name: totalValueOfUnprocessedInvoices (totalValueOfUnprocessedInvoices), Type: string
+  * Name: totalValueOfUnprocessedInvoices (totalValueOfUnprocessedInvoices), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PaymentRunSummaryTotalValues extends BaseObject {
   private String totalValueOfUnprocessedInvoices;
 
   /**
-  * Name: totalValueOfUnprocessedReceivables (totalValueOfUnprocessedReceivables), Type: string
+  * Name: totalValueOfUnprocessedReceivables (totalValueOfUnprocessedReceivables), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

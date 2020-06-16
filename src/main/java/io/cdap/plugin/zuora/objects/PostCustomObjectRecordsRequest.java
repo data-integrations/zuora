@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostCustomObjectRecordsRequest (PostCustomObjectRecordsRequest)
-* Related objects: 
+* Object name: PostCustomObjectRecordsRequest (PostCustomObjectRecordsRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PostCustomObjectRecordsRequest extends BaseObject {
   /**
-  * Name: records (records), Type: array|CustomObjectRecordWithOnlyCustomFields
+  * Name: records (records), Type: array|CustomObjectRecordWithOnlyCustomFields.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

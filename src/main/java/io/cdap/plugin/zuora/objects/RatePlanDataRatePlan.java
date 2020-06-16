@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatePlanDataRatePlan (RatePlanDataRatePlan)
-* Related objects: 
+* Object name: RatePlanDataRatePlan (RatePlanDataRatePlan).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RatePlanDataRatePlan extends BaseObject {
   /**
-  * Name: AmendmentId (AmendmentId), Type: string
+  * Name: AmendmentId (AmendmentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String amendmentId;
 
   /**
-  * Name: AmendmentSubscriptionRatePlanId (AmendmentSubscriptionRatePlanId), Type: string
+  * Name: AmendmentSubscriptionRatePlanId (AmendmentSubscriptionRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String amendmentSubscriptionRatePlanId;
 
   /**
-  * Name: AmendmentType (AmendmentType), Type: string
+  * Name: AmendmentType (AmendmentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String amendmentType;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String name;
 
   /**
-  * Name: ProductRatePlanId (ProductRatePlanId), Type: string
+  * Name: ProductRatePlanId (ProductRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class RatePlanDataRatePlan extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

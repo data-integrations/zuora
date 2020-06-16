@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTPaymentRunRequest (PUTPaymentRunRequest)
-* Related objects: 
+* Object name: PUTPaymentRunRequest (PUTPaymentRunRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTPaymentRunRequest extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String accountId;
 
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: autoApplyCreditMemo (autoApplyCreditMemo), Type: boolean
+  * Name: autoApplyCreditMemo (autoApplyCreditMemo), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean autoApplyCreditMemo;
 
   /**
-  * Name: autoApplyUnappliedPayment (autoApplyUnappliedPayment), Type: boolean
+  * Name: autoApplyUnappliedPayment (autoApplyUnappliedPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean autoApplyUnappliedPayment;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String batch;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: string
+  * Name: billCycleDay (billCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: billingRunId (billingRunId), Type: string
+  * Name: billingRunId (billingRunId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String billingRunId;
 
   /**
-  * Name: collectPayment (collectPayment), Type: boolean
+  * Name: collectPayment (collectPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean collectPayment;
 
   /**
-  * Name: consolidatedPayment (consolidatedPayment), Type: boolean
+  * Name: consolidatedPayment (consolidatedPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean consolidatedPayment;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String currency;
 
   /**
-  * Name: paymentGatewayId (paymentGatewayId), Type: string
+  * Name: paymentGatewayId (paymentGatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String paymentGatewayId;
 
   /**
-  * Name: processPaymentWithClosedPM (processPaymentWithClosedPM), Type: boolean
+  * Name: processPaymentWithClosedPM (processPaymentWithClosedPM), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private Boolean processPaymentWithClosedPM;
 
   /**
-  * Name: runDate (runDate), Type: string
+  * Name: runDate (runDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PUTPaymentRunRequest extends BaseObject {
   private String runDate;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

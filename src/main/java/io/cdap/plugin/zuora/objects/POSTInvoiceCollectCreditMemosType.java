@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTInvoiceCollectCreditMemosType (POSTInvoiceCollectCreditMemosType)
-* Related objects: 
+* Object name: POSTInvoiceCollectCreditMemosType (POSTInvoiceCollectCreditMemosType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTInvoiceCollectCreditMemosType extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTInvoiceCollectCreditMemosType extends BaseObject {
   private String id;
 
   /**
-  * Name: memoAmount (memoAmount), Type: string
+  * Name: memoAmount (memoAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTInvoiceCollectCreditMemosType extends BaseObject {
   private String memoAmount;
 
   /**
-  * Name: memoNumber (memoNumber), Type: string
+  * Name: memoNumber (memoNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

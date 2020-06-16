@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateRefund (ProxyCreateRefund)
-* Related objects: 
+* Object name: ProxyCreateRefund (ProxyCreateRefund).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateRefund extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String accountId;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String amount;
 
   /**
-  * Name: Comment (Comment), Type: string
+  * Name: Comment (Comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String comment;
 
   /**
-  * Name: GatewayOptionData (GatewayOptionData), Type: ProxyCreateRefundGatewayOptionDataItem
+  * Name: GatewayOptionData (GatewayOptionData), Type: ProxyCreateRefundGatewayOptionDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String gatewayOptionData;
 
   /**
-  * Name: GatewayState (GatewayState), Type: string
+  * Name: GatewayState (GatewayState), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String gatewayState;
 
   /**
-  * Name: MethodType (MethodType), Type: string
+  * Name: MethodType (MethodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String methodType;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: ReasonCode (ReasonCode), Type: string
+  * Name: ReasonCode (ReasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: RefundDate (RefundDate), Type: string
+  * Name: RefundDate (RefundDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String refundDate;
 
   /**
-  * Name: RefundInvoicePaymentData (RefundInvoicePaymentData), Type: ProxyCreateRefundRefundInvoicePaymentDataItem
+  * Name: RefundInvoicePaymentData (RefundInvoicePaymentData), Type: ProxyCreateRefundRefundInvoicePaymentDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String refundInvoicePaymentData;
 
   /**
-  * Name: SoftDescriptor (SoftDescriptor), Type: string
+  * Name: SoftDescriptor (SoftDescriptor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String softDescriptor;
 
   /**
-  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string
+  * Name: SoftDescriptorPhone (SoftDescriptorPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String softDescriptorPhone;
 
   /**
-  * Name: SourceType (SourceType), Type: string
+  * Name: SourceType (SourceType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyCreateRefund extends BaseObject {
   private String sourceType;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
