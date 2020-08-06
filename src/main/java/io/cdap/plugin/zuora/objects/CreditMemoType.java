@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoType (CreditMemoType)
+* Object name: CreditMemoType (CreditMemoType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class CreditMemoType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class CreditMemoType extends BaseObject {
   private String amount;
 
   /**
-  * Name: appliedAmount (appliedAmount), Type: number
+  * Name: appliedAmount (appliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class CreditMemoType extends BaseObject {
   private String appliedAmount;
 
   /**
-  * Name: autoApplyUponPosting (autoApplyUponPosting), Type: boolean
+  * Name: autoApplyUponPosting (autoApplyUponPosting), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class CreditMemoType extends BaseObject {
   private Boolean autoApplyUponPosting;
 
   /**
-  * Name: cancelledById (cancelledById), Type: string
+  * Name: cancelledById (cancelledById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -84,7 +84,7 @@ public class CreditMemoType extends BaseObject {
   private String cancelledById;
 
   /**
-  * Name: cancelledOn (cancelledOn), Type: string
+  * Name: cancelledOn (cancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -93,7 +93,7 @@ public class CreditMemoType extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -102,7 +102,7 @@ public class CreditMemoType extends BaseObject {
   private String comment;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -111,7 +111,7 @@ public class CreditMemoType extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -120,7 +120,7 @@ public class CreditMemoType extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: creditMemoDate (creditMemoDate), Type: string
+  * Name: creditMemoDate (creditMemoDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -129,7 +129,7 @@ public class CreditMemoType extends BaseObject {
   private String creditMemoDate;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -138,7 +138,7 @@ public class CreditMemoType extends BaseObject {
   private String currency;
 
   /**
-  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean
+  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -147,7 +147,7 @@ public class CreditMemoType extends BaseObject {
   private Boolean excludeFromAutoApplyRules;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -156,7 +156,7 @@ public class CreditMemoType extends BaseObject {
   private String id;
 
   /**
-  * Name: latestPDFFileId (latestPDFFileId), Type: string
+  * Name: latestPDFFileId (latestPDFFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -165,7 +165,7 @@ public class CreditMemoType extends BaseObject {
   private String latestPDFFileId;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -174,7 +174,7 @@ public class CreditMemoType extends BaseObject {
   private String number;
 
   /**
-  * Name: postedById (postedById), Type: string
+  * Name: postedById (postedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -183,7 +183,7 @@ public class CreditMemoType extends BaseObject {
   private String postedById;
 
   /**
-  * Name: postedOn (postedOn), Type: string
+  * Name: postedOn (postedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -192,7 +192,7 @@ public class CreditMemoType extends BaseObject {
   private String postedOn;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -201,7 +201,7 @@ public class CreditMemoType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: referredInvoiceId (referredInvoiceId), Type: string
+  * Name: referredInvoiceId (referredInvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -210,7 +210,7 @@ public class CreditMemoType extends BaseObject {
   private String referredInvoiceId;
 
   /**
-  * Name: refundAmount (refundAmount), Type: number
+  * Name: refundAmount (refundAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -219,7 +219,7 @@ public class CreditMemoType extends BaseObject {
   private String refundAmount;
 
   /**
-  * Name: source (source), Type: string
+  * Name: source (source), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -228,7 +228,7 @@ public class CreditMemoType extends BaseObject {
   private String source;
 
   /**
-  * Name: sourceId (sourceId), Type: string
+  * Name: sourceId (sourceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -237,7 +237,7 @@ public class CreditMemoType extends BaseObject {
   private String sourceId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -246,7 +246,7 @@ public class CreditMemoType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -255,7 +255,7 @@ public class CreditMemoType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -264,7 +264,7 @@ public class CreditMemoType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -273,7 +273,7 @@ public class CreditMemoType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: taxMessage (taxMessage), Type: string
+  * Name: taxMessage (taxMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -282,7 +282,7 @@ public class CreditMemoType extends BaseObject {
   private String taxMessage;
 
   /**
-  * Name: taxStatus (taxStatus), Type: string
+  * Name: taxStatus (taxStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -291,7 +291,7 @@ public class CreditMemoType extends BaseObject {
   private String taxStatus;
 
   /**
-  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number
+  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -300,7 +300,7 @@ public class CreditMemoType extends BaseObject {
   private String totalTaxExemptAmount;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -309,7 +309,7 @@ public class CreditMemoType extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: unappliedAmount (unappliedAmount), Type: number
+  * Name: unappliedAmount (unappliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -318,7 +318,7 @@ public class CreditMemoType extends BaseObject {
   private String unappliedAmount;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -327,7 +327,7 @@ public class CreditMemoType extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

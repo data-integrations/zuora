@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceType (InvoiceType)
-* Related objects: 
+* Object name: InvoiceType (InvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountName (accountName), Type: string
+  * Name: accountName (accountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class InvoiceType extends BaseObject {
   private String accountName;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class InvoiceType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class InvoiceType extends BaseObject {
   private String amount;
 
   /**
-  * Name: balance (balance), Type: string
+  * Name: balance (balance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class InvoiceType extends BaseObject {
   private String balance;
 
   /**
-  * Name: body (body), Type: string
+  * Name: body (body), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class InvoiceType extends BaseObject {
   private String body;
 
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class InvoiceType extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: creditBalanceAdjustmentAmount (creditBalanceAdjustmentAmount), Type: string
+  * Name: creditBalanceAdjustmentAmount (creditBalanceAdjustmentAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class InvoiceType extends BaseObject {
   private String creditBalanceAdjustmentAmount;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class InvoiceType extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class InvoiceType extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceDate (invoiceDate), Type: string
+  * Name: invoiceDate (invoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class InvoiceType extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: invoiceFiles (invoiceFiles), Type: string
+  * Name: invoiceFiles (invoiceFiles), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class InvoiceType extends BaseObject {
   private String invoiceFiles;
 
   /**
-  * Name: invoiceItems (invoiceItems), Type: string
+  * Name: invoiceItems (invoiceItems), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class InvoiceType extends BaseObject {
   private String invoiceItems;
 
   /**
-  * Name: invoiceNumber (invoiceNumber), Type: string
+  * Name: invoiceNumber (invoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class InvoiceType extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class InvoiceType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: reversed (reversed), Type: boolean
+  * Name: reversed (reversed), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class InvoiceType extends BaseObject {
   private Boolean reversed;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

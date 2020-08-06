@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAttachmentResponseType (POSTAttachmentResponseType)
+* Object name: POSTAttachmentResponseType (POSTAttachmentResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAttachmentResponseType extends BaseObject {
   /**
-  * Name: fileId (fileId), Type: string
+  * Name: fileId (fileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTAttachmentResponseType extends BaseObject {
   private String fileId;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTAttachmentResponseType extends BaseObject {
   private String id;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoUnapplyDebitMemoItemRequestType (CreditMemoUnapplyDebitMemoItemRequestType)
-* Related objects: 
+* Object name: CreditMemoUnapplyDebitMemoItemRequestType (CreditMemoUnapplyDebitMemoItemRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoUnapplyDebitMemoItemRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreditMemoUnapplyDebitMemoItemRequestType extends BaseObject {
   private String amount;
 
   /**
-  * Name: creditMemoItemId (creditMemoItemId), Type: string
+  * Name: creditMemoItemId (creditMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreditMemoUnapplyDebitMemoItemRequestType extends BaseObject {
   private String creditMemoItemId;
 
   /**
-  * Name: creditTaxItemId (creditTaxItemId), Type: string
+  * Name: creditTaxItemId (creditTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreditMemoUnapplyDebitMemoItemRequestType extends BaseObject {
   private String creditTaxItemId;
 
   /**
-  * Name: debitMemoItemId (debitMemoItemId), Type: string
+  * Name: debitMemoItemId (debitMemoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreditMemoUnapplyDebitMemoItemRequestType extends BaseObject {
   private String debitMemoItemId;
 
   /**
-  * Name: taxItemId (taxItemId), Type: string
+  * Name: taxItemId (taxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

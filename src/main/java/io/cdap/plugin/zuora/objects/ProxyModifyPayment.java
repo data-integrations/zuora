@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyPayment (ProxyModifyPayment)
-* Related objects: 
+* Object name: ProxyModifyPayment (ProxyModifyPayment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyPayment extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String amount;
 
   /**
-  * Name: Comment (Comment), Type: string
+  * Name: Comment (Comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String comment;
 
   /**
-  * Name: EffectiveDate (EffectiveDate), Type: string
+  * Name: EffectiveDate (EffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: ReferenceId (ReferenceId), Type: string
+  * Name: ReferenceId (ReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String status;
 
   /**
-  * Name: TransferredToAccounting (TransferredToAccounting), Type: string
+  * Name: TransferredToAccounting (TransferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyModifyPayment extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

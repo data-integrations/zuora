@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem (PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem)
-* Related objects: 
+* Object name: PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem (PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem extends BaseObject {
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

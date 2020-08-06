@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateExport (ProxyCreateExport)
-* Related objects: 
+* Object name: ProxyCreateExport (ProxyCreateExport).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateExport extends BaseObject {
   /**
-  * Name: ConvertToCurrencies (ConvertToCurrencies), Type: string
+  * Name: ConvertToCurrencies (ConvertToCurrencies), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateExport extends BaseObject {
   private String convertToCurrencies;
 
   /**
-  * Name: Encrypted (Encrypted), Type: boolean
+  * Name: Encrypted (Encrypted), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateExport extends BaseObject {
   private Boolean encrypted;
 
   /**
-  * Name: FileId (FileId), Type: string
+  * Name: FileId (FileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateExport extends BaseObject {
   private String fileId;
 
   /**
-  * Name: Format (Format), Type: string
+  * Name: Format (Format), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateExport extends BaseObject {
   private String format;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateExport extends BaseObject {
   private String name;
 
   /**
-  * Name: Query (Query), Type: string
+  * Name: Query (Query), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateExport extends BaseObject {
   private String query;
 
   /**
-  * Name: Size (Size), Type: integer
+  * Name: Size (Size), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateExport extends BaseObject {
   private Integer size;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreateExport extends BaseObject {
   private String status;
 
   /**
-  * Name: StatusReason (StatusReason), Type: string
+  * Name: StatusReason (StatusReason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreateExport extends BaseObject {
   private String statusReason;
 
   /**
-  * Name: Zip (Zip), Type: boolean
+  * Name: Zip (Zip), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

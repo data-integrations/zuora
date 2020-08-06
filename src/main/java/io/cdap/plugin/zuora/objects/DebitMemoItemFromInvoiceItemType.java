@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoItemFromInvoiceItemType (DebitMemoItemFromInvoiceItemType)
-* Related objects: 
+* Object name: DebitMemoItemFromInvoiceItemType (DebitMemoItemFromInvoiceItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String comment;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String description;
 
   /**
-  * Name: financeInformation (financeInformation), Type: DebitMemoItemFromInvoiceItemTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: DebitMemoItemFromInvoiceItemTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: invoiceItemId (invoiceItemId), Type: string
+  * Name: invoiceItemId (invoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String invoiceItemId;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: skuName (skuName), Type: string
+  * Name: skuName (skuName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private String skuName;
 
   /**
-  * Name: taxItems (taxItems), Type: array|DebitMemoTaxItemFromInvoiceTaxItemType
+  * Name: taxItems (taxItems), Type: array|DebitMemoTaxItemFromInvoiceTaxItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class DebitMemoItemFromInvoiceItemType extends BaseObject {
   private List<DebitMemoTaxItemFromInvoiceTaxItemType> taxItems;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

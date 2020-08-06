@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderActionForEvergreen (OrderActionForEvergreen)
-* Related objects: 
+* Object name: OrderActionForEvergreen (OrderActionForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderActionForEvergreen extends BaseObject {
   /**
-  * Name: orderMetrics (orderMetrics), Type: array|OrderMetricsForEvergreen
+  * Name: orderMetrics (orderMetrics), Type: array|OrderMetricsForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderActionForEvergreen extends BaseObject {
   private List<OrderMetricsForEvergreen> orderMetrics;
 
   /**
-  * Name: sequence (sequence), Type: integer
+  * Name: sequence (sequence), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderActionForEvergreen extends BaseObject {
   private Integer sequence;
 
   /**
-  * Name: triggerDates (triggerDates), Type: array|TriggerDate
+  * Name: triggerDates (triggerDates), Type: array|TriggerDate.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderActionForEvergreen extends BaseObject {
   private List<TriggerDate> triggerDates;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

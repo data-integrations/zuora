@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CalloutHistoryVOType (CalloutHistoryVOType)
-* Related objects: 
+* Object name: CalloutHistoryVOType (CalloutHistoryVOType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CalloutHistoryVOType extends BaseObject {
   /**
-  * Name: attemptedNum (attemptedNum), Type: string
+  * Name: attemptedNum (attemptedNum), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String attemptedNum;
 
   /**
-  * Name: createTime (createTime), Type: string
+  * Name: createTime (createTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String createTime;
 
   /**
-  * Name: eventCategory (eventCategory), Type: string
+  * Name: eventCategory (eventCategory), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String eventCategory;
 
   /**
-  * Name: eventContext (eventContext), Type: string
+  * Name: eventContext (eventContext), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String eventContext;
 
   /**
-  * Name: notification (notification), Type: string
+  * Name: notification (notification), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String notification;
 
   /**
-  * Name: requestMethod (requestMethod), Type: string
+  * Name: requestMethod (requestMethod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String requestMethod;
 
   /**
-  * Name: requestUrl (requestUrl), Type: string
+  * Name: requestUrl (requestUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String requestUrl;
 
   /**
-  * Name: responseCode (responseCode), Type: string
+  * Name: responseCode (responseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class CalloutHistoryVOType extends BaseObject {
   private String responseCode;
 
   /**
-  * Name: responseContent (responseContent), Type: string
+  * Name: responseContent (responseContent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

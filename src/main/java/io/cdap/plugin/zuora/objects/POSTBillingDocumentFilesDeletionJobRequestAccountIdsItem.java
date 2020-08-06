@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem (POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem)
-* Related objects: 
+* Object name: POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem (POSTBillingDocumentFilesDeletionJobRequestAccountIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

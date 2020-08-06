@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: NewChargeMetrics (NewChargeMetrics)
-* Related objects: 
+* Object name: NewChargeMetrics (NewChargeMetrics).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class NewChargeMetrics extends BaseObject {
   /**
-  * Name: ChargeNumber (ChargeNumber), Type: string
+  * Name: ChargeNumber (ChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class NewChargeMetrics extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: DMRR (DMRR), Type: number
+  * Name: DMRR (DMRR), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class NewChargeMetrics extends BaseObject {
   private String dMRR;
 
   /**
-  * Name: DTCV (DTCV), Type: number
+  * Name: DTCV (DTCV), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class NewChargeMetrics extends BaseObject {
   private String dTCV;
 
   /**
-  * Name: MRR (MRR), Type: number
+  * Name: MRR (MRR), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class NewChargeMetrics extends BaseObject {
   private String mRR;
 
   /**
-  * Name: OriginalId (OriginalId), Type: string
+  * Name: OriginalId (OriginalId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class NewChargeMetrics extends BaseObject {
   private String originalId;
 
   /**
-  * Name: OriginalRatePlanId (OriginalRatePlanId), Type: string
+  * Name: OriginalRatePlanId (OriginalRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class NewChargeMetrics extends BaseObject {
   private String originalRatePlanId;
 
   /**
-  * Name: ProductRatePlanChargeId (ProductRatePlanChargeId), Type: string
+  * Name: ProductRatePlanChargeId (ProductRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class NewChargeMetrics extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: ProductRatePlanId (ProductRatePlanId), Type: string
+  * Name: ProductRatePlanId (ProductRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class NewChargeMetrics extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: TCV (TCV), Type: number
+  * Name: TCV (TCV), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordBatchAction (CustomObjectRecordBatchAction)
-* Related objects: 
+* Object name: CustomObjectRecordBatchAction (CustomObjectRecordBatchAction).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectRecordBatchAction extends BaseObject {
   /**
-  * Name: ids (ids), Type: array|CustomObjectRecordBatchActionIdsItem
+  * Name: ids (ids), Type: array|CustomObjectRecordBatchActionIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CustomObjectRecordBatchAction extends BaseObject {
   private List<CustomObjectRecordBatchActionIdsItem> ids;
 
   /**
-  * Name: records (records), Type: CustomObjectRecordBatchActionRecordsItem
+  * Name: records (records), Type: CustomObjectRecordBatchActionRecordsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CustomObjectRecordBatchAction extends BaseObject {
   private String records;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

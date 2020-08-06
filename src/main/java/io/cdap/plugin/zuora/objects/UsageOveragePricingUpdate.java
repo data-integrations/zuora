@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageOveragePricingUpdate (UsageOveragePricingUpdate)
-* Related objects: 
+* Object name: UsageOveragePricingUpdate (UsageOveragePricingUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UsageOveragePricingUpdate extends BaseObject {
   /**
-  * Name: includedUnits (includedUnits), Type: number
+  * Name: includedUnits (includedUnits), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class UsageOveragePricingUpdate extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

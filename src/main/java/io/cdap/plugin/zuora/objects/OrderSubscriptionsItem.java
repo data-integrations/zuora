@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderSubscriptionsItem (OrderSubscriptionsItem)
-* Related objects: 
+* Object name: OrderSubscriptionsItem (OrderSubscriptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderSubscriptionsItem extends BaseObject {
   /**
-  * Name: baseVersion (baseVersion), Type: integer
+  * Name: baseVersion (baseVersion), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderSubscriptionsItem extends BaseObject {
   private Integer baseVersion;
 
   /**
-  * Name: newVersion (newVersion), Type: integer
+  * Name: newVersion (newVersion), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderSubscriptionsItem extends BaseObject {
   private Integer newVersion;
 
   /**
-  * Name: orderActions (orderActions), Type: array|OrderAction
+  * Name: orderActions (orderActions), Type: array|OrderAction.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderSubscriptionsItem extends BaseObject {
   private List<OrderAction> orderActions;
 
   /**
-  * Name: sequence (sequence), Type: integer
+  * Name: sequence (sequence), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class OrderSubscriptionsItem extends BaseObject {
   private Integer sequence;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

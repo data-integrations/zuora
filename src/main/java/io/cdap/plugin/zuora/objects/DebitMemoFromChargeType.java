@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoFromChargeType (DebitMemoFromChargeType)
-* Related objects: 
+* Object name: DebitMemoFromChargeType (DebitMemoFromChargeType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoFromChargeType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: charges (charges), Type: array|DebitMemoFromChargeDetailType
+  * Name: charges (charges), Type: array|DebitMemoFromChargeDetailType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private List<DebitMemoFromChargeDetailType> charges;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private String comment;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class DebitMemoFromChargeType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

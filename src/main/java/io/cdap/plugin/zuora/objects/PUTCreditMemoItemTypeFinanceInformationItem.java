@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTCreditMemoItemTypeFinanceInformationItem (PUTCreditMemoItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: PUTCreditMemoItemTypeFinanceInformationItem (PUTCreditMemoItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTCreditMemoItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string
+  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTCreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String deferredRevenueAccountingCode;
 
   /**
-  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string
+  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTCreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCode;
 
   /**
-  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string
+  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTCreditMemoItemTypeFinanceInformationItem extends BaseObject {
   private String recognizedRevenueAccountingCode;
 
   /**
-  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string
+  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

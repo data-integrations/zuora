@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem (ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem)
-* Related objects: 
+* Object name: ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem (ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChargeTierItem extends BaseObject {
   /**
-  * Name: Currency (Currency), Type: string
+  * Name: Currency (Currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String currency;
 
   /**
-  * Name: DiscountAmount (DiscountAmount), Type: number
+  * Name: DiscountAmount (DiscountAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String discountAmount;
 
   /**
-  * Name: DiscountPercentage (DiscountPercentage), Type: number
+  * Name: DiscountPercentage (DiscountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String discountPercentage;
 
   /**
-  * Name: EndingUnit (EndingUnit), Type: number
+  * Name: EndingUnit (EndingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String endingUnit;
 
   /**
-  * Name: IsOveragePrice (IsOveragePrice), Type: boolean
+  * Name: IsOveragePrice (IsOveragePrice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private Boolean isOveragePrice;
 
   /**
-  * Name: Price (Price), Type: number
+  * Name: Price (Price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String price;
 
   /**
-  * Name: PriceFormat (PriceFormat), Type: string
+  * Name: PriceFormat (PriceFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateOrModifyProductRatePlanChargeTierDataProductRatePlanChar
   private String priceFormat;
 
   /**
-  * Name: StartingUnit (StartingUnit), Type: number
+  * Name: StartingUnit (StartingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

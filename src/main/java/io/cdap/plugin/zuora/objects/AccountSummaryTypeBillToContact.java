@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryTypeBillToContact (AccountSummaryTypeBillToContact)
-* Related objects: 
+* Object name: AccountSummaryTypeBillToContact (AccountSummaryTypeBillToContact).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryTypeBillToContact extends BaseObject {
   /**
-  * Name: address1 (address1), Type: string
+  * Name: address1 (address1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String address1;
 
   /**
-  * Name: address2 (address2), Type: string
+  * Name: address2 (address2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String address2;
 
   /**
-  * Name: city (city), Type: string
+  * Name: city (city), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String city;
 
   /**
-  * Name: country (country), Type: string
+  * Name: country (country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String country;
 
   /**
-  * Name: county (county), Type: string
+  * Name: county (county), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String county;
 
   /**
-  * Name: fax (fax), Type: string
+  * Name: fax (fax), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String fax;
 
   /**
-  * Name: firstName (firstName), Type: string
+  * Name: firstName (firstName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String firstName;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string .
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String id;
 
   /**
-  * Name: lastName (lastName), Type: string
+  * Name: lastName (lastName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String lastName;
 
   /**
-  * Name: state (state), Type: string
+  * Name: state (state), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String state;
 
   /**
-  * Name: taxRegion (taxRegion), Type: string
+  * Name: taxRegion (taxRegion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String taxRegion;
 
   /**
-  * Name: workEmail (workEmail), Type: string
+  * Name: workEmail (workEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String workEmail;
 
   /**
-  * Name: workPhone (workPhone), Type: string
+  * Name: workPhone (workPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class AccountSummaryTypeBillToContact extends BaseObject {
   private String workPhone;
 
   /**
-  * Name: zipCode (zipCode), Type: string
+  * Name: zipCode (zipCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

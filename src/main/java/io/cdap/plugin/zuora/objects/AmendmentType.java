@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendmentType (AmendmentType)
-* Related objects: 
+* Object name: AmendmentType (AmendmentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AmendmentType extends BaseObject {
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AmendmentType extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: baseRatePlanId (baseRatePlanId), Type: string
+  * Name: baseRatePlanId (baseRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AmendmentType extends BaseObject {
   private String baseRatePlanId;
 
   /**
-  * Name: baseSubscriptionId (baseSubscriptionId), Type: string
+  * Name: baseSubscriptionId (baseSubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AmendmentType extends BaseObject {
   private String baseSubscriptionId;
 
   /**
-  * Name: code (code), Type: string
+  * Name: code (code), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AmendmentType extends BaseObject {
   private String code;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AmendmentType extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: currentTerm (currentTerm), Type: integer
+  * Name: currentTerm (currentTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AmendmentType extends BaseObject {
   private Integer currentTerm;
 
   /**
-  * Name: currentTermPeriodType (currentTermPeriodType), Type: string
+  * Name: currentTermPeriodType (currentTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AmendmentType extends BaseObject {
   private String currentTermPeriodType;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AmendmentType extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AmendmentType extends BaseObject {
   private String description;
 
   /**
-  * Name: destinationAccountId (destinationAccountId), Type: string
+  * Name: destinationAccountId (destinationAccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AmendmentType extends BaseObject {
   private String destinationAccountId;
 
   /**
-  * Name: destinationInvoiceOwnerId (destinationInvoiceOwnerId), Type: string
+  * Name: destinationInvoiceOwnerId (destinationInvoiceOwnerId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AmendmentType extends BaseObject {
   private String destinationInvoiceOwnerId;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AmendmentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class AmendmentType extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class AmendmentType extends BaseObject {
   private String name;
 
   /**
-  * Name: newRatePlanId (newRatePlanId), Type: string
+  * Name: newRatePlanId (newRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class AmendmentType extends BaseObject {
   private String newRatePlanId;
 
   /**
-  * Name: newSubscriptionId (newSubscriptionId), Type: string
+  * Name: newSubscriptionId (newSubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class AmendmentType extends BaseObject {
   private String newSubscriptionId;
 
   /**
-  * Name: renewalSetting (renewalSetting), Type: string
+  * Name: renewalSetting (renewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class AmendmentType extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: integer
+  * Name: renewalTerm (renewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class AmendmentType extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string
+  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class AmendmentType extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: resumeDate (resumeDate), Type: string
+  * Name: resumeDate (resumeDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class AmendmentType extends BaseObject {
   private String resumeDate;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class AmendmentType extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: specificUpdateDate (specificUpdateDate), Type: string
+  * Name: specificUpdateDate (specificUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class AmendmentType extends BaseObject {
   private String specificUpdateDate;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class AmendmentType extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class AmendmentType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: suspendDate (suspendDate), Type: string
+  * Name: suspendDate (suspendDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class AmendmentType extends BaseObject {
   private String suspendDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class AmendmentType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class AmendmentType extends BaseObject {
   private String termType;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

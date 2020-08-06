@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTQuoteDocType (POSTQuoteDocType)
-* Related objects: 
+* Object name: POSTQuoteDocType (POSTQuoteDocType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTQuoteDocType extends BaseObject {
   /**
-  * Name: apiuser (apiuser), Type: string
+  * Name: apiuser (apiuser), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String apiuser;
 
   /**
-  * Name: documentType (documentType), Type: string
+  * Name: documentType (documentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String documentType;
 
   /**
-  * Name: locale (locale), Type: string
+  * Name: locale (locale), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String locale;
 
   /**
-  * Name: password (password), Type: string
+  * Name: password (password), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String password;
 
   /**
-  * Name: quoteId (quoteId), Type: string
+  * Name: quoteId (quoteId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String quoteId;
 
   /**
-  * Name: sandbox (sandbox), Type: string
+  * Name: sandbox (sandbox), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String sandbox;
 
   /**
-  * Name: serverUrl (serverUrl), Type: string
+  * Name: serverUrl (serverUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String serverUrl;
 
   /**
-  * Name: sessionId (sessionId), Type: string
+  * Name: sessionId (sessionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String sessionId;
 
   /**
-  * Name: templateId (templateId), Type: string
+  * Name: templateId (templateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String templateId;
 
   /**
-  * Name: token (token), Type: string
+  * Name: token (token), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String token;
 
   /**
-  * Name: useSFDCLocale (useSFDCLocale), Type: string
+  * Name: useSFDCLocale (useSFDCLocale), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String useSFDCLocale;
 
   /**
-  * Name: username (username), Type: string
+  * Name: username (username), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String username;
 
   /**
-  * Name: zquotesMajorVersion (zquotesMajorVersion), Type: string
+  * Name: zquotesMajorVersion (zquotesMajorVersion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class POSTQuoteDocType extends BaseObject {
   private String zquotesMajorVersion;
 
   /**
-  * Name: zquotesMinorVersion (zquotesMinorVersion), Type: string
+  * Name: zquotesMinorVersion (zquotesMinorVersion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TimeSlicedMetricsForEvergreen (TimeSlicedMetricsForEvergreen)
-* Related objects: 
+* Object name: TimeSlicedMetricsForEvergreen (TimeSlicedMetricsForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class TimeSlicedMetricsForEvergreen extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class TimeSlicedMetricsForEvergreen extends BaseObject {
   private String amount;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class TimeSlicedMetricsForEvergreen extends BaseObject {
   private String endDate;
 
   /**
-  * Name: invoiceOwner (invoiceOwner), Type: string
+  * Name: invoiceOwner (invoiceOwner), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class TimeSlicedMetricsForEvergreen extends BaseObject {
   private String invoiceOwner;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class TimeSlicedMetricsForEvergreen extends BaseObject {
   private String startDate;
 
   /**
-  * Name: subscriptionOwner (subscriptionOwner), Type: string
+  * Name: subscriptionOwner (subscriptionOwner), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class TimeSlicedMetricsForEvergreen extends BaseObject {
   private String subscriptionOwner;
 
   /**
-  * Name: termNumber (termNumber), Type: number
+  * Name: termNumber (termNumber), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

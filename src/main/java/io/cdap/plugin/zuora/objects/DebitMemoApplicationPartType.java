@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoApplicationPartType (DebitMemoApplicationPartType)
-* Related objects: 
+* Object name: DebitMemoApplicationPartType (DebitMemoApplicationPartType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoApplicationPartType extends BaseObject {
   /**
-  * Name: appliedAmount (appliedAmount), Type: number
+  * Name: appliedAmount (appliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String appliedAmount;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: creditMemoId (creditMemoId), Type: string
+  * Name: creditMemoId (creditMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String creditMemoId;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class DebitMemoApplicationPartType extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

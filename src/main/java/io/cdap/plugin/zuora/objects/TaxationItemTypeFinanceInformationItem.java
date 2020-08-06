@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TaxationItemTypeFinanceInformationItem (TaxationItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: TaxationItemTypeFinanceInformationItem (TaxationItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class TaxationItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string
+  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class TaxationItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCode;
 
   /**
-  * Name: onAccountAccountingCodeType (onAccountAccountingCodeType), Type: string
+  * Name: onAccountAccountingCodeType (onAccountAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class TaxationItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCodeType;
 
   /**
-  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string
+  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class TaxationItemTypeFinanceInformationItem extends BaseObject {
   private String salesTaxPayableAccountingCode;
 
   /**
-  * Name: salesTaxPayableAccountingCodeType (salesTaxPayableAccountingCodeType), Type: string
+  * Name: salesTaxPayableAccountingCodeType (salesTaxPayableAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreatePaymentGatewayOptionDataItem (ProxyCreatePaymentGatewayOptionDataItem)
-* Related objects: 
+* Object name: ProxyCreatePaymentGatewayOptionDataItem (ProxyCreatePaymentGatewayOptionDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreatePaymentGatewayOptionDataItem extends BaseObject {
   /**
-  * Name: GatewayOption (GatewayOption), Type: array|GatewayOption
+  * Name: GatewayOption (GatewayOption), Type: array|GatewayOption.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

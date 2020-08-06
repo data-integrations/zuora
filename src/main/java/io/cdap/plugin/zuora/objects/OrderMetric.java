@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderMetric (OrderMetric)
-* Related objects: 
+* Object name: OrderMetric (OrderMetric).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderMetric extends BaseObject {
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderMetric extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: elp (elp), Type: array|TimeSlicedElpNetMetrics
+  * Name: elp (elp), Type: array|TimeSlicedElpNetMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderMetric extends BaseObject {
   private List<TimeSlicedElpNetMetrics> elp;
 
   /**
-  * Name: mrr (mrr), Type: array|TimeSlicedNetMetrics
+  * Name: mrr (mrr), Type: array|TimeSlicedNetMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderMetric extends BaseObject {
   private List<TimeSlicedNetMetrics> mrr;
 
   /**
-  * Name: originRatePlanId (originRatePlanId), Type: string
+  * Name: originRatePlanId (originRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class OrderMetric extends BaseObject {
   private String originRatePlanId;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class OrderMetric extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class OrderMetric extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: quantity (quantity), Type: array|TimeSlicedMetrics
+  * Name: quantity (quantity), Type: array|TimeSlicedMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class OrderMetric extends BaseObject {
   private List<TimeSlicedMetrics> quantity;
 
   /**
-  * Name: tcb (tcb), Type: array|TimeSlicedTcbNetMetrics
+  * Name: tcb (tcb), Type: array|TimeSlicedTcbNetMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class OrderMetric extends BaseObject {
   private List<TimeSlicedTcbNetMetrics> tcb;
 
   /**
-  * Name: tcv (tcv), Type: array|TimeSlicedNetMetrics
+  * Name: tcv (tcv), Type: array|TimeSlicedNetMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

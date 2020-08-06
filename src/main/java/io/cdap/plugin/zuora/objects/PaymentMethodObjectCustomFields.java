@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentMethodObjectCustomFields (PaymentMethodObjectCustomFields)
-* Related objects: 
+* Object name: PaymentMethodObjectCustomFields (PaymentMethodObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

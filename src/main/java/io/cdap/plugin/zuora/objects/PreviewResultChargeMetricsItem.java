@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewResultChargeMetricsItem (PreviewResultChargeMetricsItem)
-* Related objects: 
+* Object name: PreviewResultChargeMetricsItem (PreviewResultChargeMetricsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewResultChargeMetricsItem extends BaseObject {
   /**
-  * Name: charges (charges), Type: array|ChargePreviewMetrics
+  * Name: charges (charges), Type: array|ChargePreviewMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewResultChargeMetricsItem extends BaseObject {
   private List<ChargePreviewMetrics> charges;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

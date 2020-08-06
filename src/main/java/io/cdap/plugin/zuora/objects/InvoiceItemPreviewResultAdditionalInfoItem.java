@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceItemPreviewResultAdditionalInfoItem (InvoiceItemPreviewResultAdditionalInfoItem)
-* Related objects: 
+* Object name: InvoiceItemPreviewResultAdditionalInfoItem (InvoiceItemPreviewResultAdditionalInfoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceItemPreviewResultAdditionalInfoItem extends BaseObject {
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceItemPreviewResultAdditionalInfoItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

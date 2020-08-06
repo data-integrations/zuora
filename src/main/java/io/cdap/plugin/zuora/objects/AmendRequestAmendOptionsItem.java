@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendRequestAmendOptionsItem (AmendRequestAmendOptionsItem)
-* Related objects: 
+* Object name: AmendRequestAmendOptionsItem (AmendRequestAmendOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AmendRequestAmendOptionsItem extends BaseObject {
   /**
-  * Name: ApplyCreditBalance (ApplyCreditBalance), Type: boolean
+  * Name: ApplyCreditBalance (ApplyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AmendRequestAmendOptionsItem extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: GenerateInvoice (GenerateInvoice), Type: boolean
+  * Name: GenerateInvoice (GenerateInvoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AmendRequestAmendOptionsItem extends BaseObject {
   private Boolean generateInvoice;
 
   /**
-  * Name: ProcessPayments (ProcessPayments), Type: boolean
+  * Name: ProcessPayments (ProcessPayments), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRejectPaymentRequest (POSTRejectPaymentRequest)
-* Related objects: 
+* Object name: POSTRejectPaymentRequest (POSTRejectPaymentRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRejectPaymentRequest extends BaseObject {
   /**
-  * Name: gatewayResponse (gatewayResponse), Type: string
+  * Name: gatewayResponse (gatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTRejectPaymentRequest extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: gatewayResponseCode (gatewayResponseCode), Type: string
+  * Name: gatewayResponseCode (gatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTRejectPaymentRequest extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTRejectPaymentRequest extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: secondReferenceId (secondReferenceId), Type: string
+  * Name: secondReferenceId (secondReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTRejectPaymentRequest extends BaseObject {
   private String secondReferenceId;
 
   /**
-  * Name: settledOn (settledOn), Type: string
+  * Name: settledOn (settledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

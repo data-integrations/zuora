@@ -19,7 +19,7 @@ import io.cdap.plugin.zuora.restobjects.annotations.ObjectDefinition;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 
 /**
-* Object name: BodyInSettingValueReponse (BodyInSettingValueReponse)
+* Object name: BodyInSettingValueReponse (BodyInSettingValueReponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")

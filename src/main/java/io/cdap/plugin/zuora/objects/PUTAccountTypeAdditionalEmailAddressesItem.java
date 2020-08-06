@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTAccountTypeAdditionalEmailAddressesItem (PUTAccountTypeAdditionalEmailAddressesItem)
-* Related objects: 
+* Object name: PUTAccountTypeAdditionalEmailAddressesItem (PUTAccountTypeAdditionalEmailAddressesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

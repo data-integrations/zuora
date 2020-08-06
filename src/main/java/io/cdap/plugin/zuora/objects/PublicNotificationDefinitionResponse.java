@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PublicNotificationDefinitionResponse (PublicNotificationDefinitionResponse)
-* Related objects: 
+* Object name: PublicNotificationDefinitionResponse (PublicNotificationDefinitionResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PublicNotificationDefinitionResponse extends BaseObject {
   /**
-  * Name: active (active), Type: boolean
+  * Name: active (active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: callout (callout), Type: PublicNotificationDefinitionResponseCalloutItem
+  * Name: callout (callout), Type: PublicNotificationDefinitionResponseCalloutItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String callout;
 
   /**
-  * Name: calloutActive (calloutActive), Type: boolean
+  * Name: calloutActive (calloutActive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private Boolean calloutActive;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String description;
 
   /**
-  * Name: emailActive (emailActive), Type: boolean
+  * Name: emailActive (emailActive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private Boolean emailActive;
 
   /**
-  * Name: emailTemplateId (emailTemplateId), Type: string
+  * Name: emailTemplateId (emailTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String emailTemplateId;
 
   /**
-  * Name: eventTypeName (eventTypeName), Type: string
+  * Name: eventTypeName (eventTypeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String eventTypeName;
 
   /**
-  * Name: eventTypeNamespace (eventTypeNamespace), Type: string
+  * Name: eventTypeNamespace (eventTypeNamespace), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String eventTypeNamespace;
 
   /**
-  * Name: filterRule (filterRule), Type: PublicNotificationDefinitionResponseFilterRuleItem
+  * Name: filterRule (filterRule), Type: PublicNotificationDefinitionResponseFilterRuleItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String filterRule;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String name;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class PublicNotificationDefinitionResponse extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

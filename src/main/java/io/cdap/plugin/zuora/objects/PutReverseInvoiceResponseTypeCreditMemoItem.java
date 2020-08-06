@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutReverseInvoiceResponseTypeCreditMemoItem (PutReverseInvoiceResponseTypeCreditMemoItem)
-* Related objects: 
+* Object name: PutReverseInvoiceResponseTypeCreditMemoItem (PutReverseInvoiceResponseTypeCreditMemoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutReverseInvoiceResponseTypeCreditMemoItem extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

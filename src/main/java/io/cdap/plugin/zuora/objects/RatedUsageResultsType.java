@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatedUsageResultsType (RatedUsageResultsType)
-* Related objects: 
+* Object name: RatedUsageResultsType (RatedUsageResultsType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RatedUsageResultsType extends BaseObject {
   /**
-  * Name: count (count), Type: integer
+  * Name: count (count), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RatedUsageResultsType extends BaseObject {
   private Integer count;
 
   /**
-  * Name: cursor (cursor), Type: string
+  * Name: cursor (cursor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RatedUsageResultsType extends BaseObject {
   private String cursor;
 
   /**
-  * Name: dataSet (dataSet), Type: array|ARatedUsageResultType
+  * Name: dataSet (dataSet), Type: array|ARatedUsageResultType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RatedUsageResultsType extends BaseObject {
   private List<ARatedUsageResultType> dataSet;
 
   /**
-  * Name: hasMore (hasMore), Type: boolean
+  * Name: hasMore (hasMore), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

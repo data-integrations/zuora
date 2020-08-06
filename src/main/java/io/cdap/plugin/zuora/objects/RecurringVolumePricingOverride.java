@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RecurringVolumePricingOverride (RecurringVolumePricingOverride)
-* Related objects: 
+* Object name: RecurringVolumePricingOverride (RecurringVolumePricingOverride)..
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RecurringVolumePricingOverride extends BaseObject {
   /**
-  * Name: listPriceBase (listPriceBase), Type: string
+  * Name: listPriceBase (listPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RecurringVolumePricingOverride extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RecurringVolumePricingOverride extends BaseObject {
   private String quantity;
 
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

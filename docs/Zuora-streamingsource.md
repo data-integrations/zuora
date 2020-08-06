@@ -4,10 +4,10 @@ Description
 -----------
 Plugin fetches data from Zuora periodically. Firstly it gets all objects
 of specified type, than only newly created.
- 
+
 Zuora is a subscription management platform designed to meet your
 modern order-to-cash needs.
- 
+
 Properties
 ----------
 ### General
@@ -29,13 +29,9 @@ Properties
 
 Available:
 - Products
-- Refunds
-- PaymentRun
 - Orders
-- Entities
 - DebitMemos
 - CreditMemos
-- BillingDocuments
 
 **Pull frequency:** Delay between polling of Zuora API for updates.
 

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTRenewSubscriptionResponseType (PUTRenewSubscriptionResponseType)
-* Related objects: 
+* Object name: PUTRenewSubscriptionResponseType (PUTRenewSubscriptionResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTRenewSubscriptionResponseType extends BaseObject {
   /**
-  * Name: creditMemoId (creditMemoId), Type: string
+  * Name: creditMemoId (creditMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String creditMemoId;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: paidAmount (paidAmount), Type: number
+  * Name: paidAmount (paidAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: termEndDate (termEndDate), Type: string
+  * Name: termEndDate (termEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String termEndDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: totalDeltaMrr (totalDeltaMrr), Type: number
+  * Name: totalDeltaMrr (totalDeltaMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PUTRenewSubscriptionResponseType extends BaseObject {
   private String totalDeltaMrr;
 
   /**
-  * Name: totalDeltaTcv (totalDeltaTcv), Type: number
+  * Name: totalDeltaTcv (totalDeltaTcv), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTTaxationItemListForDMType (POSTTaxationItemListForDMType)
-* Related objects: 
+* Object name: POSTTaxationItemListForDMType (POSTTaxationItemListForDMType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTTaxationItemListForDMType extends BaseObject {
   /**
-  * Name: taxationItems (taxationItems), Type: array|POSTTaxationItemForDMType
+  * Name: taxationItems (taxationItems), Type: array|POSTTaxationItemForDMType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

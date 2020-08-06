@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem (PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem)
-* Related objects: 
+* Object name: PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem (PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String accountNumber;
 
   /**
-  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: string
+  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String additionalEmailAddresses;
 
   /**
-  * Name: allowInvoiceEdit (allowInvoiceEdit), Type: boolean
+  * Name: allowInvoiceEdit (allowInvoiceEdit), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private Boolean allowInvoiceEdit;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private Boolean autoPay;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String batch;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: integer
+  * Name: billCycleDay (billCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private Integer billCycleDay;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String communicationProfileId;
 
   /**
-  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string
+  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String creditMemoTemplateId;
 
   /**
-  * Name: crmId (crmId), Type: string
+  * Name: crmId (crmId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String crmId;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String currency;
 
   /**
-  * Name: customerServiceRepName (customerServiceRepName), Type: string
+  * Name: customerServiceRepName (customerServiceRepName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String customerServiceRepName;
 
   /**
-  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string
+  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String debitMemoTemplateId;
 
   /**
-  * Name: hpmCreditCardPaymentMethodId (hpmCreditCardPaymentMethodId), Type: string
+  * Name: hpmCreditCardPaymentMethodId (hpmCreditCardPaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String hpmCreditCardPaymentMethodId;
 
   /**
-  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean
+  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean
+  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: invoiceTemplateId (invoiceTemplateId), Type: string
+  * Name: invoiceTemplateId (invoiceTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String invoiceTemplateId;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String notes;
 
   /**
-  * Name: parentId (parentId), Type: string
+  * Name: parentId (parentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String parentId;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String paymentGateway;
 
   /**
-  * Name: paymentTerm (paymentTerm), Type: string
+  * Name: paymentTerm (paymentTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String paymentTerm;
 
   /**
-  * Name: purchaseOrderNumber (purchaseOrderNumber), Type: string
+  * Name: purchaseOrderNumber (purchaseOrderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class PreviewOrderCreateSubscriptionNewSubscriptionOwnerAccountItem exten
   private String purchaseOrderNumber;
 
   /**
-  * Name: salesRep (salesRep), Type: string
+  * Name: salesRep (salesRep), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

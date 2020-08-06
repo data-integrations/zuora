@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DataQueryJob (DataQueryJob)
-* Related objects: 
+* Object name: DataQueryJob (DataQueryJob).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DataQueryJob extends BaseObject {
   /**
-  * Name: dataFile (dataFile), Type: string
+  * Name: dataFile (dataFile), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DataQueryJob extends BaseObject {
   private String dataFile;
 
   /**
-  * Name: outputRows (outputRows), Type: integer
+  * Name: outputRows (outputRows), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DataQueryJob extends BaseObject {
   private Integer outputRows;
 
   /**
-  * Name: processingTime (processingTime), Type: integer
+  * Name: processingTime (processingTime), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DataQueryJob extends BaseObject {
   private Integer processingTime;
 
   /**
-  * Name: queryStatus (queryStatus), Type: string
+  * Name: queryStatus (queryStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

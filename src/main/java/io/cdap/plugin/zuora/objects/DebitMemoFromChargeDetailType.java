@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoFromChargeDetailType (DebitMemoFromChargeDetailType)
-* Related objects: 
+* Object name: DebitMemoFromChargeDetailType (DebitMemoFromChargeDetailType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoFromChargeDetailType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String amount;
 
   /**
-  * Name: chargeId (chargeId), Type: string
+  * Name: chargeId (chargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String chargeId;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String comment;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String description;
 
   /**
-  * Name: financeInformation (financeInformation), Type: DebitMemoFromChargeDetailTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: DebitMemoFromChargeDetailTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: memoItemAmount (memoItemAmount), Type: number
+  * Name: memoItemAmount (memoItemAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String memoItemAmount;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class DebitMemoFromChargeDetailType extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

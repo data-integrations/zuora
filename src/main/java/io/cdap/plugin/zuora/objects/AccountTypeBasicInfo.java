@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountTypeBasicInfo (AccountTypeBasicInfo)
-* Related objects: 
+* Object name: AccountTypeBasicInfo (AccountTypeBasicInfo).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountTypeBasicInfo extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String batch;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string
+  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String creditMemoTemplateId;
 
   /**
-  * Name: crmId (crmId), Type: string
+  * Name: crmId (crmId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String crmId;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String currency;
 
   /**
-  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string
+  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String debitMemoTemplateId;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceTemplateId (invoiceTemplateId), Type: string
+  * Name: invoiceTemplateId (invoiceTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String invoiceTemplateId;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String notes;
 
   /**
-  * Name: parentId (parentId), Type: string
+  * Name: parentId (parentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String parentId;
 
   /**
-  * Name: salesRep (salesRep), Type: string
+  * Name: salesRep (salesRep), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String salesRep;
 
   /**
-  * Name: sequenceSetId (sequenceSetId), Type: string
+  * Name: sequenceSetId (sequenceSetId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String sequenceSetId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class AccountTypeBasicInfo extends BaseObject {
   private String status;
 
   /**
-  * Name: tags (tags), Type: string
+  * Name: tags (tags), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

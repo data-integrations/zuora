@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BillingDocumentsResponseType (BillingDocumentsResponseType)
+* Object name: BillingDocumentsResponseType (BillingDocumentsResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class BillingDocumentsResponseType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String amount;
 
   /**
-  * Name: balance (balance), Type: number
+  * Name: balance (balance), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String balance;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -76,7 +76,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: documentNumber (documentNumber), Type: string
+  * Name: documentNumber (documentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -85,7 +85,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String documentNumber;
 
   /**
-  * Name: documentType (documentType), Type: string
+  * Name: documentType (documentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -94,7 +94,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String documentType;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -103,7 +103,7 @@ public class BillingDocumentsResponseType extends BaseObject {
   private String id;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

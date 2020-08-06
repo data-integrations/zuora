@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -23,7 +23,7 @@ import javax.xml.bind.annotation.XmlElementWrapper;
 import javax.xml.bind.annotation.XmlTransient;
 
 /**
- * Zuora object field definition
+ * Zuora object field definition.
  */
 public class ZuoraObjectField {
 
@@ -138,6 +138,10 @@ public class ZuoraObjectField {
     sb.append("  ").append(line).append(System.lineSeparator());
   }
 
+  /**
+   * Returns the string.
+   * @return string
+   */
   public String getJavaName() {
     char[] c = getName().toCharArray();
     c[0] = Character.toLowerCase(c[0]);

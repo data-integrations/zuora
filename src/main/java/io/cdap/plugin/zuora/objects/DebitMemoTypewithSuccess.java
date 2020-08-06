@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -13,6 +13,7 @@
  *  License for the specific language governing permissions and limitations under
  *  the License.
  */
+
 package io.cdap.plugin.zuora.objects;
 
 import com.google.gson.annotations.SerializedName;
@@ -25,7 +26,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoTypewithSuccess (DebitMemoTypewithSuccess)
+* Object name: DebitMemoTypewithSuccess (DebitMemoTypewithSuccess).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -37,7 +38,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoTypewithSuccess extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -46,7 +47,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -55,7 +56,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String amount;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -64,7 +65,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: balance (balance), Type: number
+  * Name: balance (balance), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -73,7 +74,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String balance;
 
   /**
-  * Name: beAppliedAmount (beAppliedAmount), Type: number
+  * Name: beAppliedAmount (beAppliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -82,7 +83,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String beAppliedAmount;
 
   /**
-  * Name: cancelledById (cancelledById), Type: string
+  * Name: cancelledById (cancelledById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -91,7 +92,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String cancelledById;
 
   /**
-  * Name: cancelledOn (cancelledOn), Type: string
+  * Name: cancelledOn (cancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -100,7 +101,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -109,7 +110,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String comment;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -118,7 +119,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -127,7 +128,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: debitMemoDate (debitMemoDate), Type: string
+  * Name: debitMemoDate (debitMemoDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -136,7 +137,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String debitMemoDate;
 
   /**
-  * Name: dueDate (dueDate), Type: string
+  * Name: dueDate (dueDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -145,7 +146,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String dueDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -154,7 +155,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String id;
 
   /**
-  * Name: latestPDFFileId (latestPDFFileId), Type: string
+  * Name: latestPDFFileId (latestPDFFileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -163,7 +164,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String latestPDFFileId;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -172,7 +173,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String number;
 
   /**
-  * Name: postedById (postedById), Type: string
+  * Name: postedById (postedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -181,7 +182,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String postedById;
 
   /**
-  * Name: postedOn (postedOn), Type: string
+  * Name: postedOn (postedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -190,7 +191,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String postedOn;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -199,7 +200,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: referredInvoiceId (referredInvoiceId), Type: string
+  * Name: referredInvoiceId (referredInvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -208,7 +209,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String referredInvoiceId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -217,7 +218,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String status;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -226,7 +227,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -235,7 +236,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: taxMessage (taxMessage), Type: string
+  * Name: taxMessage (taxMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -244,7 +245,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String taxMessage;
 
   /**
-  * Name: taxStatus (taxStatus), Type: string
+  * Name: taxStatus (taxStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -253,7 +254,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String taxStatus;
 
   /**
-  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number
+  * Name: totalTaxExemptAmount (totalTaxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -262,7 +263,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String totalTaxExemptAmount;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -271,7 +272,7 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String transferredToAccounting;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -280,14 +281,13 @@ public class DebitMemoTypewithSuccess extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
   @SerializedName("updatedDate")
   @ObjectFieldDefinition(FieldType = Schema.Type.STRING)
   private String updatedDate;
-
 
   @Override
   public void addFields() {

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordBatchActionResultUnprocessedIdsItem (CustomObjectRecordBatchActionResultUnprocessedIdsItem)
-* Related objects: 
+* Object name: CustomObjectRecordBatchActionResultUnprocessedIdsItem (CustomObjectRecordBatchActionResultUnprocessedIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

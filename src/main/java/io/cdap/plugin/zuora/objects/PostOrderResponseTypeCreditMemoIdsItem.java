@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostOrderResponseTypeCreditMemoIdsItem (PostOrderResponseTypeCreditMemoIdsItem)
-* Related objects: 
+* Object name: PostOrderResponseTypeCreditMemoIdsItem (PostOrderResponseTypeCreditMemoIdsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTDistributionItemType (POSTDistributionItemType)
-* Related objects: 
+* Object name: POSTDistributionItemType (POSTDistributionItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTDistributionItemType extends BaseObject {
   /**
-  * Name: accountingPeriodName (accountingPeriodName), Type: string
+  * Name: accountingPeriodName (accountingPeriodName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTDistributionItemType extends BaseObject {
   private String accountingPeriodName;
 
   /**
-  * Name: newAmount (newAmount), Type: string
+  * Name: newAmount (newAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

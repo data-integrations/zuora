@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRevenueScheduleByChargeTypeRevenueEvent (POSTRevenueScheduleByChargeTypeRevenueEvent)
-* Related objects: 
+* Object name: POSTRevenueScheduleByChargeTypeRevenueEvent (POSTRevenueScheduleByChargeTypeRevenueEvent).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRevenueScheduleByChargeTypeRevenueEvent extends BaseObject {
   /**
-  * Name: eventType (eventType), Type: string
+  * Name: eventType (eventType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTRevenueScheduleByChargeTypeRevenueEvent extends BaseObject {
   private String eventType;
 
   /**
-  * Name: eventTypeSystemId (eventTypeSystemId), Type: string
+  * Name: eventTypeSystemId (eventTypeSystemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTRevenueScheduleByChargeTypeRevenueEvent extends BaseObject {
   private String eventTypeSystemId;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

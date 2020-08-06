@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetSubscription (ProxyGetSubscription)
-* Related objects: 
+* Object name: ProxyGetSubscription (ProxyGetSubscription).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetSubscription extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AutoRenew (AutoRenew), Type: boolean
+  * Name: AutoRenew (AutoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetSubscription extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: CancelledDate (CancelledDate), Type: string
+  * Name: CancelledDate (CancelledDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String cancelledDate;
 
   /**
-  * Name: ContractAcceptanceDate (ContractAcceptanceDate), Type: string
+  * Name: ContractAcceptanceDate (ContractAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String contractAcceptanceDate;
 
   /**
-  * Name: ContractEffectiveDate (ContractEffectiveDate), Type: string
+  * Name: ContractEffectiveDate (ContractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: CreatorAccountId (CreatorAccountId), Type: string
+  * Name: CreatorAccountId (CreatorAccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String creatorAccountId;
 
   /**
-  * Name: CreatorInvoiceOwnerId (CreatorInvoiceOwnerId), Type: string
+  * Name: CreatorInvoiceOwnerId (CreatorInvoiceOwnerId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String creatorInvoiceOwnerId;
 
   /**
-  * Name: CurrentTerm (CurrentTerm), Type: integer
+  * Name: CurrentTerm (CurrentTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetSubscription extends BaseObject {
   private Integer currentTerm;
 
   /**
-  * Name: CurrentTermPeriodType (CurrentTermPeriodType), Type: string
+  * Name: CurrentTermPeriodType (CurrentTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String currentTermPeriodType;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String id;
 
   /**
-  * Name: InitialTerm (InitialTerm), Type: integer
+  * Name: InitialTerm (InitialTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetSubscription extends BaseObject {
   private Integer initialTerm;
 
   /**
-  * Name: InitialTermPeriodType (InitialTermPeriodType), Type: string
+  * Name: InitialTermPeriodType (InitialTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String initialTermPeriodType;
 
   /**
-  * Name: InvoiceOwnerId (InvoiceOwnerId), Type: string
+  * Name: InvoiceOwnerId (InvoiceOwnerId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String invoiceOwnerId;
 
   /**
-  * Name: IsInvoiceSeparate (IsInvoiceSeparate), Type: boolean
+  * Name: IsInvoiceSeparate (IsInvoiceSeparate), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetSubscription extends BaseObject {
   private Boolean isInvoiceSeparate;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String name;
 
   /**
-  * Name: Notes (Notes), Type: string
+  * Name: Notes (Notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String notes;
 
   /**
-  * Name: OriginalCreatedDate (OriginalCreatedDate), Type: string
+  * Name: OriginalCreatedDate (OriginalCreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String originalCreatedDate;
 
   /**
-  * Name: OriginalId (OriginalId), Type: string
+  * Name: OriginalId (OriginalId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String originalId;
 
   /**
-  * Name: PreviousSubscriptionId (PreviousSubscriptionId), Type: string
+  * Name: PreviousSubscriptionId (PreviousSubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String previousSubscriptionId;
 
   /**
-  * Name: RenewalSetting (RenewalSetting), Type: string
+  * Name: RenewalSetting (RenewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: RenewalTerm (RenewalTerm), Type: integer
+  * Name: RenewalTerm (RenewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyGetSubscription extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: RenewalTermPeriodType (RenewalTermPeriodType), Type: string
+  * Name: RenewalTermPeriodType (RenewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: ServiceActivationDate (ServiceActivationDate), Type: string
+  * Name: ServiceActivationDate (ServiceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String status;
 
   /**
-  * Name: SubscriptionEndDate (SubscriptionEndDate), Type: string
+  * Name: SubscriptionEndDate (SubscriptionEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String subscriptionEndDate;
 
   /**
-  * Name: SubscriptionStartDate (SubscriptionStartDate), Type: string
+  * Name: SubscriptionStartDate (SubscriptionStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String subscriptionStartDate;
 
   /**
-  * Name: TermEndDate (TermEndDate), Type: string
+  * Name: TermEndDate (TermEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String termEndDate;
 
   /**
-  * Name: TermStartDate (TermStartDate), Type: string
+  * Name: TermStartDate (TermStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: TermType (TermType), Type: string
+  * Name: TermType (TermType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String termType;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -323,7 +323,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -332,7 +332,7 @@ public class ProxyGetSubscription extends BaseObject {
   private String updatedDate;
 
   /**
-  * Name: Version (Version), Type: integer
+  * Name: Version (Version), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

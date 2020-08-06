@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingItemWithOperationsInformation (SettingItemWithOperationsInformation)
-* Related objects: 
+* Object name: SettingItemWithOperationsInformation (SettingItemWithOperationsInformation).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SettingItemWithOperationsInformation extends BaseObject {
   /**
-  * Name: context (context), Type: string
+  * Name: context (context), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SettingItemWithOperationsInformation extends BaseObject {
   private String context;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SettingItemWithOperationsInformation extends BaseObject {
   private String description;
 
   /**
-  * Name: httpOperations (httpOperations), Type: array|SettingItemHttpOperation
+  * Name: httpOperations (httpOperations), Type: array|SettingItemHttpOperation.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SettingItemWithOperationsInformation extends BaseObject {
   private List<SettingItemHttpOperation> httpOperations;
 
   /**
-  * Name: key (key), Type: string
+  * Name: key (key), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SettingItemWithOperationsInformation extends BaseObject {
   private String key;
 
   /**
-  * Name: pathPattern (pathPattern), Type: string
+  * Name: pathPattern (pathPattern), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

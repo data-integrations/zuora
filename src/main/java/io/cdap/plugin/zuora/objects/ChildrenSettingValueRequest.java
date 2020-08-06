@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChildrenSettingValueRequest (ChildrenSettingValueRequest)
-* Related objects: 
+* Object name: ChildrenSettingValueRequest (ChildrenSettingValueRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ChildrenSettingValueRequest extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ChildrenSettingValueRequest extends BaseObject {
   private String id;
 
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ChildrenSettingValueRequest extends BaseObject {
   private String method;
 
   /**
-  * Name: url (url), Type: string
+  * Name: url (url), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

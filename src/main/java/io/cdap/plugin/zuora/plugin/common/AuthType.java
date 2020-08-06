@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -17,16 +17,16 @@
 package io.cdap.plugin.zuora.plugin.common;
 
 /**
- * Describes available options for the plugin authentication
+ * Describes available options for the plugin authentication.
  */
 public enum  AuthType {
   /**
-   * OAUTH2
+   * OAUTH2.
    */
   OAUTH2,
 
   /**
-   * HTTP Basic auth
+   * HTTP Basic auth.
    */
   BASIC
 }

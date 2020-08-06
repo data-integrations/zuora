@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -22,7 +22,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Zuora Schema types
+ * Zuora Schema types.
  */
 public class SchemaFieldType {
   public static final String PICKLIST = "picklist";
@@ -77,6 +77,11 @@ public class SchemaFieldType {
     return subtype;
   }
 
+  /**
+   * Returns the string.
+   * @param complete the complete is boolean variable.
+   * @return string
+   */
   public String getJavaType(boolean complete) {
     FieldType fieldType = FieldType.fromString(type);
     switch (fieldType) {
@@ -114,6 +119,11 @@ public class SchemaFieldType {
     }
   }
 
+  /**
+   * Returns the string.
+   * @param variableName the variable name
+   * @return string
+   */
   public String getNullWrapper(String variableName) {
     switch (getJavaType(false)) {
       case "String":
@@ -130,6 +140,13 @@ public class SchemaFieldType {
     return variableName;
   }
 
+  /**
+   * Returns the object.
+   * @param type the class type
+   * @return object
+   * @throws IllegalAccessException if any validation issue
+   * @throws InstantiationException if any validation issue
+   */
   public static Object getDefaultValue(Class type) throws IllegalAccessException, InstantiationException {
     if (type == Integer.class) {
       return  0;

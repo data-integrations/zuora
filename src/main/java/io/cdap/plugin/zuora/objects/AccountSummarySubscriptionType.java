@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummarySubscriptionType (AccountSummarySubscriptionType)
-* Related objects: 
+* Object name: AccountSummarySubscriptionType (AccountSummarySubscriptionType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummarySubscriptionType extends BaseObject {
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String id;
 
   /**
-  * Name: initialTerm (initialTerm), Type: string
+  * Name: initialTerm (initialTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String initialTerm;
 
   /**
-  * Name: ratePlans (ratePlans), Type: array|AccountSummarySubscriptionRatePlanType
+  * Name: ratePlans (ratePlans), Type: array|AccountSummarySubscriptionRatePlanType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private List<AccountSummarySubscriptionRatePlanType> ratePlans;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: string
+  * Name: renewalTerm (renewalTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String renewalTerm;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: subscriptionStartDate (subscriptionStartDate), Type: string
+  * Name: subscriptionStartDate (subscriptionStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String subscriptionStartDate;
 
   /**
-  * Name: termEndDate (termEndDate), Type: string
+  * Name: termEndDate (termEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String termEndDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class AccountSummarySubscriptionType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

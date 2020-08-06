@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTOrderPreviewRequestTypeSubscriptionsItem (POSTOrderPreviewRequestTypeSubscriptionsItem)
-* Related objects: 
+* Object name: POSTOrderPreviewRequestTypeSubscriptionsItem (POSTOrderPreviewRequestTypeSubscriptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTOrderPreviewRequestTypeSubscriptionsItem extends BaseObject {
   /**
-  * Name: orderActions (orderActions), Type: array|PreviewOrderOrderAction
+  * Name: orderActions (orderActions), Type: array|PreviewOrderOrderAction.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTOrderPreviewRequestTypeSubscriptionsItem extends BaseObject {
   private List<PreviewOrderOrderAction> orderActions;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

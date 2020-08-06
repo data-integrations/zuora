@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditMemoFromInvoiceType (CreditMemoFromInvoiceType)
-* Related objects: 
+* Object name: CreditMemoFromInvoiceType (CreditMemoFromInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreditMemoFromInvoiceType extends BaseObject {
   /**
-  * Name: autoApplyToInvoiceUponPosting (autoApplyToInvoiceUponPosting), Type: boolean
+  * Name: autoApplyToInvoiceUponPosting (autoApplyToInvoiceUponPosting), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private Boolean autoApplyToInvoiceUponPosting;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private String comment;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean
+  * Name: excludeFromAutoApplyRules (excludeFromAutoApplyRules), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private Boolean excludeFromAutoApplyRules;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: items (items), Type: array|CreditMemoItemFromInvoiceItemType
+  * Name: items (items), Type: array|CreditMemoItemFromInvoiceItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private List<CreditMemoItemFromInvoiceItemType> items;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class CreditMemoFromInvoiceType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: taxAutoCalculation (taxAutoCalculation), Type: boolean
+  * Name: taxAutoCalculation (taxAutoCalculation), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

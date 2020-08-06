@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -30,18 +30,16 @@ import java.util.stream.Collectors;
 import javax.annotation.Nullable;
 
 /**
- * Provides all required configuration for reading Zuora objects
+ * Provides all required configuration for reading Zuora objects.
  */
 public class ZuoraSourceConfig extends BaseConfig {
   public static final String PROPERTY_BASE_OBJECTS_TO_PULL = "baseObjects";
-
 
   @Macro
   @Name(PROPERTY_BASE_OBJECTS_TO_PULL)
   @Description("Top-level Zuora objects")
   @Nullable
   private String baseObjectsToPull;
-
 
   public ZuoraSourceConfig(String referenceName) {
     super(referenceName);
@@ -53,7 +51,7 @@ public class ZuoraSourceConfig extends BaseConfig {
   }
 
   /**
-   * Determines plugin working mode
+   * Determines plugin working mode.
    */
   public boolean isSingleObjectMode() {
     List<String> objects = getObjects();
@@ -61,7 +59,7 @@ public class ZuoraSourceConfig extends BaseConfig {
   }
 
   /**
-   * Generated schema according to user configuration
+   * Generated schema according to user configuration.
    *
    * @return user configured schema
    */
@@ -78,6 +76,10 @@ public class ZuoraSourceConfig extends BaseConfig {
     return null;
   }
 
+  /**
+   * Returns the list of string.
+   * @return list of string
+   */
   public List<String> getObjects() {
     ImmutableList.Builder<String> objectsBuilder = new ImmutableList.Builder<>();
     if (baseObjectsToPull != null && !baseObjectsToPull.isEmpty()) {
@@ -86,6 +88,10 @@ public class ZuoraSourceConfig extends BaseConfig {
     return objectsBuilder.build();
   }
 
+  /**
+   * Returns the list of ZuoraSplitArgument.
+   * @return list of ZuoraSplitArgument
+   */
   public List<ZuoraSplitArgument> getObjectsWithSchema() {
     return getObjects().stream()
       .map(x -> new ZuoraSplitArgument(x, ObjectHelper.buildSchema(x, null).toString()))

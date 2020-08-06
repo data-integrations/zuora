@@ -73,48 +73,15 @@
         },
         {
           "name": "baseObjects",
-          "label": "Object(s) to pull",
-          "widget-type": "multi-select",
+          "label": "Object to pull",
+          "widget-type": "select",
           "widget-attributes": {
-            "options": [
-              {
-                "id": "Products",
-                "label": "Products"
-              },
-              {
-                "id": "Refunds",
-                "label": "Refunds"
-              },
-              {
-                "id": "PaymentRun",
-                "label": "PaymentRun"
-              },
-              {
-                "id": "Payments",
-                "label": "Payments"
-              },
-              {
-                "id": "Orders",
-                "label": "Orders"
-              },
-              {
-                "id": "Entities",
-                "label": "Entities"
-              },
-              {
-                "id": "DebitMemos",
-                "label": "DebitMemos"
-              },
-              {
-                "id": "CreditMemos",
-                "label": "CreditMemos"
-              },
-              {
-                "id": "BillingDocuments",
-                "label": "BillingDocuments"
-              }
-            ],
-            "delimiter": ","
+            "values": [
+              "Products",
+              "Orders",
+              "DebitMemos",
+              "CreditMemos"
+            ]
           }
         }
       ]

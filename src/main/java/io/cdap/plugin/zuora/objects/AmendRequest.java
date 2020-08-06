@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendRequest (AmendRequest)
-* Related objects: 
+* Object name: AmendRequest (AmendRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AmendRequest extends BaseObject {
   /**
-  * Name: AmendOptions (AmendOptions), Type: AmendRequestAmendOptionsItem
+  * Name: AmendOptions (AmendOptions), Type: AmendRequestAmendOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AmendRequest extends BaseObject {
   private String amendOptions;
 
   /**
-  * Name: Amendments (Amendments), Type: array|Amendment
+  * Name: Amendments (Amendments), Type: array|Amendment.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AmendRequest extends BaseObject {
   private List<Amendment> amendments;
 
   /**
-  * Name: PreviewOptions (PreviewOptions), Type: AmendRequestPreviewOptionsItem
+  * Name: PreviewOptions (PreviewOptions), Type: AmendRequestPreviewOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonRatingErrorResponse (CommonRatingErrorResponse)
-* Related objects: 
+* Object name: CommonRatingErrorResponse (CommonRatingErrorResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CommonRatingErrorResponse extends BaseObject {
   /**
-  * Name: reasons (reasons), Type: array|CommonRatingErrorResponseReasonsItem
+  * Name: reasons (reasons), Type: array|CommonRatingErrorResponseReasonsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

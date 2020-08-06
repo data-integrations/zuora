@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutCreditMemoTaxItemTypeFinanceInformationItem (PutCreditMemoTaxItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: PutCreditMemoTaxItemTypeFinanceInformationItem (PutCreditMemoTaxItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutCreditMemoTaxItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string
+  * Name: onAccountAccountingCode (onAccountAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PutCreditMemoTaxItemTypeFinanceInformationItem extends BaseObject {
   private String onAccountAccountingCode;
 
   /**
-  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string
+  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

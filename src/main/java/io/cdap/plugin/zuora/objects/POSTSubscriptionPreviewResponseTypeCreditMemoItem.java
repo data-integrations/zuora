@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionPreviewResponseTypeCreditMemoItem (POSTSubscriptionPreviewResponseTypeCreditMemoItem)
-* Related objects: 
+* Object name: POSTSubscriptionPreviewResponseTypeCreditMemoItem (POSTSubscriptionPreviewResponseTypeCreditMemoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionPreviewResponseTypeCreditMemoItem extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTSubscriptionPreviewResponseTypeCreditMemoItem extends BaseObjec
   private String amount;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTSubscriptionPreviewResponseTypeCreditMemoItem extends BaseObjec
   private String amountWithoutTax;
 
   /**
-  * Name: creditMemoItems (creditMemoItems), Type: array|POSTSubscriptionPreviewCreditMemoItemsType
+  * Name: creditMemoItems (creditMemoItems), Type: array|POSTSubscriptionPreviewCreditMemoItemsType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTSubscriptionPreviewResponseTypeCreditMemoItem extends BaseObjec
   private List<POSTSubscriptionPreviewCreditMemoItemsType> creditMemoItems;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

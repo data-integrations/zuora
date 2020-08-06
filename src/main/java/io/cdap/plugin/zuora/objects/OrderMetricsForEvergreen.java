@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderMetricsForEvergreen (OrderMetricsForEvergreen)
-* Related objects: 
+* Object name: OrderMetricsForEvergreen (OrderMetricsForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class OrderMetricsForEvergreen extends BaseObject {
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: mrr (mrr), Type: array|TimeSlicedNetMetricsForEvergreen
+  * Name: mrr (mrr), Type: array|TimeSlicedNetMetricsForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private List<TimeSlicedNetMetricsForEvergreen> mrr;
 
   /**
-  * Name: originRatePlanId (originRatePlanId), Type: string
+  * Name: originRatePlanId (originRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private String originRatePlanId;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: quantity (quantity), Type: array|TimeSlicedMetricsForEvergreen
+  * Name: quantity (quantity), Type: array|TimeSlicedMetricsForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private List<TimeSlicedMetricsForEvergreen> quantity;
 
   /**
-  * Name: tcb (tcb), Type: array|TimeSlicedTcbNetMetricsForEvergreen
+  * Name: tcb (tcb), Type: array|TimeSlicedTcbNetMetricsForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class OrderMetricsForEvergreen extends BaseObject {
   private List<TimeSlicedTcbNetMetricsForEvergreen> tcb;
 
   /**
-  * Name: tcv (tcv), Type: array|TimeSlicedNetMetricsForEvergreen
+  * Name: tcv (tcv), Type: array|TimeSlicedNetMetricsForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

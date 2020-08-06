@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTCreditMemoItemsForOrderBreakdown (POSTCreditMemoItemsForOrderBreakdown)
-* Related objects: 
+* Object name: POSTCreditMemoItemsForOrderBreakdown (POSTCreditMemoItemsForOrderBreakdown).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTCreditMemoItemsForOrderBreakdown extends BaseObject {
   /**
-  * Name: memoItemIds (memoItemIds), Type: array|POSTCreditMemoItemsForOrderBreakdownMemoItemIdsItem
+  * Name: memoItemIds (memoItemIds), Type: array|POSTCreditMemoItemsForOrderBreakdownMemoItemIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTCreditMemoItemsForOrderBreakdown extends BaseObject {
   private List<POSTCreditMemoItemsForOrderBreakdownMemoItemIdsItem> memoItemIds;
 
   /**
-  * Name: memoNumber (memoNumber), Type: string
+  * Name: memoNumber (memoNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceEntityPrefix (InvoiceEntityPrefix)
-* Related objects: 
+* Object name: InvoiceEntityPrefix (InvoiceEntityPrefix).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceEntityPrefix extends BaseObject {
   /**
-  * Name: prefix (prefix), Type: string
+  * Name: prefix (prefix), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceEntityPrefix extends BaseObject {
   private String prefix;
 
   /**
-  * Name: startNumber (startNumber), Type: integer
+  * Name: startNumber (startNumber), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

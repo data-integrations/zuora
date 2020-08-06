@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TasksResponse (TasksResponse)
-* Related objects: 
+* Object name: TasksResponse (TasksResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class TasksResponse extends BaseObject {
   /**
-  * Name: data (data), Type: array|Task
+  * Name: data (data), Type: array|Task.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class TasksResponse extends BaseObject {
   private List<Task> data;
 
   /**
-  * Name: pagination (pagination), Type: TasksResponsePaginationItem
+  * Name: pagination (pagination), Type: TasksResponsePaginationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem (SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem)
-* Related objects: 
+* Object name: SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem (SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem extends BaseObject {
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem exte
   private String amount;
 
   /**
-  * Name: EffectiveDate (EffectiveDate), Type: string
+  * Name: EffectiveDate (EffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem exte
   private String effectiveDate;
 
   /**
-  * Name: GatewayOrderId (GatewayOrderId), Type: string
+  * Name: GatewayOrderId (GatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem exte
   private String gatewayOrderId;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class SubscribeRequestSubscribeOptionsItemExternalPaymentOptionsItem exte
   private String paymentMethodId;
 
   /**
-  * Name: ReferenceId (ReferenceId), Type: string
+  * Name: ReferenceId (ReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

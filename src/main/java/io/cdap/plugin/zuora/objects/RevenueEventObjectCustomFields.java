@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RevenueEventObjectCustomFields (RevenueEventObjectCustomFields)
-* Related objects: 
+* Object name: RevenueEventObjectCustomFields (RevenueEventObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

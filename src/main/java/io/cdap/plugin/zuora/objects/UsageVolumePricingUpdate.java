@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageVolumePricingUpdate (UsageVolumePricingUpdate)
-* Related objects: 
+* Object name: UsageVolumePricingUpdate (UsageVolumePricingUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UsageVolumePricingUpdate extends BaseObject {
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

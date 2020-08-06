@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: JournalEntryItemType (JournalEntryItemType)
-* Related objects: 
+* Object name: JournalEntryItemType (JournalEntryItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class JournalEntryItemType extends BaseObject {
   /**
-  * Name: accountingCodeName (accountingCodeName), Type: string
+  * Name: accountingCodeName (accountingCodeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class JournalEntryItemType extends BaseObject {
   private String accountingCodeName;
 
   /**
-  * Name: accountingCodeType (accountingCodeType), Type: string
+  * Name: accountingCodeType (accountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class JournalEntryItemType extends BaseObject {
   private String accountingCodeType;
 
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class JournalEntryItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: glAccountName (glAccountName), Type: string
+  * Name: glAccountName (glAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class JournalEntryItemType extends BaseObject {
   private String glAccountName;
 
   /**
-  * Name: glAccountNumber (glAccountNumber), Type: string
+  * Name: glAccountNumber (glAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class JournalEntryItemType extends BaseObject {
   private String glAccountNumber;
 
   /**
-  * Name: homeCurrencyAmount (homeCurrencyAmount), Type: string
+  * Name: homeCurrencyAmount (homeCurrencyAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class JournalEntryItemType extends BaseObject {
   private String homeCurrencyAmount;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -26,7 +26,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * API Response Wrapper
+ * API Response Wrapper.
  *
  * @param <T> Any {@link BaseObject} object
  */
@@ -55,11 +55,14 @@ public class BaseResult<T> {
   @SerializedName(value = "restApiEndpoint")
   private String restApiEndpoint;
 
-
   public List<T> getResult() {
     return result;
   }
 
+  /**
+   * Returns the map of string.
+   * @return map of string
+   */
   public Map<String, String> getNextPageArguments() {
     if (Strings.isNullOrEmpty(nextPage)) {
       return null;
@@ -78,6 +81,10 @@ public class BaseResult<T> {
     return builder.build();
   }
 
+  /**
+   * Returns the string.
+   * @return string
+   */
   public String getNextPage() {
     if (Strings.isNullOrEmpty(nextPage)) {
       return null;
@@ -110,7 +117,7 @@ public class BaseResult<T> {
   }
 
   /**
-   * Return exception messsages from the API
+   * Return exception messages from the API.
    * @param flatMessage only compile messages, without exception codes
    */
   public String getReason(boolean flatMessage) {

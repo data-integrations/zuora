@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TriggerDate (TriggerDate)
-* Related objects: 
+* Object name: TriggerDate (TriggerDate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class TriggerDate extends BaseObject {
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class TriggerDate extends BaseObject {
   private String name;
 
   /**
-  * Name: triggerDate (triggerDate), Type: string
+  * Name: triggerDate (triggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

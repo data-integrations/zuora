@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ARPaymentTypewithSuccess (ARPaymentTypewithSuccess)
-* Related objects: 
+* Object name: ARPaymentTypewithSuccess (ARPaymentTypewithSuccess).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ARPaymentTypewithSuccess extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String amount;
 
   /**
-  * Name: appliedAmount (appliedAmount), Type: number
+  * Name: appliedAmount (appliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String appliedAmount;
 
   /**
-  * Name: authTransactionId (authTransactionId), Type: string
+  * Name: authTransactionId (authTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String authTransactionId;
 
   /**
-  * Name: bankIdentificationNumber (bankIdentificationNumber), Type: string
+  * Name: bankIdentificationNumber (bankIdentificationNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String bankIdentificationNumber;
 
   /**
-  * Name: cancelledOn (cancelledOn), Type: string
+  * Name: cancelledOn (cancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String comment;
 
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: creditBalanceAmount (creditBalanceAmount), Type: number
+  * Name: creditBalanceAmount (creditBalanceAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String creditBalanceAmount;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String currency;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: financeInformation (financeInformation), Type: ARPaymentTypewithSuccessFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: ARPaymentTypewithSuccessFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: gatewayId (gatewayId), Type: string
+  * Name: gatewayId (gatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String gatewayId;
 
   /**
-  * Name: gatewayOrderId (gatewayOrderId), Type: string
+  * Name: gatewayOrderId (gatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String gatewayOrderId;
 
   /**
-  * Name: gatewayResponse (gatewayResponse), Type: string
+  * Name: gatewayResponse (gatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: gatewayResponseCode (gatewayResponseCode), Type: string
+  * Name: gatewayResponseCode (gatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: gatewayState (gatewayState), Type: string
+  * Name: gatewayState (gatewayState), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String gatewayState;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String id;
 
   /**
-  * Name: markedForSubmissionOn (markedForSubmissionOn), Type: string
+  * Name: markedForSubmissionOn (markedForSubmissionOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String markedForSubmissionOn;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String number;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: paymentMethodSnapshotId (paymentMethodSnapshotId), Type: string
+  * Name: paymentMethodSnapshotId (paymentMethodSnapshotId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String paymentMethodSnapshotId;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: refundAmount (refundAmount), Type: number
+  * Name: refundAmount (refundAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String refundAmount;
 
   /**
-  * Name: secondPaymentReferenceId (secondPaymentReferenceId), Type: string
+  * Name: secondPaymentReferenceId (secondPaymentReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String secondPaymentReferenceId;
 
   /**
-  * Name: settledOn (settledOn), Type: string
+  * Name: settledOn (settledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String settledOn;
 
   /**
-  * Name: softDescriptor (softDescriptor), Type: string
+  * Name: softDescriptor (softDescriptor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String softDescriptor;
 
   /**
-  * Name: softDescriptorPhone (softDescriptorPhone), Type: string
+  * Name: softDescriptorPhone (softDescriptorPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String softDescriptorPhone;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String status;
 
   /**
-  * Name: submittedOn (submittedOn), Type: string
+  * Name: submittedOn (submittedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String submittedOn;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -323,7 +323,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String type;
 
   /**
-  * Name: unappliedAmount (unappliedAmount), Type: number
+  * Name: unappliedAmount (unappliedAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -332,7 +332,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String unappliedAmount;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -341,7 +341,7 @@ public class ARPaymentTypewithSuccess extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

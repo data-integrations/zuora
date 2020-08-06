@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetUnitOfMeasure (ProxyGetUnitOfMeasure)
-* Related objects: 
+* Object name: ProxyGetUnitOfMeasure (ProxyGetUnitOfMeasure).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetUnitOfMeasure extends BaseObject {
   /**
-  * Name: Active (Active), Type: boolean
+  * Name: Active (Active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: DecimalPlaces (DecimalPlaces), Type: integer
+  * Name: DecimalPlaces (DecimalPlaces), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private Integer decimalPlaces;
 
   /**
-  * Name: DisplayedAs (DisplayedAs), Type: string
+  * Name: DisplayedAs (DisplayedAs), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String displayedAs;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String id;
 
   /**
-  * Name: RoundingMode (RoundingMode), Type: string
+  * Name: RoundingMode (RoundingMode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String roundingMode;
 
   /**
-  * Name: UomName (UomName), Type: string
+  * Name: UomName (UomName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String uomName;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetUnitOfMeasure extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

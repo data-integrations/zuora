@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargeOverride (ChargeOverride)
-* Related objects: 
+* Object name: ChargeOverride (ChargeOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ChargeOverride extends BaseObject {
   /**
-  * Name: billing (billing), Type: ChargeOverrideBillingItem
+  * Name: billing (billing), Type: ChargeOverrideBillingItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ChargeOverride extends BaseObject {
   private String billing;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ChargeOverride extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ChargeOverride extends BaseObject {
   private String description;
 
   /**
-  * Name: pricing (pricing), Type: ChargeOverridePricingItem
+  * Name: pricing (pricing), Type: ChargeOverridePricingItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ChargeOverride extends BaseObject {
   private String pricing;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ChargeOverride extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: revRecCode (revRecCode), Type: string
+  * Name: revRecCode (revRecCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ChargeOverride extends BaseObject {
   private String revRecCode;
 
   /**
-  * Name: revRecTriggerCondition (revRecTriggerCondition), Type: string
+  * Name: revRecTriggerCondition (revRecTriggerCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ChargeOverride extends BaseObject {
   private String revRecTriggerCondition;
 
   /**
-  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string
+  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ChargeOverride extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

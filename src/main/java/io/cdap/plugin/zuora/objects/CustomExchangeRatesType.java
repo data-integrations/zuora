@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomExchangeRatesType (CustomExchangeRatesType)
-* Related objects: 
+* Object name: CustomExchangeRatesType (CustomExchangeRatesType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CustomExchangeRatesType extends BaseObject {
   /**
-  * Name: inverse (inverse), Type: boolean
+  * Name: inverse (inverse), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CustomExchangeRatesType extends BaseObject {
   private Boolean inverse;
 
   /**
-  * Name: rates (rates), Type: array|CustomExchangeRatesDataType
+  * Name: rates (rates), Type: array|CustomExchangeRatesDataType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CustomExchangeRatesType extends BaseObject {
   private List<CustomExchangeRatesDataType> rates;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

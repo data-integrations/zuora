@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem (DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem)
-* Related objects: 
+* Object name: DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem (DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string
+  * Name: salesTaxPayableAccountingCode (salesTaxPayableAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

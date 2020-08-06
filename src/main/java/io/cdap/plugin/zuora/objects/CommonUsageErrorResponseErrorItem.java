@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonUsageErrorResponseErrorItem (CommonUsageErrorResponseErrorItem)
-* Related objects: 
+* Object name: CommonUsageErrorResponseErrorItem (CommonUsageErrorResponseErrorItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CommonUsageErrorResponseErrorItem extends BaseObject {
   /**
-  * Name: errors (errors), Type: array|CommonUsageErrorResponseErrorItemErrorsItem
+  * Name: errors (errors), Type: array|CommonUsageErrorResponseErrorItemErrorsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CommonUsageErrorResponseErrorItem extends BaseObject {
   private List<CommonUsageErrorResponseErrorItemErrorsItem> errors;
 
   /**
-  * Name: message (message), Type: string
+  * Name: message (message), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProcessingOptions (ProcessingOptions)
-* Related objects: 
+* Object name: ProcessingOptions (ProcessingOptions).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProcessingOptions extends BaseObject {
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProcessingOptions extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: collectPayment (collectPayment), Type: boolean
+  * Name: collectPayment (collectPayment), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProcessingOptions extends BaseObject {
   private Boolean collectPayment;
 
   /**
-  * Name: electronicPaymentOptions (electronicPaymentOptions), Type: ProcessingOptionsElectronicPaymentOptionsItem
+  * Name: electronicPaymentOptions (electronicPaymentOptions), Type: ProcessingOptionsElectronicPaymentOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProcessingOptions extends BaseObject {
   private String electronicPaymentOptions;
 
   /**
-  * Name: runBilling (runBilling), Type: boolean
+  * Name: runBilling (runBilling), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

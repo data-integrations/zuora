@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostDebitMemoEmailType (PostDebitMemoEmailType)
-* Related objects: 
+* Object name: PostDebitMemoEmailType (PostDebitMemoEmailType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PostDebitMemoEmailType extends BaseObject {
   /**
-  * Name: emailAddresses (emailAddresses), Type: string
+  * Name: emailAddresses (emailAddresses), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PostDebitMemoEmailType extends BaseObject {
   private String emailAddresses;
 
   /**
-  * Name: includeAdditionalEmailAddresses (includeAdditionalEmailAddresses), Type: boolean
+  * Name: includeAdditionalEmailAddresses (includeAdditionalEmailAddresses), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PostDebitMemoEmailType extends BaseObject {
   private Boolean includeAdditionalEmailAddresses;
 
   /**
-  * Name: useEmailTemplateSetting (useEmailTemplateSetting), Type: boolean
+  * Name: useEmailTemplateSetting (useEmailTemplateSetting), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

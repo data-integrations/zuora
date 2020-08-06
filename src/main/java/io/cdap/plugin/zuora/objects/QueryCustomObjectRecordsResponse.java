@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: QueryCustomObjectRecordsResponse (QueryCustomObjectRecordsResponse)
-* Related objects: 
+* Object name: QueryCustomObjectRecordsResponse (QueryCustomObjectRecordsResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class QueryCustomObjectRecordsResponse extends BaseObject {
   /**
-  * Name: count (count), Type: integer
+  * Name: count (count), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class QueryCustomObjectRecordsResponse extends BaseObject {
   private Integer count;
 
   /**
-  * Name: records (records), Type: array|CustomObjectRecordWithAllFields
+  * Name: records (records), Type: array|CustomObjectRecordWithAllFields.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

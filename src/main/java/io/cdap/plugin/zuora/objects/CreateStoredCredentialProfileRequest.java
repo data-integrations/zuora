@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateStoredCredentialProfileRequest (CreateStoredCredentialProfileRequest)
-* Related objects: 
+* Object name: CreateStoredCredentialProfileRequest (CreateStoredCredentialProfileRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreateStoredCredentialProfileRequest extends BaseObject {
   /**
-  * Name: action (action), Type: string
+  * Name: action (action), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String action;
 
   /**
-  * Name: agreedOn (agreedOn), Type: string
+  * Name: agreedOn (agreedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String agreedOn;
 
   /**
-  * Name: authGateway (authGateway), Type: string
+  * Name: authGateway (authGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String authGateway;
 
   /**
-  * Name: cardSecurityCode (cardSecurityCode), Type: string
+  * Name: cardSecurityCode (cardSecurityCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String cardSecurityCode;
 
   /**
-  * Name: consentAgreementRef (consentAgreementRef), Type: string
+  * Name: consentAgreementRef (consentAgreementRef), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String consentAgreementRef;
 
   /**
-  * Name: consentAgreementSrc (consentAgreementSrc), Type: string
+  * Name: consentAgreementSrc (consentAgreementSrc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String consentAgreementSrc;
 
   /**
-  * Name: networkTransactionId (networkTransactionId), Type: string
+  * Name: networkTransactionId (networkTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String networkTransactionId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class CreateStoredCredentialProfileRequest extends BaseObject {
   private String status;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

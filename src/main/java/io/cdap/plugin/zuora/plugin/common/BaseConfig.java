@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -24,7 +24,7 @@ import io.cdap.plugin.common.ReferencePluginConfig;
 import javax.annotation.Nullable;
 
 /**
- * Base plugin configuration
+ * Base plugin configuration.
  */
 public abstract class BaseConfig extends ReferencePluginConfig {
   public static final String PROPERTY_CONFIG_JSON = "cdap.zuora.config";
@@ -80,11 +80,15 @@ public abstract class BaseConfig extends ReferencePluginConfig {
   }
 
   /**
-   * Validate configuration for the issues
+   * Validate configuration for the issues.
    *
    */
   protected abstract void validate(FailureCollector failureCollector);
 
+  /**
+   * Returns the string.
+   * @return string
+   */
   public String getAuthUsername() {
     switch (getAuthType()) {
       case BASIC:
@@ -95,6 +99,10 @@ public abstract class BaseConfig extends ReferencePluginConfig {
     return EMPTY_STRING;
   }
 
+  /**
+   * Returns the string.
+   * @return string
+   */
   public String getAuthPassword() {
     switch (getAuthType()) {
       case OAUTH2:
@@ -105,6 +113,10 @@ public abstract class BaseConfig extends ReferencePluginConfig {
     return EMPTY_STRING;
   }
 
+  /**
+   * Returns the AuthType.
+   * @return AuthType
+   */
   public AuthType getAuthType() {
     switch (authType) {
       case "basic":

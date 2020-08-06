@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPublicNotificationDefinitionRequest (POSTPublicNotificationDefinitionRequest)
-* Related objects: 
+* Object name: POSTPublicNotificationDefinitionRequest (POSTPublicNotificationDefinitionRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   /**
-  * Name: active (active), Type: boolean
+  * Name: active (active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: callout (callout), Type: POSTPublicNotificationDefinitionRequestCalloutItem
+  * Name: callout (callout), Type: POSTPublicNotificationDefinitionRequestCalloutItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String callout;
 
   /**
-  * Name: calloutActive (calloutActive), Type: boolean
+  * Name: calloutActive (calloutActive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private Boolean calloutActive;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String description;
 
   /**
-  * Name: emailActive (emailActive), Type: boolean
+  * Name: emailActive (emailActive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private Boolean emailActive;
 
   /**
-  * Name: emailTemplateId (emailTemplateId), Type: string
+  * Name: emailTemplateId (emailTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String emailTemplateId;
 
   /**
-  * Name: eventTypeName (eventTypeName), Type: string
+  * Name: eventTypeName (eventTypeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String eventTypeName;
 
   /**
-  * Name: eventTypeNamespace (eventTypeNamespace), Type: string
+  * Name: eventTypeNamespace (eventTypeNamespace), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String eventTypeNamespace;
 
   /**
-  * Name: filterRule (filterRule), Type: POSTPublicNotificationDefinitionRequestFilterRuleItem
+  * Name: filterRule (filterRule), Type: POSTPublicNotificationDefinitionRequestFilterRuleItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class POSTPublicNotificationDefinitionRequest extends BaseObject {
   private String filterRule;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

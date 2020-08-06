@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TaskParametersItem (TaskParametersItem)
-* Related objects: 
+* Object name: TaskParametersItem (TaskParametersItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

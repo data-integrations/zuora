@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TaxationItemTypewithSuccess (TaxationItemTypewithSuccess)
+* Object name: TaxationItemTypewithSuccess (TaxationItemTypewithSuccess).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class TaxationItemTypewithSuccess extends BaseObject {
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: exemptAmount (exemptAmount), Type: number
+  * Name: exemptAmount (exemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String exemptAmount;
 
   /**
-  * Name: financeInformation (financeInformation), Type: TaxationItemTypewithSuccessFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: TaxationItemTypewithSuccessFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -84,7 +84,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String id;
 
   /**
-  * Name: jurisdiction (jurisdiction), Type: string
+  * Name: jurisdiction (jurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -93,7 +93,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String jurisdiction;
 
   /**
-  * Name: locationCode (locationCode), Type: string
+  * Name: locationCode (locationCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -102,7 +102,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String locationCode;
 
   /**
-  * Name: memoItemId (memoItemId), Type: string
+  * Name: memoItemId (memoItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -111,7 +111,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String memoItemId;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -120,7 +120,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String name;
 
   /**
-  * Name: sourceTaxItemId (sourceTaxItemId), Type: string
+  * Name: sourceTaxItemId (sourceTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -129,7 +129,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String sourceTaxItemId;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -138,7 +138,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: taxCode (taxCode), Type: string
+  * Name: taxCode (taxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -147,7 +147,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: taxCodeDescription (taxCodeDescription), Type: string
+  * Name: taxCodeDescription (taxCodeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -156,7 +156,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxCodeDescription;
 
   /**
-  * Name: taxDate (taxDate), Type: string
+  * Name: taxDate (taxDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -165,7 +165,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxDate;
 
   /**
-  * Name: taxRate (taxRate), Type: number
+  * Name: taxRate (taxRate), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -174,7 +174,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxRate;
 
   /**
-  * Name: taxRateDescription (taxRateDescription), Type: string
+  * Name: taxRateDescription (taxRateDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -183,7 +183,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxRateDescription;
 
   /**
-  * Name: taxRateType (taxRateType), Type: string
+  * Name: taxRateType (taxRateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -192,7 +192,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String taxRateType;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -201,7 +201,7 @@ public class TaxationItemTypewithSuccess extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

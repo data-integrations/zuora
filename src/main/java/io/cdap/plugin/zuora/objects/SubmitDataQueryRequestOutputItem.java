@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubmitDataQueryRequestOutputItem (SubmitDataQueryRequestOutputItem)
-* Related objects: 
+* Object name: SubmitDataQueryRequestOutputItem (SubmitDataQueryRequestOutputItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubmitDataQueryRequestOutputItem extends BaseObject {
   /**
-  * Name: target (target), Type: string
+  * Name: target (target), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSendUserAccessRequestType (PUTSendUserAccessRequestType)
-* Related objects: 
+* Object name: PUTSendUserAccessRequestType (PUTSendUserAccessRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSendUserAccessRequestType extends BaseObject {
   /**
-  * Name: targetEntityIds (targetEntityIds), Type: array|PUTSendUserAccessRequestTypeTargetEntityIdsItem
+  * Name: targetEntityIds (targetEntityIds), Type: array|PUTSendUserAccessRequestTypeTargetEntityIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionType (POSTSubscriptionType)
-* Related objects: 
+* Object name: POSTSubscriptionType (POSTSubscriptionType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionType extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: collect (collect), Type: boolean
+  * Name: collect (collect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean collect;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: gatewayId (gatewayId), Type: string
+  * Name: gatewayId (gatewayId), Type: string..
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String gatewayId;
 
   /**
-  * Name: initialTerm (initialTerm), Type: integer
+  * Name: initialTerm (initialTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Integer initialTerm;
 
   /**
-  * Name: initialTermPeriodType (initialTermPeriodType), Type: string
+  * Name: initialTermPeriodType (initialTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String initialTermPeriodType;
 
   /**
-  * Name: invoice (invoice), Type: boolean
+  * Name: invoice (invoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean invoice;
 
   /**
-  * Name: invoiceCollect (invoiceCollect), Type: boolean
+  * Name: invoiceCollect (invoiceCollect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean invoiceCollect;
 
   /**
-  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string
+  * Name: invoiceOwnerAccountKey (invoiceOwnerAccountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String invoiceOwnerAccountKey;
 
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: boolean
+  * Name: invoiceSeparately (invoiceSeparately), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -163,7 +163,7 @@ public class POSTSubscriptionType extends BaseObject {
 
   /**
   * Name: invoiceTargetDate (invoiceTargetDate), Type: string
-  * Options (custom, update, select): false, false, false
+  * Options (custom, update, select): false, false, false.
   **/
   @Nullable
   @SerializedName("invoiceTargetDate")
@@ -171,7 +171,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String notes;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: renewalSetting (renewalSetting), Type: string
+  * Name: renewalSetting (renewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: integer
+  * Name: renewalTerm (renewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string
+  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: runBilling (runBilling), Type: boolean
+  * Name: runBilling (runBilling), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class POSTSubscriptionType extends BaseObject {
   private Boolean runBilling;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType
+  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|POSTSrpCreateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class POSTSubscriptionType extends BaseObject {
   private List<POSTSrpCreateType> subscribeToRatePlans;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -261,7 +261,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -270,7 +270,7 @@ public class POSTSubscriptionType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

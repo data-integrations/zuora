@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTBillingDocumentFilesDeletionJobResponse (POSTBillingDocumentFilesDeletionJobResponse)
+* Object name: POSTBillingDocumentFilesDeletionJobResponse (POSTBillingDocumentFilesDeletionJobResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTBillingDocumentFilesDeletionJobResponse extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTBillingDocumentFilesDeletionJobResponse extends BaseObject {
   private String id;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTBillingDocumentFilesDeletionJobResponse extends BaseObject {
   private String status;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

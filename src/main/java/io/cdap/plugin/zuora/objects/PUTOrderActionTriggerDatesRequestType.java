@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderActionTriggerDatesRequestType (PUTOrderActionTriggerDatesRequestType)
-* Related objects: 
+* Object name: PUTOrderActionTriggerDatesRequestType (PUTOrderActionTriggerDatesRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderActionTriggerDatesRequestType extends BaseObject {
   /**
-  * Name: subscriptions (subscriptions), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTJournalRunType (POSTJournalRunType)
-* Related objects: 
+* Object name: POSTJournalRunType (POSTJournalRunType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTJournalRunType extends BaseObject {
   /**
-  * Name: accountingPeriodName (accountingPeriodName), Type: string
+  * Name: accountingPeriodName (accountingPeriodName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTJournalRunType extends BaseObject {
   private String accountingPeriodName;
 
   /**
-  * Name: journalEntryDate (journalEntryDate), Type: string
+  * Name: journalEntryDate (journalEntryDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTJournalRunType extends BaseObject {
   private String journalEntryDate;
 
   /**
-  * Name: targetEndDate (targetEndDate), Type: string
+  * Name: targetEndDate (targetEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTJournalRunType extends BaseObject {
   private String targetEndDate;
 
   /**
-  * Name: targetStartDate (targetStartDate), Type: string
+  * Name: targetStartDate (targetStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTJournalRunType extends BaseObject {
   private String targetStartDate;
 
   /**
-  * Name: transactionTypes (transactionTypes), Type: array|POSTJournalRunTransactionType
+  * Name: transactionTypes (transactionTypes), Type: array|POSTJournalRunTransactionType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

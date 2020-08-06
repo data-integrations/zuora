@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ExecuteResult (ExecuteResult)
-* Related objects: 
+* Object name: ExecuteResult (ExecuteResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ExecuteResult extends BaseObject {
   /**
-  * Name: Errors (Errors), Type: array|ActionsErrorResponse
+  * Name: Errors (Errors), Type: array|ActionsErrorResponse.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ExecuteResult extends BaseObject {
   private List<ActionsErrorResponse> errors;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ExecuteResult extends BaseObject {
   private String id;
 
   /**
-  * Name: Success (Success), Type: boolean
+  * Name: Success (Success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

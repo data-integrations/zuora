@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionPreviewResponseType (POSTSubscriptionPreviewResponseType)
+* Object name: POSTSubscriptionPreviewResponseType (POSTSubscriptionPreviewResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionPreviewResponseType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String amount;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: chargeMetrics (chargeMetrics), Type: POSTSubscriptionPreviewResponseTypeChargeMetricsItem
+  * Name: chargeMetrics (chargeMetrics), Type: POSTSubscriptionPreviewResponseTypeChargeMetricsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String chargeMetrics;
 
   /**
-  * Name: contractedMrr (contractedMrr), Type: number
+  * Name: contractedMrr (contractedMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -76,7 +76,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String contractedMrr;
 
   /**
-  * Name: creditMemo (creditMemo), Type: POSTSubscriptionPreviewResponseTypeCreditMemoItem
+  * Name: creditMemo (creditMemo), Type: POSTSubscriptionPreviewResponseTypeCreditMemoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -85,7 +85,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String creditMemo;
 
   /**
-  * Name: invoice (invoice), Type: POSTSubscriptionPreviewResponseTypeInvoiceItem
+  * Name: invoice (invoice), Type: POSTSubscriptionPreviewResponseTypeInvoiceItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -94,7 +94,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String invoice;
 
   /**
-  * Name: invoiceItems (invoiceItems), Type: array|POSTSubscriptionPreviewInvoiceItemsType
+  * Name: invoiceItems (invoiceItems), Type: array|POSTSubscriptionPreviewInvoiceItemsType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -103,7 +103,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private List<POSTSubscriptionPreviewInvoiceItemsType> invoiceItems;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -112,7 +112,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: previewChargeMetricsResponse (previewChargeMetricsResponse), Type: string
+  * Name: previewChargeMetricsResponse (previewChargeMetricsResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -121,7 +121,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String previewChargeMetricsResponse;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -130,7 +130,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -139,7 +139,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -148,7 +148,7 @@ public class POSTSubscriptionPreviewResponseType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: totalContractedValue (totalContractedValue), Type: number
+  * Name: totalContractedValue (totalContractedValue), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

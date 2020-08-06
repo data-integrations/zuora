@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostNonRefRefundType (PostNonRefRefundType)
-* Related objects: 
+* Object name: PostNonRefRefundType (PostNonRefRefundType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PostNonRefRefundType extends BaseObject {
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String comment;
 
   /**
-  * Name: financeInformation (financeInformation), Type: PostNonRefRefundTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: PostNonRefRefundTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: gatewayId (gatewayId), Type: string
+  * Name: gatewayId (gatewayId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String gatewayId;
 
   /**
-  * Name: items (items), Type: array|RefundCreditMemoItemType
+  * Name: items (items), Type: array|RefundCreditMemoItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PostNonRefRefundType extends BaseObject {
   private List<RefundCreditMemoItemType> items;
 
   /**
-  * Name: methodType (methodType), Type: string
+  * Name: methodType (methodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String methodType;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: reasonCode (reasonCode), Type: string
+  * Name: reasonCode (reasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: refundDate (refundDate), Type: string
+  * Name: refundDate (refundDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String refundDate;
 
   /**
-  * Name: secondRefundReferenceId (secondRefundReferenceId), Type: string
+  * Name: secondRefundReferenceId (secondRefundReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String secondRefundReferenceId;
 
   /**
-  * Name: totalAmount (totalAmount), Type: number
+  * Name: totalAmount (totalAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PostNonRefRefundType extends BaseObject {
   private String totalAmount;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

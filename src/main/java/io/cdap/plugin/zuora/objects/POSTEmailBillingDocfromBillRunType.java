@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTEmailBillingDocfromBillRunType (POSTEmailBillingDocfromBillRunType)
-* Related objects: 
+* Object name: POSTEmailBillingDocfromBillRunType (POSTEmailBillingDocfromBillRunType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTEmailBillingDocfromBillRunType extends BaseObject {
   /**
-  * Name: resend (resend), Type: boolean
+  * Name: resend (resend), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -37,7 +37,7 @@ import java.util.stream.StreamSupport;
 import javax.annotation.Nullable;
 
 /**
- * Data transformer from swagger
+ * Data transformer from swagger.
  */
 public class SwaggerTransformer {
   private static boolean topLevelObjects = false;  // process only top-level objects and ignore nested
@@ -50,6 +50,11 @@ public class SwaggerTransformer {
   private Map<String, String> objectMapping;
   private Map<String, Pair<String, List<String>>> paths;
 
+  /**
+   * Constructor for SwaggerTransformer object.
+   * @param uri the uri
+   * @throws IOException in case if resource not found
+   */
   public SwaggerTransformer(Path uri) throws IOException {
     String jsonData = new String(Files.readAllBytes(uri));
     JsonParser parser = new JsonParser();
@@ -86,7 +91,7 @@ public class SwaggerTransformer {
   }
 
   /**
-   * Add resolved object to the list of objects
+   * Add resolved object to the list of objects.
    * @param name name of the object
    * @param fields fields of the object
    * @param onlyIfWithPath  add only object with the rest api path notation
@@ -269,7 +274,7 @@ public class SwaggerTransformer {
   }
 
   /**
-   * Retrieves definition of the objects
+   * Retrieves definition of the objects.
    * @param onlyWithPath only objects with rest api endpoint and all their children
    */
   public ZuoraDefinitions getDefinitions(boolean onlyWithPath) {

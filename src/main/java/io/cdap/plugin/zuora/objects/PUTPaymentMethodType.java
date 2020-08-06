@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTPaymentMethodType (PUTPaymentMethodType)
-* Related objects: 
+* Object name: PUTPaymentMethodType (PUTPaymentMethodType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTPaymentMethodType extends BaseObject {
   /**
-  * Name: addressLine1 (addressLine1), Type: string
+  * Name: addressLine1 (addressLine1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String addressLine1;
 
   /**
-  * Name: addressLine2 (addressLine2), Type: string
+  * Name: addressLine2 (addressLine2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String addressLine2;
 
   /**
-  * Name: cardHolderName (cardHolderName), Type: string
+  * Name: cardHolderName (cardHolderName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String cardHolderName;
 
   /**
-  * Name: city (city), Type: string
+  * Name: city (city), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String city;
 
   /**
-  * Name: country (country), Type: string
+  * Name: country (country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String country;
 
   /**
-  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean
+  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private Boolean defaultPaymentMethod;
 
   /**
-  * Name: email (email), Type: string
+  * Name: email (email), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String email;
 
   /**
-  * Name: expirationMonth (expirationMonth), Type: string
+  * Name: expirationMonth (expirationMonth), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String expirationMonth;
 
   /**
-  * Name: expirationYear (expirationYear), Type: string
+  * Name: expirationYear (expirationYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String expirationYear;
 
   /**
-  * Name: numConsecutiveFailures (numConsecutiveFailures), Type: integer
+  * Name: numConsecutiveFailures (numConsecutiveFailures), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private Integer numConsecutiveFailures;
 
   /**
-  * Name: phone (phone), Type: string
+  * Name: phone (phone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String phone;
 
   /**
-  * Name: securityCode (securityCode), Type: string
+  * Name: securityCode (securityCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String securityCode;
 
   /**
-  * Name: state (state), Type: string
+  * Name: state (state), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PUTPaymentMethodType extends BaseObject {
   private String state;
 
   /**
-  * Name: zipCode (zipCode), Type: string
+  * Name: zipCode (zipCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

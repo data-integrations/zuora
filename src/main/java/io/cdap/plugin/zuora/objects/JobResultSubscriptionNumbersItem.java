@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: JobResultSubscriptionNumbersItem (JobResultSubscriptionNumbersItem)
-* Related objects: 
+* Object name: JobResultSubscriptionNumbersItem (JobResultSubscriptionNumbersItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

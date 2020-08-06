@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowsResponsePaginationItem (WorkflowsResponsePaginationItem)
-* Related objects: 
+* Object name: WorkflowsResponsePaginationItem (WorkflowsResponsePaginationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class WorkflowsResponsePaginationItem extends BaseObject {
   /**
-  * Name: next_page (next_page), Type: string
+  * Name: next_page (next_page), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class WorkflowsResponsePaginationItem extends BaseObject {
   private String next_page;
 
   /**
-  * Name: page (page), Type: integer
+  * Name: page (page), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class WorkflowsResponsePaginationItem extends BaseObject {
   private Integer page;
 
   /**
-  * Name: page_length (page_length), Type: integer
+  * Name: page_length (page_length), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

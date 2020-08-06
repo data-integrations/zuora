@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTUsageType (POSTUsageType)
-* Related objects: 
+* Object name: POSTUsageType (POSTUsageType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTUsageType extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTUsageType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTUsageType extends BaseObject {
   private String description;
 
   /**
-  * Name: groupId (groupId), Type: string
+  * Name: groupId (groupId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTUsageType extends BaseObject {
   private String groupId;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTUsageType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: startDateTime (startDateTime), Type: string
+  * Name: startDateTime (startDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTUsageType extends BaseObject {
   private String startDateTime;
 
   /**
-  * Name: tag (tag), Type: string
+  * Name: tag (tag), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTUsageType extends BaseObject {
   private String tag;
 
   /**
-  * Name: uniqueKey (uniqueKey), Type: string
+  * Name: uniqueKey (uniqueKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTUsageType extends BaseObject {
   private String uniqueKey;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

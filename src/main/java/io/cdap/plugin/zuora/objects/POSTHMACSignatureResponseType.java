@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTHMACSignatureResponseType (POSTHMACSignatureResponseType)
+* Object name: POSTHMACSignatureResponseType (POSTHMACSignatureResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTHMACSignatureResponseType extends BaseObject {
   /**
-  * Name: signature (signature), Type: string
+  * Name: signature (signature), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTHMACSignatureResponseType extends BaseObject {
   private String signature;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTHMACSignatureResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: token (token), Type: string
+  * Name: token (token), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

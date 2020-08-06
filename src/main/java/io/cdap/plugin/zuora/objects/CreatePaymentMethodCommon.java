@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreatePaymentMethodCommon (CreatePaymentMethodCommon)
-* Related objects: 
+* Object name: CreatePaymentMethodCommon (CreatePaymentMethodCommon).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreatePaymentMethodCommon extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreatePaymentMethodCommon extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: authGateway (authGateway), Type: string
+  * Name: authGateway (authGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreatePaymentMethodCommon extends BaseObject {
   private String authGateway;
 
   /**
-  * Name: makeDefault (makeDefault), Type: boolean
+  * Name: makeDefault (makeDefault), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

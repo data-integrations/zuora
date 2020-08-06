@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscriptionObjectQTFields (SubscriptionObjectQTFields)
-* Related objects: 
+* Object name: SubscriptionObjectQTFields (SubscriptionObjectQTFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscriptionObjectQTFields extends BaseObject {
   /**
-  * Name: CpqBundleJsonId__QT (CpqBundleJsonId__QT), Type: string
+  * Name: CpqBundleJsonId__QT (CpqBundleJsonId__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscriptionObjectQTFields extends BaseObject {
   private String cpqBundleJsonId__QT;
 
   /**
-  * Name: OpportunityCloseDate__QT (OpportunityCloseDate__QT), Type: string
+  * Name: OpportunityCloseDate__QT (OpportunityCloseDate__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscriptionObjectQTFields extends BaseObject {
   private String opportunityCloseDate__QT;
 
   /**
-  * Name: OpportunityName__QT (OpportunityName__QT), Type: string
+  * Name: OpportunityName__QT (OpportunityName__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubscriptionObjectQTFields extends BaseObject {
   private String opportunityName__QT;
 
   /**
-  * Name: QuoteBusinessType__QT (QuoteBusinessType__QT), Type: string
+  * Name: QuoteBusinessType__QT (QuoteBusinessType__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class SubscriptionObjectQTFields extends BaseObject {
   private String quoteBusinessType__QT;
 
   /**
-  * Name: QuoteNumber__QT (QuoteNumber__QT), Type: string
+  * Name: QuoteNumber__QT (QuoteNumber__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class SubscriptionObjectQTFields extends BaseObject {
   private String quoteNumber__QT;
 
   /**
-  * Name: QuoteType__QT (QuoteType__QT), Type: string
+  * Name: QuoteType__QT (QuoteType__QT), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

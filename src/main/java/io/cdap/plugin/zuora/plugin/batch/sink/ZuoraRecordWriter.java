@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -27,12 +27,16 @@ import org.apache.hadoop.mapreduce.TaskAttemptContext;
 import java.io.IOException;
 
 /**
- * Writes {@link SendObject} into batches and submit them to Zuora send API
+ * Writes {@link SendObject} into batches and submit them to Zuora send API.
  */
 public class ZuoraRecordWriter  extends RecordWriter<NullWritable, SendObject> {
   private static final Gson gson = new GsonBuilder().create();
   private ZuoraRestClient client;
 
+  /**
+   * Constructor for ZuoraRecordWriter object.
+   * @param taskAttemptContext
+   */
   public ZuoraRecordWriter(TaskAttemptContext taskAttemptContext) {
     Configuration conf = taskAttemptContext.getConfiguration();
     String serializedConfig = conf.get(ZuoraOutputFormatProvider.PROPERTY_CONFIG_JSON);

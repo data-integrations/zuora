@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryTypeBasicInfoDefaultPaymentMethodItem (AccountSummaryTypeBasicInfoDefaultPaymentMethodItem)
-* Related objects: 
+* Object name: AccountSummaryTypeBasicInfoDefaultPaymentMethodItem (AccountSummaryTypeBasicInfoDefaultPaymentMethodItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObject {
   /**
-  * Name: creditCardExpirationMonth (creditCardExpirationMonth), Type: string
+  * Name: creditCardExpirationMonth (creditCardExpirationMonth), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObj
   private String creditCardExpirationMonth;
 
   /**
-  * Name: creditCardExpirationYear (creditCardExpirationYear), Type: string
+  * Name: creditCardExpirationYear (creditCardExpirationYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObj
   private String creditCardExpirationYear;
 
   /**
-  * Name: creditCardNumber (creditCardNumber), Type: string
+  * Name: creditCardNumber (creditCardNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObj
   private String creditCardNumber;
 
   /**
-  * Name: creditCardType (creditCardType), Type: string
+  * Name: creditCardType (creditCardType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObj
   private String creditCardType;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountSummaryTypeBasicInfoDefaultPaymentMethodItem extends BaseObj
   private String id;
 
   /**
-  * Name: paymentMethodType (paymentMethodType), Type: string
+  * Name: paymentMethodType (paymentMethodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

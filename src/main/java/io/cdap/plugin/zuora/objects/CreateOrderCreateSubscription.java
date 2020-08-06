@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderCreateSubscription (CreateOrderCreateSubscription)
-* Related objects: 
+* Object name: CreateOrderCreateSubscription (CreateOrderCreateSubscription).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreateOrderCreateSubscription extends BaseObject {
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: boolean
+  * Name: invoiceSeparately (invoiceSeparately), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreateOrderCreateSubscription extends BaseObject {
   private Boolean invoiceSeparately;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreateOrderCreateSubscription extends BaseObject {
   private String notes;
 
   /**
-  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|CreateOrderRatePlanOverride
+  * Name: subscribeToRatePlans (subscribeToRatePlans), Type: array|CreateOrderRatePlanOverride.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CreateOrderCreateSubscription extends BaseObject {
   private List<CreateOrderRatePlanOverride> subscribeToRatePlans;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class CreateOrderCreateSubscription extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: subscriptionOwnerAccountNumber (subscriptionOwnerAccountNumber), Type: string
+  * Name: subscriptionOwnerAccountNumber (subscriptionOwnerAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class CreateOrderCreateSubscription extends BaseObject {
   private String subscriptionOwnerAccountNumber;
 
   /**
-  * Name: terms (terms), Type: CreateOrderCreateSubscriptionTermsItem
+  * Name: terms (terms), Type: CreateOrderCreateSubscriptionTermsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

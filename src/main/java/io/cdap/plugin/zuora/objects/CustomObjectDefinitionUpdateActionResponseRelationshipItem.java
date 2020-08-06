@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectDefinitionUpdateActionResponseRelationshipItem (CustomObjectDefinitionUpdateActionResponseRelationshipItem)
-* Related objects: 
+* Object name: CustomObjectDefinitionUpdateActionResponseRelationshipItem (CustomObjectDefinitionUpdateActionResponseRelationshipItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectDefinitionUpdateActionResponseRelationshipItem extends BaseObject {
   /**
-  * Name: cardinality (cardinality), Type: string
+  * Name: cardinality (cardinality), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomObjectDefinitionUpdateActionResponseRelationshipItem extends 
   private String cardinality;
 
   /**
-  * Name: namespace (namespace), Type: string
+  * Name: namespace (namespace), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomObjectDefinitionUpdateActionResponseRelationshipItem extends 
   private String namespace;
 
   /**
-  * Name: object (object), Type: string
+  * Name: object (object), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

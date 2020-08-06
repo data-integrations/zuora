@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -29,7 +29,7 @@ import java.util.Map;
 import javax.annotation.Nullable;
 
 /**
- * Sink Config
+ * Sink Config.
  */
 public class ZuoraSinkConfig extends BaseConfig {
   public static final String PROPERTY_OBJECT_NAME = "objectName";
@@ -41,12 +41,17 @@ public class ZuoraSinkConfig extends BaseConfig {
   public static final String TO_TYPE_CONFIG = "config";
 
   /**
-   * Available sources for recipient addresses
+   * Available sources for recipient addresses.
    */
   public enum ToArgumentsSource {
     CONFIG,
     INPUT;
 
+    /**
+     * Returns the ToArgumentsSource.
+     * @param toType the totype
+     * @return ToArgumentsSource
+     */
     public static ToArgumentsSource fromString(String toType) {
       switch (toType) {
         case TO_TYPE_INPUT:
@@ -113,6 +118,10 @@ public class ZuoraSinkConfig extends BaseConfig {
     new ZuoraSinkConfigValidator(failureCollector, this).validate();
   }
 
+  /**
+   * Just validate the schema.
+   * @param schema the schema
+   */
   public void validate(Schema schema) {
     if (schema == null) {
       throw new IllegalArgumentException("Input schema cannot be empty");
@@ -139,6 +148,10 @@ public class ZuoraSinkConfig extends BaseConfig {
     return bodyColumnName;
   }
 
+  /**
+   * Returns the map of strings.
+   * @return map of strings
+   */
   public Map<String, String> getRequestArguments() {
     ImmutableMap.Builder<String, String> argumentsBuilder = new ImmutableMap.Builder<>();
     if (!Strings.isNullOrEmpty(requestArguments)) {

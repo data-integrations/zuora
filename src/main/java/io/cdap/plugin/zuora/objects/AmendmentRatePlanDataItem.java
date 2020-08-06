@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AmendmentRatePlanDataItem (AmendmentRatePlanDataItem)
-* Related objects: 
+* Object name: AmendmentRatePlanDataItem (AmendmentRatePlanDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AmendmentRatePlanDataItem extends BaseObject {
   /**
-  * Name: RatePlanChargeData (RatePlanChargeData), Type: array|RatePlanChargeDataInRatePlanData
+  * Name: RatePlanChargeData (RatePlanChargeData), Type: array|RatePlanChargeDataInRatePlanData.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

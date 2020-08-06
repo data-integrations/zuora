@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostCustomObjectDefinitionFieldDefinitionRequest (PostCustomObjectDefinitionFieldDefinitionRequest)
-* Related objects: 
+* Object name: PostCustomObjectDefinitionFieldDefinitionRequest (PostCustomObjectDefinitionFieldDefinitionRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PostCustomObjectDefinitionFieldDefinitionRequest extends BaseObject {
   /**
-  * Name: format (format), Type: string
+  * Name: format (format), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PostCustomObjectDefinitionFieldDefinitionRequest extends BaseObject
   private String format;
 
   /**
-  * Name: label (label), Type: string
+  * Name: label (label), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PostCustomObjectDefinitionFieldDefinitionRequest extends BaseObject
   private String label;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

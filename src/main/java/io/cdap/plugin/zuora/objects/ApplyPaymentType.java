@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ApplyPaymentType (ApplyPaymentType)
-* Related objects: 
+* Object name: ApplyPaymentType (ApplyPaymentType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ApplyPaymentType extends BaseObject {
   /**
-  * Name: debitMemos (debitMemos), Type: array|PaymentDebitMemoApplicationApplyRequestType
+  * Name: debitMemos (debitMemos), Type: array|PaymentDebitMemoApplicationApplyRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ApplyPaymentType extends BaseObject {
   private List<PaymentDebitMemoApplicationApplyRequestType> debitMemos;
 
   /**
-  * Name: effectiveDate (effectiveDate), Type: string
+  * Name: effectiveDate (effectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ApplyPaymentType extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: invoices (invoices), Type: array|PaymentInvoiceApplicationApplyRequestType
+  * Name: invoices (invoices), Type: array|PaymentInvoiceApplicationApplyRequestType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

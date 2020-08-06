@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTHMACSignatureType (POSTHMACSignatureType)
-* Related objects: 
+* Object name: POSTHMACSignatureType (POSTHMACSignatureType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTHMACSignatureType extends BaseObject {
   /**
-  * Name: accountKey (accountKey), Type: string
+  * Name: accountKey (accountKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTHMACSignatureType extends BaseObject {
   private String accountKey;
 
   /**
-  * Name: method (method), Type: string
+  * Name: method (method), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTHMACSignatureType extends BaseObject {
   private String method;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTHMACSignatureType extends BaseObject {
   private String name;
 
   /**
-  * Name: pageId (pageId), Type: string
+  * Name: pageId (pageId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTHMACSignatureType extends BaseObject {
   private String pageId;
 
   /**
-  * Name: uri (uri), Type: string
+  * Name: uri (uri), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTScheduleRIDetailType (PUTScheduleRIDetailType)
-* Related objects: 
+* Object name: PUTScheduleRIDetailType (PUTScheduleRIDetailType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTScheduleRIDetailType extends BaseObject {
   /**
-  * Name: revenueItems (revenueItems), Type: array|RevenueScheduleItemType
+  * Name: revenueItems (revenueItems), Type: array|RevenueScheduleItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

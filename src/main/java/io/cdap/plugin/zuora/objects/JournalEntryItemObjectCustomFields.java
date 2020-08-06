@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: JournalEntryItemObjectCustomFields (JournalEntryItemObjectCustomFields)
-* Related objects: 
+* Object name: JournalEntryItemObjectCustomFields (JournalEntryItemObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -30,7 +30,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 import javax.xml.bind.annotation.XmlTransient;
 
 /**
- * Base XML document which describing Zuora Objects
+ * Base XML document which describing Zuora Objects.
  */
 @XmlRootElement(name = "objects")
 public class ZuoraDefinitions {
@@ -48,6 +48,11 @@ public class ZuoraDefinitions {
     return objects;
   }
 
+  /**
+   * Just creating dump objects to directory.
+   * @param client the zuora rest client
+   * @param path the path
+   */
   public void dumpToDirectory(ZuoraRestClient client, final String path) {
     System.out.println("Dumping objects:");
     getObjects().forEach(x -> {

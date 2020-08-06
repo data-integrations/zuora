@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem (PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem)
-* Related objects: 
+* Object name: PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem (PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem extends BaseObject {
   /**
-  * Name: orderActions (orderActions), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem
+  * Name: orderActions (orderActions), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTOrderActionTriggerDatesRequestTypeSubscriptionsItem extends Base
   private List<PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem> orderActions;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

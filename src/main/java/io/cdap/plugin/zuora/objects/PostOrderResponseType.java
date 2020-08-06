@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostOrderResponseType (PostOrderResponseType)
+* Object name: PostOrderResponseType (PostOrderResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class PostOrderResponseType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class PostOrderResponseType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class PostOrderResponseType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: creditMemoIds (creditMemoIds), Type: array|PostOrderResponseTypeCreditMemoIdsItem
+  * Name: creditMemoIds (creditMemoIds), Type: array|PostOrderResponseTypeCreditMemoIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeCreditMemoIdsItem> creditMemoIds;
 
   /**
-  * Name: creditMemoNumbers (creditMemoNumbers), Type: array|PostOrderResponseTypeCreditMemoNumbersItem
+  * Name: creditMemoNumbers (creditMemoNumbers), Type: array|PostOrderResponseTypeCreditMemoNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -76,7 +76,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeCreditMemoNumbersItem> creditMemoNumbers;
 
   /**
-  * Name: invoiceIds (invoiceIds), Type: array|PostOrderResponseTypeInvoiceIdsItem
+  * Name: invoiceIds (invoiceIds), Type: array|PostOrderResponseTypeInvoiceIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -85,7 +85,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeInvoiceIdsItem> invoiceIds;
 
   /**
-  * Name: invoiceNumbers (invoiceNumbers), Type: array|PostOrderResponseTypeInvoiceNumbersItem
+  * Name: invoiceNumbers (invoiceNumbers), Type: array|PostOrderResponseTypeInvoiceNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -94,7 +94,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeInvoiceNumbersItem> invoiceNumbers;
 
   /**
-  * Name: orderId (orderId), Type: string
+  * Name: orderId (orderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -103,7 +103,7 @@ public class PostOrderResponseType extends BaseObject {
   private String orderId;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -112,7 +112,7 @@ public class PostOrderResponseType extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: paidAmount (paidAmount), Type: string
+  * Name: paidAmount (paidAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -121,7 +121,7 @@ public class PostOrderResponseType extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -130,7 +130,7 @@ public class PostOrderResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: paymentNumber (paymentNumber), Type: string
+  * Name: paymentNumber (paymentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -139,7 +139,7 @@ public class PostOrderResponseType extends BaseObject {
   private String paymentNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -148,7 +148,7 @@ public class PostOrderResponseType extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptionIds (subscriptionIds), Type: array|PostOrderResponseTypeSubscriptionIdsItem
+  * Name: subscriptionIds (subscriptionIds), Type: array|PostOrderResponseTypeSubscriptionIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -157,7 +157,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeSubscriptionIdsItem> subscriptionIds;
 
   /**
-  * Name: subscriptionNumbers (subscriptionNumbers), Type: array|PostOrderResponseTypeSubscriptionNumbersItem
+  * Name: subscriptionNumbers (subscriptionNumbers), Type: array|PostOrderResponseTypeSubscriptionNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -166,7 +166,7 @@ public class PostOrderResponseType extends BaseObject {
   private List<PostOrderResponseTypeSubscriptionNumbersItem> subscriptionNumbers;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|PostOrderResponseTypeSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|PostOrderResponseTypeSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

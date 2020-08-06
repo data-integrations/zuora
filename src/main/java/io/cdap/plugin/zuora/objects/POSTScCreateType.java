@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTScCreateType (POSTScCreateType)
-* Related objects: 
+* Object name: POSTScCreateType (POSTScCreateType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class POSTScCreateType extends BaseObject {
   /**
-  * Name: applyDiscountTo (applyDiscountTo), Type: string
+  * Name: applyDiscountTo (applyDiscountTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class POSTScCreateType extends BaseObject {
   private String applyDiscountTo;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: string
+  * Name: billCycleDay (billCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class POSTScCreateType extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: billCycleType (billCycleType), Type: string
+  * Name: billCycleType (billCycleType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class POSTScCreateType extends BaseObject {
   private String billCycleType;
 
   /**
-  * Name: billingPeriod (billingPeriod), Type: string
+  * Name: billingPeriod (billingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTScCreateType extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string
+  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class POSTScCreateType extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: billingTiming (billingTiming), Type: string
+  * Name: billingTiming (billingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class POSTScCreateType extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class POSTScCreateType extends BaseObject {
   private String description;
 
   /**
-  * Name: discountAmount (discountAmount), Type: number
+  * Name: discountAmount (discountAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class POSTScCreateType extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: discountLevel (discountLevel), Type: string
+  * Name: discountLevel (discountLevel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class POSTScCreateType extends BaseObject {
   private String discountLevel;
 
   /**
-  * Name: discountPercentage (discountPercentage), Type: number
+  * Name: discountPercentage (discountPercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class POSTScCreateType extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: endDateCondition (endDateCondition), Type: string
+  * Name: endDateCondition (endDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class POSTScCreateType extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: includedUnits (includedUnits), Type: number
+  * Name: includedUnits (includedUnits), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class POSTScCreateType extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: listPriceBase (listPriceBase), Type: string
+  * Name: listPriceBase (listPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class POSTScCreateType extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class POSTScCreateType extends BaseObject {
   private String number;
 
   /**
-  * Name: numberOfPeriods (numberOfPeriods), Type: integer
+  * Name: numberOfPeriods (numberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class POSTScCreateType extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class POSTScCreateType extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string
+  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class POSTScCreateType extends BaseObject {
   private String overageUnusedUnitsCreditOption;
 
   /**
-  * Name: price (price), Type: number
+  * Name: price (price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class POSTScCreateType extends BaseObject {
   private String price;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class POSTScCreateType extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number
+  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class POSTScCreateType extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class POSTScCreateType extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class POSTScCreateType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: ratingGroup (ratingGroup), Type: string
+  * Name: ratingGroup (ratingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class POSTScCreateType extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer
+  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class POSTScCreateType extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: specificEndDate (specificEndDate), Type: string
+  * Name: specificEndDate (specificEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -261,7 +261,7 @@ public class POSTScCreateType extends BaseObject {
   private String specificEndDate;
 
   /**
-  * Name: tiers (tiers), Type: array|POSTTierType
+  * Name: tiers (tiers), Type: array|POSTTierType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -270,7 +270,7 @@ public class POSTScCreateType extends BaseObject {
   private List<POSTTierType> tiers;
 
   /**
-  * Name: triggerDate (triggerDate), Type: string
+  * Name: triggerDate (triggerDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -279,7 +279,7 @@ public class POSTScCreateType extends BaseObject {
   private String triggerDate;
 
   /**
-  * Name: triggerEvent (triggerEvent), Type: string
+  * Name: triggerEvent (triggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -288,7 +288,7 @@ public class POSTScCreateType extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number
+  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -297,7 +297,7 @@ public class POSTScCreateType extends BaseObject {
   private String unusedUnitsCreditRates;
 
   /**
-  * Name: upToPeriods (upToPeriods), Type: integer
+  * Name: upToPeriods (upToPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -306,7 +306,7 @@ public class POSTScCreateType extends BaseObject {
   private Integer upToPeriods;
 
   /**
-  * Name: upToPeriodsType (upToPeriodsType), Type: string
+  * Name: upToPeriodsType (upToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -315,7 +315,7 @@ public class POSTScCreateType extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: weeklyBillCycleDay (weeklyBillCycleDay), Type: string
+  * Name: weeklyBillCycleDay (weeklyBillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

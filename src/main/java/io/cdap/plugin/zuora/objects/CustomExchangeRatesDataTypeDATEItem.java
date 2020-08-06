@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomExchangeRatesDataTypeDATEItem (CustomExchangeRatesDataTypeDATEItem)
-* Related objects: 
+* Object name: CustomExchangeRatesDataTypeDATEItem (CustomExchangeRatesDataTypeDATEItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomExchangeRatesDataTypeDATEItem extends BaseObject {
   /**
-  * Name: CURRENCY (CURRENCY), Type: string
+  * Name: CURRENCY (CURRENCY), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomExchangeRatesDataTypeDATEItem extends BaseObject {
   private String cURRENCY;
 
   /**
-  * Name: providerExchangeRateDate (providerExchangeRateDate), Type: string
+  * Name: providerExchangeRateDate (providerExchangeRateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTBillingPreviewCreditMemoItem (POSTBillingPreviewCreditMemoItem)
-* Related objects: 
+* Object name: POSTBillingPreviewCreditMemoItem (POSTBillingPreviewCreditMemoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String amount;
 
   /**
-  * Name: amountWithoutTax (amountWithoutTax), Type: number
+  * Name: amountWithoutTax (amountWithoutTax), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String amountWithoutTax;
 
   /**
-  * Name: appliedToItemId (appliedToItemId), Type: string
+  * Name: appliedToItemId (appliedToItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String appliedToItemId;
 
   /**
-  * Name: chargeDate (chargeDate), Type: string
+  * Name: chargeDate (chargeDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String chargeDate;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: chargeType (chargeType), Type: string
+  * Name: chargeType (chargeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String chargeType;
 
   /**
-  * Name: comment (comment), Type: string
+  * Name: comment (comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String comment;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String id;
 
   /**
-  * Name: processingType (processingType), Type: string
+  * Name: processingType (processingType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String processingType;
 
   /**
-  * Name: quantity (quantity), Type: string
+  * Name: quantity (quantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: ratePlanChargeId (ratePlanChargeId), Type: string
+  * Name: ratePlanChargeId (ratePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String ratePlanChargeId;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: sku (sku), Type: string
+  * Name: sku (sku), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String sku;
 
   /**
-  * Name: skuName (skuName), Type: string
+  * Name: skuName (skuName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String skuName;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class POSTBillingPreviewCreditMemoItem extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

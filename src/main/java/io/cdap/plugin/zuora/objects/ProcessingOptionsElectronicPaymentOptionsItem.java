@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProcessingOptionsElectronicPaymentOptionsItem (ProcessingOptionsElectronicPaymentOptionsItem)
-* Related objects: 
+* Object name: ProcessingOptionsElectronicPaymentOptionsItem (ProcessingOptionsElectronicPaymentOptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProcessingOptionsElectronicPaymentOptionsItem extends BaseObject {
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

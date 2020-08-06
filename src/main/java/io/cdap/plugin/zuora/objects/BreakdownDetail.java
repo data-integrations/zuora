@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: BreakdownDetail (BreakdownDetail)
-* Related objects: 
+* Object name: BreakdownDetail (BreakdownDetail).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class BreakdownDetail extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class BreakdownDetail extends BaseObject {
   private String amount;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class BreakdownDetail extends BaseObject {
   private String endDate;
 
   /**
-  * Name: generatedReason (generatedReason), Type: string
+  * Name: generatedReason (generatedReason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class BreakdownDetail extends BaseObject {
   private String generatedReason;
 
   /**
-  * Name: orderActionId (orderActionId), Type: string
+  * Name: orderActionId (orderActionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class BreakdownDetail extends BaseObject {
   private String orderActionId;
 
   /**
-  * Name: orderItemId (orderItemId), Type: string
+  * Name: orderItemId (orderItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class BreakdownDetail extends BaseObject {
   private String orderItemId;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class BreakdownDetail extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class BreakdownDetail extends BaseObject {
   private String startDate;
 
   /**
-  * Name: termNumber (termNumber), Type: number
+  * Name: termNumber (termNumber), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

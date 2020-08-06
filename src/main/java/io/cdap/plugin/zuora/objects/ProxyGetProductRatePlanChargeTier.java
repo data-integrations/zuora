@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetProductRatePlanChargeTier (ProxyGetProductRatePlanChargeTier)
-* Related objects: 
+* Object name: ProxyGetProductRatePlanChargeTier (ProxyGetProductRatePlanChargeTier).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Currency (Currency), Type: string
+  * Name: Currency (Currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String currency;
 
   /**
-  * Name: EndingUnit (EndingUnit), Type: number
+  * Name: EndingUnit (EndingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String endingUnit;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String id;
 
   /**
-  * Name: Price (Price), Type: number
+  * Name: Price (Price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String price;
 
   /**
-  * Name: PriceFormat (PriceFormat), Type: string
+  * Name: PriceFormat (PriceFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String priceFormat;
 
   /**
-  * Name: StartingUnit (StartingUnit), Type: number
+  * Name: StartingUnit (StartingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String startingUnit;
 
   /**
-  * Name: Tier (Tier), Type: integer
+  * Name: Tier (Tier), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private Integer tier;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetProductRatePlanChargeTier extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

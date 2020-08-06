@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyAmendment (ProxyModifyAmendment)
-* Related objects: 
+* Object name: ProxyModifyAmendment (ProxyModifyAmendment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyAmendment extends BaseObject {
   /**
-  * Name: AutoRenew (AutoRenew), Type: boolean
+  * Name: AutoRenew (AutoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: ContractEffectiveDate (ContractEffectiveDate), Type: string
+  * Name: ContractEffectiveDate (ContractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: CurrentTerm (CurrentTerm), Type: integer
+  * Name: CurrentTerm (CurrentTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private Integer currentTerm;
 
   /**
-  * Name: CurrentTermPeriodType (CurrentTermPeriodType), Type: string
+  * Name: CurrentTermPeriodType (CurrentTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String currentTermPeriodType;
 
   /**
-  * Name: CustomerAcceptanceDate (CustomerAcceptanceDate), Type: string
+  * Name: CustomerAcceptanceDate (CustomerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String description;
 
   /**
-  * Name: EffectiveDate (EffectiveDate), Type: string
+  * Name: EffectiveDate (EffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String effectiveDate;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String name;
 
   /**
-  * Name: RenewalSetting (RenewalSetting), Type: string
+  * Name: RenewalSetting (RenewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: RenewalTerm (RenewalTerm), Type: integer
+  * Name: RenewalTerm (RenewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: RenewalTermPeriodType (RenewalTermPeriodType), Type: string
+  * Name: RenewalTermPeriodType (RenewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: ServiceActivationDate (ServiceActivationDate), Type: string
+  * Name: ServiceActivationDate (ServiceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: SpecificUpdateDate (SpecificUpdateDate), Type: string
+  * Name: SpecificUpdateDate (SpecificUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String specificUpdateDate;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String status;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: TermStartDate (TermStartDate), Type: string
+  * Name: TermStartDate (TermStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: TermType (TermType), Type: string
+  * Name: TermType (TermType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyModifyAmendment extends BaseObject {
   private String termType;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

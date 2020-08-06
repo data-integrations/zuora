@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderRatePlanUpdate (CreateOrderRatePlanUpdate)
-* Related objects: 
+* Object name: CreateOrderRatePlanUpdate (CreateOrderRatePlanUpdate).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreateOrderRatePlanUpdate extends BaseObject {
   /**
-  * Name: chargeUpdates (chargeUpdates), Type: array|CreateOrderChargeUpdate
+  * Name: chargeUpdates (chargeUpdates), Type: array|CreateOrderChargeUpdate.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreateOrderRatePlanUpdate extends BaseObject {
   private List<CreateOrderChargeUpdate> chargeUpdates;
 
   /**
-  * Name: ratePlanId (ratePlanId), Type: string
+  * Name: ratePlanId (ratePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreateOrderRatePlanUpdate extends BaseObject {
   private String ratePlanId;
 
   /**
-  * Name: specificUpdateDate (specificUpdateDate), Type: string
+  * Name: specificUpdateDate (specificUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CreateOrderRatePlanUpdate extends BaseObject {
   private String specificUpdateDate;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

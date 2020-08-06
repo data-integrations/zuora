@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ListAllSettingsResponse (ListAllSettingsResponse)
-* Related objects: 
+* Object name: ListAllSettingsResponse (ListAllSettingsResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ListAllSettingsResponse extends BaseObject {
   /**
-  * Name: settings (settings), Type: array|SettingItemWithOperationsInformation
+  * Name: settings (settings), Type: array|SettingItemWithOperationsInformation.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

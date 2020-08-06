@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PublicNotificationDefinitionResponseCalloutItem (PublicNotificationDefinitionResponseCalloutItem)
-* Related objects: 
+* Object name: PublicNotificationDefinitionResponseCalloutItem (PublicNotificationDefinitionResponseCalloutItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject {
   /**
-  * Name: active (active), Type: boolean
+  * Name: active (active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private Boolean active;
 
   /**
-  * Name: calloutBaseurl (calloutBaseurl), Type: string
+  * Name: calloutBaseurl (calloutBaseurl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String calloutBaseurl;
 
   /**
-  * Name: calloutRetry (calloutRetry), Type: boolean
+  * Name: calloutRetry (calloutRetry), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private Boolean calloutRetry;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String description;
 
   /**
-  * Name: eventTypeName (eventTypeName), Type: string
+  * Name: eventTypeName (eventTypeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String eventTypeName;
 
   /**
-  * Name: httpMethod (httpMethod), Type: string
+  * Name: httpMethod (httpMethod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String httpMethod;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PublicNotificationDefinitionResponseCalloutItem extends BaseObject 
   private String name;
 
   /**
-  * Name: requiredAuth (requiredAuth), Type: boolean
+  * Name: requiredAuth (requiredAuth), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

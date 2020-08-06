@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetImport (ProxyGetImport)
-* Related objects: 
+* Object name: ProxyGetImport (ProxyGetImport).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetImport extends BaseObject {
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetImport extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetImport extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string .
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetImport extends BaseObject {
   private String id;
 
   /**
-  * Name: ImportType (ImportType), Type: string
+  * Name: ImportType (ImportType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetImport extends BaseObject {
   private String importType;
 
   /**
-  * Name: ImportedCount (ImportedCount), Type: integer
+  * Name: ImportedCount (ImportedCount), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetImport extends BaseObject {
   private Integer importedCount;
 
   /**
-  * Name: Md5 (Md5), Type: string
+  * Name: Md5 (Md5), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetImport extends BaseObject {
   private String md5;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetImport extends BaseObject {
   private String name;
 
   /**
-  * Name: OriginalResourceUrl (OriginalResourceUrl), Type: string
+  * Name: OriginalResourceUrl (OriginalResourceUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetImport extends BaseObject {
   private String originalResourceUrl;
 
   /**
-  * Name: ResultResourceUrl (ResultResourceUrl), Type: string
+  * Name: ResultResourceUrl (ResultResourceUrl), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetImport extends BaseObject {
   private String resultResourceUrl;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetImport extends BaseObject {
   private String status;
 
   /**
-  * Name: StatusReason (StatusReason), Type: string
+  * Name: StatusReason (StatusReason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetImport extends BaseObject {
   private String statusReason;
 
   /**
-  * Name: TotalCount (TotalCount), Type: integer
+  * Name: TotalCount (TotalCount), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetImport extends BaseObject {
   private Integer totalCount;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetImport extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectDefinitionUpdateActionResponse (CustomObjectDefinitionUpdateActionResponse)
-* Related objects: 
+* Object name: CustomObjectDefinitionUpdateActionResponse (CustomObjectDefinitionUpdateActionResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   private String description;
 
   /**
-  * Name: label (label), Type: string
+  * Name: label (label), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   private String label;
 
   /**
-  * Name: namespace (namespace), Type: string
+  * Name: namespace (namespace), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   private String namespace;
 
   /**
-  * Name: object (object), Type: string
+  * Name: object (object), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   private String object;
 
   /**
-  * Name: relationship (relationship), Type: CustomObjectDefinitionUpdateActionResponseRelationshipItem
+  * Name: relationship (relationship), Type: CustomObjectDefinitionUpdateActionResponseRelationshipItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CustomObjectDefinitionUpdateActionResponse extends BaseObject {
   private String relationship;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

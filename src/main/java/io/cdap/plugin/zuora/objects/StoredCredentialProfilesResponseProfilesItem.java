@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: StoredCredentialProfilesResponseProfilesItem (StoredCredentialProfilesResponseProfilesItem)
-* Related objects: 
+* Object name: StoredCredentialProfilesResponseProfilesItem (StoredCredentialProfilesResponseProfilesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   /**
-  * Name: activatedOn (activatedOn), Type: string
+  * Name: activatedOn (activatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String activatedOn;
 
   /**
-  * Name: agreedOn (agreedOn), Type: string
+  * Name: agreedOn (agreedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String agreedOn;
 
   /**
-  * Name: brand (brand), Type: string
+  * Name: brand (brand), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String brand;
 
   /**
-  * Name: cancelledOn (cancelledOn), Type: string
+  * Name: cancelledOn (cancelledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String cancelledOn;
 
   /**
-  * Name: consentAgreementRef (consentAgreementRef), Type: string
+  * Name: consentAgreementRef (consentAgreementRef), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String consentAgreementRef;
 
   /**
-  * Name: consentAgreementSrc (consentAgreementSrc), Type: string
+  * Name: consentAgreementSrc (consentAgreementSrc), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String consentAgreementSrc;
 
   /**
-  * Name: expiredOn (expiredOn), Type: string
+  * Name: expiredOn (expiredOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String expiredOn;
 
   /**
-  * Name: number (number), Type: integer
+  * Name: number (number), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private Integer number;
 
   /**
-  * Name: paymentMethodId (paymentMethodId), Type: string
+  * Name: paymentMethodId (paymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class StoredCredentialProfilesResponseProfilesItem extends BaseObject {
   private String status;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

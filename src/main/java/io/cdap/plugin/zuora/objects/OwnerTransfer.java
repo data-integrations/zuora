@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OwnerTransfer (OwnerTransfer)
-* Related objects: 
+* Object name: OwnerTransfer (OwnerTransfer).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class OwnerTransfer extends BaseObject {
   /**
-  * Name: destinationAccountNumber (destinationAccountNumber), Type: string
+  * Name: destinationAccountNumber (destinationAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class OwnerTransfer extends BaseObject {
   private String destinationAccountNumber;
 
   /**
-  * Name: destinationInvoiceAccountNumber (destinationInvoiceAccountNumber), Type: string
+  * Name: destinationInvoiceAccountNumber (destinationInvoiceAccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

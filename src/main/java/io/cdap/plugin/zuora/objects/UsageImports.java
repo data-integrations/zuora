@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageImports (UsageImports)
-* Related objects: 
+* Object name: UsageImports (UsageImports).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UsageImports extends BaseObject {
   /**
-  * Name: data (data), Type: array|UsageImport
+  * Name: data (data), Type: array|UsageImport.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

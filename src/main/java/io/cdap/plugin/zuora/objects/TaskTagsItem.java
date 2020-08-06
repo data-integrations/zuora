@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: TaskTagsItem (TaskTagsItem)
-* Related objects: 
+* Object name: TaskTagsItem (TaskTagsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

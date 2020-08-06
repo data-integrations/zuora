@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountType (AccountType)
-* Related objects: 
+* Object name: AccountType (AccountType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountType extends BaseObject {
   /**
-  * Name: billingAndPayment (billingAndPayment), Type: AccountTypeBillingAndPaymentItem
+  * Name: billingAndPayment (billingAndPayment), Type: AccountTypeBillingAndPaymentItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountType extends BaseObject {
   private String billingAndPayment;
 
   /**
-  * Name: metrics (metrics), Type: AccountTypeMetricsItem
+  * Name: metrics (metrics), Type: AccountTypeMetricsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountType extends BaseObject {
   private String metrics;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: taxInfo (taxInfo), Type: AccountTypeTaxInfoItem
+  * Name: taxInfo (taxInfo), Type: AccountTypeTaxInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

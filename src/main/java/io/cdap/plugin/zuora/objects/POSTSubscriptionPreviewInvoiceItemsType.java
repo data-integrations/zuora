@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionPreviewInvoiceItemsType (POSTSubscriptionPreviewInvoiceItemsType)
-* Related objects: 
+* Object name: POSTSubscriptionPreviewInvoiceItemsType (POSTSubscriptionPreviewInvoiceItemsType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   /**
-  * Name: chargeAmount (chargeAmount), Type: number
+  * Name: chargeAmount (chargeAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String chargeAmount;
 
   /**
-  * Name: chargeDescription (chargeDescription), Type: string
+  * Name: chargeDescription (chargeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String chargeDescription;
 
   /**
-  * Name: chargeName (chargeName), Type: string
+  * Name: chargeName (chargeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String chargeName;
 
   /**
-  * Name: productName (productName), Type: string
+  * Name: productName (productName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String productName;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String quantity;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: taxAmount (taxAmount), Type: number
+  * Name: taxAmount (taxAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTSubscriptionPreviewInvoiceItemsType extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

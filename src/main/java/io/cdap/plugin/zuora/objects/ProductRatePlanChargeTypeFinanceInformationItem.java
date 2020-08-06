@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargeTypeFinanceInformationItem (ProductRatePlanChargeTypeFinanceInformationItem)
-* Related objects: 
+* Object name: ProductRatePlanChargeTypeFinanceInformationItem (ProductRatePlanChargeTypeFinanceInformationItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject {
   /**
-  * Name: adjustmentLiabilityAccountingCode (adjustmentLiabilityAccountingCode), Type: string
+  * Name: adjustmentLiabilityAccountingCode (adjustmentLiabilityAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String adjustmentLiabilityAccountingCode;
 
   /**
-  * Name: adjustmentLiabilityAccountingCodeType (adjustmentLiabilityAccountingCodeType), Type: string
+  * Name: adjustmentLiabilityAccountingCodeType (adjustmentLiabilityAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String adjustmentLiabilityAccountingCodeType;
 
   /**
-  * Name: adjustmentRevenueAccountingCode (adjustmentRevenueAccountingCode), Type: string
+  * Name: adjustmentRevenueAccountingCode (adjustmentRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String adjustmentRevenueAccountingCode;
 
   /**
-  * Name: adjustmentRevenueAccountingCodeType (adjustmentRevenueAccountingCodeType), Type: string
+  * Name: adjustmentRevenueAccountingCodeType (adjustmentRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String adjustmentRevenueAccountingCodeType;
 
   /**
-  * Name: contractAssetAccountingCode (contractAssetAccountingCode), Type: string
+  * Name: contractAssetAccountingCode (contractAssetAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractAssetAccountingCode;
 
   /**
-  * Name: contractAssetAccountingCodeType (contractAssetAccountingCodeType), Type: string
+  * Name: contractAssetAccountingCodeType (contractAssetAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractAssetAccountingCodeType;
 
   /**
-  * Name: contractLiabilityAccountingCode (contractLiabilityAccountingCode), Type: string
+  * Name: contractLiabilityAccountingCode (contractLiabilityAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractLiabilityAccountingCode;
 
   /**
-  * Name: contractLiabilityAccountingCodeType (contractLiabilityAccountingCodeType), Type: string
+  * Name: contractLiabilityAccountingCodeType (contractLiabilityAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractLiabilityAccountingCodeType;
 
   /**
-  * Name: contractRecognizedRevenueAccountingCode (contractRecognizedRevenueAccountingCode), Type: string
+  * Name: contractRecognizedRevenueAccountingCode (contractRecognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractRecognizedRevenueAccountingCode;
 
   /**
-  * Name: contractRecognizedRevenueAccountingCodeType (contractRecognizedRevenueAccountingCodeType), Type: string
+  * Name: contractRecognizedRevenueAccountingCodeType (contractRecognizedRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String contractRecognizedRevenueAccountingCodeType;
 
   /**
-  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string
+  * Name: deferredRevenueAccountingCode (deferredRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String deferredRevenueAccountingCode;
 
   /**
-  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string
+  * Name: deferredRevenueAccountingCodeType (deferredRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String deferredRevenueAccountingCodeType;
 
   /**
-  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string
+  * Name: recognizedRevenueAccountingCode (recognizedRevenueAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String recognizedRevenueAccountingCode;
 
   /**
-  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string
+  * Name: recognizedRevenueAccountingCodeType (recognizedRevenueAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String recognizedRevenueAccountingCodeType;
 
   /**
-  * Name: unbilledReceivablesAccountingCode (unbilledReceivablesAccountingCode), Type: string
+  * Name: unbilledReceivablesAccountingCode (unbilledReceivablesAccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProductRatePlanChargeTypeFinanceInformationItem extends BaseObject 
   private String unbilledReceivablesAccountingCode;
 
   /**
-  * Name: unbilledReceivablesAccountingCodeType (unbilledReceivablesAccountingCodeType), Type: string
+  * Name: unbilledReceivablesAccountingCodeType (unbilledReceivablesAccountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

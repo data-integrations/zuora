@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutReverseInvoiceType (PutReverseInvoiceType)
-* Related objects: 
+* Object name: PutReverseInvoiceType (PutReverseInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PutReverseInvoiceType extends BaseObject {
   /**
-  * Name: applyEffectiveDate (applyEffectiveDate), Type: string
+  * Name: applyEffectiveDate (applyEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PutReverseInvoiceType extends BaseObject {
   private String applyEffectiveDate;
 
   /**
-  * Name: memoDate (memoDate), Type: string
+  * Name: memoDate (memoDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

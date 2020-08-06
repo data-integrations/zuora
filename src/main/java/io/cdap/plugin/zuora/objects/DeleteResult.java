@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DeleteResult (DeleteResult)
-* Related objects: 
+* Object name: DeleteResult (DeleteResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class DeleteResult extends BaseObject {
   /**
-  * Name: errors (errors), Type: array|ActionsErrorResponse
+  * Name: errors (errors), Type: array|ActionsErrorResponse.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class DeleteResult extends BaseObject {
   private List<ActionsErrorResponse> errors;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class DeleteResult extends BaseObject {
   private String id;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

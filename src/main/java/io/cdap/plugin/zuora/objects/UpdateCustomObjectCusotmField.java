@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UpdateCustomObjectCusotmField (UpdateCustomObjectCusotmField)
-* Related objects: 
+* Object name: UpdateCustomObjectCusotmField (UpdateCustomObjectCusotmField).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UpdateCustomObjectCusotmField extends BaseObject {
   /**
-  * Name: definition (definition), Type: UpdateCustomObjectCusotmFieldDefinitionItem
+  * Name: definition (definition), Type: UpdateCustomObjectCusotmFieldDefinitionItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class UpdateCustomObjectCusotmField extends BaseObject {
   private String definition;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class UpdateCustomObjectCusotmField extends BaseObject {
   private String name;
 
   /**
-  * Name: targetName (targetName), Type: string
+  * Name: targetName (targetName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

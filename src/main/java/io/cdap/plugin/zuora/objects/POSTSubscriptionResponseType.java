@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSubscriptionResponseType (POSTSubscriptionResponseType)
+* Object name: POSTSubscriptionResponseType (POSTSubscriptionResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSubscriptionResponseType extends BaseObject {
   /**
-  * Name: contractedMrr (contractedMrr), Type: number
+  * Name: contractedMrr (contractedMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String contractedMrr;
 
   /**
-  * Name: creditMemoId (creditMemoId), Type: string
+  * Name: creditMemoId (creditMemoId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String creditMemoId;
 
   /**
-  * Name: invoiceId (invoiceId), Type: string
+  * Name: invoiceId (invoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: paidAmount (paidAmount), Type: number
+  * Name: paidAmount (paidAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -84,7 +84,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -93,7 +93,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -102,7 +102,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -111,7 +111,7 @@ public class POSTSubscriptionResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: totalContractedValue (totalContractedValue), Type: number
+  * Name: totalContractedValue (totalContractedValue), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

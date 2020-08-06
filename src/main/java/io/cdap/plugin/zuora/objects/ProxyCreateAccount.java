@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateAccount (ProxyCreateAccount)
-* Related objects: 
+* Object name: ProxyCreateAccount (ProxyCreateAccount).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateAccount extends BaseObject {
   /**
-  * Name: AccountNumber (AccountNumber), Type: string
+  * Name: AccountNumber (AccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: AdditionalEmailAddresses (AdditionalEmailAddresses), Type: string
+  * Name: AdditionalEmailAddresses (AdditionalEmailAddresses), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String additionalEmailAddresses;
 
   /**
-  * Name: AllowInvoiceEdit (AllowInvoiceEdit), Type: boolean
+  * Name: AllowInvoiceEdit (AllowInvoiceEdit), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateAccount extends BaseObject {
   private Boolean allowInvoiceEdit;
 
   /**
-  * Name: AutoPay (AutoPay), Type: boolean
+  * Name: AutoPay (AutoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateAccount extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: Batch (Batch), Type: string
+  * Name: Batch (Batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String batch;
 
   /**
-  * Name: BcdSettingOption (BcdSettingOption), Type: string
+  * Name: BcdSettingOption (BcdSettingOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String bcdSettingOption;
 
   /**
-  * Name: BillCycleDay (BillCycleDay), Type: integer
+  * Name: BillCycleDay (BillCycleDay), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateAccount extends BaseObject {
   private Integer billCycleDay;
 
   /**
-  * Name: BillToId (BillToId), Type: string
+  * Name: BillToId (BillToId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String billToId;
 
   /**
-  * Name: CommunicationProfileId (CommunicationProfileId), Type: string
+  * Name: CommunicationProfileId (CommunicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: CrmId (CrmId), Type: string
+  * Name: CrmId (CrmId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String crmId;
 
   /**
-  * Name: Currency (Currency), Type: string
+  * Name: Currency (Currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String currency;
 
   /**
-  * Name: CustomerServiceRepName (CustomerServiceRepName), Type: string
+  * Name: CustomerServiceRepName (CustomerServiceRepName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String customerServiceRepName;
 
   /**
-  * Name: DefaultPaymentMethodId (DefaultPaymentMethodId), Type: string
+  * Name: DefaultPaymentMethodId (DefaultPaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String defaultPaymentMethodId;
 
   /**
-  * Name: InvoiceDeliveryPrefsEmail (InvoiceDeliveryPrefsEmail), Type: boolean
+  * Name: InvoiceDeliveryPrefsEmail (InvoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyCreateAccount extends BaseObject {
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: InvoiceDeliveryPrefsPrint (InvoiceDeliveryPrefsPrint), Type: boolean
+  * Name: InvoiceDeliveryPrefsPrint (InvoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyCreateAccount extends BaseObject {
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: InvoiceTemplateId (InvoiceTemplateId), Type: string
+  * Name: InvoiceTemplateId (InvoiceTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String invoiceTemplateId;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String name;
 
   /**
-  * Name: Notes (Notes), Type: string
+  * Name: Notes (Notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String notes;
 
   /**
-  * Name: ParentId (ParentId), Type: string
+  * Name: ParentId (ParentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String parentId;
 
   /**
-  * Name: PaymentGateway (PaymentGateway), Type: string
+  * Name: PaymentGateway (PaymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: PaymentTerm (PaymentTerm), Type: string
+  * Name: PaymentTerm (PaymentTerm), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String paymentTerm;
 
   /**
-  * Name: PurchaseOrderNumber (PurchaseOrderNumber), Type: string
+  * Name: PurchaseOrderNumber (PurchaseOrderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String purchaseOrderNumber;
 
   /**
-  * Name: SalesRepName (SalesRepName), Type: string
+  * Name: SalesRepName (SalesRepName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String salesRepName;
 
   /**
-  * Name: SoldToId (SoldToId), Type: string
+  * Name: SoldToId (SoldToId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String soldToId;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String status;
 
   /**
-  * Name: TaxCompanyCode (TaxCompanyCode), Type: string
+  * Name: TaxCompanyCode (TaxCompanyCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxCompanyCode;
 
   /**
-  * Name: TaxExemptCertificateID (TaxExemptCertificateID), Type: string
+  * Name: TaxExemptCertificateID (TaxExemptCertificateID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptCertificateID;
 
   /**
-  * Name: TaxExemptCertificateType (TaxExemptCertificateType), Type: string
+  * Name: TaxExemptCertificateType (TaxExemptCertificateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptCertificateType;
 
   /**
-  * Name: TaxExemptDescription (TaxExemptDescription), Type: string
+  * Name: TaxExemptDescription (TaxExemptDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptDescription;
 
   /**
-  * Name: TaxExemptEffectiveDate (TaxExemptEffectiveDate), Type: string
+  * Name: TaxExemptEffectiveDate (TaxExemptEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptEffectiveDate;
 
   /**
-  * Name: TaxExemptExpirationDate (TaxExemptExpirationDate), Type: string
+  * Name: TaxExemptExpirationDate (TaxExemptExpirationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptExpirationDate;
 
   /**
-  * Name: TaxExemptIssuingJurisdiction (TaxExemptIssuingJurisdiction), Type: string
+  * Name: TaxExemptIssuingJurisdiction (TaxExemptIssuingJurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -323,7 +323,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptIssuingJurisdiction;
 
   /**
-  * Name: TaxExemptStatus (TaxExemptStatus), Type: string
+  * Name: TaxExemptStatus (TaxExemptStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -332,7 +332,7 @@ public class ProxyCreateAccount extends BaseObject {
   private String taxExemptStatus;
 
   /**
-  * Name: VATId (VATId), Type: string
+  * Name: VATId (VATId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

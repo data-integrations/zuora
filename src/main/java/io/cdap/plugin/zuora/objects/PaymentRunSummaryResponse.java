@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentRunSummaryResponse (PaymentRunSummaryResponse)
-* Related objects: 
+* Object name: PaymentRunSummaryResponse (PaymentRunSummaryResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentRunSummaryResponse extends BaseObject {
   /**
-  * Name: numberOfCreditBalanceAdjustments (numberOfCreditBalanceAdjustments), Type: integer
+  * Name: numberOfCreditBalanceAdjustments (numberOfCreditBalanceAdjustments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfCreditBalanceAdjustments;
 
   /**
-  * Name: numberOfCreditMemos (numberOfCreditMemos), Type: integer
+  * Name: numberOfCreditMemos (numberOfCreditMemos), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfCreditMemos;
 
   /**
-  * Name: numberOfDebitMemos (numberOfDebitMemos), Type: integer
+  * Name: numberOfDebitMemos (numberOfDebitMemos), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfDebitMemos;
 
   /**
-  * Name: numberOfErrors (numberOfErrors), Type: integer
+  * Name: numberOfErrors (numberOfErrors), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfErrors;
 
   /**
-  * Name: numberOfInvoices (numberOfInvoices), Type: integer
+  * Name: numberOfInvoices (numberOfInvoices), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfInvoices;
 
   /**
-  * Name: numberOfPayments (numberOfPayments), Type: integer
+  * Name: numberOfPayments (numberOfPayments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfPayments;
 
   /**
-  * Name: numberOfReceivables (numberOfReceivables), Type: integer
+  * Name: numberOfReceivables (numberOfReceivables), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfReceivables;
 
   /**
-  * Name: numberOfUnappliedPayments (numberOfUnappliedPayments), Type: integer
+  * Name: numberOfUnappliedPayments (numberOfUnappliedPayments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfUnappliedPayments;
 
   /**
-  * Name: numberOfUnprocessedDebitMemos (numberOfUnprocessedDebitMemos), Type: integer
+  * Name: numberOfUnprocessedDebitMemos (numberOfUnprocessedDebitMemos), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfUnprocessedDebitMemos;
 
   /**
-  * Name: numberOfUnprocessedInvoices (numberOfUnprocessedInvoices), Type: integer
+  * Name: numberOfUnprocessedInvoices (numberOfUnprocessedInvoices), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfUnprocessedInvoices;
 
   /**
-  * Name: numberOfUnprocessedReceivables (numberOfUnprocessedReceivables), Type: integer
+  * Name: numberOfUnprocessedReceivables (numberOfUnprocessedReceivables), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Integer numberOfUnprocessedReceivables;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class PaymentRunSummaryResponse extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: totalValues (totalValues), Type: array|PaymentRunSummaryTotalValues
+  * Name: totalValues (totalValues), Type: array|PaymentRunSummaryTotalValues.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

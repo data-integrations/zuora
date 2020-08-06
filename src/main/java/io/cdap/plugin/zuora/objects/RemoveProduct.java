@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RemoveProduct (RemoveProduct)
-* Related objects: 
+* Object name: RemoveProduct (RemoveProduct).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RemoveProduct extends BaseObject {
   /**
-  * Name: ratePlanId (ratePlanId), Type: string
+  * Name: ratePlanId (ratePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RemoveProduct extends BaseObject {
   private String ratePlanId;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

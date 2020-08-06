@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonResponseTypeReasonsItem (CommonResponseTypeReasonsItem)
-* Related objects: 
+* Object name: CommonResponseTypeReasonsItem (CommonResponseTypeReasonsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CommonResponseTypeReasonsItem extends BaseObject {
   /**
-  * Name: code (code), Type: string
+  * Name: code (code), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CommonResponseTypeReasonsItem extends BaseObject {
   private String code;
 
   /**
-  * Name: message (message), Type: string
+  * Name: message (message), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

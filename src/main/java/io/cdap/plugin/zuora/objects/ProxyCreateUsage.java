@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateUsage (ProxyCreateUsage)
-* Related objects: 
+* Object name: ProxyCreateUsage (ProxyCreateUsage).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateUsage extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountNumber (AccountNumber), Type: string
+  * Name: AccountNumber (AccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: ChargeId (ChargeId), Type: string
+  * Name: ChargeId (ChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String chargeId;
 
   /**
-  * Name: ChargeNumber (ChargeNumber), Type: string
+  * Name: ChargeNumber (ChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: Description (Description), Type: string
+  * Name: Description (Description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String description;
 
   /**
-  * Name: EndDateTime (EndDateTime), Type: string
+  * Name: EndDateTime (EndDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String endDateTime;
 
   /**
-  * Name: Quantity (Quantity), Type: number
+  * Name: Quantity (Quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String quantity;
 
   /**
-  * Name: StartDateTime (StartDateTime), Type: string
+  * Name: StartDateTime (StartDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String startDateTime;
 
   /**
-  * Name: SubmissionDateTime (SubmissionDateTime), Type: string
+  * Name: SubmissionDateTime (SubmissionDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String submissionDateTime;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: SubscriptionNumber (SubscriptionNumber), Type: string
+  * Name: SubscriptionNumber (SubscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyCreateUsage extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: UOM (UOM), Type: string
+  * Name: UOM (UOM), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

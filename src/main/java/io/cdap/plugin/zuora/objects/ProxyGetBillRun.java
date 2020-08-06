@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetBillRun (ProxyGetBillRun)
-* Related objects: 
+* Object name: ProxyGetBillRun (ProxyGetBillRun).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetBillRun extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AutoEmail (AutoEmail), Type: boolean
+  * Name: AutoEmail (AutoEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Boolean autoEmail;
 
   /**
-  * Name: AutoPost (AutoPost), Type: boolean
+  * Name: AutoPost (AutoPost), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Boolean autoPost;
 
   /**
-  * Name: AutoRenewal (AutoRenewal), Type: boolean
+  * Name: AutoRenewal (AutoRenewal), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Boolean autoRenewal;
 
   /**
-  * Name: Batch (Batch), Type: string
+  * Name: Batch (Batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String batch;
 
   /**
-  * Name: BillCycleDay (BillCycleDay), Type: string
+  * Name: BillCycleDay (BillCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: BillRunNumber (BillRunNumber), Type: string
+  * Name: BillRunNumber (BillRunNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String billRunNumber;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: ExecutedDate (ExecutedDate), Type: string
+  * Name: ExecutedDate (ExecutedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String executedDate;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String id;
 
   /**
-  * Name: InvoiceDate (InvoiceDate), Type: string
+  * Name: InvoiceDate (InvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String invoiceDate;
 
   /**
-  * Name: InvoicesEmailed (InvoicesEmailed), Type: boolean
+  * Name: InvoicesEmailed (InvoicesEmailed), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Boolean invoicesEmailed;
 
   /**
-  * Name: LastEmailSentTime (LastEmailSentTime), Type: string
+  * Name: LastEmailSentTime (LastEmailSentTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String lastEmailSentTime;
 
   /**
-  * Name: NoEmailForZeroAmountInvoice (NoEmailForZeroAmountInvoice), Type: boolean
+  * Name: NoEmailForZeroAmountInvoice (NoEmailForZeroAmountInvoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Boolean noEmailForZeroAmountInvoice;
 
   /**
-  * Name: NumberOfAccounts (NumberOfAccounts), Type: integer
+  * Name: NumberOfAccounts (NumberOfAccounts), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Integer numberOfAccounts;
 
   /**
-  * Name: NumberOfInvoices (NumberOfInvoices), Type: integer
+  * Name: NumberOfInvoices (NumberOfInvoices), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetBillRun extends BaseObject {
   private Integer numberOfInvoices;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String status;
 
   /**
-  * Name: TargetDate (TargetDate), Type: string
+  * Name: TargetDate (TargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetBillRun extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

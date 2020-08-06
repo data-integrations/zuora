@@ -24,7 +24,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargeType (ProductRatePlanChargeType)
+* Object name: ProductRatePlanChargeType (ProductRatePlanChargeType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -34,7 +34,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanChargeType extends BaseObject {
   /**
-  * Name: applyDiscountTo (applyDiscountTo), Type: string
+  * Name: applyDiscountTo (applyDiscountTo), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -43,7 +43,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String applyDiscountTo;
 
   /**
-  * Name: billingDay (billingDay), Type: string
+  * Name: billingDay (billingDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -52,7 +52,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String billingDay;
 
   /**
-  * Name: billingPeriod (billingPeriod), Type: string
+  * Name: billingPeriod (billingPeriod), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -61,7 +61,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String billingPeriod;
 
   /**
-  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string
+  * Name: billingPeriodAlignment (billingPeriodAlignment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -70,7 +70,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String billingPeriodAlignment;
 
   /**
-  * Name: billingTiming (billingTiming), Type: string
+  * Name: billingTiming (billingTiming), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -79,7 +79,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String billingTiming;
 
   /**
-  * Name: defaultQuantity (defaultQuantity), Type: string
+  * Name: defaultQuantity (defaultQuantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -88,7 +88,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String defaultQuantity;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -97,7 +97,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String description;
 
   /**
-  * Name: discountClass (discountClass), Type: string
+  * Name: discountClass (discountClass), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -106,7 +106,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String discountClass;
 
   /**
-  * Name: discountLevel (discountLevel), Type: string
+  * Name: discountLevel (discountLevel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -115,7 +115,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String discountLevel;
 
   /**
-  * Name: endDateCondition (endDateCondition), Type: string
+  * Name: endDateCondition (endDateCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -124,7 +124,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String endDateCondition;
 
   /**
-  * Name: financeInformation (financeInformation), Type: ProductRatePlanChargeTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: ProductRatePlanChargeTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -133,7 +133,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -142,7 +142,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String id;
 
   /**
-  * Name: includedUnits (includedUnits), Type: string
+  * Name: includedUnits (includedUnits), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -151,7 +151,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: listPriceBase (listPriceBase), Type: string
+  * Name: listPriceBase (listPriceBase), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -160,7 +160,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String listPriceBase;
 
   /**
-  * Name: maxQuantity (maxQuantity), Type: string
+  * Name: maxQuantity (maxQuantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -169,7 +169,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String maxQuantity;
 
   /**
-  * Name: minQuantity (minQuantity), Type: string
+  * Name: minQuantity (minQuantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -178,7 +178,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String minQuantity;
 
   /**
-  * Name: model (model), Type: string
+  * Name: model (model), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -187,7 +187,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String model;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -196,7 +196,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String name;
 
   /**
-  * Name: numberOfPeriods (numberOfPeriods), Type: integer
+  * Name: numberOfPeriods (numberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -205,7 +205,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: overageCalculationOption (overageCalculationOption), Type: string
+  * Name: overageCalculationOption (overageCalculationOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -214,7 +214,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String overageCalculationOption;
 
   /**
-  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string
+  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -223,7 +223,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String overageUnusedUnitsCreditOption;
 
   /**
-  * Name: prepayPeriods (prepayPeriods), Type: integer
+  * Name: prepayPeriods (prepayPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -232,7 +232,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Integer prepayPeriods;
 
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -241,7 +241,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: string
+  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -250,7 +250,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String priceIncreasePercentage;
 
   /**
-  * Name: pricing (pricing), Type: array|ProductRatePlanChargePricingType
+  * Name: pricing (pricing), Type: array|ProductRatePlanChargePricingType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -259,7 +259,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private List<ProductRatePlanChargePricingType> pricing;
 
   /**
-  * Name: pricingSummary (pricingSummary), Type: array|ProductRatePlanChargeTypePricingSummaryItem
+  * Name: pricingSummary (pricingSummary), Type: array|ProductRatePlanChargeTypePricingSummaryItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -268,7 +268,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private List<ProductRatePlanChargeTypePricingSummaryItem> pricingSummary;
 
   /**
-  * Name: productDiscountApplyDetails (productDiscountApplyDetails), Type: array|ProductDiscountApplyDetailsType
+  * Name: productDiscountApplyDetails (productDiscountApplyDetails), Type: array|ProductDiscountApplyDetailsType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -277,7 +277,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private List<ProductDiscountApplyDetailsType> productDiscountApplyDetails;
 
   /**
-  * Name: ratingGroup (ratingGroup), Type: string
+  * Name: ratingGroup (ratingGroup), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -286,7 +286,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String ratingGroup;
 
   /**
-  * Name: revRecCode (revRecCode), Type: string
+  * Name: revRecCode (revRecCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -295,7 +295,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String revRecCode;
 
   /**
-  * Name: revRecTriggerCondition (revRecTriggerCondition), Type: string
+  * Name: revRecTriggerCondition (revRecTriggerCondition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -304,7 +304,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String revRecTriggerCondition;
 
   /**
-  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string
+  * Name: revenueRecognitionRuleName (revenueRecognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -313,7 +313,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String revenueRecognitionRuleName;
 
   /**
-  * Name: smoothingModel (smoothingModel), Type: string
+  * Name: smoothingModel (smoothingModel), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -322,7 +322,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String smoothingModel;
 
   /**
-  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer
+  * Name: specificBillingPeriod (specificBillingPeriod), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -331,7 +331,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Integer specificBillingPeriod;
 
   /**
-  * Name: taxCode (taxCode), Type: string
+  * Name: taxCode (taxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -340,7 +340,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: taxMode (taxMode), Type: string
+  * Name: taxMode (taxMode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -349,7 +349,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String taxMode;
 
   /**
-  * Name: taxable (taxable), Type: boolean
+  * Name: taxable (taxable), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -358,7 +358,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Boolean taxable;
 
   /**
-  * Name: triggerEvent (triggerEvent), Type: string
+  * Name: triggerEvent (triggerEvent), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -367,7 +367,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String triggerEvent;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -376,7 +376,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String type;
 
   /**
-  * Name: uom (uom), Type: string
+  * Name: uom (uom), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -385,7 +385,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String uom;
 
   /**
-  * Name: upToPeriods (upToPeriods), Type: integer
+  * Name: upToPeriods (upToPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -394,7 +394,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Integer upToPeriods;
 
   /**
-  * Name: upToPeriodsType (upToPeriodsType), Type: string
+  * Name: upToPeriodsType (upToPeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -403,7 +403,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String upToPeriodsType;
 
   /**
-  * Name: usageRecordRatingOption (usageRecordRatingOption), Type: string
+  * Name: usageRecordRatingOption (usageRecordRatingOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -412,7 +412,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private String usageRecordRatingOption;
 
   /**
-  * Name: useDiscountSpecificAccountingCode (useDiscountSpecificAccountingCode), Type: boolean
+  * Name: useDiscountSpecificAccountingCode (useDiscountSpecificAccountingCode), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -421,7 +421,7 @@ public class ProductRatePlanChargeType extends BaseObject {
   private Boolean useDiscountSpecificAccountingCode;
 
   /**
-  * Name: useTenantDefaultForPriceChange (useTenantDefaultForPriceChange), Type: boolean
+  * Name: useTenantDefaultForPriceChange (useTenantDefaultForPriceChange), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

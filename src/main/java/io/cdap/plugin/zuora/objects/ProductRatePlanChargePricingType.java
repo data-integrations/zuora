@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanChargePricingType (ProductRatePlanChargePricingType)
-* Related objects: 
+* Object name: ProductRatePlanChargePricingType (ProductRatePlanChargePricingType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanChargePricingType extends BaseObject {
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String currency;
 
   /**
-  * Name: discountAmount (discountAmount), Type: string
+  * Name: discountAmount (discountAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String discountAmount;
 
   /**
-  * Name: discountPercentage (discountPercentage), Type: string
+  * Name: discountPercentage (discountPercentage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String discountPercentage;
 
   /**
-  * Name: includedUnits (includedUnits), Type: string
+  * Name: includedUnits (includedUnits), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String includedUnits;
 
   /**
-  * Name: overagePrice (overagePrice), Type: string
+  * Name: overagePrice (overagePrice), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: price (price), Type: string
+  * Name: price (price), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class ProductRatePlanChargePricingType extends BaseObject {
   private String price;
 
   /**
-  * Name: tiers (tiers), Type: array|ProductRatePlanChargePricingTierType
+  * Name: tiers (tiers), Type: array|ProductRatePlanChargePricingTierType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

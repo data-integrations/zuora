@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PriceChangeParams (PriceChangeParams)
-* Related objects: 
+* Object name: PriceChangeParams (PriceChangeParams).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PriceChangeParams extends BaseObject {
   /**
-  * Name: priceChangeOption (priceChangeOption), Type: string
+  * Name: priceChangeOption (priceChangeOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PriceChangeParams extends BaseObject {
   private String priceChangeOption;
 
   /**
-  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number
+  * Name: priceIncreasePercentage (priceIncreasePercentage), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

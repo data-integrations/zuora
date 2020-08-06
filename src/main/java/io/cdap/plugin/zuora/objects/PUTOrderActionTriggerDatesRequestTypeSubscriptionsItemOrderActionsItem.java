@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem (PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem)
-* Related objects: 
+* Object name: PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem (PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItem extends BaseObject {
   /**
-  * Name: charges (charges), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItemChargesItem
+  * Name: charges (charges), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItemChargesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsI
   private List<PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItemChargesItem> charges;
 
   /**
-  * Name: sequence (sequence), Type: integer
+  * Name: sequence (sequence), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsI
   private Integer sequence;
 
   /**
-  * Name: triggerDates (triggerDates), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItemTriggerDatesItem
+  * Name: triggerDates (triggerDates), Type: array|PUTOrderActionTriggerDatesRequestTypeSubscriptionsItemOrderActionsItemTriggerDatesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

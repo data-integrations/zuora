@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTPublicCalloutOptionsRequest (PUTPublicCalloutOptionsRequest)
-* Related objects: 
+* Object name: PUTPublicCalloutOptionsRequest (PUTPublicCalloutOptionsRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTPublicCalloutOptionsRequest extends BaseObject {
   /**
-  * Name: confirmSucFromResContent (confirmSucFromResContent), Type: boolean
+  * Name: confirmSucFromResContent (confirmSucFromResContent), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTPublicCalloutOptionsRequest extends BaseObject {
   private Boolean confirmSucFromResContent;
 
   /**
-  * Name: intervalTime (intervalTime), Type: integer
+  * Name: intervalTime (intervalTime), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTPublicCalloutOptionsRequest extends BaseObject {
   private Integer intervalTime;
 
   /**
-  * Name: retryNumber (retryNumber), Type: integer
+  * Name: retryNumber (retryNumber), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

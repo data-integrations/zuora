@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderCreateSubscriptionTermsItem (CreateOrderCreateSubscriptionTermsItem)
-* Related objects: 
+* Object name: CreateOrderCreateSubscriptionTermsItem (CreateOrderCreateSubscriptionTermsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class CreateOrderCreateSubscriptionTermsItem extends BaseObject {
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class CreateOrderCreateSubscriptionTermsItem extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: initialTerm (initialTerm), Type: CreateOrderCreateSubscriptionTermsItemInitialTermItem
+  * Name: initialTerm (initialTerm), Type: CreateOrderCreateSubscriptionTermsItemInitialTermItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class CreateOrderCreateSubscriptionTermsItem extends BaseObject {
   private String initialTerm;
 
   /**
-  * Name: renewalSetting (renewalSetting), Type: string
+  * Name: renewalSetting (renewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class CreateOrderCreateSubscriptionTermsItem extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: renewalTerms (renewalTerms), Type: array|RenewalTerm
+  * Name: renewalTerms (renewalTerms), Type: array|RenewalTerm.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

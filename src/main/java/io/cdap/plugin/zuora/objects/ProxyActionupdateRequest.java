@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionupdateRequest (ProxyActionupdateRequest)
-* Related objects: 
+* Object name: ProxyActionupdateRequest (ProxyActionupdateRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionupdateRequest extends BaseObject {
   /**
-  * Name: objects (objects), Type: array|ZObject_update
+  * Name: objects (objects), Type: array|ZObject_update.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyActionupdateRequest extends BaseObject {
   private List<ZObject_update> objects;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

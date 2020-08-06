@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderPatchRequestTypeSubscriptionsItem (PUTOrderPatchRequestTypeSubscriptionsItem)
-* Related objects: 
+* Object name: PUTOrderPatchRequestTypeSubscriptionsItem (PUTOrderPatchRequestTypeSubscriptionsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderPatchRequestTypeSubscriptionsItem extends BaseObject {
   /**
-  * Name: orderActions (orderActions), Type: array|PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem
+  * Name: orderActions (orderActions), Type: array|PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTOrderPatchRequestTypeSubscriptionsItem extends BaseObject {
   private List<PUTOrderPatchRequestTypeSubscriptionsItemOrderActionsItem> orderActions;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

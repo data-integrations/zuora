@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActiongenerateRequest (ProxyActiongenerateRequest)
-* Related objects: 
+* Object name: ProxyActiongenerateRequest (ProxyActiongenerateRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActiongenerateRequest extends BaseObject {
   /**
-  * Name: objects (objects), Type: array|ZObject
+  * Name: objects (objects), Type: array|ZObject.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyActiongenerateRequest extends BaseObject {
   private List<ZObject> objects;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTInvoiceCollectResponseType (POSTInvoiceCollectResponseType)
+* Object name: POSTInvoiceCollectResponseType (POSTInvoiceCollectResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class POSTInvoiceCollectResponseType extends BaseObject {
   /**
-  * Name: amountCollected (amountCollected), Type: string
+  * Name: amountCollected (amountCollected), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class POSTInvoiceCollectResponseType extends BaseObject {
   private String amountCollected;
 
   /**
-  * Name: creditMemos (creditMemos), Type: array|POSTInvoiceCollectCreditMemosType
+  * Name: creditMemos (creditMemos), Type: array|POSTInvoiceCollectCreditMemosType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class POSTInvoiceCollectResponseType extends BaseObject {
   private List<POSTInvoiceCollectCreditMemosType> creditMemos;
 
   /**
-  * Name: invoices (invoices), Type: array|POSTInvoiceCollectInvoicesType
+  * Name: invoices (invoices), Type: array|POSTInvoiceCollectInvoicesType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class POSTInvoiceCollectResponseType extends BaseObject {
   private List<POSTInvoiceCollectInvoicesType> invoices;
 
   /**
-  * Name: paymentId (paymentId), Type: string
+  * Name: paymentId (paymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -76,7 +76,7 @@ public class POSTInvoiceCollectResponseType extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

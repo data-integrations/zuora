@@ -26,8 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewResultOrderMetricsItem (PreviewResultOrderMetricsItem)
-* Related objects: 
+* Object name: PreviewResultOrderMetricsItem (PreviewResultOrderMetricsItem).
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewResultOrderMetricsItem extends BaseObject {
   /**
-  * Name: orderActions (orderActions), Type: array|PreviewResultOrderMetricsItemOrderActionsItem
+  * Name: orderActions (orderActions), Type: array|PreviewResultOrderMetricsItemOrderActionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +44,7 @@ public class PreviewResultOrderMetricsItem extends BaseObject {
   private List<PreviewResultOrderMetricsItemOrderActionsItem> orderActions;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

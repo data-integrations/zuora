@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyNoDataResponse (ProxyNoDataResponse)
-* Related objects: 
+* Object name: ProxyNoDataResponse (ProxyNoDataResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyNoDataResponse extends BaseObject {
   /**
-  * Name: done (done), Type: boolean
+  * Name: done (done), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ProxyNoDataResponse extends BaseObject {
   private Boolean done;
 
   /**
-  * Name: records (records), Type: array|ProxyNoDataResponseRecordsItem
+  * Name: records (records), Type: array|ProxyNoDataResponseRecordsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ProxyNoDataResponse extends BaseObject {
   private List<ProxyNoDataResponseRecordsItem> records;
 
   /**
-  * Name: size (size), Type: integer
+  * Name: size (size), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

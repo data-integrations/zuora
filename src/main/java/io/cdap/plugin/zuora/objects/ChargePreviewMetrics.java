@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargePreviewMetrics (ChargePreviewMetrics)
-* Related objects: 
+* Object name: ChargePreviewMetrics (ChargePreviewMetrics).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ChargePreviewMetrics extends BaseObject {
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: cmrr (cmrr), Type: ChargePreviewMetricsCmrrItem
+  * Name: cmrr (cmrr), Type: ChargePreviewMetricsCmrrItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String cmrr;
 
   /**
-  * Name: originRatePlanId (originRatePlanId), Type: string
+  * Name: originRatePlanId (originRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String originRatePlanId;
 
   /**
-  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string
+  * Name: productRatePlanChargeId (productRatePlanChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String productRatePlanChargeId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: tax (tax), Type: ChargePreviewMetricsTaxItem
+  * Name: tax (tax), Type: ChargePreviewMetricsTaxItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String tax;
 
   /**
-  * Name: tcb (tcb), Type: ChargePreviewMetricsTcbItem
+  * Name: tcb (tcb), Type: ChargePreviewMetricsTcbItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ChargePreviewMetrics extends BaseObject {
   private String tcb;
 
   /**
-  * Name: tcv (tcv), Type: ChargePreviewMetricsTcvItem
+  * Name: tcv (tcv), Type: ChargePreviewMetricsTcvItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

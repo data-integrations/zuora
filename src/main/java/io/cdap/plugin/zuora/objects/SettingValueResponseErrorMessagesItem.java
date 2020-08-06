@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SettingValueResponseErrorMessagesItem (SettingValueResponseErrorMessagesItem)
-* Related objects: 
+* Object name: SettingValueResponseErrorMessagesItem (SettingValueResponseErrorMessagesItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

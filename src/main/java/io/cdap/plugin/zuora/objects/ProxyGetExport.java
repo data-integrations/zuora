@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetExport (ProxyGetExport)
-* Related objects: 
+* Object name: ProxyGetExport (ProxyGetExport).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetExport extends BaseObject {
   /**
-  * Name: ConvertToCurrencies (ConvertToCurrencies), Type: string
+  * Name: ConvertToCurrencies (ConvertToCurrencies), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetExport extends BaseObject {
   private String convertToCurrencies;
 
   /**
-  * Name: CreatedById (CreatedById), Type: string
+  * Name: CreatedById (CreatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetExport extends BaseObject {
   private String createdById;
 
   /**
-  * Name: CreatedDate (CreatedDate), Type: string
+  * Name: CreatedDate (CreatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetExport extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: Encrypted (Encrypted), Type: boolean
+  * Name: Encrypted (Encrypted), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetExport extends BaseObject {
   private Boolean encrypted;
 
   /**
-  * Name: FileId (FileId), Type: string
+  * Name: FileId (FileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetExport extends BaseObject {
   private String fileId;
 
   /**
-  * Name: Format (Format), Type: string
+  * Name: Format (Format), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetExport extends BaseObject {
   private String format;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetExport extends BaseObject {
   private String id;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetExport extends BaseObject {
   private String name;
 
   /**
-  * Name: Query (Query), Type: string
+  * Name: Query (Query), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetExport extends BaseObject {
   private String query;
 
   /**
-  * Name: Size (Size), Type: integer
+  * Name: Size (Size), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetExport extends BaseObject {
   private Integer size;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetExport extends BaseObject {
   private String status;
 
   /**
-  * Name: StatusReason (StatusReason), Type: string
+  * Name: StatusReason (StatusReason), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetExport extends BaseObject {
   private String statusReason;
 
   /**
-  * Name: UpdatedById (UpdatedById), Type: string
+  * Name: UpdatedById (UpdatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetExport extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: UpdatedDate (UpdatedDate), Type: string
+  * Name: UpdatedDate (UpdatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetExport extends BaseObject {
   private String updatedDate;
 
   /**
-  * Name: Zip (Zip), Type: boolean
+  * Name: Zip (Zip), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

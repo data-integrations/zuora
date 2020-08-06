@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageTieredWithOveragePricingOverride (UsageTieredWithOveragePricingOverride)
-* Related objects: 
+* Object name: UsageTieredWithOveragePricingOverride (UsageTieredWithOveragePricingOverride).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class UsageTieredWithOveragePricingOverride extends BaseObject {
   /**
-  * Name: numberOfPeriods (numberOfPeriods), Type: integer
+  * Name: numberOfPeriods (numberOfPeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class UsageTieredWithOveragePricingOverride extends BaseObject {
   private Integer numberOfPeriods;
 
   /**
-  * Name: overagePrice (overagePrice), Type: number
+  * Name: overagePrice (overagePrice), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class UsageTieredWithOveragePricingOverride extends BaseObject {
   private String overagePrice;
 
   /**
-  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string
+  * Name: overageUnusedUnitsCreditOption (overageUnusedUnitsCreditOption), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class UsageTieredWithOveragePricingOverride extends BaseObject {
   private String overageUnusedUnitsCreditOption;
 
   /**
-  * Name: tiers (tiers), Type: array|ChargeTier
+  * Name: tiers (tiers), Type: array|ChargeTier.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class UsageTieredWithOveragePricingOverride extends BaseObject {
   private List<ChargeTier> tiers;
 
   /**
-  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number
+  * Name: unusedUnitsCreditRates (unusedUnitsCreditRates), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

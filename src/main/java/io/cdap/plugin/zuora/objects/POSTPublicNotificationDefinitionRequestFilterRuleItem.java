@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPublicNotificationDefinitionRequestFilterRuleItem (POSTPublicNotificationDefinitionRequestFilterRuleItem)
-* Related objects: 
+* Object name: POSTPublicNotificationDefinitionRequestFilterRuleItem (POSTPublicNotificationDefinitionRequestFilterRuleItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPublicNotificationDefinitionRequestFilterRuleItem extends BaseObject {
   /**
-  * Name: condition (condition), Type: string
+  * Name: condition (condition), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTPublicNotificationDefinitionRequestFilterRuleItem extends BaseO
   private String condition;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionType (PUTSubscriptionType)
-* Related objects: 
+* Object name: PUTSubscriptionType (PUTSubscriptionType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSubscriptionType extends BaseObject {
   /**
-  * Name: add (add), Type: array|PUTSrpAddType
+  * Name: add (add), Type: array|PUTSrpAddType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTSubscriptionType extends BaseObject {
   private List<PUTSrpAddType> add;
 
   /**
-  * Name: applyCreditBalance (applyCreditBalance), Type: boolean
+  * Name: applyCreditBalance (applyCreditBalance), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean applyCreditBalance;
 
   /**
-  * Name: autoRenew (autoRenew), Type: boolean
+  * Name: autoRenew (autoRenew), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean autoRenew;
 
   /**
-  * Name: collect (collect), Type: boolean
+  * Name: collect (collect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean collect;
 
   /**
-  * Name: currentTerm (currentTerm), Type: integer
+  * Name: currentTerm (currentTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Integer currentTerm;
 
   /**
-  * Name: currentTermPeriodType (currentTermPeriodType), Type: string
+  * Name: currentTermPeriodType (currentTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String currentTermPeriodType;
 
   /**
-  * Name: documentDate (documentDate), Type: string
+  * Name: documentDate (documentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String documentDate;
 
   /**
-  * Name: includeExistingDraftDocItems (includeExistingDraftDocItems), Type: boolean
+  * Name: includeExistingDraftDocItems (includeExistingDraftDocItems), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean includeExistingDraftDocItems;
 
   /**
-  * Name: includeExistingDraftInvoiceItems (includeExistingDraftInvoiceItems), Type: boolean
+  * Name: includeExistingDraftInvoiceItems (includeExistingDraftInvoiceItems), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean includeExistingDraftInvoiceItems;
 
   /**
-  * Name: invoice (invoice), Type: boolean
+  * Name: invoice (invoice), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean invoice;
 
   /**
-  * Name: invoiceCollect (invoiceCollect), Type: boolean
+  * Name: invoiceCollect (invoiceCollect), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean invoiceCollect;
 
   /**
-  * Name: invoiceSeparately (invoiceSeparately), Type: boolean
+  * Name: invoiceSeparately (invoiceSeparately), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean invoiceSeparately;
 
   /**
-  * Name: invoiceTargetDate (invoiceTargetDate), Type: string
+  * Name: invoiceTargetDate (invoiceTargetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String invoiceTargetDate;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String notes;
 
   /**
-  * Name: preview (preview), Type: boolean
+  * Name: preview (preview), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean preview;
 
   /**
-  * Name: previewType (previewType), Type: string
+  * Name: previewType (previewType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String previewType;
 
   /**
-  * Name: remove (remove), Type: array|PUTSrpRemoveType
+  * Name: remove (remove), Type: array|PUTSrpRemoveType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class PUTSubscriptionType extends BaseObject {
   private List<PUTSrpRemoveType> remove;
 
   /**
-  * Name: renewalSetting (renewalSetting), Type: string
+  * Name: renewalSetting (renewalSetting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -198,7 +198,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String renewalSetting;
 
   /**
-  * Name: renewalTerm (renewalTerm), Type: integer
+  * Name: renewalTerm (renewalTerm), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -207,7 +207,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Integer renewalTerm;
 
   /**
-  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string
+  * Name: renewalTermPeriodType (renewalTermPeriodType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -216,7 +216,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String renewalTermPeriodType;
 
   /**
-  * Name: runBilling (runBilling), Type: boolean
+  * Name: runBilling (runBilling), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -225,7 +225,7 @@ public class PUTSubscriptionType extends BaseObject {
   private Boolean runBilling;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -234,7 +234,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String targetDate;
 
   /**
-  * Name: termStartDate (termStartDate), Type: string
+  * Name: termStartDate (termStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -243,7 +243,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String termStartDate;
 
   /**
-  * Name: termType (termType), Type: string
+  * Name: termType (termType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -252,7 +252,7 @@ public class PUTSubscriptionType extends BaseObject {
   private String termType;
 
   /**
-  * Name: update (update), Type: array|PUTSrpUpdateType
+  * Name: update (update), Type: array|PUTSrpUpdateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

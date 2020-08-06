@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPaymentMethodDecryptionCardHolderInfoItem (POSTPaymentMethodDecryptionCardHolderInfoItem)
-* Related objects: 
+* Object name: POSTPaymentMethodDecryptionCardHolderInfoItem (POSTPaymentMethodDecryptionCardHolderInfoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   /**
-  * Name: addressLine1 (addressLine1), Type: string
+  * Name: addressLine1 (addressLine1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String addressLine1;
 
   /**
-  * Name: addressLine2 (addressLine2), Type: string
+  * Name: addressLine2 (addressLine2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String addressLine2;
 
   /**
-  * Name: cardHolderName (cardHolderName), Type: string
+  * Name: cardHolderName (cardHolderName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String cardHolderName;
 
   /**
-  * Name: city (city), Type: string
+  * Name: city (city), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String city;
 
   /**
-  * Name: country (country), Type: string
+  * Name: country (country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String country;
 
   /**
-  * Name: email (email), Type: string
+  * Name: email (email), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String email;
 
   /**
-  * Name: phone (phone), Type: string
+  * Name: phone (phone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String phone;
 
   /**
-  * Name: state (state), Type: string
+  * Name: state (state), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTPaymentMethodDecryptionCardHolderInfoItem extends BaseObject {
   private String state;
 
   /**
-  * Name: zipCode (zipCode), Type: string
+  * Name: zipCode (zipCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargeRatedResult (ChargeRatedResult)
-* Related objects: 
+* Object name: ChargeRatedResult (ChargeRatedResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ChargeRatedResult extends BaseObject {
   /**
-  * Name: appliedToChargeNumber (appliedToChargeNumber), Type: string
+  * Name: appliedToChargeNumber (appliedToChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class ChargeRatedResult extends BaseObject {
   private String appliedToChargeNumber;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class ChargeRatedResult extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: ratedItems (ratedItems), Type: array|RatedItem
+  * Name: ratedItems (ratedItems), Type: array|RatedItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

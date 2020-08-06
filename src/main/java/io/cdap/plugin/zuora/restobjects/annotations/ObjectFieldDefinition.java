@@ -1,5 +1,5 @@
 /*
- * Copyright © 2019 Cask Data, Inc.
+ * Copyright © 2020 Cask Data, Inc.
  *
  * Licensed under the Apache License, Version 2.0 (the "License"); you may not
  * use this file except in compliance with the License. You may obtain a copy of
@@ -22,21 +22,25 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Defines entity fields
+ * Defines entity fields.
  */
 @Retention(RetentionPolicy.RUNTIME)
 @Target({ElementType.FIELD, ElementType.METHOD})
 public @interface ObjectFieldDefinition {
 
   /**
-   * Used to override {@link com.google.gson.annotations.SerializedName} name
+   * Used to override {@link com.google.gson.annotations.SerializedName} name.
    */
   String FieldName() default "";
 
+  /**
+   * Returns the type of schema.
+   * @return type of schema
+   */
   Schema.Type FieldType() default Schema.Type.STRING;
 
   /**
-   *  Internal name of the {@link ObjectDefinition#Name()}
+   *  Internal name of the {@link ObjectDefinition#Name()}.
    *  <p/>
    *  Only objects with type {@link ObjectDefinition.ObjectDefinitionType#NESTED}
    *  allowed

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DebitMemoTaxItemFromInvoiceTaxItemType (DebitMemoTaxItemFromInvoiceTaxItemType)
-* Related objects: 
+* Object name: DebitMemoTaxItemFromInvoiceTaxItemType (DebitMemoTaxItemFromInvoiceTaxItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number..
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: financeInformation (financeInformation), Type: DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem
+  * Name: financeInformation (financeInformation), Type: DebitMemoTaxItemFromInvoiceTaxItemTypeFinanceInformationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String financeInformation;
 
   /**
-  * Name: jurisdiction (jurisdiction), Type: string
+  * Name: jurisdiction (jurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String jurisdiction;
 
   /**
-  * Name: locationCode (locationCode), Type: string
+  * Name: locationCode (locationCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String locationCode;
 
   /**
-  * Name: sourceTaxItemId (sourceTaxItemId), Type: string
+  * Name: sourceTaxItemId (sourceTaxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String sourceTaxItemId;
 
   /**
-  * Name: taxCode (taxCode), Type: string
+  * Name: taxCode (taxCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxCode;
 
   /**
-  * Name: taxCodeDescription (taxCodeDescription), Type: string
+  * Name: taxCodeDescription (taxCodeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxCodeDescription;
 
   /**
-  * Name: taxDate (taxDate), Type: string
+  * Name: taxDate (taxDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxDate;
 
   /**
-  * Name: taxExemptAmount (taxExemptAmount), Type: number
+  * Name: taxExemptAmount (taxExemptAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxExemptAmount;
 
   /**
-  * Name: taxName (taxName), Type: string
+  * Name: taxName (taxName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxName;
 
   /**
-  * Name: taxRate (taxRate), Type: number
+  * Name: taxRate (taxRate), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxRate;
 
   /**
-  * Name: taxRateDescription (taxRateDescription), Type: string
+  * Name: taxRateDescription (taxRateDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class DebitMemoTaxItemFromInvoiceTaxItemType extends BaseObject {
   private String taxRateDescription;
 
   /**
-  * Name: taxRateType (taxRateType), Type: string
+  * Name: taxRateType (taxRateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -19,7 +19,7 @@ import io.cdap.plugin.zuora.restobjects.annotations.ObjectDefinition;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 
 /**
- * Object name: AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem (AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem)
+ * Object name: AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem (AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem).
  * Related objects:
 **/
 @SuppressWarnings("unused")

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowResponse (WorkflowResponse)
-* Related objects: 
+* Object name: WorkflowResponse (WorkflowResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class WorkflowResponse extends BaseObject {
   /**
-  * Name: cpuTime (cpuTime), Type: number
+  * Name: cpuTime (cpuTime), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class WorkflowResponse extends BaseObject {
   private String cpuTime;
 
   /**
-  * Name: createdAt (createdAt), Type: string
+  * Name: createdAt (createdAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class WorkflowResponse extends BaseObject {
   private String createdAt;
 
   /**
-  * Name: finishedAt (finishedAt), Type: string
+  * Name: finishedAt (finishedAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class WorkflowResponse extends BaseObject {
   private String finishedAt;
 
   /**
-  * Name: id (id), Type: integer
+  * Name: id (id), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class WorkflowResponse extends BaseObject {
   private Integer id;
 
   /**
-  * Name: messages (messages), Type: WorkflowResponseMessagesItem
+  * Name: messages (messages), Type: WorkflowResponseMessagesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class WorkflowResponse extends BaseObject {
   private String messages;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class WorkflowResponse extends BaseObject {
   private String name;
 
   /**
-  * Name: originalWorkflowId (originalWorkflowId), Type: string
+  * Name: originalWorkflowId (originalWorkflowId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class WorkflowResponse extends BaseObject {
   private String originalWorkflowId;
 
   /**
-  * Name: runTime (runTime), Type: number
+  * Name: runTime (runTime), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class WorkflowResponse extends BaseObject {
   private String runTime;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class WorkflowResponse extends BaseObject {
   private String status;
 
   /**
-  * Name: tasks (tasks), Type: WorkflowResponseTasksItem
+  * Name: tasks (tasks), Type: WorkflowResponseTasksItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class WorkflowResponse extends BaseObject {
   private String tasks;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class WorkflowResponse extends BaseObject {
   private String type;
 
   /**
-  * Name: updatedAt (updatedAt), Type: string
+  * Name: updatedAt (updatedAt), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

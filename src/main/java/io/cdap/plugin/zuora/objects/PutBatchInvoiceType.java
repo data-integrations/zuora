@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PutBatchInvoiceType (PutBatchInvoiceType)
-* Related objects: 
+* Object name: PutBatchInvoiceType (PutBatchInvoiceType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PutBatchInvoiceType extends BaseObject {
   /**
-  * Name: invoices (invoices), Type: array|BatchInvoiceType
+  * Name: invoices (invoices), Type: array|BatchInvoiceType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

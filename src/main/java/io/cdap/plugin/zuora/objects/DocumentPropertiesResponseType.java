@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: DocumentPropertiesResponseType (DocumentPropertiesResponseType)
+* Object name: DocumentPropertiesResponseType (DocumentPropertiesResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class DocumentPropertiesResponseType extends BaseObject {
   /**
-  * Name: customFileName (customFileName), Type: string
+  * Name: customFileName (customFileName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class DocumentPropertiesResponseType extends BaseObject {
   private String customFileName;
 
   /**
-  * Name: documentId (documentId), Type: string
+  * Name: documentId (documentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class DocumentPropertiesResponseType extends BaseObject {
   private String documentId;
 
   /**
-  * Name: documentType (documentType), Type: string
+  * Name: documentType (documentType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class DocumentPropertiesResponseType extends BaseObject {
   private String documentType;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class DocumentPropertiesResponseType extends BaseObject {
   private String id;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

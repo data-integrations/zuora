@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTEntityConnectionsType (POSTEntityConnectionsType)
-* Related objects: 
+* Object name: POSTEntityConnectionsType (POSTEntityConnectionsType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTEntityConnectionsType extends BaseObject {
   /**
-  * Name: targetEntityId (targetEntityId), Type: string
+  * Name: targetEntityId (targetEntityId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountSummaryTypeBasicInfo (AccountSummaryTypeBasicInfo)
-* Related objects: 
+* Object name: AccountSummaryTypeBasicInfo (AccountSummaryTypeBasicInfo).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class AccountSummaryTypeBasicInfo extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem
+  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private List<AccountSummaryTypeBasicInfoAdditionalEmailAddressesItem> additionalEmailAddresses;
 
   /**
-  * Name: balance (balance), Type: string
+  * Name: balance (balance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String balance;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String batch;
 
   /**
-  * Name: billCycleDay (billCycleDay), Type: string
+  * Name: billCycleDay (billCycleDay), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String billCycleDay;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String currency;
 
   /**
-  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: AccountSummaryTypeBasicInfoDefaultPaymentMethodItem
+  * Name: defaultPaymentMethod (defaultPaymentMethod), Type: AccountSummaryTypeBasicInfoDefaultPaymentMethodItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String defaultPaymentMethod;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String id;
 
   /**
-  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean
+  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean
+  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: lastInvoiceDate (lastInvoiceDate), Type: string
+  * Name: lastInvoiceDate (lastInvoiceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String lastInvoiceDate;
 
   /**
-  * Name: lastPaymentAmount (lastPaymentAmount), Type: string
+  * Name: lastPaymentAmount (lastPaymentAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String lastPaymentAmount;
 
   /**
-  * Name: lastPaymentDate (lastPaymentDate), Type: string
+  * Name: lastPaymentDate (lastPaymentDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String lastPaymentDate;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String name;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class AccountSummaryTypeBasicInfo extends BaseObject {
   private String status;
 
   /**
-  * Name: tags (tags), Type: string
+  * Name: tags (tags), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

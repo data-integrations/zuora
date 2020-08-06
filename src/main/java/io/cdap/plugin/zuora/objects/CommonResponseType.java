@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonResponseType (CommonResponseType)
+* Object name: CommonResponseType (CommonResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class CommonResponseType extends BaseObject {
   /**
-  * Name: processId (processId), Type: string
+  * Name: processId (processId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class CommonResponseType extends BaseObject {
   private String processId;
 
   /**
-  * Name: reasons (reasons), Type: array|CommonResponseTypeReasonsItem
+  * Name: reasons (reasons), Type: array|CommonResponseTypeReasonsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class CommonResponseType extends BaseObject {
   private List<CommonResponseTypeReasonsItem> reasons;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

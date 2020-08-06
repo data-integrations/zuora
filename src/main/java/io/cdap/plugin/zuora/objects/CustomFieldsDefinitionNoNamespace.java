@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomFieldsDefinitionNoNamespace (CustomFieldsDefinitionNoNamespace)
-* Related objects: 
+* Object name: CustomFieldsDefinitionNoNamespace (CustomFieldsDefinitionNoNamespace).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   /**
-  * Name: createdById (createdById), Type: string
+  * Name: createdById (createdById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String createdById;
 
   /**
-  * Name: createdDate (createdDate), Type: string
+  * Name: createdDate (createdDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String createdDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String id;
 
   /**
-  * Name: schema (schema), Type: CustomFieldsDefinitionNoNamespaceSchemaItem
+  * Name: schema (schema), Type: CustomFieldsDefinitionNoNamespaceSchemaItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String schema;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String type;
 
   /**
-  * Name: updatedById (updatedById), Type: string
+  * Name: updatedById (updatedById), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class CustomFieldsDefinitionNoNamespace extends BaseObject {
   private String updatedById;
 
   /**
-  * Name: updatedDate (updatedDate), Type: string
+  * Name: updatedDate (updatedDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

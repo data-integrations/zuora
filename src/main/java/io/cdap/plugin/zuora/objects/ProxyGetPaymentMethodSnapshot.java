@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyGetPaymentMethodSnapshot (ProxyGetPaymentMethodSnapshot)
-* Related objects: 
+* Object name: ProxyGetPaymentMethodSnapshot (ProxyGetPaymentMethodSnapshot).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AchAbaCode (AchAbaCode), Type: string
+  * Name: AchAbaCode (AchAbaCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String achAbaCode;
 
   /**
-  * Name: AchAccountName (AchAccountName), Type: string
+  * Name: AchAccountName (AchAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String achAccountName;
 
   /**
-  * Name: AchAccountNumberMask (AchAccountNumberMask), Type: string
+  * Name: AchAccountNumberMask (AchAccountNumberMask), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String achAccountNumberMask;
 
   /**
-  * Name: AchAccountType (AchAccountType), Type: string
+  * Name: AchAccountType (AchAccountType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String achAccountType;
 
   /**
-  * Name: AchBankName (AchBankName), Type: string
+  * Name: AchBankName (AchBankName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String achBankName;
 
   /**
-  * Name: BankBranchCode (BankBranchCode), Type: string
+  * Name: BankBranchCode (BankBranchCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankBranchCode;
 
   /**
-  * Name: BankCheckDigit (BankCheckDigit), Type: string
+  * Name: BankCheckDigit (BankCheckDigit), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankCheckDigit;
 
   /**
-  * Name: BankCity (BankCity), Type: string
+  * Name: BankCity (BankCity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankCity;
 
   /**
-  * Name: BankCode (BankCode), Type: string
+  * Name: BankCode (BankCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankCode;
 
   /**
-  * Name: BankIdentificationNumber (BankIdentificationNumber), Type: string
+  * Name: BankIdentificationNumber (BankIdentificationNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankIdentificationNumber;
 
   /**
-  * Name: BankName (BankName), Type: string
+  * Name: BankName (BankName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankName;
 
   /**
-  * Name: BankPostalCode (BankPostalCode), Type: string
+  * Name: BankPostalCode (BankPostalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankPostalCode;
 
   /**
-  * Name: BankStreetName (BankStreetName), Type: string
+  * Name: BankStreetName (BankStreetName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankStreetName;
 
   /**
-  * Name: BankStreetNumber (BankStreetNumber), Type: string
+  * Name: BankStreetNumber (BankStreetNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankStreetNumber;
 
   /**
-  * Name: BankTransferAccountName (BankTransferAccountName), Type: string
+  * Name: BankTransferAccountName (BankTransferAccountName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankTransferAccountName;
 
   /**
-  * Name: BankTransferAccountNumberMask (BankTransferAccountNumberMask), Type: string
+  * Name: BankTransferAccountNumberMask (BankTransferAccountNumberMask), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankTransferAccountNumberMask;
 
   /**
-  * Name: BankTransferAccountType (BankTransferAccountType), Type: string
+  * Name: BankTransferAccountType (BankTransferAccountType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankTransferAccountType;
 
   /**
-  * Name: BankTransferType (BankTransferType), Type: string
+  * Name: BankTransferType (BankTransferType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String bankTransferType;
 
   /**
-  * Name: BusinessIdentificationCode (BusinessIdentificationCode), Type: string
+  * Name: BusinessIdentificationCode (BusinessIdentificationCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String businessIdentificationCode;
 
   /**
-  * Name: City (City), Type: string
+  * Name: City (City), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String city;
 
   /**
-  * Name: CompanyName (CompanyName), Type: string
+  * Name: CompanyName (CompanyName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String companyName;
 
   /**
-  * Name: Country (Country), Type: string
+  * Name: Country (Country), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String country;
 
   /**
-  * Name: CreditCardAddress1 (CreditCardAddress1), Type: string
+  * Name: CreditCardAddress1 (CreditCardAddress1), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -251,7 +251,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardAddress1;
 
   /**
-  * Name: CreditCardAddress2 (CreditCardAddress2), Type: string
+  * Name: CreditCardAddress2 (CreditCardAddress2), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -260,7 +260,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardAddress2;
 
   /**
-  * Name: CreditCardCity (CreditCardCity), Type: string
+  * Name: CreditCardCity (CreditCardCity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -269,7 +269,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardCity;
 
   /**
-  * Name: CreditCardCountry (CreditCardCountry), Type: string
+  * Name: CreditCardCountry (CreditCardCountry), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -278,7 +278,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardCountry;
 
   /**
-  * Name: CreditCardExpirationMonth (CreditCardExpirationMonth), Type: integer
+  * Name: CreditCardExpirationMonth (CreditCardExpirationMonth), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -287,7 +287,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer creditCardExpirationMonth;
 
   /**
-  * Name: CreditCardExpirationYear (CreditCardExpirationYear), Type: integer
+  * Name: CreditCardExpirationYear (CreditCardExpirationYear), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -296,7 +296,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer creditCardExpirationYear;
 
   /**
-  * Name: CreditCardHolderName (CreditCardHolderName), Type: string
+  * Name: CreditCardHolderName (CreditCardHolderName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -305,7 +305,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardHolderName;
 
   /**
-  * Name: CreditCardMaskNumber (CreditCardMaskNumber), Type: string
+  * Name: CreditCardMaskNumber (CreditCardMaskNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -314,7 +314,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardMaskNumber;
 
   /**
-  * Name: CreditCardPostalCode (CreditCardPostalCode), Type: string
+  * Name: CreditCardPostalCode (CreditCardPostalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -323,7 +323,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardPostalCode;
 
   /**
-  * Name: CreditCardState (CreditCardState), Type: string
+  * Name: CreditCardState (CreditCardState), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -332,7 +332,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardState;
 
   /**
-  * Name: CreditCardType (CreditCardType), Type: string
+  * Name: CreditCardType (CreditCardType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -341,7 +341,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String creditCardType;
 
   /**
-  * Name: DeviceSessionId (DeviceSessionId), Type: string
+  * Name: DeviceSessionId (DeviceSessionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -350,7 +350,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String deviceSessionId;
 
   /**
-  * Name: Email (Email), Type: string
+  * Name: Email (Email), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -359,7 +359,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String email;
 
   /**
-  * Name: ExistingMandate (ExistingMandate), Type: string
+  * Name: ExistingMandate (ExistingMandate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -368,7 +368,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String existingMandate;
 
   /**
-  * Name: FirstName (FirstName), Type: string
+  * Name: FirstName (FirstName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -377,7 +377,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String firstName;
 
   /**
-  * Name: IBAN (IBAN), Type: string
+  * Name: IBAN (IBAN), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -386,7 +386,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String iBAN;
 
   /**
-  * Name: IPAddress (IPAddress), Type: string
+  * Name: IPAddress (IPAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -395,7 +395,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String iPAddress;
 
   /**
-  * Name: Id (Id), Type: string
+  * Name: Id (Id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -404,7 +404,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String id;
 
   /**
-  * Name: IdentityNumber (IdentityNumber), Type: string
+  * Name: IdentityNumber (IdentityNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -413,7 +413,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String identityNumber;
 
   /**
-  * Name: IsCompany (IsCompany), Type: boolean
+  * Name: IsCompany (IsCompany), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -422,7 +422,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Boolean isCompany;
 
   /**
-  * Name: LastFailedSaleTransactionDate (LastFailedSaleTransactionDate), Type: string
+  * Name: LastFailedSaleTransactionDate (LastFailedSaleTransactionDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -431,7 +431,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String lastFailedSaleTransactionDate;
 
   /**
-  * Name: LastName (LastName), Type: string
+  * Name: LastName (LastName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -440,7 +440,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String lastName;
 
   /**
-  * Name: LastTransactionDateTime (LastTransactionDateTime), Type: string
+  * Name: LastTransactionDateTime (LastTransactionDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -449,7 +449,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String lastTransactionDateTime;
 
   /**
-  * Name: LastTransactionStatus (LastTransactionStatus), Type: string
+  * Name: LastTransactionStatus (LastTransactionStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -458,7 +458,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String lastTransactionStatus;
 
   /**
-  * Name: MandateCreationDate (MandateCreationDate), Type: string
+  * Name: MandateCreationDate (MandateCreationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -467,7 +467,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String mandateCreationDate;
 
   /**
-  * Name: MandateID (MandateID), Type: string
+  * Name: MandateID (MandateID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -476,7 +476,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String mandateID;
 
   /**
-  * Name: MandateReceived (MandateReceived), Type: string
+  * Name: MandateReceived (MandateReceived), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -485,7 +485,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String mandateReceived;
 
   /**
-  * Name: MandateUpdateDate (MandateUpdateDate), Type: string
+  * Name: MandateUpdateDate (MandateUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -494,7 +494,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String mandateUpdateDate;
 
   /**
-  * Name: MaxConsecutivePaymentFailures (MaxConsecutivePaymentFailures), Type: integer
+  * Name: MaxConsecutivePaymentFailures (MaxConsecutivePaymentFailures), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -503,7 +503,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer maxConsecutivePaymentFailures;
 
   /**
-  * Name: Name (Name), Type: string
+  * Name: Name (Name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -512,7 +512,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String name;
 
   /**
-  * Name: NumConsecutiveFailures (NumConsecutiveFailures), Type: integer
+  * Name: NumConsecutiveFailures (NumConsecutiveFailures), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -521,7 +521,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer numConsecutiveFailures;
 
   /**
-  * Name: PaymentMethodId (PaymentMethodId), Type: string
+  * Name: PaymentMethodId (PaymentMethodId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -530,7 +530,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paymentMethodId;
 
   /**
-  * Name: PaymentMethodStatus (PaymentMethodStatus), Type: string
+  * Name: PaymentMethodStatus (PaymentMethodStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -539,7 +539,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paymentMethodStatus;
 
   /**
-  * Name: PaymentRetryWindow (PaymentRetryWindow), Type: integer
+  * Name: PaymentRetryWindow (PaymentRetryWindow), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -548,7 +548,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer paymentRetryWindow;
 
   /**
-  * Name: PaypalBaid (PaypalBaid), Type: string
+  * Name: PaypalBaid (PaypalBaid), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -557,7 +557,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paypalBaid;
 
   /**
-  * Name: PaypalEmail (PaypalEmail), Type: string
+  * Name: PaypalEmail (PaypalEmail), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -566,7 +566,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paypalEmail;
 
   /**
-  * Name: PaypalPreapprovalKey (PaypalPreapprovalKey), Type: string
+  * Name: PaypalPreapprovalKey (PaypalPreapprovalKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -575,7 +575,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paypalPreapprovalKey;
 
   /**
-  * Name: PaypalType (PaypalType), Type: string
+  * Name: PaypalType (PaypalType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -584,7 +584,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String paypalType;
 
   /**
-  * Name: Phone (Phone), Type: string
+  * Name: Phone (Phone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -593,7 +593,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String phone;
 
   /**
-  * Name: PostalCode (PostalCode), Type: string
+  * Name: PostalCode (PostalCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -602,7 +602,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String postalCode;
 
   /**
-  * Name: SecondTokenId (SecondTokenId), Type: string
+  * Name: SecondTokenId (SecondTokenId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -611,7 +611,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String secondTokenId;
 
   /**
-  * Name: State (State), Type: string
+  * Name: State (State), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -620,7 +620,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String state;
 
   /**
-  * Name: StreetName (StreetName), Type: string
+  * Name: StreetName (StreetName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -629,7 +629,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String streetName;
 
   /**
-  * Name: StreetNumber (StreetNumber), Type: string
+  * Name: StreetNumber (StreetNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -638,7 +638,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String streetNumber;
 
   /**
-  * Name: TokenId (TokenId), Type: string
+  * Name: TokenId (TokenId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -647,7 +647,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String tokenId;
 
   /**
-  * Name: TotalNumberOfErrorPayments (TotalNumberOfErrorPayments), Type: integer
+  * Name: TotalNumberOfErrorPayments (TotalNumberOfErrorPayments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -656,7 +656,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer totalNumberOfErrorPayments;
 
   /**
-  * Name: TotalNumberOfProcessedPayments (TotalNumberOfProcessedPayments), Type: integer
+  * Name: TotalNumberOfProcessedPayments (TotalNumberOfProcessedPayments), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -665,7 +665,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private Integer totalNumberOfProcessedPayments;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -674,7 +674,7 @@ public class ProxyGetPaymentMethodSnapshot extends BaseObject {
   private String type;
 
   /**
-  * Name: UseDefaultRetryRule (UseDefaultRetryRule), Type: boolean
+  * Name: UseDefaultRetryRule (UseDefaultRetryRule), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

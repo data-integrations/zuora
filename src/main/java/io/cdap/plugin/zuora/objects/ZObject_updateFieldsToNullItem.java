@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ZObject_updateFieldsToNullItem (ZObject_updateFieldsToNullItem)
-* Related objects: 
+* Object name: ZObject_updateFieldsToNullItem (ZObject_updateFieldsToNullItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

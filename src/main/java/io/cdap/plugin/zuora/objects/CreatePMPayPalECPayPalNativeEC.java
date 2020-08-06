@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreatePMPayPalECPayPalNativeEC (CreatePMPayPalECPayPalNativeEC)
-* Related objects: 
+* Object name: CreatePMPayPalECPayPalNativeEC (CreatePMPayPalECPayPalNativeEC).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreatePMPayPalECPayPalNativeEC extends BaseObject {
   /**
-  * Name: BAID (BAID), Type: string
+  * Name: BAID (BAID), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreatePMPayPalECPayPalNativeEC extends BaseObject {
   private String bAID;
 
   /**
-  * Name: email (email), Type: string
+  * Name: email (email), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

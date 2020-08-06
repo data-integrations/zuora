@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTPaymentMethodResponse (POSTPaymentMethodResponse)
+* Object name: POSTPaymentMethodResponse (POSTPaymentMethodResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class POSTPaymentMethodResponse extends BaseObject {
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class POSTPaymentMethodResponse extends BaseObject {
   private String id;
 
   /**
-  * Name: reasons (reasons), Type: array|POSTPaymentMethodResponseReasonsItem
+  * Name: reasons (reasons), Type: array|POSTPaymentMethodResponseReasonsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

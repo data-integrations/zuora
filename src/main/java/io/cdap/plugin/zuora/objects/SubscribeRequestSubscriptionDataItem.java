@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequestSubscriptionDataItem (SubscribeRequestSubscriptionDataItem)
-* Related objects: 
+* Object name: SubscribeRequestSubscriptionDataItem (SubscribeRequestSubscriptionDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequestSubscriptionDataItem extends BaseObject {
   /**
-  * Name: RatePlanData (RatePlanData), Type: array|RatePlanData
+  * Name: RatePlanData (RatePlanData), Type: array|RatePlanData.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

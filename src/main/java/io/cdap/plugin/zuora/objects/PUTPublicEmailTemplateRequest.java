@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTPublicEmailTemplateRequest (PUTPublicEmailTemplateRequest)
-* Related objects: 
+* Object name: PUTPublicEmailTemplateRequest (PUTPublicEmailTemplateRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTPublicEmailTemplateRequest extends BaseObject {
   /**
-  * Name: active (active), Type: boolean
+  * Name: active (active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: bccEmailAddress (bccEmailAddress), Type: string
+  * Name: bccEmailAddress (bccEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String bccEmailAddress;
 
   /**
-  * Name: ccEmailAddress (ccEmailAddress), Type: string
+  * Name: ccEmailAddress (ccEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String ccEmailAddress;
 
   /**
-  * Name: ccEmailType (ccEmailType), Type: string
+  * Name: ccEmailType (ccEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String ccEmailType;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String description;
 
   /**
-  * Name: emailBody (emailBody), Type: string
+  * Name: emailBody (emailBody), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String emailBody;
 
   /**
-  * Name: emailSubject (emailSubject), Type: string
+  * Name: emailSubject (emailSubject), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String emailSubject;
 
   /**
-  * Name: encodingType (encodingType), Type: string
+  * Name: encodingType (encodingType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String encodingType;
 
   /**
-  * Name: fromEmailAddress (fromEmailAddress), Type: string
+  * Name: fromEmailAddress (fromEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String fromEmailAddress;
 
   /**
-  * Name: fromEmailType (fromEmailType), Type: string
+  * Name: fromEmailType (fromEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String fromEmailType;
 
   /**
-  * Name: fromName (fromName), Type: string
+  * Name: fromName (fromName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String fromName;
 
   /**
-  * Name: isHtml (isHtml), Type: boolean
+  * Name: isHtml (isHtml), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private Boolean isHtml;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String name;
 
   /**
-  * Name: replyToEmailAddress (replyToEmailAddress), Type: string
+  * Name: replyToEmailAddress (replyToEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String replyToEmailAddress;
 
   /**
-  * Name: replyToEmailType (replyToEmailType), Type: string
+  * Name: replyToEmailType (replyToEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String replyToEmailType;
 
   /**
-  * Name: toEmailAddress (toEmailAddress), Type: string
+  * Name: toEmailAddress (toEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class PUTPublicEmailTemplateRequest extends BaseObject {
   private String toEmailAddress;
 
   /**
-  * Name: toEmailType (toEmailType), Type: string
+  * Name: toEmailType (toEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderObjectCustomFields (OrderObjectCustomFields)
-* Related objects: 
+* Object name: OrderObjectCustomFields (OrderObjectCustomFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

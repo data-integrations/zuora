@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeResult (SubscribeResult)
-* Related objects: 
+* Object name: SubscribeResult (SubscribeResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeResult extends BaseObject {
   /**
-  * Name: AccountId (AccountId), Type: string
+  * Name: AccountId (AccountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class SubscribeResult extends BaseObject {
   private String accountId;
 
   /**
-  * Name: AccountNumber (AccountNumber), Type: string
+  * Name: AccountNumber (AccountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class SubscribeResult extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: ChargeMetricsData (ChargeMetricsData), Type: SubscribeResultChargeMetricsDataItem
+  * Name: ChargeMetricsData (ChargeMetricsData), Type: SubscribeResultChargeMetricsDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class SubscribeResult extends BaseObject {
   private String chargeMetricsData;
 
   /**
-  * Name: Errors (Errors), Type: array|ActionsErrorResponse
+  * Name: Errors (Errors), Type: array|ActionsErrorResponse.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class SubscribeResult extends BaseObject {
   private List<ActionsErrorResponse> errors;
 
   /**
-  * Name: GatewayResponse (GatewayResponse), Type: string
+  * Name: GatewayResponse (GatewayResponse), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class SubscribeResult extends BaseObject {
   private String gatewayResponse;
 
   /**
-  * Name: GatewayResponseCode (GatewayResponseCode), Type: string
+  * Name: GatewayResponseCode (GatewayResponseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class SubscribeResult extends BaseObject {
   private String gatewayResponseCode;
 
   /**
-  * Name: InvoiceData (InvoiceData), Type: array|InvoiceData
+  * Name: InvoiceData (InvoiceData), Type: array|InvoiceData.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class SubscribeResult extends BaseObject {
   private List<InvoiceData> invoiceData;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class SubscribeResult extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: InvoiceNumber (InvoiceNumber), Type: string
+  * Name: InvoiceNumber (InvoiceNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class SubscribeResult extends BaseObject {
   private String invoiceNumber;
 
   /**
-  * Name: InvoiceResult (InvoiceResult), Type: SubscribeResultInvoiceResultItem
+  * Name: InvoiceResult (InvoiceResult), Type: SubscribeResultInvoiceResultItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class SubscribeResult extends BaseObject {
   private String invoiceResult;
 
   /**
-  * Name: PaymentId (PaymentId), Type: string
+  * Name: PaymentId (PaymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class SubscribeResult extends BaseObject {
   private String paymentId;
 
   /**
-  * Name: PaymentTransactionNumber (PaymentTransactionNumber), Type: string
+  * Name: PaymentTransactionNumber (PaymentTransactionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class SubscribeResult extends BaseObject {
   private String paymentTransactionNumber;
 
   /**
-  * Name: SubscriptionId (SubscriptionId), Type: string
+  * Name: SubscriptionId (SubscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class SubscribeResult extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: SubscriptionNumber (SubscriptionNumber), Type: string
+  * Name: SubscriptionNumber (SubscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class SubscribeResult extends BaseObject {
   private String subscriptionNumber;
 
   /**
-  * Name: Success (Success), Type: boolean
+  * Name: Success (Success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class SubscribeResult extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: TotalMrr (TotalMrr), Type: number
+  * Name: TotalMrr (TotalMrr), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class SubscribeResult extends BaseObject {
   private String totalMrr;
 
   /**
-  * Name: TotalTcv (TotalTcv), Type: number
+  * Name: TotalTcv (TotalTcv), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

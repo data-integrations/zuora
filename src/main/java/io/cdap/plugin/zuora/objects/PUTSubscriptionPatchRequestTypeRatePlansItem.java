@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSubscriptionPatchRequestTypeRatePlansItem (PUTSubscriptionPatchRequestTypeRatePlansItem)
-* Related objects: 
+* Object name: PUTSubscriptionPatchRequestTypeRatePlansItem (PUTSubscriptionPatchRequestTypeRatePlansItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSubscriptionPatchRequestTypeRatePlansItem extends BaseObject {
   /**
-  * Name: charges (charges), Type: array|PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem
+  * Name: charges (charges), Type: array|PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTSubscriptionPatchRequestTypeRatePlansItem extends BaseObject {
   private List<PUTSubscriptionPatchRequestTypeRatePlansItemChargesItem> charges;
 
   /**
-  * Name: ratePlanId (ratePlanId), Type: string
+  * Name: ratePlanId (ratePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -19,7 +19,7 @@ import io.cdap.plugin.zuora.restobjects.annotations.ObjectDefinition;
 import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 
 /**
-* Object name: AccountingPeriodObjectCustomFields (AccountingPeriodObjectCustomFields)
+* Object name: AccountingPeriodObjectCustomFields (AccountingPeriodObjectCustomFields).
 * Related objects:
 **/
 @SuppressWarnings("unused")

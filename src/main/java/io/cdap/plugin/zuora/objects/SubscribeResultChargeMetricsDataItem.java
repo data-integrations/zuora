@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeResultChargeMetricsDataItem (SubscribeResultChargeMetricsDataItem)
-* Related objects: 
+* Object name: SubscribeResultChargeMetricsDataItem (SubscribeResultChargeMetricsDataItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeResultChargeMetricsDataItem extends BaseObject {
   /**
-  * Name: ChargeMetrics (ChargeMetrics), Type: array|NewChargeMetrics
+  * Name: ChargeMetrics (ChargeMetrics), Type: array|NewChargeMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

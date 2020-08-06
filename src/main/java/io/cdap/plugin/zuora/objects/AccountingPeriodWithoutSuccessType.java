@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: AccountingPeriodWithoutSuccessType (AccountingPeriodWithoutSuccessType)
-* Related objects: 
+* Object name: AccountingPeriodWithoutSuccessType (AccountingPeriodWithoutSuccessType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class AccountingPeriodWithoutSuccessType extends BaseObject {
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String endDate;
 
   /**
-  * Name: fileIds (fileIds), Type: AccountingPeriodWithoutSuccessTypeFileIdsItem
+  * Name: fileIds (fileIds), Type: AccountingPeriodWithoutSuccessTypeFileIdsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String fileIds;
 
   /**
-  * Name: fiscalYear (fiscalYear), Type: string
+  * Name: fiscalYear (fiscalYear), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String fiscalYear;
 
   /**
-  * Name: fiscal_quarter (fiscal_quarter), Type: integer
+  * Name: fiscal_quarter (fiscal_quarter), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private Integer fiscal_quarter;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String id;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String notes;
 
   /**
-  * Name: runTrialBalanceEnd (runTrialBalanceEnd), Type: string
+  * Name: runTrialBalanceEnd (runTrialBalanceEnd), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String runTrialBalanceEnd;
 
   /**
-  * Name: runTrialBalanceErrorMessage (runTrialBalanceErrorMessage), Type: string
+  * Name: runTrialBalanceErrorMessage (runTrialBalanceErrorMessage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String runTrialBalanceErrorMessage;
 
   /**
-  * Name: runTrialBalanceStart (runTrialBalanceStart), Type: string
+  * Name: runTrialBalanceStart (runTrialBalanceStart), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String runTrialBalanceStart;
 
   /**
-  * Name: runTrialBalanceStatus (runTrialBalanceStatus), Type: string
+  * Name: runTrialBalanceStatus (runTrialBalanceStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String runTrialBalanceStatus;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String startDate;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String status;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class AccountingPeriodWithoutSuccessType extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PaymentInvoiceApplicationItemApplyRequestType (PaymentInvoiceApplicationItemApplyRequestType)
-* Related objects: 
+* Object name: PaymentInvoiceApplicationItemApplyRequestType (PaymentInvoiceApplicationItemApplyRequestType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PaymentInvoiceApplicationItemApplyRequestType extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PaymentInvoiceApplicationItemApplyRequestType extends BaseObject {
   private String amount;
 
   /**
-  * Name: invoiceItemId (invoiceItemId), Type: string
+  * Name: invoiceItemId (invoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PaymentInvoiceApplicationItemApplyRequestType extends BaseObject {
   private String invoiceItemId;
 
   /**
-  * Name: taxItemId (taxItemId), Type: string
+  * Name: taxItemId (taxItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

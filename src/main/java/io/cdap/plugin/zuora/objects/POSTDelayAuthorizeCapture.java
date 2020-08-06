@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTDelayAuthorizeCapture (POSTDelayAuthorizeCapture)
-* Related objects: 
+* Object name: POSTDelayAuthorizeCapture (POSTDelayAuthorizeCapture).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTDelayAuthorizeCapture extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTDelayAuthorizeCapture extends BaseObject {
   private String accountId;
 
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTDelayAuthorizeCapture extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTDelayAuthorizeCapture extends BaseObject {
   private String amount;
 
   /**
-  * Name: gatewayOrderId (gatewayOrderId), Type: string
+  * Name: gatewayOrderId (gatewayOrderId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTDelayAuthorizeCapture extends BaseObject {
   private String gatewayOrderId;
 
   /**
-  * Name: softDescriptor (softDescriptor), Type: string
+  * Name: softDescriptor (softDescriptor), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTDelayAuthorizeCapture extends BaseObject {
   private String softDescriptor;
 
   /**
-  * Name: softDescriptorPhone (softDescriptorPhone), Type: string
+  * Name: softDescriptorPhone (softDescriptorPhone), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

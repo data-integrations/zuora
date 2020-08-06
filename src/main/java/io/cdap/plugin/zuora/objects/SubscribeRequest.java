@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: SubscribeRequest (SubscribeRequest)
-* Related objects: 
+* Object name: SubscribeRequest (SubscribeRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class SubscribeRequest extends BaseObject {
   /**
-  * Name: PaymentMethod (PaymentMethod), Type: SubscribeRequestPaymentMethodItem
+  * Name: PaymentMethod (PaymentMethod), Type: SubscribeRequestPaymentMethodItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class SubscribeRequest extends BaseObject {
   private String paymentMethod;
 
   /**
-  * Name: PreviewOptions (PreviewOptions), Type: SubscribeRequestPreviewOptionsItem
+  * Name: PreviewOptions (PreviewOptions), Type: SubscribeRequestPreviewOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class SubscribeRequest extends BaseObject {
   private String previewOptions;
 
   /**
-  * Name: SubscribeOptions (SubscribeOptions), Type: SubscribeRequestSubscribeOptionsItem
+  * Name: SubscribeOptions (SubscribeOptions), Type: SubscribeRequestSubscribeOptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class SubscribeRequest extends BaseObject {
   private String subscribeOptions;
 
   /**
-  * Name: SubscriptionData (SubscriptionData), Type: SubscribeRequestSubscriptionDataItem
+  * Name: SubscriptionData (SubscriptionData), Type: SubscribeRequestSubscriptionDataItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

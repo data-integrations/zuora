@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: UsageImport (UsageImport)
-* Related objects: 
+* Object name: UsageImport (UsageImport).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class UsageImport extends BaseObject {
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class UsageImport extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class UsageImport extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class UsageImport extends BaseObject {
   private String description;
 
   /**
-  * Name: error (error), Type: string
+  * Name: error (error), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class UsageImport extends BaseObject {
   private String error;
 
   /**
-  * Name: errorCount (errorCount), Type: number
+  * Name: errorCount (errorCount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class UsageImport extends BaseObject {
   private String errorCount;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class UsageImport extends BaseObject {
   private String id;
 
   /**
-  * Name: importedCount (importedCount), Type: number
+  * Name: importedCount (importedCount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class UsageImport extends BaseObject {
   private String importedCount;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class UsageImport extends BaseObject {
   private String name;
 
   /**
-  * Name: processEnd (processEnd), Type: string
+  * Name: processEnd (processEnd), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class UsageImport extends BaseObject {
   private String processEnd;
 
   /**
-  * Name: processStart (processStart), Type: string
+  * Name: processStart (processStart), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class UsageImport extends BaseObject {
   private String processStart;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class UsageImport extends BaseObject {
   private String status;
 
   /**
-  * Name: totalCount (totalCount), Type: number
+  * Name: totalCount (totalCount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class UsageImport extends BaseObject {
   private String totalCount;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class UsageImport extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

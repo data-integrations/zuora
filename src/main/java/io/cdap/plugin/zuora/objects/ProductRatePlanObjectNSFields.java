@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProductRatePlanObjectNSFields (ProductRatePlanObjectNSFields)
-* Related objects: 
+* Object name: ProductRatePlanObjectNSFields (ProductRatePlanObjectNSFields).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProductRatePlanObjectNSFields extends BaseObject {
   /**
-  * Name: BillingPeriod__NS (BillingPeriod__NS), Type: string
+  * Name: BillingPeriod__NS (BillingPeriod__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String billingPeriod__NS;
 
   /**
-  * Name: Class__NS (Class__NS), Type: string
+  * Name: Class__NS (Class__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String class__NS;
 
   /**
-  * Name: Department__NS (Department__NS), Type: string
+  * Name: Department__NS (Department__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String department__NS;
 
   /**
-  * Name: IncludeChildren__NS (IncludeChildren__NS), Type: string
+  * Name: IncludeChildren__NS (IncludeChildren__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String includeChildren__NS;
 
   /**
-  * Name: IntegrationId__NS (IntegrationId__NS), Type: string
+  * Name: IntegrationId__NS (IntegrationId__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String integrationId__NS;
 
   /**
-  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string
+  * Name: IntegrationStatus__NS (IntegrationStatus__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String integrationStatus__NS;
 
   /**
-  * Name: ItemType__NS (ItemType__NS), Type: string
+  * Name: ItemType__NS (ItemType__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String itemType__NS;
 
   /**
-  * Name: Location__NS (Location__NS), Type: string
+  * Name: Location__NS (Location__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String location__NS;
 
   /**
-  * Name: MultiCurrencyPrice__NS (MultiCurrencyPrice__NS), Type: string
+  * Name: MultiCurrencyPrice__NS (MultiCurrencyPrice__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String multiCurrencyPrice__NS;
 
   /**
-  * Name: Price__NS (Price__NS), Type: string
+  * Name: Price__NS (Price__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String price__NS;
 
   /**
-  * Name: Subsidiary__NS (Subsidiary__NS), Type: string
+  * Name: Subsidiary__NS (Subsidiary__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class ProductRatePlanObjectNSFields extends BaseObject {
   private String subsidiary__NS;
 
   /**
-  * Name: SyncDate__NS (SyncDate__NS), Type: string
+  * Name: SyncDate__NS (SyncDate__NS), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

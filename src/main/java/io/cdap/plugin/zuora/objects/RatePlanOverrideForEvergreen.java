@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatePlanOverrideForEvergreen (RatePlanOverrideForEvergreen)
-* Related objects: 
+* Object name: RatePlanOverrideForEvergreen (RatePlanOverrideForEvergreen).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RatePlanOverrideForEvergreen extends BaseObject {
   /**
-  * Name: chargeOverrides (chargeOverrides), Type: array|ChargeOverrideForEvergreen
+  * Name: chargeOverrides (chargeOverrides), Type: array|ChargeOverrideForEvergreen.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RatePlanOverrideForEvergreen extends BaseObject {
   private List<ChargeOverrideForEvergreen> chargeOverrides;
 
   /**
-  * Name: newRatePlanId (newRatePlanId), Type: string
+  * Name: newRatePlanId (newRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RatePlanOverrideForEvergreen extends BaseObject {
   private String newRatePlanId;
 
   /**
-  * Name: productRatePlanId (productRatePlanId), Type: string
+  * Name: productRatePlanId (productRatePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RatePlanOverrideForEvergreen extends BaseObject {
   private String productRatePlanId;
 
   /**
-  * Name: uniqueToken (uniqueToken), Type: string
+  * Name: uniqueToken (uniqueToken), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

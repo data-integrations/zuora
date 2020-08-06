@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PreviewOrderOrderAction (PreviewOrderOrderAction)
-* Related objects: 
+* Object name: PreviewOrderOrderAction (PreviewOrderOrderAction).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PreviewOrderOrderAction extends BaseObject {
   /**
-  * Name: triggerDates (triggerDates), Type: array|TriggerDate
+  * Name: triggerDates (triggerDates), Type: array|TriggerDate.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PreviewOrderOrderAction extends BaseObject {
   private List<TriggerDate> triggerDates;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

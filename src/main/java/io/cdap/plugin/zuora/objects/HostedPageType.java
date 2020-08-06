@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: HostedPageType (HostedPageType)
-* Related objects: 
+* Object name: HostedPageType (HostedPageType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class HostedPageType extends BaseObject {
   /**
-  * Name: pageId (pageId), Type: string
+  * Name: pageId (pageId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class HostedPageType extends BaseObject {
   private String pageId;
 
   /**
-  * Name: pageName (pageName), Type: string
+  * Name: pageName (pageName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class HostedPageType extends BaseObject {
   private String pageName;
 
   /**
-  * Name: pageType (pageType), Type: string
+  * Name: pageType (pageType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class HostedPageType extends BaseObject {
   private String pageType;
 
   /**
-  * Name: pageVersion (pageVersion), Type: string
+  * Name: pageVersion (pageVersion), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

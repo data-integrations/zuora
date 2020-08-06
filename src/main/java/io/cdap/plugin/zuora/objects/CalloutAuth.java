@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CalloutAuth (CalloutAuth)
-* Related objects: 
+* Object name: CalloutAuth (CalloutAuth).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CalloutAuth extends BaseObject {
   /**
-  * Name: domain (domain), Type: string
+  * Name: domain (domain), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CalloutAuth extends BaseObject {
   private String domain;
 
   /**
-  * Name: password (password), Type: string
+  * Name: password (password), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CalloutAuth extends BaseObject {
   private String password;
 
   /**
-  * Name: preemptive (preemptive), Type: boolean
+  * Name: preemptive (preemptive), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CalloutAuth extends BaseObject {
   private Boolean preemptive;
 
   /**
-  * Name: username (username), Type: string
+  * Name: username (username), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

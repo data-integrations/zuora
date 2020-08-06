@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoicePayment (InvoicePayment)
-* Related objects: 
+* Object name: InvoicePayment (InvoicePayment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoicePayment extends BaseObject {
   /**
-  * Name: Amount (Amount), Type: string
+  * Name: Amount (Amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoicePayment extends BaseObject {
   private String amount;
 
   /**
-  * Name: InvoiceId (InvoiceId), Type: string
+  * Name: InvoiceId (InvoiceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class InvoicePayment extends BaseObject {
   private String invoiceId;
 
   /**
-  * Name: PaymentId (PaymentId), Type: string
+  * Name: PaymentId (PaymentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

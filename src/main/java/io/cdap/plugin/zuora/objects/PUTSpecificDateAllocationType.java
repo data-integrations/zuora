@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSpecificDateAllocationType (PUTSpecificDateAllocationType)
-* Related objects: 
+* Object name: PUTSpecificDateAllocationType (PUTSpecificDateAllocationType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSpecificDateAllocationType extends BaseObject {
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String amount;
 
   /**
-  * Name: distributeOn (distributeOn), Type: string
+  * Name: distributeOn (distributeOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String distributeOn;
 
   /**
-  * Name: distributionType (distributionType), Type: string
+  * Name: distributionType (distributionType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String distributionType;
 
   /**
-  * Name: eventType (eventType), Type: string
+  * Name: eventType (eventType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String eventType;
 
   /**
-  * Name: eventTypeSystemId (eventTypeSystemId), Type: string
+  * Name: eventTypeSystemId (eventTypeSystemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String eventTypeSystemId;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PUTSpecificDateAllocationType extends BaseObject {
   private String notes;
 
   /**
-  * Name: percentage (percentage), Type: string
+  * Name: percentage (percentage), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTAccountTypeTaxInfoItem (POSTAccountTypeTaxInfoItem)
-* Related objects: 
+* Object name: POSTAccountTypeTaxInfoItem (POSTAccountTypeTaxInfoItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTAccountTypeTaxInfoItem extends BaseObject {
   /**
-  * Name: VATId (VATId), Type: string
+  * Name: VATId (VATId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String vATId;
 
   /**
-  * Name: companyCode (companyCode), Type: string
+  * Name: companyCode (companyCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String companyCode;
 
   /**
-  * Name: exemptCertificateId (exemptCertificateId), Type: string
+  * Name: exemptCertificateId (exemptCertificateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptCertificateId;
 
   /**
-  * Name: exemptCertificateType (exemptCertificateType), Type: string
+  * Name: exemptCertificateType (exemptCertificateType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptCertificateType;
 
   /**
-  * Name: exemptDescription (exemptDescription), Type: string
+  * Name: exemptDescription (exemptDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptDescription;
 
   /**
-  * Name: exemptEffectiveDate (exemptEffectiveDate), Type: string
+  * Name: exemptEffectiveDate (exemptEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptEffectiveDate;
 
   /**
-  * Name: exemptEntityUseCode (exemptEntityUseCode), Type: string
+  * Name: exemptEntityUseCode (exemptEntityUseCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptEntityUseCode;
 
   /**
-  * Name: exemptExpirationDate (exemptExpirationDate), Type: string
+  * Name: exemptExpirationDate (exemptExpirationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptExpirationDate;
 
   /**
-  * Name: exemptIssuingJurisdiction (exemptIssuingJurisdiction), Type: string
+  * Name: exemptIssuingJurisdiction (exemptIssuingJurisdiction), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class POSTAccountTypeTaxInfoItem extends BaseObject {
   private String exemptIssuingJurisdiction;
 
   /**
-  * Name: exemptStatus (exemptStatus), Type: string
+  * Name: exemptStatus (exemptStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

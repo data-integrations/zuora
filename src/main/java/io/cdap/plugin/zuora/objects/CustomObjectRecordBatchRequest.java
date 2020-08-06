@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CustomObjectRecordBatchRequest (CustomObjectRecordBatchRequest)
-* Related objects: 
+* Object name: CustomObjectRecordBatchRequest (CustomObjectRecordBatchRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CustomObjectRecordBatchRequest extends BaseObject {
   /**
-  * Name: action (action), Type: CustomObjectRecordBatchRequestActionItem
+  * Name: action (action), Type: CustomObjectRecordBatchRequestActionItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

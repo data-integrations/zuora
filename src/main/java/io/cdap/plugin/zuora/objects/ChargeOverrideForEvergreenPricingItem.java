@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargeOverrideForEvergreenPricingItem (ChargeOverrideForEvergreenPricingItem)
-* Related objects: 
+* Object name: ChargeOverrideForEvergreenPricingItem (ChargeOverrideForEvergreenPricingItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

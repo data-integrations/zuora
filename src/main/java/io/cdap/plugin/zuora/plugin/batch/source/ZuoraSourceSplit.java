@@ -1,5 +1,5 @@
 /*
- *  Copyright © 2019 Cask Data, Inc.
+ *  Copyright © 2020 Cask Data, Inc.
  *
  *  Licensed under the Apache License, Version 2.0 (the "License"); you may not
  *  use this file except in compliance with the License. You may obtain a copy of
@@ -23,7 +23,7 @@ import java.io.DataOutput;
 import java.io.IOException;
 
 /**
- * Basic split on per-object basis
+ * Basic split on per-object basis.
  */
 public class ZuoraSourceSplit extends InputSplit implements Writable {
   private ZuoraSplitArgument arguments;

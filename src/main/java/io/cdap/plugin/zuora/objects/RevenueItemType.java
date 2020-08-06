@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RevenueItemType (RevenueItemType)
-* Related objects: 
+* Object name: RevenueItemType (RevenueItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class RevenueItemType extends BaseObject {
   /**
-  * Name: accountingPeriodEndDate (accountingPeriodEndDate), Type: string
+  * Name: accountingPeriodEndDate (accountingPeriodEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class RevenueItemType extends BaseObject {
   private String accountingPeriodEndDate;
 
   /**
-  * Name: accountingPeriodName (accountingPeriodName), Type: string
+  * Name: accountingPeriodName (accountingPeriodName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class RevenueItemType extends BaseObject {
   private String accountingPeriodName;
 
   /**
-  * Name: accountingPeriodStartDate (accountingPeriodStartDate), Type: string
+  * Name: accountingPeriodStartDate (accountingPeriodStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class RevenueItemType extends BaseObject {
   private String accountingPeriodStartDate;
 
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class RevenueItemType extends BaseObject {
   private String amount;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class RevenueItemType extends BaseObject {
   private String currency;
 
   /**
-  * Name: isAccountingPeriodClosed (isAccountingPeriodClosed), Type: boolean
+  * Name: isAccountingPeriodClosed (isAccountingPeriodClosed), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTOrderTriggerDatesResponseType (PUTOrderTriggerDatesResponseType)
-* Related objects: 
+* Object name: PUTOrderTriggerDatesResponseType (PUTOrderTriggerDatesResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTOrderTriggerDatesResponseType extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTOrderTriggerDatesResponseType extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTOrderTriggerDatesResponseType extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTOrderTriggerDatesResponseType extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|PUTOrderTriggerDatesResponseTypeSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|PUTOrderTriggerDatesResponseTypeSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

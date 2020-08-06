@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyNoDataResponseRecordsItem (ProxyNoDataResponseRecordsItem)
-* Related objects: 
+* Object name: ProxyNoDataResponseRecordsItem (ProxyNoDataResponseRecordsItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

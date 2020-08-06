@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CommonUsageImportsErrorResponse (CommonUsageImportsErrorResponse)
-* Related objects: 
+* Object name: CommonUsageImportsErrorResponse (CommonUsageImportsErrorResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CommonUsageImportsErrorResponse extends BaseObject {
   /**
-  * Name: error (error), Type: CommonUsageImportsErrorResponseErrorItem
+  * Name: error (error), Type: CommonUsageImportsErrorResponseErrorItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

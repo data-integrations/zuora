@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: JobResult (JobResult)
-* Related objects: 
+* Object name: JobResult (JobResult).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class JobResult extends BaseObject {
   /**
-  * Name: accountNumber (accountNumber), Type: string
+  * Name: accountNumber (accountNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class JobResult extends BaseObject {
   private String accountNumber;
 
   /**
-  * Name: creditMemoNumbers (creditMemoNumbers), Type: array|JobResultCreditMemoNumbersItem
+  * Name: creditMemoNumbers (creditMemoNumbers), Type: array|JobResultCreditMemoNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class JobResult extends BaseObject {
   private List<JobResultCreditMemoNumbersItem> creditMemoNumbers;
 
   /**
-  * Name: invoiceNumbers (invoiceNumbers), Type: array|JobResultInvoiceNumbersItem
+  * Name: invoiceNumbers (invoiceNumbers), Type: array|JobResultInvoiceNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class JobResult extends BaseObject {
   private List<JobResultInvoiceNumbersItem> invoiceNumbers;
 
   /**
-  * Name: orderNumber (orderNumber), Type: string
+  * Name: orderNumber (orderNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class JobResult extends BaseObject {
   private String orderNumber;
 
   /**
-  * Name: paidAmount (paidAmount), Type: string
+  * Name: paidAmount (paidAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class JobResult extends BaseObject {
   private String paidAmount;
 
   /**
-  * Name: paymentNumber (paymentNumber), Type: string
+  * Name: paymentNumber (paymentNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class JobResult extends BaseObject {
   private String paymentNumber;
 
   /**
-  * Name: status (status), Type: string
+  * Name: status (status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class JobResult extends BaseObject {
   private String status;
 
   /**
-  * Name: subscriptionNumbers (subscriptionNumbers), Type: array|JobResultSubscriptionNumbersItem
+  * Name: subscriptionNumbers (subscriptionNumbers), Type: array|JobResultSubscriptionNumbersItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class JobResult extends BaseObject {
   private List<JobResultSubscriptionNumbersItem> subscriptionNumbers;
 
   /**
-  * Name: subscriptions (subscriptions), Type: array|JobResultSubscriptionsItem
+  * Name: subscriptions (subscriptions), Type: array|JobResultSubscriptionsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

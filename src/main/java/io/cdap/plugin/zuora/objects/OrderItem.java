@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderItem (OrderItem)
-* Related objects: 
+* Object name: OrderItem (OrderItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class OrderItem extends BaseObject {
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class OrderItem extends BaseObject {
   private String endDate;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string..
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class OrderItem extends BaseObject {
   private String id;
 
   /**
-  * Name: orderActionId (orderActionId), Type: string
+  * Name: orderActionId (orderActionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class OrderItem extends BaseObject {
   private String orderActionId;
 
   /**
-  * Name: quantity (quantity), Type: number
+  * Name: quantity (quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class OrderItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: scId (scId), Type: string
+  * Name: scId (scId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class OrderItem extends BaseObject {
   private String scId;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

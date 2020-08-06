@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTUsageResponseType (POSTUsageResponseType)
+* Object name: POSTUsageResponseType (POSTUsageResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTUsageResponseType extends BaseObject {
   /**
-  * Name: checkImportStatus (checkImportStatus), Type: string
+  * Name: checkImportStatus (checkImportStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTUsageResponseType extends BaseObject {
   private String checkImportStatus;
 
   /**
-  * Name: size (size), Type: integer
+  * Name: size (size), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTUsageResponseType extends BaseObject {
   private Integer size;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

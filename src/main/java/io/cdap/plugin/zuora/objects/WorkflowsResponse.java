@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: WorkflowsResponse (WorkflowsResponse)
-* Related objects: 
+* Object name: WorkflowsResponse (WorkflowsResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class WorkflowsResponse extends BaseObject {
   /**
-  * Name: data (data), Type: array|Workflow
+  * Name: data (data), Type: array|Workflow.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class WorkflowsResponse extends BaseObject {
   private List<Workflow> data;
 
   /**
-  * Name: pagination (pagination), Type: WorkflowsResponsePaginationItem
+  * Name: pagination (pagination), Type: WorkflowsResponsePaginationItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

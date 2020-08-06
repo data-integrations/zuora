@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceItemBreakdown (InvoiceItemBreakdown)
-* Related objects: 
+* Object name: InvoiceItemBreakdown (InvoiceItemBreakdown).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceItemBreakdown extends BaseObject {
   /**
-  * Name: amount (amount), Type: number
+  * Name: amount (amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String amount;
 
   /**
-  * Name: applyToChargeNumber (applyToChargeNumber), Type: string
+  * Name: applyToChargeNumber (applyToChargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String applyToChargeNumber;
 
   /**
-  * Name: breakdownDetails (breakdownDetails), Type: array|BreakdownDetail
+  * Name: breakdownDetails (breakdownDetails), Type: array|BreakdownDetail.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private List<BreakdownDetail> breakdownDetails;
 
   /**
-  * Name: chargeNumber (chargeNumber), Type: string
+  * Name: chargeNumber (chargeNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String chargeNumber;
 
   /**
-  * Name: endDate (endDate), Type: string
+  * Name: endDate (endDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String endDate;
 
   /**
-  * Name: invoiceItemId (invoiceItemId), Type: string
+  * Name: invoiceItemId (invoiceItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String invoiceItemId;
 
   /**
-  * Name: startDate (startDate), Type: string
+  * Name: startDate (startDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class InvoiceItemBreakdown extends BaseObject {
   private String startDate;
 
   /**
-  * Name: subscriptionNumber (subscriptionNumber), Type: string
+  * Name: subscriptionNumber (subscriptionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

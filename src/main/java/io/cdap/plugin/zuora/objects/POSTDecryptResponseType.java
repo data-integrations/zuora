@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTDecryptResponseType (POSTDecryptResponseType)
+* Object name: POSTDecryptResponseType (POSTDecryptResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTDecryptResponseType extends BaseObject {
   /**
-  * Name: decryptedSignature (decryptedSignature), Type: string
+  * Name: decryptedSignature (decryptedSignature), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTDecryptResponseType extends BaseObject {
   private String decryptedSignature;
 
   /**
-  * Name: publicKey (publicKey), Type: string
+  * Name: publicKey (publicKey), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTDecryptResponseType extends BaseObject {
   private String publicKey;
 
   /**
-  * Name: signature (signature), Type: string
+  * Name: signature (signature), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class POSTDecryptResponseType extends BaseObject {
   private String signature;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

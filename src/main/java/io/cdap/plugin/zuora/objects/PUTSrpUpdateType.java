@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTSrpUpdateType (PUTSrpUpdateType)
-* Related objects: 
+* Object name: PUTSrpUpdateType (PUTSrpUpdateType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTSrpUpdateType extends BaseObject {
   /**
-  * Name: chargeUpdateDetails (chargeUpdateDetails), Type: array|PUTScUpdateType
+  * Name: chargeUpdateDetails (chargeUpdateDetails), Type: array|PUTScUpdateType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTSrpUpdateType extends BaseObject {
   private List<PUTScUpdateType> chargeUpdateDetails;
 
   /**
-  * Name: contractEffectiveDate (contractEffectiveDate), Type: string
+  * Name: contractEffectiveDate (contractEffectiveDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTSrpUpdateType extends BaseObject {
   private String contractEffectiveDate;
 
   /**
-  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string
+  * Name: customerAcceptanceDate (customerAcceptanceDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTSrpUpdateType extends BaseObject {
   private String customerAcceptanceDate;
 
   /**
-  * Name: ratePlanId (ratePlanId), Type: string
+  * Name: ratePlanId (ratePlanId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTSrpUpdateType extends BaseObject {
   private String ratePlanId;
 
   /**
-  * Name: serviceActivationDate (serviceActivationDate), Type: string
+  * Name: serviceActivationDate (serviceActivationDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTSrpUpdateType extends BaseObject {
   private String serviceActivationDate;
 
   /**
-  * Name: specificUpdateDate (specificUpdateDate), Type: string
+  * Name: specificUpdateDate (specificUpdateDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

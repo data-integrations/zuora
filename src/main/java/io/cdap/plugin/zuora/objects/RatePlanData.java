@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RatePlanData (RatePlanData)
-* Related objects: 
+* Object name: RatePlanData (RatePlanData).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RatePlanData extends BaseObject {
   /**
-  * Name: RatePlanChargeData (RatePlanChargeData), Type: array|RatePlanChargeData
+  * Name: RatePlanChargeData (RatePlanChargeData), Type: array|RatePlanChargeData.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RatePlanData extends BaseObject {
   private List<RatePlanChargeData> ratePlanChargeData;
 
   /**
-  * Name: SubscriptionProductFeatureList (SubscriptionProductFeatureList), Type: RatePlanDataSubscriptionProductFeatureListItem
+  * Name: SubscriptionProductFeatureList (SubscriptionProductFeatureList), Type: RatePlanDataSubscriptionProductFeatureListItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

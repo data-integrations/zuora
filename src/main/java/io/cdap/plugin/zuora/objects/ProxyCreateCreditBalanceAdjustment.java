@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyCreateCreditBalanceAdjustment (ProxyCreateCreditBalanceAdjustment)
-* Related objects: 
+* Object name: ProxyCreateCreditBalanceAdjustment (ProxyCreateCreditBalanceAdjustment).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   /**
-  * Name: AccountingCode (AccountingCode), Type: string
+  * Name: AccountingCode (AccountingCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String accountingCode;
 
   /**
-  * Name: Amount (Amount), Type: number
+  * Name: Amount (Amount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String amount;
 
   /**
-  * Name: Comment (Comment), Type: string
+  * Name: Comment (Comment), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String comment;
 
   /**
-  * Name: ReasonCode (ReasonCode), Type: string
+  * Name: ReasonCode (ReasonCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String reasonCode;
 
   /**
-  * Name: ReferenceId (ReferenceId), Type: string
+  * Name: ReferenceId (ReferenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: SourceTransactionId (SourceTransactionId), Type: string
+  * Name: SourceTransactionId (SourceTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String sourceTransactionId;
 
   /**
-  * Name: SourceTransactionNumber (SourceTransactionNumber), Type: string
+  * Name: SourceTransactionNumber (SourceTransactionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class ProxyCreateCreditBalanceAdjustment extends BaseObject {
   private String sourceTransactionNumber;
 
   /**
-  * Name: Type (Type), Type: string
+  * Name: Type (Type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

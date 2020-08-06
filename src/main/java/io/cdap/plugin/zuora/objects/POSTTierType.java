@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTTierType (POSTTierType)
-* Related objects: 
+* Object name: POSTTierType (POSTTierType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTTierType extends BaseObject {
   /**
-  * Name: endingUnit (endingUnit), Type: number
+  * Name: endingUnit (endingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTTierType extends BaseObject {
   private String endingUnit;
 
   /**
-  * Name: price (price), Type: number
+  * Name: price (price), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTTierType extends BaseObject {
   private String price;
 
   /**
-  * Name: priceFormat (priceFormat), Type: string
+  * Name: priceFormat (priceFormat), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTTierType extends BaseObject {
   private String priceFormat;
 
   /**
-  * Name: startingUnit (startingUnit), Type: number
+  * Name: startingUnit (startingUnit), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class POSTTierType extends BaseObject {
 
   /**
   * Name: tier (tier), Type: integer
-  * Options (custom, update, select): false, false, false
+  * Options (custom, update, select): false, false, false.
   **/
   @Nullable
   @SerializedName("tier")

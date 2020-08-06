@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreateOrderResume (CreateOrderResume)
-* Related objects: 
+* Object name: CreateOrderResume (CreateOrderResume).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreateOrderResume extends BaseObject {
   /**
-  * Name: extendsTerm (extendsTerm), Type: boolean
+  * Name: extendsTerm (extendsTerm), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreateOrderResume extends BaseObject {
   private Boolean extendsTerm;
 
   /**
-  * Name: resumePeriods (resumePeriods), Type: integer
+  * Name: resumePeriods (resumePeriods), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreateOrderResume extends BaseObject {
   private Integer resumePeriods;
 
   /**
-  * Name: resumePeriodsType (resumePeriodsType), Type: string
+  * Name: resumePeriodsType (resumePeriodsType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreateOrderResume extends BaseObject {
   private String resumePeriodsType;
 
   /**
-  * Name: resumePolicy (resumePolicy), Type: string
+  * Name: resumePolicy (resumePolicy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreateOrderResume extends BaseObject {
   private String resumePolicy;
 
   /**
-  * Name: resumeSpecificDate (resumeSpecificDate), Type: string
+  * Name: resumeSpecificDate (resumeSpecificDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

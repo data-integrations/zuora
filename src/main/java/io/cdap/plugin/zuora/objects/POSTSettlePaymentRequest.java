@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTSettlePaymentRequest (POSTSettlePaymentRequest)
-* Related objects: 
+* Object name: POSTSettlePaymentRequest (POSTSettlePaymentRequest).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTSettlePaymentRequest extends BaseObject {
   /**
-  * Name: settledOn (settledOn), Type: string
+  * Name: settledOn (settledOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

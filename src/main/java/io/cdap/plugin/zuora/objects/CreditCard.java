@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: CreditCard (CreditCard)
-* Related objects: 
+* Object name: CreditCard (CreditCard).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class CreditCard extends BaseObject {
   /**
-  * Name: cardNumber (cardNumber), Type: string
+  * Name: cardNumber (cardNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class CreditCard extends BaseObject {
   private String cardNumber;
 
   /**
-  * Name: cardType (cardType), Type: string
+  * Name: cardType (cardType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class CreditCard extends BaseObject {
   private String cardType;
 
   /**
-  * Name: expirationMonth (expirationMonth), Type: integer
+  * Name: expirationMonth (expirationMonth), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class CreditCard extends BaseObject {
   private Integer expirationMonth;
 
   /**
-  * Name: expirationYear (expirationYear), Type: integer
+  * Name: expirationYear (expirationYear), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class CreditCard extends BaseObject {
   private Integer expirationYear;
 
   /**
-  * Name: securityCode (securityCode), Type: string
+  * Name: securityCode (securityCode), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

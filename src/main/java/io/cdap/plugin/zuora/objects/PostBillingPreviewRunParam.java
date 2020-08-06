@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PostBillingPreviewRunParam (PostBillingPreviewRunParam)
-* Related objects: 
+* Object name: PostBillingPreviewRunParam (PostBillingPreviewRunParam).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PostBillingPreviewRunParam extends BaseObject {
   /**
-  * Name: assumeRenewal (assumeRenewal), Type: string
+  * Name: assumeRenewal (assumeRenewal), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PostBillingPreviewRunParam extends BaseObject {
   private String assumeRenewal;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PostBillingPreviewRunParam extends BaseObject {
   private String batch;
 
   /**
-  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: string
+  * Name: chargeTypeToExclude (chargeTypeToExclude), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PostBillingPreviewRunParam extends BaseObject {
   private String chargeTypeToExclude;
 
   /**
-  * Name: includingEvergreenSubscription (includingEvergreenSubscription), Type: boolean
+  * Name: includingEvergreenSubscription (includingEvergreenSubscription), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PostBillingPreviewRunParam extends BaseObject {
   private Boolean includingEvergreenSubscription;
 
   /**
-  * Name: targetDate (targetDate), Type: string
+  * Name: targetDate (targetDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

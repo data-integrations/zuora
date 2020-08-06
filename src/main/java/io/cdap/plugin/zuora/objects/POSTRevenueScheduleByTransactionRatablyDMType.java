@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRevenueScheduleByTransactionRatablyDMType (POSTRevenueScheduleByTransactionRatablyDMType)
-* Related objects: 
+* Object name: POSTRevenueScheduleByTransactionRatablyDMType (POSTRevenueScheduleByTransactionRatablyDMType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRevenueScheduleByTransactionRatablyDMType extends BaseObject {
   /**
-  * Name: distributionType (distributionType), Type: string
+  * Name: distributionType (distributionType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class POSTRevenueScheduleByTransactionRatablyDMType extends BaseObject {
   private String distributionType;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class POSTRevenueScheduleByTransactionRatablyDMType extends BaseObject {
   private String notes;
 
   /**
-  * Name: recognitionEnd (recognitionEnd), Type: string
+  * Name: recognitionEnd (recognitionEnd), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class POSTRevenueScheduleByTransactionRatablyDMType extends BaseObject {
   private String recognitionEnd;
 
   /**
-  * Name: recognitionStart (recognitionStart), Type: string
+  * Name: recognitionStart (recognitionStart), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: QueryUsageResponseType (QueryUsageResponseType)
-* Related objects: 
+* Object name: QueryUsageResponseType (QueryUsageResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class QueryUsageResponseType extends BaseObject {
   /**
-  * Name: data (data), Type: array|UsageResponseType
+  * Name: data (data), Type: array|UsageResponseType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

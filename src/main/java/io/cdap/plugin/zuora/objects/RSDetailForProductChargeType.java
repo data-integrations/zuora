@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: RSDetailForProductChargeType (RSDetailForProductChargeType)
-* Related objects: 
+* Object name: RSDetailForProductChargeType (RSDetailForProductChargeType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class RSDetailForProductChargeType extends BaseObject {
   /**
-  * Name: accountId (accountId), Type: string
+  * Name: accountId (accountId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String accountId;
 
   /**
-  * Name: amount (amount), Type: string
+  * Name: amount (amount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String amount;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: currency (currency), Type: string
+  * Name: currency (currency), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String currency;
 
   /**
-  * Name: linkedTransactionId (linkedTransactionId), Type: string
+  * Name: linkedTransactionId (linkedTransactionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String linkedTransactionId;
 
   /**
-  * Name: linkedTransactionNumber (linkedTransactionNumber), Type: string
+  * Name: linkedTransactionNumber (linkedTransactionNumber), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String linkedTransactionNumber;
 
   /**
-  * Name: linkedTransactionType (linkedTransactionType), Type: string
+  * Name: linkedTransactionType (linkedTransactionType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String linkedTransactionType;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String notes;
 
   /**
-  * Name: number (number), Type: string
+  * Name: number (number), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String number;
 
   /**
-  * Name: productChargeId (productChargeId), Type: string
+  * Name: productChargeId (productChargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String productChargeId;
 
   /**
-  * Name: recognitionRuleName (recognitionRuleName), Type: string
+  * Name: recognitionRuleName (recognitionRuleName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String recognitionRuleName;
 
   /**
-  * Name: recognizedRevenue (recognizedRevenue), Type: string
+  * Name: recognizedRevenue (recognizedRevenue), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String recognizedRevenue;
 
   /**
-  * Name: referenceId (referenceId), Type: string
+  * Name: referenceId (referenceId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String referenceId;
 
   /**
-  * Name: revenueItems (revenueItems), Type: array|RsRevenueItemType
+  * Name: revenueItems (revenueItems), Type: array|RsRevenueItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private List<RsRevenueItemType> revenueItems;
 
   /**
-  * Name: revenueScheduleDate (revenueScheduleDate), Type: string
+  * Name: revenueScheduleDate (revenueScheduleDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String revenueScheduleDate;
 
   /**
-  * Name: undistributedUnrecognizedRevenue (undistributedUnrecognizedRevenue), Type: string
+  * Name: undistributedUnrecognizedRevenue (undistributedUnrecognizedRevenue), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String undistributedUnrecognizedRevenue;
 
   /**
-  * Name: unrecognizedRevenue (unrecognizedRevenue), Type: string
+  * Name: unrecognizedRevenue (unrecognizedRevenue), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class RSDetailForProductChargeType extends BaseObject {
   private String unrecognizedRevenue;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

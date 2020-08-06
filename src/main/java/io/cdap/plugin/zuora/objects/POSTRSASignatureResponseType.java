@@ -25,7 +25,7 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: POSTRSASignatureResponseType (POSTRSASignatureResponseType)
+* Object name: POSTRSASignatureResponseType (POSTRSASignatureResponseType).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -39,7 +39,7 @@ import javax.annotation.Nullable;
 )
 public class POSTRSASignatureResponseType extends BaseObject {
   /**
-  * Name: key (key), Type: string
+  * Name: key (key), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -48,7 +48,7 @@ public class POSTRSASignatureResponseType extends BaseObject {
   private String key;
 
   /**
-  * Name: signature (signature), Type: string
+  * Name: signature (signature), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -57,7 +57,7 @@ public class POSTRSASignatureResponseType extends BaseObject {
   private String signature;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -66,7 +66,7 @@ public class POSTRSASignatureResponseType extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: tenantId (tenantId), Type: string
+  * Name: tenantId (tenantId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -75,7 +75,7 @@ public class POSTRSASignatureResponseType extends BaseObject {
   private String tenantId;
 
   /**
-  * Name: token (token), Type: string
+  * Name: token (token), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

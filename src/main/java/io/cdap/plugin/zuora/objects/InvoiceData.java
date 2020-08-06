@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceData (InvoiceData)
-* Related objects: 
+* Object name: InvoiceData (InvoiceData).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceData extends BaseObject {
   /**
-  * Name: InvoiceItem (InvoiceItem), Type: array|InvoiceItem
+  * Name: InvoiceItem (InvoiceItem), Type: array|InvoiceItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

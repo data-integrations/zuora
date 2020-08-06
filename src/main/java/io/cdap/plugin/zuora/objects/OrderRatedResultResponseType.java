@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: OrderRatedResultResponseType (OrderRatedResultResponseType)
-* Related objects: 
+* Object name: OrderRatedResultResponseType (OrderRatedResultResponseType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(

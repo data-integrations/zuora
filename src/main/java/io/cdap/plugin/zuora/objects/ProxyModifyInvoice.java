@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyInvoice (ProxyModifyInvoice)
-* Related objects: 
+* Object name: ProxyModifyInvoice (ProxyModifyInvoice).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyInvoice extends BaseObject {
   /**
-  * Name: RegenerateInvoicePDF (RegenerateInvoicePDF), Type: boolean
+  * Name: RegenerateInvoicePDF (RegenerateInvoicePDF), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyInvoice extends BaseObject {
   private Boolean regenerateInvoicePDF;
 
   /**
-  * Name: Status (Status), Type: string
+  * Name: Status (Status), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyInvoice extends BaseObject {
   private String status;
 
   /**
-  * Name: TransferredToAccounting (TransferredToAccounting), Type: string
+  * Name: TransferredToAccounting (TransferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

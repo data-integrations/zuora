@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUT_BasicSummaryJournalEntryType (PUT_BasicSummaryJournalEntryType)
-* Related objects: 
+* Object name: PUT_BasicSummaryJournalEntryType (PUT_BasicSummaryJournalEntryType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUT_BasicSummaryJournalEntryType extends BaseObject {
   /**
-  * Name: journalEntryItems (journalEntryItems), Type: array|PUTJournalEntryItemType
+  * Name: journalEntryItems (journalEntryItems), Type: array|PUTJournalEntryItemType.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUT_BasicSummaryJournalEntryType extends BaseObject {
   private List<PUTJournalEntryItemType> journalEntryItems;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUT_BasicSummaryJournalEntryType extends BaseObject {
   private String notes;
 
   /**
-  * Name: transferredToAccounting (transferredToAccounting), Type: string
+  * Name: transferredToAccounting (transferredToAccounting), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

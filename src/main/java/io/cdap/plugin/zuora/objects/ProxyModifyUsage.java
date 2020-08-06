@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyModifyUsage (ProxyModifyUsage)
-* Related objects: 
+* Object name: ProxyModifyUsage (ProxyModifyUsage).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyModifyUsage extends BaseObject {
   /**
-  * Name: EndDateTime (EndDateTime), Type: string
+  * Name: EndDateTime (EndDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class ProxyModifyUsage extends BaseObject {
   private String endDateTime;
 
   /**
-  * Name: Quantity (Quantity), Type: number
+  * Name: Quantity (Quantity), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class ProxyModifyUsage extends BaseObject {
   private String quantity;
 
   /**
-  * Name: RbeStatus (RbeStatus), Type: string
+  * Name: RbeStatus (RbeStatus), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class ProxyModifyUsage extends BaseObject {
   private String rbeStatus;
 
   /**
-  * Name: StartDateTime (StartDateTime), Type: string
+  * Name: StartDateTime (StartDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class ProxyModifyUsage extends BaseObject {
   private String startDateTime;
 
   /**
-  * Name: SubmissionDateTime (SubmissionDateTime), Type: string
+  * Name: SubmissionDateTime (SubmissionDateTime), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class ProxyModifyUsage extends BaseObject {
   private String submissionDateTime;
 
   /**
-  * Name: UOM (UOM), Type: string
+  * Name: UOM (UOM), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

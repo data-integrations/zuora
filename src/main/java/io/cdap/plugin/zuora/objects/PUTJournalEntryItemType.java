@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTJournalEntryItemType (PUTJournalEntryItemType)
-* Related objects: 
+* Object name: PUTJournalEntryItemType (PUTJournalEntryItemType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PUTJournalEntryItemType extends BaseObject {
   /**
-  * Name: accountingCodeName (accountingCodeName), Type: string
+  * Name: accountingCodeName (accountingCodeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PUTJournalEntryItemType extends BaseObject {
   private String accountingCodeName;
 
   /**
-  * Name: accountingCodeType (accountingCodeType), Type: string
+  * Name: accountingCodeType (accountingCodeType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PUTJournalEntryItemType extends BaseObject {
   private String accountingCodeType;
 
   /**
-  * Name: type (type), Type: string
+  * Name: type (type), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

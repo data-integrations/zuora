@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: InvoiceItem (InvoiceItem)
-* Related objects: 
+* Object name: InvoiceItem (InvoiceItem).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class InvoiceItem extends BaseObject {
   /**
-  * Name: appliedToItemId (appliedToItemId), Type: string
+  * Name: appliedToItemId (appliedToItemId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class InvoiceItem extends BaseObject {
   private String appliedToItemId;
 
   /**
-  * Name: availableToCreditAmount (availableToCreditAmount), Type: number
+  * Name: availableToCreditAmount (availableToCreditAmount), Type: number.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class InvoiceItem extends BaseObject {
   private String availableToCreditAmount;
 
   /**
-  * Name: balance (balance), Type: string
+  * Name: balance (balance), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class InvoiceItem extends BaseObject {
   private String balance;
 
   /**
-  * Name: chargeAmount (chargeAmount), Type: string
+  * Name: chargeAmount (chargeAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class InvoiceItem extends BaseObject {
   private String chargeAmount;
 
   /**
-  * Name: chargeDescription (chargeDescription), Type: string
+  * Name: chargeDescription (chargeDescription), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class InvoiceItem extends BaseObject {
   private String chargeDescription;
 
   /**
-  * Name: chargeId (chargeId), Type: string
+  * Name: chargeId (chargeId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class InvoiceItem extends BaseObject {
   private String chargeId;
 
   /**
-  * Name: chargeName (chargeName), Type: string
+  * Name: chargeName (chargeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class InvoiceItem extends BaseObject {
   private String chargeName;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class InvoiceItem extends BaseObject {
   private String id;
 
   /**
-  * Name: productName (productName), Type: string
+  * Name: productName (productName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class InvoiceItem extends BaseObject {
   private String productName;
 
   /**
-  * Name: quantity (quantity), Type: string
+  * Name: quantity (quantity), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class InvoiceItem extends BaseObject {
   private String quantity;
 
   /**
-  * Name: serviceEndDate (serviceEndDate), Type: string
+  * Name: serviceEndDate (serviceEndDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class InvoiceItem extends BaseObject {
   private String serviceEndDate;
 
   /**
-  * Name: serviceStartDate (serviceStartDate), Type: string
+  * Name: serviceStartDate (serviceStartDate), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class InvoiceItem extends BaseObject {
   private String serviceStartDate;
 
   /**
-  * Name: subscriptionId (subscriptionId), Type: string
+  * Name: subscriptionId (subscriptionId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class InvoiceItem extends BaseObject {
   private String subscriptionId;
 
   /**
-  * Name: subscriptionName (subscriptionName), Type: string
+  * Name: subscriptionName (subscriptionName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class InvoiceItem extends BaseObject {
   private String subscriptionName;
 
   /**
-  * Name: success (success), Type: boolean
+  * Name: success (success), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class InvoiceItem extends BaseObject {
   private Boolean success;
 
   /**
-  * Name: taxAmount (taxAmount), Type: string
+  * Name: taxAmount (taxAmount), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class InvoiceItem extends BaseObject {
   private String taxAmount;
 
   /**
-  * Name: taxationItems (taxationItems), Type: InvoiceItemTaxationItemsItem
+  * Name: taxationItems (taxationItems), Type: InvoiceItemTaxationItemsItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class InvoiceItem extends BaseObject {
   private String taxationItems;
 
   /**
-  * Name: unitOfMeasure (unitOfMeasure), Type: string
+  * Name: unitOfMeasure (unitOfMeasure), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

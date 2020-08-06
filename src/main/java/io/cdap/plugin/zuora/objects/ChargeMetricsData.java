@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ChargeMetricsData (ChargeMetricsData)
-* Related objects: 
+* Object name: ChargeMetricsData (ChargeMetricsData).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class ChargeMetricsData extends BaseObject {
   /**
-  * Name: ChargeMetrics (ChargeMetrics), Type: array|NewChargeMetrics
+  * Name: ChargeMetrics (ChargeMetrics), Type: array|NewChargeMetrics.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

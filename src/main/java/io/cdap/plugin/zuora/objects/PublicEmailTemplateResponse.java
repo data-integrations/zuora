@@ -25,8 +25,8 @@ import io.cdap.plugin.zuora.restobjects.objects.BaseObject;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PublicEmailTemplateResponse (PublicEmailTemplateResponse)
-* Related objects: 
+* Object name: PublicEmailTemplateResponse (PublicEmailTemplateResponse).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -35,7 +35,7 @@ import javax.annotation.Nullable;
 )
 public class PublicEmailTemplateResponse extends BaseObject {
   /**
-  * Name: active (active), Type: boolean
+  * Name: active (active), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -44,7 +44,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private Boolean active;
 
   /**
-  * Name: bccEmailAddress (bccEmailAddress), Type: string
+  * Name: bccEmailAddress (bccEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -53,7 +53,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String bccEmailAddress;
 
   /**
-  * Name: ccEmailAddress (ccEmailAddress), Type: string
+  * Name: ccEmailAddress (ccEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -62,7 +62,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String ccEmailAddress;
 
   /**
-  * Name: ccEmailType (ccEmailType), Type: string
+  * Name: ccEmailType (ccEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -71,7 +71,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String ccEmailType;
 
   /**
-  * Name: createdBy (createdBy), Type: string
+  * Name: createdBy (createdBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -80,7 +80,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String createdBy;
 
   /**
-  * Name: createdOn (createdOn), Type: string
+  * Name: createdOn (createdOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -89,7 +89,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String createdOn;
 
   /**
-  * Name: description (description), Type: string
+  * Name: description (description), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -98,7 +98,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String description;
 
   /**
-  * Name: emailBody (emailBody), Type: string
+  * Name: emailBody (emailBody), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -107,7 +107,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String emailBody;
 
   /**
-  * Name: emailSubject (emailSubject), Type: string
+  * Name: emailSubject (emailSubject), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -116,7 +116,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String emailSubject;
 
   /**
-  * Name: encodingType (encodingType), Type: string
+  * Name: encodingType (encodingType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -125,7 +125,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String encodingType;
 
   /**
-  * Name: eventTypeName (eventTypeName), Type: string
+  * Name: eventTypeName (eventTypeName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -134,7 +134,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String eventTypeName;
 
   /**
-  * Name: eventTypeNamespace (eventTypeNamespace), Type: string
+  * Name: eventTypeNamespace (eventTypeNamespace), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -143,7 +143,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String eventTypeNamespace;
 
   /**
-  * Name: fromEmailAddress (fromEmailAddress), Type: string
+  * Name: fromEmailAddress (fromEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -152,7 +152,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String fromEmailAddress;
 
   /**
-  * Name: fromEmailType (fromEmailType), Type: string
+  * Name: fromEmailType (fromEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -161,7 +161,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String fromEmailType;
 
   /**
-  * Name: fromName (fromName), Type: string
+  * Name: fromName (fromName), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -170,7 +170,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String fromName;
 
   /**
-  * Name: id (id), Type: string
+  * Name: id (id), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -179,7 +179,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String id;
 
   /**
-  * Name: isHtml (isHtml), Type: boolean
+  * Name: isHtml (isHtml), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -188,7 +188,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private Boolean isHtml;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -197,7 +197,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String name;
 
   /**
-  * Name: replyToEmailAddress (replyToEmailAddress), Type: string
+  * Name: replyToEmailAddress (replyToEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -206,7 +206,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String replyToEmailAddress;
 
   /**
-  * Name: replyToEmailType (replyToEmailType), Type: string
+  * Name: replyToEmailType (replyToEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -215,7 +215,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String replyToEmailType;
 
   /**
-  * Name: toEmailAddress (toEmailAddress), Type: string
+  * Name: toEmailAddress (toEmailAddress), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -224,7 +224,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String toEmailAddress;
 
   /**
-  * Name: toEmailType (toEmailType), Type: string
+  * Name: toEmailType (toEmailType), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -233,7 +233,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String toEmailType;
 
   /**
-  * Name: updatedBy (updatedBy), Type: string
+  * Name: updatedBy (updatedBy), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -242,7 +242,7 @@ public class PublicEmailTemplateResponse extends BaseObject {
   private String updatedBy;
 
   /**
-  * Name: updatedOn (updatedOn), Type: string
+  * Name: updatedOn (updatedOn), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

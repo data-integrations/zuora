@@ -26,8 +26,8 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: PUTAccountType (PUTAccountType)
-* Related objects: 
+* Object name: PUTAccountType (PUTAccountType).
+* Related objects:
 **/
 @SuppressWarnings("unused")
 @ObjectDefinition(
@@ -36,7 +36,7 @@ import javax.annotation.Nullable;
 )
 public class PUTAccountType extends BaseObject {
   /**
-  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|PUTAccountTypeAdditionalEmailAddressesItem
+  * Name: additionalEmailAddresses (additionalEmailAddresses), Type: array|PUTAccountTypeAdditionalEmailAddressesItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -45,7 +45,7 @@ public class PUTAccountType extends BaseObject {
   private List<PUTAccountTypeAdditionalEmailAddressesItem> additionalEmailAddresses;
 
   /**
-  * Name: autoPay (autoPay), Type: boolean
+  * Name: autoPay (autoPay), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -54,7 +54,7 @@ public class PUTAccountType extends BaseObject {
   private Boolean autoPay;
 
   /**
-  * Name: batch (batch), Type: string
+  * Name: batch (batch), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -63,7 +63,7 @@ public class PUTAccountType extends BaseObject {
   private String batch;
 
   /**
-  * Name: communicationProfileId (communicationProfileId), Type: string
+  * Name: communicationProfileId (communicationProfileId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -72,7 +72,7 @@ public class PUTAccountType extends BaseObject {
   private String communicationProfileId;
 
   /**
-  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string
+  * Name: creditMemoTemplateId (creditMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -81,7 +81,7 @@ public class PUTAccountType extends BaseObject {
   private String creditMemoTemplateId;
 
   /**
-  * Name: crmId (crmId), Type: string
+  * Name: crmId (crmId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -90,7 +90,7 @@ public class PUTAccountType extends BaseObject {
   private String crmId;
 
   /**
-  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string
+  * Name: debitMemoTemplateId (debitMemoTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -99,7 +99,7 @@ public class PUTAccountType extends BaseObject {
   private String debitMemoTemplateId;
 
   /**
-  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean
+  * Name: invoiceDeliveryPrefsEmail (invoiceDeliveryPrefsEmail), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -108,7 +108,7 @@ public class PUTAccountType extends BaseObject {
   private Boolean invoiceDeliveryPrefsEmail;
 
   /**
-  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean
+  * Name: invoiceDeliveryPrefsPrint (invoiceDeliveryPrefsPrint), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -117,7 +117,7 @@ public class PUTAccountType extends BaseObject {
   private Boolean invoiceDeliveryPrefsPrint;
 
   /**
-  * Name: invoiceTemplateId (invoiceTemplateId), Type: string
+  * Name: invoiceTemplateId (invoiceTemplateId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -126,7 +126,7 @@ public class PUTAccountType extends BaseObject {
   private String invoiceTemplateId;
 
   /**
-  * Name: name (name), Type: string
+  * Name: name (name), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -135,7 +135,7 @@ public class PUTAccountType extends BaseObject {
   private String name;
 
   /**
-  * Name: notes (notes), Type: string
+  * Name: notes (notes), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -144,7 +144,7 @@ public class PUTAccountType extends BaseObject {
   private String notes;
 
   /**
-  * Name: parentId (parentId), Type: string
+  * Name: parentId (parentId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -153,7 +153,7 @@ public class PUTAccountType extends BaseObject {
   private String parentId;
 
   /**
-  * Name: paymentGateway (paymentGateway), Type: string
+  * Name: paymentGateway (paymentGateway), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -162,7 +162,7 @@ public class PUTAccountType extends BaseObject {
   private String paymentGateway;
 
   /**
-  * Name: salesRep (salesRep), Type: string
+  * Name: salesRep (salesRep), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -171,7 +171,7 @@ public class PUTAccountType extends BaseObject {
   private String salesRep;
 
   /**
-  * Name: sequenceSetId (sequenceSetId), Type: string
+  * Name: sequenceSetId (sequenceSetId), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -180,7 +180,7 @@ public class PUTAccountType extends BaseObject {
   private String sequenceSetId;
 
   /**
-  * Name: tagging (tagging), Type: string
+  * Name: tagging (tagging), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -189,7 +189,7 @@ public class PUTAccountType extends BaseObject {
   private String tagging;
 
   /**
-  * Name: taxInfo (taxInfo), Type: PUTAccountTypeTaxInfoItem
+  * Name: taxInfo (taxInfo), Type: PUTAccountTypeTaxInfoItem.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable

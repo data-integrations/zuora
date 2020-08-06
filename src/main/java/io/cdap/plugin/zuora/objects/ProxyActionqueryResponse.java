@@ -26,7 +26,7 @@ import java.util.List;
 import javax.annotation.Nullable;
 
 /**
-* Object name: ProxyActionqueryResponse (ProxyActionqueryResponse)
+* Object name: ProxyActionqueryResponse (ProxyActionqueryResponse).
 * Related objects:
 **/
 @SuppressWarnings("unused")
@@ -40,7 +40,7 @@ import javax.annotation.Nullable;
 )
 public class ProxyActionqueryResponse extends BaseObject {
   /**
-  * Name: done (done), Type: boolean
+  * Name: done (done), Type: boolean.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -49,7 +49,7 @@ public class ProxyActionqueryResponse extends BaseObject {
   private Boolean done;
 
   /**
-  * Name: queryLocator (queryLocator), Type: string
+  * Name: queryLocator (queryLocator), Type: string.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -58,7 +58,7 @@ public class ProxyActionqueryResponse extends BaseObject {
   private String queryLocator;
 
   /**
-  * Name: records (records), Type: array|ZObject
+  * Name: records (records), Type: array|ZObject.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
@@ -67,7 +67,7 @@ public class ProxyActionqueryResponse extends BaseObject {
   private List<ZObject> records;
 
   /**
-  * Name: size (size), Type: integer
+  * Name: size (size), Type: integer.
   * Options (custom, update, select): false, false, false
   **/
   @Nullable
