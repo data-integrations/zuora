@@ -32,7 +32,7 @@
       <common.logging.version>1.2</common.logging.version>
       <gson.version>2.2.4</gson.version>
       <hadoop.version>2.10.2</hadoop.version>
-      <http.client>4.5.10</http.client>
+      <http.client>4.5.13</http.client>
       <http.core>4.4.4</http.core>
       <hydrator.version>2.10.0</hydrator.version>
       <junit.version>4.11</junit.version>
